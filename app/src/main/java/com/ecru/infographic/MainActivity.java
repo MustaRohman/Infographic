@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-       new ApiHandler("http://api.worldbank.org/countries/GBR/indicators/BG.GSR.NFSV.GD.ZS?per_page=100&date=2005:2015&format=json").execute();
+       new ApiHandler("http://api.worldbank.org/countries/GBR/indicators/BX.GSR.CCIS.CD?per_page=100&date=2005:2015&format=json").execute();
 
 
     }
