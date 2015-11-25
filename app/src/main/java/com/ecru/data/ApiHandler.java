@@ -71,6 +71,7 @@ public class ApiHandler extends AsyncTask<String, Integer, String> {
 
     @Override
     protected void onPostExecute(String result) {
+        //parsing code
         this.result = result;
 
     }
