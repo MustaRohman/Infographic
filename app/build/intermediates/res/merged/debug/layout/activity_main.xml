@@ -4,22 +4,228 @@
     android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
 
-    <com.github.mikephil.charting.charts.PieChart
-        android:id="@+id/pieChart"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:background="#f3f3ee">
+
+    <GridLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        android:columnCount="1"
+        android:rowCount="5">
 
-    <SeekBar
-        android:id="@+id/seekBar1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="8dp"
-        android:layout_marginBottom="35dp"
-        android:layout_marginRight="5dp"
-        android:max="30"
-        android:paddingBottom="12dp" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_gravity="center"
+            android:layout_rowWeight="3">
 
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="#4dc649">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/middle"
+                    android:text="Cool Facts!"
+                    android:id="@+id/textView2"
+                    android:layout_gravity="center" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="France has the higest % of renewable electricity "
+                    android:id="@+id/textView3"
+                    android:layout_gravity="center" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Click for More!"
+                    android:id="@+id/textView4"
+                    android:layout_gravity="center" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Development of Sectors within the UK"
+            android:id="@+id/textvea2"
+            android:textSize="@dimen/title_text"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_gravity="center"
+            android:layout_rowWeight="1" />
+
+
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:columnCount="3"
+            android:rowCount="1"
+            android:id="@+id/gridLayout"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:layout_gravity="center|fill|left"
+            android:layout_rowWeight="100">
+
+            <GridLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="0"
+                android:layout_column="2"
+                android:columnCount="1"
+                android:rowCount="2"
+                android:layout_columnWeight="2"
+                android:layout_gravity="center|fill" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Detailed Info"
+                    android:id="@+id/textView7"
+                    android:layout_row="0"
+                    android:layout_column="0" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Detailed info"
+                    android:id="@+id/button8"
+                    android:layout_row="1"
+                    android:layout_column="0"
+                    android:layout_gravity="center|fill" />
+            </GridLayout>
+
+            <GridLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:rowCount="5"
+                android:columnCount="1"
+                android:layout_columnWeight="2"
+                android:layout_gravity="fill"
+                android:layout_column="0"
+                android:layout_row="0">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Select a Year"
+                    android:textSize="@dimen/middle"
+                    android:id="@+id/selectedCountryTV"
+                    android:layout_rowWeight="1"
+                    android:layout_row="0"
+                    android:layout_gravity="center" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Access to Electricity"
+                    android:textSize="@dimen/normal_text"
+                    android:id="@+id/button6"
+                    android:layout_rowWeight="1"
+                    android:layout_row="1"
+                    android:layout_gravity="fill_horizontal|left" />
+
+                <GridLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_rowWeight="40"
+                    android:layout_row="2"
+                    android:columnCount="1"
+                    android:rowCount="2"
+                    android:layout_gravity="fill" >
+                    <SeekBar
+                        android:id="@+id/seekBar1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:max="30"
+                        android:paddingBottom="12dp"
+                        android:layout_rowWeight="1"
+                        android:layout_gravity="fill" />
+                    <com.github.mikephil.charting.charts.PieChart
+                        android:id="@+id/pieChart"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical|fill"
+                        android:layout_rowWeight="40" />
+
+
+                </GridLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="% of Renewable Electricity Output"
+                    android:textSize="@dimen/normal_text"
+                    android:id="@+id/button4"
+                    android:layout_rowWeight="1"
+                    android:layout_row="3"
+                    android:layout_gravity="fill_horizontal|left" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pie Chart?"
+                    android:id="@+id/button"
+                    android:layout_gravity="fill"
+                    android:layout_rowWeight="40"
+                    android:layout_row="4" />
+            </GridLayout>
+
+            <GridLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="0"
+                android:layout_column="1"
+                android:columnCount="1"
+                android:rowCount="2"
+                android:layout_columnWeight="10"
+                android:layout_gravity="fill">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tiltle of graph"
+                    android:id="@+id/textView6"
+                    android:layout_row="0"
+                    android:layout_column="0"
+                    android:layout_gravity="center" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bar Chart PlaceHolder comparing 3 sectors"
+                    android:id="@+id/button3"
+                    android:layout_row="1"
+                    android:layout_column="0"
+                    android:layout_gravity="fill" />
+            </GridLayout>
+
+
+        </GridLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/normal_text"
+            android:text="Source info goes here"
+            android:id="@+id/textView"
+            android:layout_row="4"
+            android:layout_column="0"
+            android:layout_rowWeight="1"
+            android:layout_gravity="fill" />
+    </GridLayout>
 
 </RelativeLayout>

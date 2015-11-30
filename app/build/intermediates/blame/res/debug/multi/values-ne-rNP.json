@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\values-ne-rNP\\values-ne-rNP.xml",
+        "outputFile": "D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\values-ne-rNP\\values-ne-rNP.xml",
         "map": [
             {
                 "to": {
@@ -11,13 +11,13 @@
                     "endOffset": 155
                 },
                 "from": {
-                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "file": "D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
-                        "startOffset": 291,
+                        "startOffset": 295,
                         "endColumn": 104,
-                        "endOffset": 391
+                        "endOffset": 395
                     }
                 }
             },
@@ -30,13 +30,13 @@
                     "endOffset": 263
                 },
                 "from": {
-                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "file": "D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
-                        "startOffset": 396,
+                        "startOffset": 401,
                         "endColumn": 107,
-                        "endOffset": 499
+                        "endOffset": 504
                     }
                 }
             },
@@ -49,13 +49,13 @@
                     "endOffset": 386
                 },
                 "from": {
-                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "file": "D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
-                        "startOffset": 504,
+                        "startOffset": 510,
                         "endColumn": 122,
-                        "endOffset": 622
+                        "endOffset": 628
                     }
                 }
             },
@@ -68,13 +68,13 @@
                     "endOffset": 490
                 },
                 "from": {
-                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "file": "D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
-                        "startOffset": 627,
+                        "startOffset": 634,
                         "endColumn": 103,
-                        "endOffset": 726
+                        "endOffset": 733
                     }
                 }
             },
@@ -87,13 +87,13 @@
                     "endOffset": 598
                 },
                 "from": {
-                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "file": "D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
-                        "startOffset": 731,
+                        "startOffset": 739,
                         "endColumn": 107,
-                        "endOffset": 834
+                        "endOffset": 842
                     }
                 }
             },
@@ -106,13 +106,13 @@
                     "endOffset": 689
                 },
                 "from": {
-                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "file": "D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
-                        "startOffset": 839,
+                        "startOffset": 848,
                         "endColumn": 90,
-                        "endOffset": 925
+                        "endOffset": 934
                     }
                 }
             },
@@ -125,13 +125,13 @@
                     "endOffset": 796
                 },
                 "from": {
-                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "file": "D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
-                        "startOffset": 930,
+                        "startOffset": 940,
                         "endColumn": 106,
-                        "endOffset": 1032
+                        "endOffset": 1042
                     }
                 }
             },
@@ -144,13 +144,13 @@
                     "endOffset": 923
                 },
                 "from": {
-                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "file": "D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
-                        "startOffset": 1037,
+                        "startOffset": 1048,
                         "endColumn": 126,
-                        "endOffset": 1159
+                        "endOffset": 1170
                     }
                 }
             },
@@ -163,13 +163,13 @@
                     "endOffset": 1017
                 },
                 "from": {
-                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "file": "D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
-                        "startOffset": 1164,
+                        "startOffset": 1176,
                         "endColumn": 93,
-                        "endOffset": 1253
+                        "endOffset": 1265
                     }
                 }
             },
@@ -182,13 +182,13 @@
                     "endOffset": 1107
                 },
                 "from": {
-                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "file": "D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
-                        "startOffset": 1258,
+                        "startOffset": 1271,
                         "endColumn": 89,
-                        "endOffset": 1343
+                        "endOffset": 1356
                     }
                 }
             },
@@ -201,13 +201,13 @@
                     "endOffset": 1195
                 },
                 "from": {
-                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "file": "D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
-                        "startOffset": 1348,
+                        "startOffset": 1362,
                         "endColumn": 87,
-                        "endOffset": 1431
+                        "endOffset": 1445
                     }
                 }
             },
@@ -220,13 +220,13 @@
                     "endOffset": 1305
                 },
                 "from": {
-                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "file": "D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
-                        "startOffset": 1436,
+                        "startOffset": 1451,
                         "endColumn": 109,
-                        "endOffset": 1541
+                        "endOffset": 1556
                     }
                 }
             },
@@ -239,13 +239,13 @@
                     "endOffset": 1421
                 },
                 "from": {
-                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "file": "D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
-                        "startOffset": 1546,
+                        "startOffset": 1562,
                         "endColumn": 115,
-                        "endOffset": 1657
+                        "endOffset": 1673
                     }
                 }
             },
@@ -258,13 +258,13 @@
                     "endOffset": 1524
                 },
                 "from": {
-                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "file": "D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
-                        "startOffset": 1662,
+                        "startOffset": 1679,
                         "endColumn": 102,
-                        "endOffset": 1760
+                        "endOffset": 1777
                     }
                 }
             },
@@ -277,13 +277,13 @@
                     "endOffset": 1639
                 },
                 "from": {
-                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "file": "D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
-                        "startOffset": 1765,
+                        "startOffset": 1783,
                         "endColumn": 114,
-                        "endOffset": 1875
+                        "endOffset": 1893
                     }
                 }
             },
@@ -296,13 +296,13 @@
                     "endOffset": 1741
                 },
                 "from": {
-                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "file": "D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
-                        "startOffset": 1880,
+                        "startOffset": 1899,
                         "endColumn": 101,
-                        "endOffset": 1977
+                        "endOffset": 1996
                     }
                 }
             },
@@ -315,13 +315,13 @@
                     "endOffset": 1856
                 },
                 "from": {
-                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "file": "D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
-                        "startOffset": 1982,
+                        "startOffset": 2002,
                         "endColumn": 114,
-                        "endOffset": 2092
+                        "endOffset": 2112
                     }
                 }
             },
@@ -334,13 +334,13 @@
                     "endOffset": 1987
                 },
                 "from": {
-                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "file": "D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
-                        "startOffset": 2097,
+                        "startOffset": 2118,
                         "endColumn": 130,
-                        "endOffset": 2223
+                        "endOffset": 2244
                     }
                 }
             },
@@ -353,13 +353,13 @@
                     "endOffset": 2099
                 },
                 "from": {
-                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "file": "D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,
-                        "startOffset": 2228,
+                        "startOffset": 2250,
                         "endColumn": 111,
-                        "endOffset": 2335
+                        "endOffset": 2357
                     }
                 }
             },
@@ -372,13 +372,13 @@
                     "endOffset": 2200
                 },
                 "from": {
-                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "file": "D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "position": {
                         "startLine": 23,
                         "startColumn": 4,
-                        "startOffset": 2340,
+                        "startOffset": 2363,
                         "endColumn": 100,
-                        "endOffset": 2436
+                        "endOffset": 2459
                     }
                 }
             }
@@ -770,7 +770,7 @@
         ]
     },
     {
-        "outputFile": "D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\values-ne-rNP\\values-ne-rNP.xml",
+        "outputFile": "C:\\Users\\naren\\Downloads\\api-example\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\values-ne-rNP\\values-ne-rNP.xml",
         "map": [
             {
                 "to": {
@@ -781,13 +781,13 @@
                     "endOffset": 155
                 },
                 "from": {
-                    "file": "D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "file": "C:\\Users\\naren\\Downloads\\api-example\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
-                        "startOffset": 295,
+                        "startOffset": 291,
                         "endColumn": 104,
-                        "endOffset": 395
+                        "endOffset": 391
                     }
                 }
             },
@@ -800,13 +800,13 @@
                     "endOffset": 263
                 },
                 "from": {
-                    "file": "D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "file": "C:\\Users\\naren\\Downloads\\api-example\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
-                        "startOffset": 401,
+                        "startOffset": 396,
                         "endColumn": 107,
-                        "endOffset": 504
+                        "endOffset": 499
                     }
                 }
             },
@@ -819,13 +819,13 @@
                     "endOffset": 386
                 },
                 "from": {
-                    "file": "D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "file": "C:\\Users\\naren\\Downloads\\api-example\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
-                        "startOffset": 510,
+                        "startOffset": 504,
                         "endColumn": 122,
-                        "endOffset": 628
+                        "endOffset": 622
                     }
                 }
             },
@@ -838,13 +838,13 @@
                     "endOffset": 490
                 },
                 "from": {
-                    "file": "D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "file": "C:\\Users\\naren\\Downloads\\api-example\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
-                        "startOffset": 634,
+                        "startOffset": 627,
                         "endColumn": 103,
-                        "endOffset": 733
+                        "endOffset": 726
                     }
                 }
             },
@@ -857,13 +857,13 @@
                     "endOffset": 598
                 },
                 "from": {
-                    "file": "D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "file": "C:\\Users\\naren\\Downloads\\api-example\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
-                        "startOffset": 739,
+                        "startOffset": 731,
                         "endColumn": 107,
-                        "endOffset": 842
+                        "endOffset": 834
                     }
                 }
             },
@@ -876,13 +876,13 @@
                     "endOffset": 689
                 },
                 "from": {
-                    "file": "D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "file": "C:\\Users\\naren\\Downloads\\api-example\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
-                        "startOffset": 848,
+                        "startOffset": 839,
                         "endColumn": 90,
-                        "endOffset": 934
+                        "endOffset": 925
                     }
                 }
             },
@@ -895,13 +895,13 @@
                     "endOffset": 796
                 },
                 "from": {
-                    "file": "D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "file": "C:\\Users\\naren\\Downloads\\api-example\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
-                        "startOffset": 940,
+                        "startOffset": 930,
                         "endColumn": 106,
-                        "endOffset": 1042
+                        "endOffset": 1032
                     }
                 }
             },
@@ -914,13 +914,13 @@
                     "endOffset": 923
                 },
                 "from": {
-                    "file": "D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "file": "C:\\Users\\naren\\Downloads\\api-example\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
-                        "startOffset": 1048,
+                        "startOffset": 1037,
                         "endColumn": 126,
-                        "endOffset": 1170
+                        "endOffset": 1159
                     }
                 }
             },
@@ -933,13 +933,13 @@
                     "endOffset": 1017
                 },
                 "from": {
-                    "file": "D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "file": "C:\\Users\\naren\\Downloads\\api-example\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
-                        "startOffset": 1176,
+                        "startOffset": 1164,
                         "endColumn": 93,
-                        "endOffset": 1265
+                        "endOffset": 1253
                     }
                 }
             },
@@ -952,13 +952,13 @@
                     "endOffset": 1107
                 },
                 "from": {
-                    "file": "D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "file": "C:\\Users\\naren\\Downloads\\api-example\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
-                        "startOffset": 1271,
+                        "startOffset": 1258,
                         "endColumn": 89,
-                        "endOffset": 1356
+                        "endOffset": 1343
                     }
                 }
             },
@@ -971,13 +971,13 @@
                     "endOffset": 1195
                 },
                 "from": {
-                    "file": "D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "file": "C:\\Users\\naren\\Downloads\\api-example\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
-                        "startOffset": 1362,
+                        "startOffset": 1348,
                         "endColumn": 87,
-                        "endOffset": 1445
+                        "endOffset": 1431
                     }
                 }
             },
@@ -990,13 +990,13 @@
                     "endOffset": 1305
                 },
                 "from": {
-                    "file": "D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "file": "C:\\Users\\naren\\Downloads\\api-example\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
-                        "startOffset": 1451,
+                        "startOffset": 1436,
                         "endColumn": 109,
-                        "endOffset": 1556
+                        "endOffset": 1541
                     }
                 }
             },
@@ -1009,13 +1009,13 @@
                     "endOffset": 1421
                 },
                 "from": {
-                    "file": "D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "file": "C:\\Users\\naren\\Downloads\\api-example\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
-                        "startOffset": 1562,
+                        "startOffset": 1546,
                         "endColumn": 115,
-                        "endOffset": 1673
+                        "endOffset": 1657
                     }
                 }
             },
@@ -1028,13 +1028,13 @@
                     "endOffset": 1524
                 },
                 "from": {
-                    "file": "D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "file": "C:\\Users\\naren\\Downloads\\api-example\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
-                        "startOffset": 1679,
+                        "startOffset": 1662,
                         "endColumn": 102,
-                        "endOffset": 1777
+                        "endOffset": 1760
                     }
                 }
             },
@@ -1047,13 +1047,13 @@
                     "endOffset": 1639
                 },
                 "from": {
-                    "file": "D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "file": "C:\\Users\\naren\\Downloads\\api-example\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
-                        "startOffset": 1783,
+                        "startOffset": 1765,
                         "endColumn": 114,
-                        "endOffset": 1893
+                        "endOffset": 1875
                     }
                 }
             },
@@ -1066,13 +1066,13 @@
                     "endOffset": 1741
                 },
                 "from": {
-                    "file": "D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "file": "C:\\Users\\naren\\Downloads\\api-example\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
-                        "startOffset": 1899,
+                        "startOffset": 1880,
                         "endColumn": 101,
-                        "endOffset": 1996
+                        "endOffset": 1977
                     }
                 }
             },
@@ -1085,13 +1085,13 @@
                     "endOffset": 1856
                 },
                 "from": {
-                    "file": "D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "file": "C:\\Users\\naren\\Downloads\\api-example\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
-                        "startOffset": 2002,
+                        "startOffset": 1982,
                         "endColumn": 114,
-                        "endOffset": 2112
+                        "endOffset": 2092
                     }
                 }
             },
@@ -1104,13 +1104,13 @@
                     "endOffset": 1987
                 },
                 "from": {
-                    "file": "D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "file": "C:\\Users\\naren\\Downloads\\api-example\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
-                        "startOffset": 2118,
+                        "startOffset": 2097,
                         "endColumn": 130,
-                        "endOffset": 2244
+                        "endOffset": 2223
                     }
                 }
             },
@@ -1123,13 +1123,13 @@
                     "endOffset": 2099
                 },
                 "from": {
-                    "file": "D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "file": "C:\\Users\\naren\\Downloads\\api-example\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,
-                        "startOffset": 2250,
+                        "startOffset": 2228,
                         "endColumn": 111,
-                        "endOffset": 2357
+                        "endOffset": 2335
                     }
                 }
             },
@@ -1142,13 +1142,398 @@
                     "endOffset": 2200
                 },
                 "from": {
-                    "file": "D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "file": "C:\\Users\\naren\\Downloads\\api-example\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "position": {
                         "startLine": 23,
                         "startColumn": 4,
-                        "startOffset": 2363,
+                        "startOffset": 2340,
                         "endColumn": 100,
-                        "endOffset": 2459
+                        "endOffset": 2436
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\values-ne-rNP\\values-ne-rNP.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 104,
+                    "endOffset": 155
+                },
+                "from": {
+                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 291,
+                        "endColumn": 104,
+                        "endOffset": 391
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 160,
+                    "endColumn": 107,
+                    "endOffset": 263
+                },
+                "from": {
+                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 396,
+                        "endColumn": 107,
+                        "endOffset": 499
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 268,
+                    "endColumn": 122,
+                    "endOffset": 386
+                },
+                "from": {
+                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 504,
+                        "endColumn": 122,
+                        "endOffset": 622
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 391,
+                    "endColumn": 103,
+                    "endOffset": 490
+                },
+                "from": {
+                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 627,
+                        "endColumn": 103,
+                        "endOffset": 726
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 495,
+                    "endColumn": 107,
+                    "endOffset": 598
+                },
+                "from": {
+                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 731,
+                        "endColumn": 107,
+                        "endOffset": 834
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 603,
+                    "endColumn": 90,
+                    "endOffset": 689
+                },
+                "from": {
+                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 839,
+                        "endColumn": 90,
+                        "endOffset": 925
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 694,
+                    "endColumn": 106,
+                    "endOffset": 796
+                },
+                "from": {
+                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 930,
+                        "endColumn": 106,
+                        "endOffset": 1032
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 801,
+                    "endColumn": 126,
+                    "endOffset": 923
+                },
+                "from": {
+                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 1037,
+                        "endColumn": 126,
+                        "endOffset": 1159
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 928,
+                    "endColumn": 93,
+                    "endOffset": 1017
+                },
+                "from": {
+                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1164,
+                        "endColumn": 93,
+                        "endOffset": 1253
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 1022,
+                    "endColumn": 89,
+                    "endOffset": 1107
+                },
+                "from": {
+                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1258,
+                        "endColumn": 89,
+                        "endOffset": 1343
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 1112,
+                    "endColumn": 87,
+                    "endOffset": 1195
+                },
+                "from": {
+                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1348,
+                        "endColumn": 87,
+                        "endOffset": 1431
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 1200,
+                    "endColumn": 109,
+                    "endOffset": 1305
+                },
+                "from": {
+                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1436,
+                        "endColumn": 109,
+                        "endOffset": 1541
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 1310,
+                    "endColumn": 115,
+                    "endOffset": 1421
+                },
+                "from": {
+                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1546,
+                        "endColumn": 115,
+                        "endOffset": 1657
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 1426,
+                    "endColumn": 102,
+                    "endOffset": 1524
+                },
+                "from": {
+                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1662,
+                        "endColumn": 102,
+                        "endOffset": 1760
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 1529,
+                    "endColumn": 114,
+                    "endOffset": 1639
+                },
+                "from": {
+                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1765,
+                        "endColumn": 114,
+                        "endOffset": 1875
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 1644,
+                    "endColumn": 101,
+                    "endOffset": 1741
+                },
+                "from": {
+                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1880,
+                        "endColumn": 101,
+                        "endOffset": 1977
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1746,
+                    "endColumn": 114,
+                    "endOffset": 1856
+                },
+                "from": {
+                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1982,
+                        "endColumn": 114,
+                        "endOffset": 2092
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1861,
+                    "endColumn": 130,
+                    "endOffset": 1987
+                },
+                "from": {
+                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 2097,
+                        "endColumn": 130,
+                        "endOffset": 2223
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1992,
+                    "endColumn": 111,
+                    "endOffset": 2099
+                },
+                "from": {
+                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 2228,
+                        "endColumn": 111,
+                        "endOffset": 2335
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 2104,
+                    "endColumn": 100,
+                    "endOffset": 2200
+                },
+                "from": {
+                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 2340,
+                        "endColumn": 100,
+                        "endOffset": 2436
                     }
                 }
             }
