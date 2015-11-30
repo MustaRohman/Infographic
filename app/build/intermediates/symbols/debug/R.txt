@@ -494,6 +494,7 @@ int id never 0x7f0c001e
 int id none 0x7f0c000e
 int id normal 0x7f0c000a
 int id parentPanel 0x7f0c002d
+int id pieChart 0x7f0c0050
 int id progress_circular 0x7f0c0005
 int id progress_horizontal 0x7f0c0006
 int id radio 0x7f0c003b
@@ -511,6 +512,7 @@ int id search_mag_icon 0x7f0c0048
 int id search_plate 0x7f0c0049
 int id search_src_text 0x7f0c004a
 int id search_voice_btn 0x7f0c004e
+int id seekBar1 0x7f0c0051
 int id select_dialog_listview 0x7f0c004f
 int id shortcut 0x7f0c003a
 int id showCustom 0x7f0c000f
@@ -527,13 +529,11 @@ int id tabMode 0x7f0c000b
 int id text 0x7f0c005c
 int id text2 0x7f0c005a
 int id textSpacerNoButtons 0x7f0c0034
-int id textView 0x7f0c0050
 int id time 0x7f0c0058
 int id title 0x7f0c002a
 int id title_template 0x7f0c002f
 int id topPanel 0x7f0c002e
 int id up 0x7f0c0008
-int id urlData 0x7f0c0051
 int id useLogo 0x7f0c0012
 int id withText 0x7f0c001f
 int id wrap_content 0x7f0c0020

@@ -40,3 +40,11 @@ dependencies {
     compile 'com.android.support:appcompat-v7:23.1.0'
     compile files('libs/java-json.jar')
 }
+
+repositories {
+    maven { url "https://jitpack.io" }
+}
+
+dependencies {
+    compile 'com.github.PhilJay:MPAndroidChart:v2.1.6'
+}

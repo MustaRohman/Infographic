@@ -3,10 +3,6 @@ package com.ecru.data;
 import android.os.AsyncTask;
 import android.util.Log;
 
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -17,15 +13,14 @@ import java.net.URL;
 /**
  * Created by Ayman on 24/11/2015.
  */
-public class ApiHandler extends AsyncTask<String, Integer, JSONArray> {
+public class ApiHandler extends AsyncTask<String, Void, String> {
 
 
-    private String result;
+    private String response;
     private String urlName;
-    private JSONArray jsonArray;
 
-    public String getResult() {
-        return result;
+    public String getResponse() {
+        return response;
     }
 
     //Constructor which takes a url to retrieve data from
@@ -35,7 +30,7 @@ public class ApiHandler extends AsyncTask<String, Integer, JSONArray> {
 
 
     @Override
-    protected JSONArray doInBackground(String... params) {
+    protected String doInBackground(String... Params) {
 
         String returnString = "";
 
@@ -60,9 +55,6 @@ public class ApiHandler extends AsyncTask<String, Integer, JSONArray> {
             //closes the connection
             in.close();
             connection.disconnect();
-        } catch (MalformedURLException e) {
-
-            e.printStackTrace();
         } catch (IOException e) {
 
             e.printStackTrace();
@@ -70,35 +62,14 @@ public class ApiHandler extends AsyncTask<String, Integer, JSONArray> {
 
         //temp, used to see response from server in logCat
         Log.d("returnSting", returnString);
-        try {
-            return new JSONArray(returnString);
-        } catch (JSONException e) {
-            e.printStackTrace();
-        }
 
-        return null;
+        return returnString;
     }
-
 
     @Override
-    protected void onPostExecute(JSONArray result) {
-        //parsing code
-        if (result != null){
-            try {
-                JSONArray list = result.getJSONArray(1);
-                JSONObject object;
-
-                for (int i = 0; i < list.length(); ++i){
-                    object = list.getJSONObject(i);
-                    Log.d("onPostExecute", object.getString("date"));
-                    Log.d("onPostExecute", object.getString("value"));
-
-                }
-            } catch (JSONException e) {
-                e.printStackTrace();
-            }
-        }
-//        this.result = result;
+    protected void onPostExecute(String returnString) {
+        //store string
 
     }
+
 }

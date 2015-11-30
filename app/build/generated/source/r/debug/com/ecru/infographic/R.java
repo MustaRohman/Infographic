@@ -1648,6 +1648,7 @@ containing a value of this type.
         public static final int none=0x7f0c000e;
         public static final int normal=0x7f0c000a;
         public static final int parentPanel=0x7f0c002d;
+        public static final int pieChart=0x7f0c0050;
         public static final int progress_circular=0x7f0c0005;
         public static final int progress_horizontal=0x7f0c0006;
         public static final int radio=0x7f0c003b;
@@ -1665,6 +1666,7 @@ containing a value of this type.
         public static final int search_plate=0x7f0c0049;
         public static final int search_src_text=0x7f0c004a;
         public static final int search_voice_btn=0x7f0c004e;
+        public static final int seekBar1=0x7f0c0051;
         public static final int select_dialog_listview=0x7f0c004f;
         public static final int shortcut=0x7f0c003a;
         public static final int showCustom=0x7f0c000f;
@@ -1681,13 +1683,11 @@ containing a value of this type.
         public static final int text=0x7f0c005c;
         public static final int text2=0x7f0c005a;
         public static final int textSpacerNoButtons=0x7f0c0034;
-        public static final int textView=0x7f0c0050;
         public static final int time=0x7f0c0058;
         public static final int title=0x7f0c002a;
         public static final int title_template=0x7f0c002f;
         public static final int topPanel=0x7f0c002e;
         public static final int up=0x7f0c0008;
-        public static final int urlData=0x7f0c0051;
         public static final int useLogo=0x7f0c0012;
         public static final int withText=0x7f0c001f;
         public static final int wrap_content=0x7f0c0020;
