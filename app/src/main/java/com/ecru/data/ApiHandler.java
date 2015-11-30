@@ -13,14 +13,14 @@ import java.net.URL;
 /**
  * Created by Ayman on 24/11/2015.
  */
-public class ApiHandler extends AsyncTask<String, Integer, String> {
+public class ApiHandler extends AsyncTask<String, Void, String> {
 
 
-    private String result;
+    private String response;
     private String urlName;
 
-    public String getResult() {
-        return result;
+    public String getResponse() {
+        return response;
     }
 
     //Constructor which takes a url to retrieve data from
@@ -30,7 +30,7 @@ public class ApiHandler extends AsyncTask<String, Integer, String> {
 
 
     @Override
-    protected String doInBackground(String... params) {
+    protected String doInBackground(String... Params) {
 
         String returnString = "";
 
@@ -55,9 +55,6 @@ public class ApiHandler extends AsyncTask<String, Integer, String> {
             //closes the connection
             in.close();
             connection.disconnect();
-        } catch (MalformedURLException e) {
-
-            e.printStackTrace();
         } catch (IOException e) {
 
             e.printStackTrace();
@@ -65,13 +62,14 @@ public class ApiHandler extends AsyncTask<String, Integer, String> {
 
         //temp, used to see response from server in logCat
         Log.d("returnSting", returnString);
+
         return returnString;
     }
 
-
     @Override
-    protected void onPostExecute(String result) {
-        this.result = result;
+    protected void onPostExecute(String returnString) {
+        //store string
 
     }
+
 }
