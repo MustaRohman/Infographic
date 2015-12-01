@@ -1,11 +1,13 @@
 package com.ecru.data;
 
+import android.app.Activity;
 import android.util.Log;
 
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.io.FileOutputStream;
 import java.util.ArrayList;
 import java.util.concurrent.ExecutionException;
 
@@ -14,24 +16,21 @@ import java.util.concurrent.ExecutionException;
  */
 public class GetDataValues {
 
+    String empServJson;
+    String empAgrJson;
+    String empIndJson;
 
-
-    public ArrayList employmentPieData(int year) throws JSONException {
-
-
-        String empServJson = null;
-        String empAgrJson = null;
-        String empIndJson = null;
-
+    public GetDataValues(Activity activity){
         try {
-
-            empServJson = new ApiHandler("http://api.worldbank.org/countries/GBR/indicators/SL.SRV.EMPL.ZS?per_page=100&date=1982:2012&format=json").execute().get();
-            empAgrJson = new ApiHandler("http://api.worldbank.org/countries/GBR/indicators/SL.AGR.EMPL.ZS?per_page=100&date=1982:2012&format=json").execute().get();
-            empIndJson = new ApiHandler("http://api.worldbank.org/countries/GBR/indicators/SL.IND.EMPL.ZS?per_page=100&date=1982:2012&format=json").execute().get();
-
+            empServJson = new ApiHandler("empServJson", "http://api.worldbank.org/countries/GBR/indicators/SL.SRV.EMPL.ZS?per_page=100&date=1982:2012&format=json", activity).execute().get();
+            empAgrJson = new ApiHandler("empAgrJson", "http://api.worldbank.org/countries/GBR/indicators/SL.AGR.EMPL.ZS?per_page=100&date=1982:2012&format=json", activity).execute().get();
+            empIndJson = new ApiHandler("empIndJson", "http://api.worldbank.org/countries/GBR/indicators/SL.IND.EMPL.ZS?per_page=100&date=1982:2012&format=json", activity).execute().get();
         } catch (InterruptedException | ExecutionException e) {
             e.printStackTrace();
         }
+    }
+
+    public ArrayList employmentPieData(int year) throws JSONException {
 
 
         int[] years = (int[]) parseData(empAgrJson)[0];
@@ -88,4 +87,5 @@ public class GetDataValues {
         }
         return new Object[]{year, value};
     }
+
 }
