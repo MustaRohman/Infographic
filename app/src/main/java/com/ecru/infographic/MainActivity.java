@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity  implements SeekBar.OnSeekBa
 
         sectors.setUsePercentValues(false);
         sectors.setDrawHoleEnabled(true);
-        sectors.setDescription("Sectors % of UK employment");
+        sectors.setCenterText("Sectors % of UK employment");
         sectors.animateY(1500, Easing.EasingOption.EaseInOutQuad);
 
         try{
@@ -75,28 +75,8 @@ public class MainActivity extends AppCompatActivity  implements SeekBar.OnSeekBa
         dataSet.setSliceSpace(2f);
         dataSet.setSelectionShift(5f);
 
-        // add a lot of colors
-
-        ArrayList<Integer> colors = new ArrayList<>();
-
-        for (int c : ColorTemplate.VORDIPLOM_COLORS)
-            colors.add(c);
-
-        for (int c : ColorTemplate.JOYFUL_COLORS)
-            colors.add(c);
-
-        for (int c : ColorTemplate.COLORFUL_COLORS)
-            colors.add(c);
-
-        for (int c : ColorTemplate.LIBERTY_COLORS)
-            colors.add(c);
-
-        for (int c : ColorTemplate.PASTEL_COLORS)
-            colors.add(c);
-
-        colors.add(ColorTemplate.getHoloBlue());
-
-        dataSet.setColors(colors);
+        // add colors
+        dataSet.setColors(ColorTemplate.COLORFUL_COLORS);
 
         PieData data = new PieData(titles, dataSet);
         data.setValueFormatter(new PercentFormatter());

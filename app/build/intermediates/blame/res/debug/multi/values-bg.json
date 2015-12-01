@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/mustarohman/AndroidStudioProjects/infograpic/D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\values-bg\\values-bg.xml",
+        "outputFile": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\values-bg\\values-bg.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,392 @@
                     "endOffset": 165
                 },
                 "from": {
-                    "file": "/Users/mustarohman/AndroidStudioProjects/infograpic/D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
+                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 287,
+                        "endColumn": 114,
+                        "endOffset": 397
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 170,
+                    "endColumn": 110,
+                    "endOffset": 276
+                },
+                "from": {
+                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 402,
+                        "endColumn": 110,
+                        "endOffset": 508
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 281,
+                    "endColumn": 127,
+                    "endOffset": 404
+                },
+                "from": {
+                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 513,
+                        "endColumn": 127,
+                        "endOffset": 636
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 409,
+                    "endColumn": 106,
+                    "endOffset": 511
+                },
+                "from": {
+                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 641,
+                        "endColumn": 106,
+                        "endOffset": 743
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 516,
+                    "endColumn": 104,
+                    "endOffset": 616
+                },
+                "from": {
+                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 748,
+                        "endColumn": 104,
+                        "endOffset": 848
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 621,
+                    "endColumn": 85,
+                    "endOffset": 702
+                },
+                "from": {
+                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 853,
+                        "endColumn": 85,
+                        "endOffset": 934
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 707,
+                    "endColumn": 104,
+                    "endOffset": 807
+                },
+                "from": {
+                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 939,
+                        "endColumn": 104,
+                        "endOffset": 1039
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 812,
+                    "endColumn": 120,
+                    "endOffset": 928
+                },
+                "from": {
+                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 1044,
+                        "endColumn": 120,
+                        "endOffset": 1160
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 933,
+                    "endColumn": 78,
+                    "endOffset": 1007
+                },
+                "from": {
+                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1165,
+                        "endColumn": 78,
+                        "endOffset": 1239
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 1012,
+                    "endColumn": 77,
+                    "endOffset": 1085
+                },
+                "from": {
+                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1244,
+                        "endColumn": 77,
+                        "endOffset": 1317
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 1090,
+                    "endColumn": 82,
+                    "endOffset": 1168
+                },
+                "from": {
+                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1322,
+                        "endColumn": 82,
+                        "endOffset": 1400
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 1173,
+                    "endColumn": 113,
+                    "endOffset": 1282
+                },
+                "from": {
+                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1405,
+                        "endColumn": 113,
+                        "endOffset": 1514
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 1287,
+                    "endColumn": 108,
+                    "endOffset": 1391
+                },
+                "from": {
+                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1519,
+                        "endColumn": 108,
+                        "endOffset": 1623
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 1396,
+                    "endColumn": 99,
+                    "endOffset": 1491
+                },
+                "from": {
+                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1628,
+                        "endColumn": 99,
+                        "endOffset": 1723
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 1496,
+                    "endColumn": 113,
+                    "endOffset": 1605
+                },
+                "from": {
+                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1728,
+                        "endColumn": 113,
+                        "endOffset": 1837
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 1610,
+                    "endColumn": 105,
+                    "endOffset": 1711
+                },
+                "from": {
+                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1842,
+                        "endColumn": 105,
+                        "endOffset": 1943
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1716,
+                    "endColumn": 107,
+                    "endOffset": 1819
+                },
+                "from": {
+                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1948,
+                        "endColumn": 107,
+                        "endOffset": 2051
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1824,
+                    "endColumn": 122,
+                    "endOffset": 1942
+                },
+                "from": {
+                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 2056,
+                        "endColumn": 122,
+                        "endOffset": 2174
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1947,
+                    "endColumn": 98,
+                    "endOffset": 2041
+                },
+                "from": {
+                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 2179,
+                        "endColumn": 98,
+                        "endOffset": 2273
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 2046,
+                    "endColumn": 100,
+                    "endOffset": 2142
+                },
+                "from": {
+                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 2278,
+                        "endColumn": 100,
+                        "endOffset": 2374
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\values-bg\\values-bg.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 114,
+                    "endOffset": 165
+                },
+                "from": {
+                    "file": "D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -30,7 +415,7 @@
                     "endOffset": 276
                 },
                 "from": {
-                    "file": "/Users/mustarohman/AndroidStudioProjects/infograpic/D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
+                    "file": "D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -49,7 +434,7 @@
                     "endOffset": 404
                 },
                 "from": {
-                    "file": "/Users/mustarohman/AndroidStudioProjects/infograpic/D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
+                    "file": "D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -68,7 +453,7 @@
                     "endOffset": 511
                 },
                 "from": {
-                    "file": "/Users/mustarohman/AndroidStudioProjects/infograpic/D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
+                    "file": "D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -87,7 +472,7 @@
                     "endOffset": 616
                 },
                 "from": {
-                    "file": "/Users/mustarohman/AndroidStudioProjects/infograpic/D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
+                    "file": "D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -106,7 +491,7 @@
                     "endOffset": 702
                 },
                 "from": {
-                    "file": "/Users/mustarohman/AndroidStudioProjects/infograpic/D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
+                    "file": "D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -125,7 +510,7 @@
                     "endOffset": 807
                 },
                 "from": {
-                    "file": "/Users/mustarohman/AndroidStudioProjects/infograpic/D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
+                    "file": "D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -144,7 +529,7 @@
                     "endOffset": 928
                 },
                 "from": {
-                    "file": "/Users/mustarohman/AndroidStudioProjects/infograpic/D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
+                    "file": "D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -163,7 +548,7 @@
                     "endOffset": 1007
                 },
                 "from": {
-                    "file": "/Users/mustarohman/AndroidStudioProjects/infograpic/D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
+                    "file": "D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -182,7 +567,7 @@
                     "endOffset": 1085
                 },
                 "from": {
-                    "file": "/Users/mustarohman/AndroidStudioProjects/infograpic/D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
+                    "file": "D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -201,7 +586,7 @@
                     "endOffset": 1168
                 },
                 "from": {
-                    "file": "/Users/mustarohman/AndroidStudioProjects/infograpic/D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
+                    "file": "D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -220,7 +605,7 @@
                     "endOffset": 1282
                 },
                 "from": {
-                    "file": "/Users/mustarohman/AndroidStudioProjects/infograpic/D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
+                    "file": "D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -239,7 +624,7 @@
                     "endOffset": 1391
                 },
                 "from": {
-                    "file": "/Users/mustarohman/AndroidStudioProjects/infograpic/D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
+                    "file": "D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -258,7 +643,7 @@
                     "endOffset": 1491
                 },
                 "from": {
-                    "file": "/Users/mustarohman/AndroidStudioProjects/infograpic/D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
+                    "file": "D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -277,7 +662,7 @@
                     "endOffset": 1605
                 },
                 "from": {
-                    "file": "/Users/mustarohman/AndroidStudioProjects/infograpic/D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
+                    "file": "D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -296,7 +681,7 @@
                     "endOffset": 1711
                 },
                 "from": {
-                    "file": "/Users/mustarohman/AndroidStudioProjects/infograpic/D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
+                    "file": "D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -315,7 +700,7 @@
                     "endOffset": 1819
                 },
                 "from": {
-                    "file": "/Users/mustarohman/AndroidStudioProjects/infograpic/D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
+                    "file": "D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -334,7 +719,7 @@
                     "endOffset": 1942
                 },
                 "from": {
-                    "file": "/Users/mustarohman/AndroidStudioProjects/infograpic/D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
+                    "file": "D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
@@ -353,7 +738,7 @@
                     "endOffset": 2041
                 },
                 "from": {
-                    "file": "/Users/mustarohman/AndroidStudioProjects/infograpic/D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
+                    "file": "D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,
@@ -372,7 +757,7 @@
                     "endOffset": 2142
                 },
                 "from": {
-                    "file": "/Users/mustarohman/AndroidStudioProjects/infograpic/D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
+                    "file": "D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
                     "position": {
                         "startLine": 23,
                         "startColumn": 4,
@@ -385,7 +770,7 @@
         ]
     },
     {
-        "outputFile": "/Users/mustarohman/AndroidStudioProjects/infograpic/app/build/intermediates/res/merged/debug/values-bg/values-bg.xml",
+        "outputFile": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\values-bg\\values-bg.xml",
         "map": [
             {
                 "to": {
@@ -396,7 +781,7 @@
                     "endOffset": 165
                 },
                 "from": {
-                    "file": "/Users/mustarohman/AndroidStudioProjects/infograpic/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-bg/values-bg.xml",
+                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -415,7 +800,7 @@
                     "endOffset": 276
                 },
                 "from": {
-                    "file": "/Users/mustarohman/AndroidStudioProjects/infograpic/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-bg/values-bg.xml",
+                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -434,7 +819,7 @@
                     "endOffset": 404
                 },
                 "from": {
-                    "file": "/Users/mustarohman/AndroidStudioProjects/infograpic/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-bg/values-bg.xml",
+                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -453,7 +838,7 @@
                     "endOffset": 511
                 },
                 "from": {
-                    "file": "/Users/mustarohman/AndroidStudioProjects/infograpic/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-bg/values-bg.xml",
+                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -472,7 +857,7 @@
                     "endOffset": 616
                 },
                 "from": {
-                    "file": "/Users/mustarohman/AndroidStudioProjects/infograpic/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-bg/values-bg.xml",
+                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -491,7 +876,7 @@
                     "endOffset": 702
                 },
                 "from": {
-                    "file": "/Users/mustarohman/AndroidStudioProjects/infograpic/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-bg/values-bg.xml",
+                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -510,7 +895,7 @@
                     "endOffset": 807
                 },
                 "from": {
-                    "file": "/Users/mustarohman/AndroidStudioProjects/infograpic/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-bg/values-bg.xml",
+                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -529,7 +914,7 @@
                     "endOffset": 928
                 },
                 "from": {
-                    "file": "/Users/mustarohman/AndroidStudioProjects/infograpic/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-bg/values-bg.xml",
+                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -548,7 +933,7 @@
                     "endOffset": 1007
                 },
                 "from": {
-                    "file": "/Users/mustarohman/AndroidStudioProjects/infograpic/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-bg/values-bg.xml",
+                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -567,7 +952,7 @@
                     "endOffset": 1085
                 },
                 "from": {
-                    "file": "/Users/mustarohman/AndroidStudioProjects/infograpic/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-bg/values-bg.xml",
+                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -586,7 +971,7 @@
                     "endOffset": 1168
                 },
                 "from": {
-                    "file": "/Users/mustarohman/AndroidStudioProjects/infograpic/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-bg/values-bg.xml",
+                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -605,7 +990,7 @@
                     "endOffset": 1282
                 },
                 "from": {
-                    "file": "/Users/mustarohman/AndroidStudioProjects/infograpic/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-bg/values-bg.xml",
+                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -624,7 +1009,7 @@
                     "endOffset": 1391
                 },
                 "from": {
-                    "file": "/Users/mustarohman/AndroidStudioProjects/infograpic/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-bg/values-bg.xml",
+                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -643,7 +1028,7 @@
                     "endOffset": 1491
                 },
                 "from": {
-                    "file": "/Users/mustarohman/AndroidStudioProjects/infograpic/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-bg/values-bg.xml",
+                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -662,7 +1047,7 @@
                     "endOffset": 1605
                 },
                 "from": {
-                    "file": "/Users/mustarohman/AndroidStudioProjects/infograpic/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-bg/values-bg.xml",
+                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -681,7 +1066,7 @@
                     "endOffset": 1711
                 },
                 "from": {
-                    "file": "/Users/mustarohman/AndroidStudioProjects/infograpic/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-bg/values-bg.xml",
+                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -700,7 +1085,7 @@
                     "endOffset": 1819
                 },
                 "from": {
-                    "file": "/Users/mustarohman/AndroidStudioProjects/infograpic/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-bg/values-bg.xml",
+                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -719,7 +1104,7 @@
                     "endOffset": 1942
                 },
                 "from": {
-                    "file": "/Users/mustarohman/AndroidStudioProjects/infograpic/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-bg/values-bg.xml",
+                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
@@ -738,7 +1123,7 @@
                     "endOffset": 2041
                 },
                 "from": {
-                    "file": "/Users/mustarohman/AndroidStudioProjects/infograpic/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-bg/values-bg.xml",
+                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,
@@ -757,7 +1142,7 @@
                     "endOffset": 2142
                 },
                 "from": {
-                    "file": "/Users/mustarohman/AndroidStudioProjects/infograpic/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-bg/values-bg.xml",
+                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
                     "position": {
                         "startLine": 23,
                         "startColumn": 4,
@@ -770,7 +1155,7 @@
         ]
     },
     {
-        "outputFile": "/Users/mustarohman/AndroidStudioProjects/infograpic/D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\values-bg\\values-bg.xml",
+        "outputFile": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\values-bg\\values-bg.xml",
         "map": [
             {
                 "to": {
@@ -781,13 +1166,13 @@
                     "endOffset": 165
                 },
                 "from": {
-                    "file": "/Users/mustarohman/AndroidStudioProjects/infograpic/D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
+                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
-                        "startOffset": 287,
+                        "startOffset": 291,
                         "endColumn": 114,
-                        "endOffset": 397
+                        "endOffset": 401
                     }
                 }
             },
@@ -800,13 +1185,13 @@
                     "endOffset": 276
                 },
                 "from": {
-                    "file": "/Users/mustarohman/AndroidStudioProjects/infograpic/D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
+                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
-                        "startOffset": 402,
+                        "startOffset": 407,
                         "endColumn": 110,
-                        "endOffset": 508
+                        "endOffset": 513
                     }
                 }
             },
@@ -819,13 +1204,13 @@
                     "endOffset": 404
                 },
                 "from": {
-                    "file": "/Users/mustarohman/AndroidStudioProjects/infograpic/D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
+                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
-                        "startOffset": 513,
+                        "startOffset": 519,
                         "endColumn": 127,
-                        "endOffset": 636
+                        "endOffset": 642
                     }
                 }
             },
@@ -838,13 +1223,13 @@
                     "endOffset": 511
                 },
                 "from": {
-                    "file": "/Users/mustarohman/AndroidStudioProjects/infograpic/D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
+                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
-                        "startOffset": 641,
+                        "startOffset": 648,
                         "endColumn": 106,
-                        "endOffset": 743
+                        "endOffset": 750
                     }
                 }
             },
@@ -857,13 +1242,13 @@
                     "endOffset": 616
                 },
                 "from": {
-                    "file": "/Users/mustarohman/AndroidStudioProjects/infograpic/D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
+                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
-                        "startOffset": 748,
+                        "startOffset": 756,
                         "endColumn": 104,
-                        "endOffset": 848
+                        "endOffset": 856
                     }
                 }
             },
@@ -876,13 +1261,13 @@
                     "endOffset": 702
                 },
                 "from": {
-                    "file": "/Users/mustarohman/AndroidStudioProjects/infograpic/D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
+                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
-                        "startOffset": 853,
+                        "startOffset": 862,
                         "endColumn": 85,
-                        "endOffset": 934
+                        "endOffset": 943
                     }
                 }
             },
@@ -895,13 +1280,13 @@
                     "endOffset": 807
                 },
                 "from": {
-                    "file": "/Users/mustarohman/AndroidStudioProjects/infograpic/D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
+                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
-                        "startOffset": 939,
+                        "startOffset": 949,
                         "endColumn": 104,
-                        "endOffset": 1039
+                        "endOffset": 1049
                     }
                 }
             },
@@ -914,13 +1299,13 @@
                     "endOffset": 928
                 },
                 "from": {
-                    "file": "/Users/mustarohman/AndroidStudioProjects/infograpic/D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
+                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
-                        "startOffset": 1044,
+                        "startOffset": 1055,
                         "endColumn": 120,
-                        "endOffset": 1160
+                        "endOffset": 1171
                     }
                 }
             },
@@ -933,13 +1318,13 @@
                     "endOffset": 1007
                 },
                 "from": {
-                    "file": "/Users/mustarohman/AndroidStudioProjects/infograpic/D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
+                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
-                        "startOffset": 1165,
+                        "startOffset": 1177,
                         "endColumn": 78,
-                        "endOffset": 1239
+                        "endOffset": 1251
                     }
                 }
             },
@@ -952,13 +1337,13 @@
                     "endOffset": 1085
                 },
                 "from": {
-                    "file": "/Users/mustarohman/AndroidStudioProjects/infograpic/D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
+                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
-                        "startOffset": 1244,
+                        "startOffset": 1257,
                         "endColumn": 77,
-                        "endOffset": 1317
+                        "endOffset": 1330
                     }
                 }
             },
@@ -971,13 +1356,13 @@
                     "endOffset": 1168
                 },
                 "from": {
-                    "file": "/Users/mustarohman/AndroidStudioProjects/infograpic/D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
+                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
-                        "startOffset": 1322,
+                        "startOffset": 1336,
                         "endColumn": 82,
-                        "endOffset": 1400
+                        "endOffset": 1414
                     }
                 }
             },
@@ -990,13 +1375,13 @@
                     "endOffset": 1282
                 },
                 "from": {
-                    "file": "/Users/mustarohman/AndroidStudioProjects/infograpic/D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
+                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
-                        "startOffset": 1405,
+                        "startOffset": 1420,
                         "endColumn": 113,
-                        "endOffset": 1514
+                        "endOffset": 1529
                     }
                 }
             },
@@ -1009,13 +1394,13 @@
                     "endOffset": 1391
                 },
                 "from": {
-                    "file": "/Users/mustarohman/AndroidStudioProjects/infograpic/D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
+                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
-                        "startOffset": 1519,
+                        "startOffset": 1535,
                         "endColumn": 108,
-                        "endOffset": 1623
+                        "endOffset": 1639
                     }
                 }
             },
@@ -1028,13 +1413,13 @@
                     "endOffset": 1491
                 },
                 "from": {
-                    "file": "/Users/mustarohman/AndroidStudioProjects/infograpic/D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
+                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
-                        "startOffset": 1628,
+                        "startOffset": 1645,
                         "endColumn": 99,
-                        "endOffset": 1723
+                        "endOffset": 1740
                     }
                 }
             },
@@ -1047,13 +1432,13 @@
                     "endOffset": 1605
                 },
                 "from": {
-                    "file": "/Users/mustarohman/AndroidStudioProjects/infograpic/D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
+                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
-                        "startOffset": 1728,
+                        "startOffset": 1746,
                         "endColumn": 113,
-                        "endOffset": 1837
+                        "endOffset": 1855
                     }
                 }
             },
@@ -1066,13 +1451,13 @@
                     "endOffset": 1711
                 },
                 "from": {
-                    "file": "/Users/mustarohman/AndroidStudioProjects/infograpic/D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
+                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
-                        "startOffset": 1842,
+                        "startOffset": 1861,
                         "endColumn": 105,
-                        "endOffset": 1943
+                        "endOffset": 1962
                     }
                 }
             },
@@ -1085,13 +1470,13 @@
                     "endOffset": 1819
                 },
                 "from": {
-                    "file": "/Users/mustarohman/AndroidStudioProjects/infograpic/D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
+                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
-                        "startOffset": 1948,
+                        "startOffset": 1968,
                         "endColumn": 107,
-                        "endOffset": 2051
+                        "endOffset": 2071
                     }
                 }
             },
@@ -1104,13 +1489,13 @@
                     "endOffset": 1942
                 },
                 "from": {
-                    "file": "/Users/mustarohman/AndroidStudioProjects/infograpic/D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
+                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
-                        "startOffset": 2056,
+                        "startOffset": 2077,
                         "endColumn": 122,
-                        "endOffset": 2174
+                        "endOffset": 2195
                     }
                 }
             },
@@ -1123,13 +1508,13 @@
                     "endOffset": 2041
                 },
                 "from": {
-                    "file": "/Users/mustarohman/AndroidStudioProjects/infograpic/D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
+                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,
-                        "startOffset": 2179,
+                        "startOffset": 2201,
                         "endColumn": 98,
-                        "endOffset": 2273
+                        "endOffset": 2295
                     }
                 }
             },
@@ -1142,20 +1527,20 @@
                     "endOffset": 2142
                 },
                 "from": {
-                    "file": "/Users/mustarohman/AndroidStudioProjects/infograpic/D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
+                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
                     "position": {
                         "startLine": 23,
                         "startColumn": 4,
-                        "startOffset": 2278,
+                        "startOffset": 2301,
                         "endColumn": 100,
-                        "endOffset": 2374
+                        "endOffset": 2397
                     }
                 }
             }
         ]
     },
     {
-        "outputFile": "/Users/mustarohman/AndroidStudioProjects/infograpic/C:\\Users\\naren\\Downloads\\api-example\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\values-bg\\values-bg.xml",
+        "outputFile": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\naren\\Downloads\\api-example\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\values-bg\\values-bg.xml",
         "map": [
             {
                 "to": {
@@ -1166,7 +1551,7 @@
                     "endOffset": 165
                 },
                 "from": {
-                    "file": "/Users/mustarohman/AndroidStudioProjects/infograpic/C:\\Users\\naren\\Downloads\\api-example\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
+                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\naren\\Downloads\\api-example\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -1185,7 +1570,7 @@
                     "endOffset": 276
                 },
                 "from": {
-                    "file": "/Users/mustarohman/AndroidStudioProjects/infograpic/C:\\Users\\naren\\Downloads\\api-example\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
+                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\naren\\Downloads\\api-example\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -1204,7 +1589,7 @@
                     "endOffset": 404
                 },
                 "from": {
-                    "file": "/Users/mustarohman/AndroidStudioProjects/infograpic/C:\\Users\\naren\\Downloads\\api-example\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
+                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\naren\\Downloads\\api-example\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -1223,7 +1608,7 @@
                     "endOffset": 511
                 },
                 "from": {
-                    "file": "/Users/mustarohman/AndroidStudioProjects/infograpic/C:\\Users\\naren\\Downloads\\api-example\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
+                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\naren\\Downloads\\api-example\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -1242,7 +1627,7 @@
                     "endOffset": 616
                 },
                 "from": {
-                    "file": "/Users/mustarohman/AndroidStudioProjects/infograpic/C:\\Users\\naren\\Downloads\\api-example\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
+                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\naren\\Downloads\\api-example\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -1261,7 +1646,7 @@
                     "endOffset": 702
                 },
                 "from": {
-                    "file": "/Users/mustarohman/AndroidStudioProjects/infograpic/C:\\Users\\naren\\Downloads\\api-example\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
+                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\naren\\Downloads\\api-example\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -1280,7 +1665,7 @@
                     "endOffset": 807
                 },
                 "from": {
-                    "file": "/Users/mustarohman/AndroidStudioProjects/infograpic/C:\\Users\\naren\\Downloads\\api-example\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
+                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\naren\\Downloads\\api-example\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -1299,7 +1684,7 @@
                     "endOffset": 928
                 },
                 "from": {
-                    "file": "/Users/mustarohman/AndroidStudioProjects/infograpic/C:\\Users\\naren\\Downloads\\api-example\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
+                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\naren\\Downloads\\api-example\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -1318,7 +1703,7 @@
                     "endOffset": 1007
                 },
                 "from": {
-                    "file": "/Users/mustarohman/AndroidStudioProjects/infograpic/C:\\Users\\naren\\Downloads\\api-example\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
+                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\naren\\Downloads\\api-example\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -1337,7 +1722,7 @@
                     "endOffset": 1085
                 },
                 "from": {
-                    "file": "/Users/mustarohman/AndroidStudioProjects/infograpic/C:\\Users\\naren\\Downloads\\api-example\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
+                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\naren\\Downloads\\api-example\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -1356,7 +1741,7 @@
                     "endOffset": 1168
                 },
                 "from": {
-                    "file": "/Users/mustarohman/AndroidStudioProjects/infograpic/C:\\Users\\naren\\Downloads\\api-example\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
+                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\naren\\Downloads\\api-example\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -1375,7 +1760,7 @@
                     "endOffset": 1282
                 },
                 "from": {
-                    "file": "/Users/mustarohman/AndroidStudioProjects/infograpic/C:\\Users\\naren\\Downloads\\api-example\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
+                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\naren\\Downloads\\api-example\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -1394,7 +1779,7 @@
                     "endOffset": 1391
                 },
                 "from": {
-                    "file": "/Users/mustarohman/AndroidStudioProjects/infograpic/C:\\Users\\naren\\Downloads\\api-example\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
+                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\naren\\Downloads\\api-example\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -1413,7 +1798,7 @@
                     "endOffset": 1491
                 },
                 "from": {
-                    "file": "/Users/mustarohman/AndroidStudioProjects/infograpic/C:\\Users\\naren\\Downloads\\api-example\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
+                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\naren\\Downloads\\api-example\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -1432,7 +1817,7 @@
                     "endOffset": 1605
                 },
                 "from": {
-                    "file": "/Users/mustarohman/AndroidStudioProjects/infograpic/C:\\Users\\naren\\Downloads\\api-example\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
+                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\naren\\Downloads\\api-example\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -1451,7 +1836,7 @@
                     "endOffset": 1711
                 },
                 "from": {
-                    "file": "/Users/mustarohman/AndroidStudioProjects/infograpic/C:\\Users\\naren\\Downloads\\api-example\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
+                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\naren\\Downloads\\api-example\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -1470,7 +1855,7 @@
                     "endOffset": 1819
                 },
                 "from": {
-                    "file": "/Users/mustarohman/AndroidStudioProjects/infograpic/C:\\Users\\naren\\Downloads\\api-example\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
+                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\naren\\Downloads\\api-example\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -1489,7 +1874,7 @@
                     "endOffset": 1942
                 },
                 "from": {
-                    "file": "/Users/mustarohman/AndroidStudioProjects/infograpic/C:\\Users\\naren\\Downloads\\api-example\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
+                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\naren\\Downloads\\api-example\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
@@ -1508,7 +1893,7 @@
                     "endOffset": 2041
                 },
                 "from": {
-                    "file": "/Users/mustarohman/AndroidStudioProjects/infograpic/C:\\Users\\naren\\Downloads\\api-example\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
+                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\naren\\Downloads\\api-example\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,
@@ -1527,7 +1912,7 @@
                     "endOffset": 2142
                 },
                 "from": {
-                    "file": "/Users/mustarohman/AndroidStudioProjects/infograpic/C:\\Users\\naren\\Downloads\\api-example\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
+                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\naren\\Downloads\\api-example\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-bg\\values-bg.xml",
                     "position": {
                         "startLine": 23,
                         "startColumn": 4,

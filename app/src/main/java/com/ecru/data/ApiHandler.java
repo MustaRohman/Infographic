@@ -21,20 +21,27 @@ public class ApiHandler extends AsyncTask<String, Void, String> {
 
     private String filename;
     private Activity activity;
-    private String response;
     private String urlName;
 
-    public String getResponse() {
-        return response;
-    }
 
-    //Constructor which takes a url to retrieve data from
+    /**
+     * Constuctor for ApiHandler class
+     * @param filename used to reference where the string has been stored
+     * @param urlName the url from which the data should be fetched
+     * @param activity
+     */
     public ApiHandler(String filename, String urlName, Activity activity) {
         this.urlName = urlName;
         this.activity = activity;
         this.filename = filename;
     }
 
+
+    /**
+     * Called by .execute, in this method fetch json string
+     * @param Params
+     * @return string containing json from url
+     */
     @Override
     protected String doInBackground(String... Params) {
 
@@ -58,6 +65,7 @@ public class ApiHandler extends AsyncTask<String, Void, String> {
             //closes the connection
             in.close();
             connection.disconnect();
+            //calls the saveData method to store the string
             saveData(returnString);
         } catch (IOException e) {
             Log.d("doInBackground", "Failed to retrieve online data, retrieving stored data");
@@ -72,11 +80,15 @@ public class ApiHandler extends AsyncTask<String, Void, String> {
 
     @Override
     protected void onPostExecute(String returnString) {
-        //store string
-
     }
 
-    public boolean saveData(String jsonString){
+
+    /**
+     * Method to store the string persistently
+     * @param jsonString the json string to save
+     * @return
+     */
+    public boolean saveData(String jsonString) {
         try {
             FileOutputStream fos = activity.openFileOutput(filename, Context.MODE_PRIVATE);
             fos.write(jsonString.getBytes());
@@ -91,7 +103,12 @@ public class ApiHandler extends AsyncTask<String, Void, String> {
         return false;
     }
 
-    public String loadCachedData(){
+
+    /**
+     * method to load the cached string
+     * @return string containing json data
+     */
+    public String loadCachedData() {
         String returnString = null;
         try {
             FileInputStream fis = activity.openFileInput(filename);
