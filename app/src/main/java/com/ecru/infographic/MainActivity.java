@@ -51,6 +51,8 @@ public class MainActivity extends AppCompatActivity  implements SeekBar.OnSeekBa
         sectors.setDrawHoleEnabled(true);
         sectors.setDescription("Sectors % of UK employment");
         sectors.animateY(1500, Easing.EasingOption.EaseInOutQuad);
+        sectors.setHoleColorTransparent(true);
+
 
     }
 
@@ -95,7 +97,7 @@ public class MainActivity extends AppCompatActivity  implements SeekBar.OnSeekBa
 
         colors.add(ColorTemplate.getHoloBlue());
 
-        dataSet.setColors(colors);
+        dataSet.setColors(ColorTemplate.COLORFUL_COLORS);
 
         PieData data = new PieData(titles, dataSet);
         data.setValueFormatter(new PercentFormatter());
