@@ -30,6 +30,7 @@ public class GetDataValues {
             empAgrJson = new ApiHandler("empAgrJson", "http://api.worldbank.org/countries/GBR/indicators/SL.AGR.EMPL.ZS?per_page=100&date=1982:2012&format=json", activity).execute().get();
             empIndJson = new ApiHandler("empIndJson", "http://api.worldbank.org/countries/GBR/indicators/SL.IND.EMPL.ZS?per_page=100&date=1982:2012&format=json", activity).execute().get();
         } catch (InterruptedException | ExecutionException e) {
+            Log.d("GetDataValues", "Data loading interrupted");
             e.printStackTrace();
         }
     }
@@ -70,6 +71,7 @@ public class GetDataValues {
         return values;
     }
 
+<<<<<<< HEAD
 
     /**
      * Method to parse the data
@@ -77,10 +79,11 @@ public class GetDataValues {
      * @return Returns an object of two arrays, call 0 for years, 1 for values
      * @throws JSONException
      */
+=======
+>>>>>>> origin/savingData
     public Object[] parseData(String jsonString) throws JSONException {
 
         JSONArray jsonArray = new JSONArray(jsonString);
-
         JSONArray list = jsonArray.getJSONArray(1);
 
         int x = list.length();

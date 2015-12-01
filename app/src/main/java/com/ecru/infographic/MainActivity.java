@@ -96,15 +96,12 @@ public class MainActivity extends AppCompatActivity  implements SeekBar.OnSeekBa
 
         int year = seekBar.getProgress();
 
-        if (values !=null) {
-            setData(values);
-        }else {
-            try {
-                setData(dataValues.employmentPieData(year));
-            } catch (JSONException e) {
-                Log.d("onpProgressChanged", "Failed to setData");
-            }
+        try {
+            setData(dataValues.employmentPieData(year));
+        } catch (JSONException e) {
+            Log.d("onpProgressChanged", "Failed to setData");
         }
+
         sectors.animateY(750, Easing.EasingOption.EaseInOutExpo);
     }
 
