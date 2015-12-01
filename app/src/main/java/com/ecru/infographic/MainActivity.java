@@ -1,9 +1,11 @@
 package com.ecru.infographic;
 
 import android.graphics.Color;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.SeekBar;
+import android.widget.TextView;
 
 import com.ecru.data.GetDataValues;
 import com.github.mikephil.charting.animation.Easing;
@@ -23,17 +25,21 @@ public class MainActivity extends AppCompatActivity  implements SeekBar.OnSeekBa
 
     public PieChart sectors;
     public SeekBar selectYear;
+    private TextView title;
+    private Typeface bigJoe;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        bigJoe = Typeface.createFromAsset(getAssets(), "fonts/Slim Joe.otf");
+        title = (TextView) findViewById(R.id.title);
+        title.setTypeface(bigJoe);
         sectors = (PieChart) findViewById(R.id.pieChart);
-        selectYear = (SeekBar) findViewById(R.id.seekBar1);
-
-        selectYear.setMax(30);
-        selectYear.setOnSeekBarChangeListener(this);
+//        selectYear = (SeekBar) findViewById(R.id.seekBar1);
+//
+//        selectYear.setMax(30);
+//        selectYear.setOnSeekBarChangeListener(this);
 
 
         try {
@@ -94,7 +100,7 @@ public class MainActivity extends AppCompatActivity  implements SeekBar.OnSeekBa
         PieData data = new PieData(titles, dataSet);
         data.setValueFormatter(new PercentFormatter());
         data.setValueTextSize(11f);
-        data.setValueTextColor(Color.WHITE);
+        data.setValueTextColor(Color.BLACK);
         sectors.setData(data);
 
         // undo all highlights
