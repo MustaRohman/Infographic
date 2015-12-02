@@ -40,6 +40,10 @@
         "source": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\layout\\select_dialog_item_material.xml"
     },
     {
+        "merged": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\layout\\draw_list_item.xml",
+        "source": "C:\\Users\\Rami\\Documents\\infograpic\\app\\src\\main\\res\\layout\\draw_list_item.xml"
+    },
+    {
         "merged": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
         "source": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\layout\\notification_template_lines.xml"
     },
@@ -112,16 +116,16 @@
         "source": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
     },
     {
-        "merged": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
-        "source": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
-    },
-    {
         "merged": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
         "source": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
     },
     {
         "merged": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
         "source": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
     },
     {
         "merged": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",

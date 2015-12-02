@@ -3,7 +3,14 @@ package com.ecru.infographic;
 import android.graphics.Color;
 import android.graphics.Typeface;
 import android.os.Bundle;
+import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
+import android.view.animation.AnimationSet;
+import android.view.animation.TranslateAnimation;
+import android.widget.ArrayAdapter;
+import android.widget.Button;
+import android.widget.ListView;
 import android.widget.SeekBar;
 import android.widget.TextView;
 
@@ -16,7 +23,6 @@ import com.github.mikephil.charting.data.PieDataSet;
 import com.github.mikephil.charting.formatter.PercentFormatter;
 import com.github.mikephil.charting.utils.ColorTemplate;
 
-
 import org.json.JSONException;
 
 import java.util.ArrayList;
@@ -27,6 +33,9 @@ public class MainActivity extends AppCompatActivity  implements SeekBar.OnSeekBa
     public SeekBar selectYear;
     private TextView title;
     private Typeface bigJoe;
+    private ArrayList<String> mPlanetTitles;
+    private DrawerLayout mDrawerLayout;
+    private ListView mDrawerList;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,6 +49,19 @@ public class MainActivity extends AppCompatActivity  implements SeekBar.OnSeekBa
 //
 //        selectYear.setMax(30);
 //        selectYear.setOnSeekBarChangeListener(this);
+
+        /**
+         * Drawer content
+         */
+        mPlanetTitles = new ArrayList<>();
+        for (int i = 0; i < 10; i ++){
+            mPlanetTitles.add("Year 200"+i);
+        }
+        mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
+        mDrawerList = (ListView) findViewById(R.id.left_drawer);
+
+        mDrawerList.setAdapter(new ArrayAdapter<>(this, R.layout.draw_list_item, mPlanetTitles));
+        mDrawerList.setOnItemClickListener(new DrawerItemClickListener());
 
 
         try {
@@ -136,4 +158,19 @@ public class MainActivity extends AppCompatActivity  implements SeekBar.OnSeekBa
     public void onStopTrackingTouch(SeekBar seekBar) {
 
     }
+    public void checkAnimation(View v){
+        Button clickBtn = (Button)v;
+        replace(100,100, clickBtn);
+    }
+
+    public void replace(int xTo, int yTo, Button btn){
+        AnimationSet test = new AnimationSet(false);
+        test.setFillAfter(true);
+
+        TranslateAnimation trans = new TranslateAnimation(0, xTo, 0, yTo);
+        trans.setDuration(1000);
+        test.addAnimation(trans);
+        btn.startAnimation(test);
+    }
+
 }
