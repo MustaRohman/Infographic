@@ -71,7 +71,6 @@ public class GetDataValues {
         return values;
     }
 
-<<<<<<< HEAD
 
     /**
      * Method to parse the data
@@ -79,8 +78,6 @@ public class GetDataValues {
      * @return Returns an object of two arrays, call 0 for years, 1 for values
      * @throws JSONException
      */
-=======
->>>>>>> origin/savingData
     public Object[] parseData(String jsonString) throws JSONException {
 
         JSONArray jsonArray = new JSONArray(jsonString);

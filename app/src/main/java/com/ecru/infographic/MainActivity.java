@@ -27,6 +27,10 @@ public class MainActivity extends AppCompatActivity  implements SeekBar.OnSeekBa
     public ArrayList values;
     public GetDataValues dataValues;
 
+    /**
+     * On create method
+     * @param savedInstanceState
+     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -48,15 +52,18 @@ public class MainActivity extends AppCompatActivity  implements SeekBar.OnSeekBa
         sectors.animateY(1500, Easing.EasingOption.EaseInOutQuad);
 
         try{
-            setData(dataValues.employmentPieData(0));
+            setEmployeePieData(dataValues.employmentPieData(0));
         } catch (JSONException e) {
             e.printStackTrace();
         }
 
     }
 
-
-    public void setData(ArrayList values) {
+    /**
+     *Method to set the data for the employee pie graph
+     * @param values the arrayList containing the data
+     */
+    public void setEmployeePieData(ArrayList values) {
 
 
         ArrayList<Entry> yVals1 = new ArrayList<>();
@@ -90,26 +97,39 @@ public class MainActivity extends AppCompatActivity  implements SeekBar.OnSeekBa
         sectors.invalidate();
     }
 
-
+    /**
+     * Seekbar used to select dates
+     * @param seekBar
+     * @param progress
+     * @param fromUser
+     */
     @Override
     public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
 
         int year = seekBar.getProgress();
 
         try {
-            setData(dataValues.employmentPieData(year));
+            setEmployeePieData(dataValues.employmentPieData(year));
         } catch (JSONException e) {
-            Log.d("onpProgressChanged", "Failed to setData");
+            Log.d("onpProgressChanged", "Failed to setEmployeePieData");
         }
 
         sectors.animateY(750, Easing.EasingOption.EaseInOutExpo);
     }
 
+    /**
+     * unused
+     * @param seekBar
+     */
     @Override
     public void onStartTrackingTouch(SeekBar seekBar) {
 
     }
 
+    /**
+     * unused
+     * @param seekBar
+     */
     @Override
     public void onStopTrackingTouch(SeekBar seekBar) {
 
