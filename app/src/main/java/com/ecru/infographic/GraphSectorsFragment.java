@@ -1,6 +1,5 @@
 package com.ecru.infographic;
 
-import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.util.Log;
@@ -8,23 +7,13 @@ import android.view.LayoutInflater;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.FrameLayout;
 
 import com.ecru.data.GetDataValues;
-import com.github.mikephil.charting.charts.BarChart;
 import com.github.mikephil.charting.charts.LineChart;
 import com.github.mikephil.charting.components.Legend;
 import com.github.mikephil.charting.components.XAxis;
-import com.github.mikephil.charting.components.YAxis;
-import com.github.mikephil.charting.data.BarData;
-import com.github.mikephil.charting.data.Entry;
-import com.github.mikephil.charting.data.LineData;
 import com.github.mikephil.charting.listener.ChartTouchListener;
 import com.github.mikephil.charting.listener.OnChartGestureListener;
-
-import org.json.JSONException;
-
-import java.util.ArrayList;
 
 /**
  * Created by nashwan on 12/2/2015.
@@ -73,7 +62,7 @@ public class GraphSectorsFragment extends Fragment{
         xAxis.setEnabled(true);
 
         try {
-            mChart.setData(dd.allTheYearsBarData());
+            mChart.setData(dd.LineGraphSectorData());
             xAxis.setDrawAxisLine(true);
             xAxis.setLabelsToSkip(0);
         } catch (Exception e) {

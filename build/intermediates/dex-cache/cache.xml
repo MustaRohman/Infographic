@@ -1,3 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
 
+    <item
+        jar="C:\Users\nashwan\Documents\infograpic\app\libs\java-json.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="edad9c5de6fb8df07c535a47045956026011ffa3">
+        <dex dex="C:\Users\nashwan\Documents\infograpic\app\build\intermediates\pre-dexed\debug\java-json_3632a251a8a041cb2f1409dd01cc6a02e8a914b7.jar" />
+    </item>
+    <item
+        jar="C:\Users\nashwan\.gradle\caches\modules-2\files-2.1\com.github.PhilJay\MPAndroidChart\v2.1.6\b036abbb61656165da99cf44898e4b9123687e65\MPAndroidChart-v2.1.6.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="b036abbb61656165da99cf44898e4b9123687e65">
+        <dex dex="C:\Users\nashwan\Documents\infograpic\app\build\intermediates\pre-dexed\debug\MPAndroidChart-v2.1.6_333e2b4192dd85be2342c881ccde1fe70f632370.jar" />
+    </item>
+    <item
+        jar="C:\Users\nashwan\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.0\support-annotations-23.1.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="92e3fc113ec3ee36b64603a38857b95700025633">
+        <dex dex="C:\Users\nashwan\Documents\infograpic\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.0_5ea13066e47c3bfe75c851e81ee061a7dcffa4d7.jar" />
+    </item>
+    <item
+        jar="C:\Users\nashwan\Documents\infograpic\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\libs\internal_impl-23.1.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8716243bf04bae8d6c9ca94d27b9a9be7236f0a3">
+        <dex dex="C:\Users\nashwan\Documents\infograpic\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.0_96afac486287bf1958d85817dbd3256b2c2e0eb5.jar" />
+    </item>
+    <item
+        jar="C:\Users\nashwan\Documents\infograpic\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
+        <dex dex="C:\Users\nashwan\Documents\infograpic\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.1.0_068e7d3978caaba7bd40fa9ca3e2fe414c83bbc5.jar" />
+    </item>
+    <item
+        jar="C:\Users\nashwan\Documents\infograpic\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="57ae0d750ff83f0c738d21720224ac7ea866a094">
+        <dex dex="C:\Users\nashwan\Documents\infograpic\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.1.0_3e05c8c23bfafe85d1d5452a64e41dfce9709c87.jar" />
+    </item>
+
+</items>
