@@ -35,7 +35,6 @@ public class MainActivity extends AppCompatActivity  implements SeekBar.OnSeekBa
         selectYear.setMax(30);
         selectYear.setOnSeekBarChangeListener(this);
 
-
         try {
             setData(new GetDataValues().employmentPieData(0));
         } catch (JSONException e) {
@@ -48,9 +47,7 @@ public class MainActivity extends AppCompatActivity  implements SeekBar.OnSeekBa
 
     }
 
-
     public void setData(ArrayList values) {
-
 
         ArrayList<Entry> yVals1 = new ArrayList<>();
 
@@ -69,7 +66,6 @@ public class MainActivity extends AppCompatActivity  implements SeekBar.OnSeekBa
         dataSet.setSelectionShift(5f);
 
         // add a lot of colors
-
         ArrayList<Integer> colors = new ArrayList<>();
 
         for (int c : ColorTemplate.VORDIPLOM_COLORS)
@@ -88,7 +84,6 @@ public class MainActivity extends AppCompatActivity  implements SeekBar.OnSeekBa
             colors.add(c);
 
         colors.add(ColorTemplate.getHoloBlue());
-
         dataSet.setColors(colors);
 
         PieData data = new PieData(titles, dataSet);
@@ -96,21 +91,15 @@ public class MainActivity extends AppCompatActivity  implements SeekBar.OnSeekBa
         data.setValueTextSize(11f);
         data.setValueTextColor(Color.WHITE);
         sectors.setData(data);
-
         // undo all highlights
         sectors.highlightValues(null);
-
         sectors.invalidate();
     }
-
 
     @Override
     public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
 
-
         int year = seekBar.getProgress();
-
-
         try {
             setData(new GetDataValues().employmentPieData(year));
         } catch (JSONException e) {

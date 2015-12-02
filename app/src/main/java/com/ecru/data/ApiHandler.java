@@ -15,7 +15,6 @@ import java.net.URL;
  */
 public class ApiHandler extends AsyncTask<String, Void, String> {
 
-
     private String response;
     private String urlName;
 
@@ -28,14 +27,12 @@ public class ApiHandler extends AsyncTask<String, Void, String> {
         this.urlName = urlName;
     }
 
-
     @Override
     protected String doInBackground(String... Params) {
 
         String returnString = "";
 
         try {
-
             //gets url
             URL urlName = new URL(this.urlName);
 
@@ -43,7 +40,6 @@ public class ApiHandler extends AsyncTask<String, Void, String> {
             connection.setRequestMethod("GET");
             connection.setDoInput(true);
             connection.connect();
-
 
             BufferedReader in = new BufferedReader(new InputStreamReader(
                     urlName.openStream()));
