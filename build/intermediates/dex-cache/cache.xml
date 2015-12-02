@@ -1,3 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
 
+    <item
+        jar="C:\Users\Ayman\AppData\Local\Android\sdk1\extras\android\m2repository\com\android\support\support-annotations\23.1.0\support-annotations-23.1.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="92e3fc113ec3ee36b64603a38857b95700025633">
+        <dex dex="D:\Uni\ECRU\infograpic\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.0_6530ba6a1a8a5e04540dbad917a01afb2fa76583.jar" />
+    </item>
+    <item
+        jar="D:\Uni\ECRU\infograpic\app\libs\java-json.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="edad9c5de6fb8df07c535a47045956026011ffa3">
+        <dex dex="D:\Uni\ECRU\infograpic\app\build\intermediates\pre-dexed\debug\java-json_e9abd272b4d10ea90219ff82867e180e6b64dcbf.jar" />
+    </item>
+    <item
+        jar="D:\Uni\ECRU\infograpic\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="57ae0d750ff83f0c738d21720224ac7ea866a094">
+        <dex dex="D:\Uni\ECRU\infograpic\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.1.0_f5b73100dde365a34fcef0be73d67818f137c112.jar" />
+    </item>
+    <item
+        jar="C:\Users\Ayman\.gradle\caches\modules-2\files-2.1\com.github.PhilJay\MPAndroidChart\v2.1.6\b036abbb61656165da99cf44898e4b9123687e65\MPAndroidChart-v2.1.6.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="b036abbb61656165da99cf44898e4b9123687e65">
+        <dex dex="D:\Uni\ECRU\infograpic\app\build\intermediates\pre-dexed\debug\MPAndroidChart-v2.1.6_583bb16b437b50a985ce148d29d57516cee1b4e0.jar" />
+    </item>
+    <item
+        jar="D:\Uni\ECRU\infograpic\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
+        <dex dex="D:\Uni\ECRU\infograpic\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.1.0_85d165f7b9be759a62787e9692075172ef2b3561.jar" />
+    </item>
+    <item
+        jar="D:\Uni\ECRU\infograpic\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\libs\internal_impl-23.1.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8716243bf04bae8d6c9ca94d27b9a9be7236f0a3">
+        <dex dex="D:\Uni\ECRU\infograpic\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.0_c06f4a244568209ec70af0d9e3f794ea07447e33.jar" />
+    </item>
+
+</items>

@@ -3,6 +3,7 @@ package com.ecru.infographic;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.widget.SeekBar;
 
 import com.ecru.data.GetDataValues;
@@ -23,11 +24,15 @@ public class MainActivity extends AppCompatActivity  implements SeekBar.OnSeekBa
 
     public PieChart sectors;
     public SeekBar selectYear;
+    public ArrayList values;
+    public GetDataValues dataValues;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        dataValues = new GetDataValues(this);
 
         sectors = (PieChart) findViewById(R.id.pieChart);
         selectYear = (SeekBar) findViewById(R.id.seekBar1);
@@ -35,16 +40,18 @@ public class MainActivity extends AppCompatActivity  implements SeekBar.OnSeekBa
         selectYear.setMax(30);
         selectYear.setOnSeekBarChangeListener(this);
 
+        values = null;
 
-        try {
-            setData(new GetDataValues().employmentPieData(0));
+        sectors.setUsePercentValues(false);
+        sectors.setDrawHoleEnabled(true);
+        sectors.setCenterText("Sectors % of UK employment");
+        sectors.animateY(1500, Easing.EasingOption.EaseInOutQuad);
+
+        try{
+            setData(dataValues.employmentPieData(0));
         } catch (JSONException e) {
             e.printStackTrace();
         }
-        sectors.setUsePercentValues(false);
-        sectors.setDrawHoleEnabled(true);
-        sectors.setDescription("Sectors % of UK employment");
-        sectors.animateY(1500, Easing.EasingOption.EaseInOutQuad);
 
     }
 
@@ -68,28 +75,8 @@ public class MainActivity extends AppCompatActivity  implements SeekBar.OnSeekBa
         dataSet.setSliceSpace(2f);
         dataSet.setSelectionShift(5f);
 
-        // add a lot of colors
-
-        ArrayList<Integer> colors = new ArrayList<>();
-
-        for (int c : ColorTemplate.VORDIPLOM_COLORS)
-            colors.add(c);
-
-        for (int c : ColorTemplate.JOYFUL_COLORS)
-            colors.add(c);
-
-        for (int c : ColorTemplate.COLORFUL_COLORS)
-            colors.add(c);
-
-        for (int c : ColorTemplate.LIBERTY_COLORS)
-            colors.add(c);
-
-        for (int c : ColorTemplate.PASTEL_COLORS)
-            colors.add(c);
-
-        colors.add(ColorTemplate.getHoloBlue());
-
-        dataSet.setColors(colors);
+        // add colors
+        dataSet.setColors(ColorTemplate.COLORFUL_COLORS);
 
         PieData data = new PieData(titles, dataSet);
         data.setValueFormatter(new PercentFormatter());
@@ -107,15 +94,14 @@ public class MainActivity extends AppCompatActivity  implements SeekBar.OnSeekBa
     @Override
     public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
 
-
         int year = seekBar.getProgress();
 
-
         try {
-            setData(new GetDataValues().employmentPieData(year));
+            setData(dataValues.employmentPieData(year));
         } catch (JSONException e) {
-            e.printStackTrace();
+            Log.d("onpProgressChanged", "Failed to setData");
         }
+
         sectors.animateY(750, Easing.EasingOption.EaseInOutExpo);
     }
 
