@@ -1,3 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
 
+    <item
+        jar="/Users/mustarohman/AndroidStudioProjects/infograpic/app/libs/java-json.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="edad9c5de6fb8df07c535a47045956026011ffa3">
+        <dex dex="/Users/mustarohman/AndroidStudioProjects/infograpic/app/build/intermediates/pre-dexed/debug/java-json_3b75f6ed07fc818a914132a6067782d9f103cedc.jar" />
+    </item>
+    <item
+        jar="/Users/mustarohman/.gradle/caches/modules-2/files-2.1/com.github.PhilJay/MPAndroidChart/v2.1.6/b036abbb61656165da99cf44898e4b9123687e65/MPAndroidChart-v2.1.6.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="b036abbb61656165da99cf44898e4b9123687e65">
+        <dex dex="/Users/mustarohman/AndroidStudioProjects/infograpic/app/build/intermediates/pre-dexed/debug/MPAndroidChart-v2.1.6_9ab908258b27c6775a087e66eea188db1648fb17.jar" />
+    </item>
+    <item
+        jar="/Users/mustarohman/AndroidStudioProjects/infograpic/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/jars/libs/internal_impl-23.1.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8716243bf04bae8d6c9ca94d27b9a9be7236f0a3">
+        <dex dex="/Users/mustarohman/AndroidStudioProjects/infograpic/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.0_48410bf463ca9c30daa611158d66c7a6296d59f8.jar" />
+    </item>
+    <item
+        jar="/Users/mustarohman/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.0/support-annotations-23.1.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="92e3fc113ec3ee36b64603a38857b95700025633">
+        <dex dex="/Users/mustarohman/AndroidStudioProjects/infograpic/app/build/intermediates/pre-dexed/debug/support-annotations-23.1.0_3d3961435bc26d3b2b6044d88a763b00fbfad29b.jar" />
+    </item>
+    <item
+        jar="/Users/mustarohman/AndroidStudioProjects/infograpic/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="57ae0d750ff83f0c738d21720224ac7ea866a094">
+        <dex dex="/Users/mustarohman/AndroidStudioProjects/infograpic/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.1.0_6f99fff48e1c484ea297bb71266fad2b8e249062.jar" />
+    </item>
+    <item
+        jar="/Users/mustarohman/AndroidStudioProjects/infograpic/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
+        <dex dex="/Users/mustarohman/AndroidStudioProjects/infograpic/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.1.0_1433f31e89e8fc73b337757d7f564ce5ef8b5b11.jar" />
+    </item>
+
+</items>
