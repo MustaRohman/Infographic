@@ -8,6 +8,14 @@
     android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
     android:background="#f3f3ee"
     android:contextClickable="false">
+    <com.github.mikephil.charting.charts.BarChart
+        android:id="@+id/chart"
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+
+
+        />
 
     <GridLayout
         android:layout_width="match_parent"
@@ -42,9 +50,10 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceMedium"
-                    android:text="France has the higest % of renewable electricity "
+                    android:text="France has the highest % of renewable electricity "
                     android:id="@+id/textView3"
                     android:layout_gravity="center" />
+
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -52,7 +61,12 @@
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:text="Click for More!"
                     android:id="@+id/textView4"
-                    android:layout_gravity="center" />
+                    android:layout_gravity="center"
+                    />
+
+
+
+
             </LinearLayout>
 
         </LinearLayout>
@@ -163,6 +177,7 @@
                         android:layout_rowWeight="40" />
 
 
+
                 </GridLayout>
 
                 <TextView
@@ -175,14 +190,7 @@
                     android:layout_row="3"
                     android:layout_gravity="fill_horizontal|left" />
 
-                <Button
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Pie Chart?"
-                    android:id="@+id/button"
-                    android:layout_gravity="fill"
-                    android:layout_rowWeight="40"
-                    android:layout_row="4" />
+
             </GridLayout>
 
             <GridLayout

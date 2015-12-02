@@ -49,13 +49,41 @@ public class GetDataValues {
         values.add(industryVals[year]);
 
 
-        Log.d("YEAR", years[year] + "");
-        Log.d("VAL_AGRI", agricultureVals[year] + "");
-        Log.d("VAL_SERV", serviceVals[year] + "");
-        Log.d("VAL_INDS", industryVals[year] + "");
+//        Log.d("YEAR", years[year] + "");
+//        Log.d("VAL_AGRI", agricultureVals[year] + "");
+//        Log.d("VAL_SERV", serviceVals[year] + "");
+//        Log.d("VAL_INDS", industryVals[year] + "");
 
 
         return values;
+    }
+    public ArrayList barchart(int year) throws JSONException {
+
+        String barData = null;
+
+        try {
+
+            barData  = new ApiHandler("http://api.worldbank.org/countries/GBR/indicators/BM.GSR.CMCP.ZS?per_page=50&date=2005:2014&format=json").execute().get();
+
+        } catch (InterruptedException | ExecutionException e) {
+            e.printStackTrace();
+        }
+
+        int[] years = (int[]) parseData(barData )[0];
+        float[] ictExports = (float[]) parseData(barData )[1];
+
+        ArrayList<Float> barvalues = new ArrayList<>();
+
+for(year=0;year<(years.length);++year){
+        barvalues.add(ictExports[year]);}
+
+
+//        Log.d("YEAR", years[year] + "");
+//        Log.d("ICT_EXPO", ictExports[year] + "");
+
+
+
+        return barvalues;
     }
 
 
