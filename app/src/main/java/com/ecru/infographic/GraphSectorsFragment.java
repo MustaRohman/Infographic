@@ -60,6 +60,7 @@ public class GraphSectorsFragment extends Fragment{
         mChart.setDescription("");
         XAxis xAxis = mChart.getXAxis();
         xAxis.setEnabled(true);
+        xAxis.setPosition(XAxis.XAxisPosition.BOTTOM);
 
         try {
             mChart.setData(dd.LineGraphSectorData());

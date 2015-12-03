@@ -1,6 +1,7 @@
 package com.ecru.data;
 
 import android.app.Activity;
+import android.graphics.Color;
 import android.support.annotation.NonNull;
 import android.util.Log;
 import android.widget.ArrayAdapter;
@@ -124,10 +125,13 @@ public class GetDataValues {
         LineDataSet agriValues= new LineDataSet(agriComp,"AgriCulture");
         LineDataSet servicesValues = new LineDataSet(servComp,"Services");
         LineDataSet indValues = new LineDataSet(indComp,"Industry");
+
         agriValues.setAxisDependency(YAxis.AxisDependency.LEFT);
         servicesValues.setAxisDependency(YAxis.AxisDependency.LEFT);
         indValues.setAxisDependency(YAxis.AxisDependency.LEFT);
-
+        agriValues.setColor(Color.argb(255, 120, 30, 30));
+        servicesValues.setColor(Color.argb(255,30,120,20));
+        indValues.setColor(Color.argb(255,30,240,130));
 
         ArrayList<LineDataSet> LineDataArray = new ArrayList<>();
         LineDataArray.add(agriValues);
