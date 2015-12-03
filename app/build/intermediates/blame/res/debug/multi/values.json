@@ -3598,8 +3598,8 @@
                     "startLine": 219,
                     "startColumn": 4,
                     "startOffset": 28813,
-                    "endColumn": 36,
-                    "endOffset": 28845
+                    "endColumn": 55,
+                    "endOffset": 28864
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\src\\main\\res\\values\\strings.xml",
@@ -3607,8 +3607,8 @@
                         "startLine": 2,
                         "startColumn": 4,
                         "startOffset": 67,
-                        "endColumn": 36,
-                        "endOffset": 99
+                        "endColumn": 55,
+                        "endOffset": 118
                     }
                 }
             },
@@ -3616,9 +3616,9 @@
                 "to": {
                     "startLine": 220,
                     "startColumn": 4,
-                    "startOffset": 28850,
+                    "startOffset": 28869,
                     "endColumn": 77,
-                    "endOffset": 28923
+                    "endOffset": 28942
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -3635,9 +3635,9 @@
                 "to": {
                     "startLine": 221,
                     "startColumn": 4,
-                    "startOffset": 28928,
+                    "startOffset": 28947,
                     "endColumn": 89,
-                    "endOffset": 29013
+                    "endOffset": 29032
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -3654,9 +3654,30 @@
                 "to": {
                     "startLine": 222,
                     "startColumn": 4,
-                    "startOffset": 29018,
+                    "startOffset": 29037,
+                    "endLine": 227,
+                    "endColumn": 12,
+                    "endOffset": 29328
+                },
+                "from": {
+                    "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 382,
+                        "endLine": 14,
+                        "endColumn": 12,
+                        "endOffset": 678
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 228,
+                    "startColumn": 4,
+                    "startOffset": 29333,
                     "endColumn": 87,
-                    "endOffset": 29101
+                    "endOffset": 29416
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -3671,11 +3692,11 @@
             },
             {
                 "to": {
-                    "startLine": 223,
+                    "startLine": 229,
                     "startColumn": 4,
-                    "startOffset": 29106,
+                    "startOffset": 29421,
                     "endColumn": 95,
-                    "endOffset": 29197
+                    "endOffset": 29512
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -3690,12 +3711,12 @@
             },
             {
                 "to": {
-                    "startLine": 224,
+                    "startLine": 230,
                     "startColumn": 4,
-                    "startOffset": 29202,
-                    "endLine": 229,
+                    "startOffset": 29517,
+                    "endLine": 235,
                     "endColumn": 12,
-                    "endOffset": 29516
+                    "endOffset": 29831
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\src\\main\\res\\values\\styles.xml",
@@ -3711,12 +3732,12 @@
             },
             {
                 "to": {
-                    "startLine": 230,
+                    "startLine": 236,
                     "startColumn": 4,
-                    "startOffset": 29521,
-                    "endLine": 236,
+                    "startOffset": 29836,
+                    "endLine": 242,
                     "endColumn": 12,
-                    "endOffset": 30017
+                    "endOffset": 30332
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -3732,11 +3753,11 @@
             },
             {
                 "to": {
-                    "startLine": 237,
+                    "startLine": 243,
                     "startColumn": 4,
-                    "startOffset": 30022,
+                    "startOffset": 30337,
                     "endColumn": 88,
-                    "endOffset": 30106
+                    "endOffset": 30421
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -3751,12 +3772,12 @@
             },
             {
                 "to": {
-                    "startLine": 238,
+                    "startLine": 244,
                     "startColumn": 4,
-                    "startOffset": 30111,
-                    "endLine": 241,
+                    "startOffset": 30426,
+                    "endLine": 247,
                     "endColumn": 12,
-                    "endOffset": 30353
+                    "endOffset": 30668
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -3772,12 +3793,12 @@
             },
             {
                 "to": {
-                    "startLine": 242,
+                    "startLine": 248,
                     "startColumn": 4,
-                    "startOffset": 30358,
-                    "endLine": 245,
+                    "startOffset": 30673,
+                    "endLine": 251,
                     "endColumn": 12,
-                    "endOffset": 30634
+                    "endOffset": 30949
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -3793,12 +3814,12 @@
             },
             {
                 "to": {
-                    "startLine": 246,
+                    "startLine": 252,
                     "startColumn": 4,
-                    "startOffset": 30639,
-                    "endLine": 250,
+                    "startOffset": 30954,
+                    "endLine": 256,
                     "endColumn": 12,
-                    "endOffset": 30919
+                    "endOffset": 31234
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -3814,12 +3835,12 @@
             },
             {
                 "to": {
-                    "startLine": 251,
+                    "startLine": 257,
                     "startColumn": 4,
-                    "startOffset": 30924,
-                    "endLine": 256,
+                    "startOffset": 31239,
+                    "endLine": 262,
                     "endColumn": 12,
-                    "endOffset": 31312
+                    "endOffset": 31627
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -3835,12 +3856,12 @@
             },
             {
                 "to": {
-                    "startLine": 257,
+                    "startLine": 263,
                     "startColumn": 4,
-                    "startOffset": 31317,
-                    "endLine": 263,
+                    "startOffset": 31632,
+                    "endLine": 269,
                     "endColumn": 12,
-                    "endOffset": 31789
+                    "endOffset": 32104
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -3856,12 +3877,12 @@
             },
             {
                 "to": {
-                    "startLine": 264,
+                    "startLine": 270,
                     "startColumn": 4,
-                    "startOffset": 31794,
-                    "endLine": 267,
+                    "startOffset": 32109,
+                    "endLine": 273,
                     "endColumn": 12,
-                    "endOffset": 32011
+                    "endOffset": 32326
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -3877,12 +3898,12 @@
             },
             {
                 "to": {
-                    "startLine": 268,
+                    "startLine": 274,
                     "startColumn": 4,
-                    "startOffset": 32016,
-                    "endLine": 271,
+                    "startOffset": 32331,
+                    "endLine": 277,
                     "endColumn": 12,
-                    "endOffset": 32233
+                    "endOffset": 32548
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -3898,12 +3919,12 @@
             },
             {
                 "to": {
-                    "startLine": 272,
+                    "startLine": 278,
                     "startColumn": 4,
-                    "startOffset": 32238,
-                    "endLine": 276,
+                    "startOffset": 32553,
+                    "endLine": 282,
                     "endColumn": 12,
-                    "endOffset": 32501
+                    "endOffset": 32816
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -3919,12 +3940,12 @@
             },
             {
                 "to": {
-                    "startLine": 277,
+                    "startLine": 283,
                     "startColumn": 4,
-                    "startOffset": 32506,
-                    "endLine": 280,
+                    "startOffset": 32821,
+                    "endLine": 286,
                     "endColumn": 12,
-                    "endOffset": 32728
+                    "endOffset": 33043
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -3940,12 +3961,12 @@
             },
             {
                 "to": {
-                    "startLine": 281,
+                    "startLine": 287,
                     "startColumn": 4,
-                    "startOffset": 32733,
-                    "endLine": 284,
+                    "startOffset": 33048,
+                    "endLine": 290,
                     "endColumn": 12,
-                    "endOffset": 32958
+                    "endOffset": 33273
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -3961,12 +3982,12 @@
             },
             {
                 "to": {
-                    "startLine": 285,
+                    "startLine": 291,
                     "startColumn": 4,
-                    "startOffset": 32963,
-                    "endLine": 288,
+                    "startOffset": 33278,
+                    "endLine": 294,
                     "endColumn": 12,
-                    "endOffset": 33188
+                    "endOffset": 33503
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -3982,12 +4003,12 @@
             },
             {
                 "to": {
-                    "startLine": 289,
+                    "startLine": 295,
                     "startColumn": 4,
-                    "startOffset": 33193,
-                    "endLine": 292,
+                    "startOffset": 33508,
+                    "endLine": 298,
                     "endColumn": 12,
-                    "endOffset": 33418
+                    "endOffset": 33733
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -4003,12 +4024,12 @@
             },
             {
                 "to": {
-                    "startLine": 293,
+                    "startLine": 299,
                     "startColumn": 4,
-                    "startOffset": 33423,
-                    "endLine": 296,
+                    "startOffset": 33738,
+                    "endLine": 302,
                     "endColumn": 12,
-                    "endOffset": 33648
+                    "endOffset": 33963
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -4024,12 +4045,12 @@
             },
             {
                 "to": {
-                    "startLine": 297,
+                    "startLine": 303,
                     "startColumn": 4,
-                    "startOffset": 33653,
-                    "endLine": 300,
+                    "startOffset": 33968,
+                    "endLine": 306,
                     "endColumn": 12,
-                    "endOffset": 33875
+                    "endOffset": 34190
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -4045,12 +4066,12 @@
             },
             {
                 "to": {
-                    "startLine": 301,
+                    "startLine": 307,
                     "startColumn": 4,
-                    "startOffset": 33880,
-                    "endLine": 304,
+                    "startOffset": 34195,
+                    "endLine": 310,
                     "endColumn": 12,
-                    "endOffset": 34114
+                    "endOffset": 34429
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -4066,12 +4087,12 @@
             },
             {
                 "to": {
-                    "startLine": 305,
+                    "startLine": 311,
                     "startColumn": 4,
-                    "startOffset": 34119,
-                    "endLine": 308,
+                    "startOffset": 34434,
+                    "endLine": 314,
                     "endColumn": 12,
-                    "endOffset": 34340
+                    "endOffset": 34655
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -4087,12 +4108,12 @@
             },
             {
                 "to": {
-                    "startLine": 309,
+                    "startLine": 315,
                     "startColumn": 4,
-                    "startOffset": 34345,
-                    "endLine": 312,
+                    "startOffset": 34660,
+                    "endLine": 318,
                     "endColumn": 12,
-                    "endOffset": 34585
+                    "endOffset": 34900
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -4108,12 +4129,12 @@
             },
             {
                 "to": {
-                    "startLine": 313,
+                    "startLine": 319,
                     "startColumn": 4,
-                    "startOffset": 34590,
-                    "endLine": 314,
+                    "startOffset": 34905,
+                    "endLine": 320,
                     "endColumn": 12,
-                    "endOffset": 34715
+                    "endOffset": 35030
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -4129,12 +4150,12 @@
             },
             {
                 "to": {
-                    "startLine": 315,
+                    "startLine": 321,
                     "startColumn": 4,
-                    "startOffset": 34720,
-                    "endLine": 316,
+                    "startOffset": 35035,
+                    "endLine": 322,
                     "endColumn": 12,
-                    "endOffset": 34845
+                    "endOffset": 35160
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -4150,12 +4171,12 @@
             },
             {
                 "to": {
-                    "startLine": 317,
+                    "startLine": 323,
                     "startColumn": 4,
-                    "startOffset": 34850,
-                    "endLine": 320,
+                    "startOffset": 35165,
+                    "endLine": 326,
                     "endColumn": 12,
-                    "endOffset": 35075
+                    "endOffset": 35390
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -4171,12 +4192,12 @@
             },
             {
                 "to": {
-                    "startLine": 321,
+                    "startLine": 327,
                     "startColumn": 4,
-                    "startOffset": 35080,
-                    "endLine": 324,
+                    "startOffset": 35395,
+                    "endLine": 330,
                     "endColumn": 12,
-                    "endOffset": 35323
+                    "endOffset": 35638
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -4192,12 +4213,12 @@
             },
             {
                 "to": {
-                    "startLine": 325,
+                    "startLine": 331,
                     "startColumn": 4,
-                    "startOffset": 35328,
-                    "endLine": 328,
+                    "startOffset": 35643,
+                    "endLine": 334,
                     "endColumn": 12,
-                    "endOffset": 35542
+                    "endOffset": 35857
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -4213,12 +4234,12 @@
             },
             {
                 "to": {
-                    "startLine": 329,
+                    "startLine": 335,
                     "startColumn": 4,
-                    "startOffset": 35547,
-                    "endLine": 333,
+                    "startOffset": 35862,
+                    "endLine": 339,
                     "endColumn": 12,
-                    "endOffset": 35825
+                    "endOffset": 36140
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -4234,12 +4255,12 @@
             },
             {
                 "to": {
-                    "startLine": 334,
+                    "startLine": 340,
                     "startColumn": 4,
-                    "startOffset": 35830,
-                    "endLine": 337,
+                    "startOffset": 36145,
+                    "endLine": 343,
                     "endColumn": 12,
-                    "endOffset": 36033
+                    "endOffset": 36348
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -4255,12 +4276,12 @@
             },
             {
                 "to": {
-                    "startLine": 338,
+                    "startLine": 344,
                     "startColumn": 4,
-                    "startOffset": 36038,
-                    "endLine": 340,
+                    "startOffset": 36353,
+                    "endLine": 346,
                     "endColumn": 12,
-                    "endOffset": 36164
+                    "endOffset": 36479
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -4276,12 +4297,12 @@
             },
             {
                 "to": {
-                    "startLine": 341,
+                    "startLine": 347,
                     "startColumn": 4,
-                    "startOffset": 36169,
-                    "endLine": 344,
+                    "startOffset": 36484,
+                    "endLine": 350,
                     "endColumn": 12,
-                    "endOffset": 36391
+                    "endOffset": 36706
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -4297,12 +4318,12 @@
             },
             {
                 "to": {
-                    "startLine": 345,
+                    "startLine": 351,
                     "startColumn": 4,
-                    "startOffset": 36396,
-                    "endLine": 348,
+                    "startOffset": 36711,
+                    "endLine": 354,
                     "endColumn": 12,
-                    "endOffset": 36637
+                    "endOffset": 36952
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -4318,12 +4339,12 @@
             },
             {
                 "to": {
-                    "startLine": 349,
+                    "startLine": 355,
                     "startColumn": 4,
-                    "startOffset": 36642,
-                    "endLine": 352,
+                    "startOffset": 36957,
+                    "endLine": 358,
                     "endColumn": 12,
-                    "endOffset": 36862
+                    "endOffset": 37177
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -4339,12 +4360,12 @@
             },
             {
                 "to": {
-                    "startLine": 353,
+                    "startLine": 359,
                     "startColumn": 4,
-                    "startOffset": 36867,
-                    "endLine": 356,
+                    "startOffset": 37182,
+                    "endLine": 362,
                     "endColumn": 12,
-                    "endOffset": 37109
+                    "endOffset": 37424
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -4360,12 +4381,12 @@
             },
             {
                 "to": {
-                    "startLine": 357,
+                    "startLine": 363,
                     "startColumn": 4,
-                    "startOffset": 37114,
-                    "endLine": 360,
+                    "startOffset": 37429,
+                    "endLine": 366,
                     "endColumn": 12,
-                    "endOffset": 37330
+                    "endOffset": 37645
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -4381,12 +4402,12 @@
             },
             {
                 "to": {
-                    "startLine": 361,
+                    "startLine": 367,
                     "startColumn": 4,
-                    "startOffset": 37335,
-                    "endLine": 364,
+                    "startOffset": 37650,
+                    "endLine": 370,
                     "endColumn": 12,
-                    "endOffset": 37575
+                    "endOffset": 37890
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -4402,12 +4423,12 @@
             },
             {
                 "to": {
-                    "startLine": 365,
+                    "startLine": 371,
                     "startColumn": 4,
-                    "startOffset": 37580,
-                    "endLine": 368,
+                    "startOffset": 37895,
+                    "endLine": 374,
                     "endColumn": 12,
-                    "endOffset": 37849
+                    "endOffset": 38164
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -4423,12 +4444,12 @@
             },
             {
                 "to": {
-                    "startLine": 369,
+                    "startLine": 375,
                     "startColumn": 4,
-                    "startOffset": 37854,
-                    "endLine": 372,
+                    "startOffset": 38169,
+                    "endLine": 378,
                     "endColumn": 12,
-                    "endOffset": 38150
+                    "endOffset": 38465
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -4444,12 +4465,12 @@
             },
             {
                 "to": {
-                    "startLine": 373,
+                    "startLine": 379,
                     "startColumn": 4,
-                    "startOffset": 38155,
-                    "endLine": 376,
+                    "startOffset": 38470,
+                    "endLine": 382,
                     "endColumn": 12,
-                    "endOffset": 38474
+                    "endOffset": 38789
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -4465,12 +4486,12 @@
             },
             {
                 "to": {
-                    "startLine": 377,
+                    "startLine": 383,
                     "startColumn": 4,
-                    "startOffset": 38479,
-                    "endLine": 380,
+                    "startOffset": 38794,
+                    "endLine": 386,
                     "endColumn": 12,
-                    "endOffset": 38765
+                    "endOffset": 39080
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -4486,12 +4507,12 @@
             },
             {
                 "to": {
-                    "startLine": 381,
+                    "startLine": 387,
                     "startColumn": 4,
-                    "startOffset": 38770,
-                    "endLine": 384,
+                    "startOffset": 39085,
+                    "endLine": 390,
                     "endColumn": 12,
-                    "endOffset": 39079
+                    "endOffset": 39394
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -4507,11 +4528,11 @@
             },
             {
                 "to": {
-                    "startLine": 385,
+                    "startLine": 391,
                     "startColumn": 4,
-                    "startOffset": 39084,
+                    "startOffset": 39399,
                     "endColumn": 136,
-                    "endOffset": 39216
+                    "endOffset": 39531
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -4526,11 +4547,11 @@
             },
             {
                 "to": {
-                    "startLine": 386,
+                    "startLine": 392,
                     "startColumn": 4,
-                    "startOffset": 39221,
+                    "startOffset": 39536,
                     "endColumn": 130,
-                    "endOffset": 39347
+                    "endOffset": 39662
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -4545,11 +4566,11 @@
             },
             {
                 "to": {
-                    "startLine": 387,
+                    "startLine": 393,
                     "startColumn": 4,
-                    "startOffset": 39352,
+                    "startOffset": 39667,
                     "endColumn": 104,
-                    "endOffset": 39452
+                    "endOffset": 39767
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -4564,12 +4585,12 @@
             },
             {
                 "to": {
-                    "startLine": 388,
+                    "startLine": 394,
                     "startColumn": 4,
-                    "startOffset": 39457,
-                    "endLine": 390,
+                    "startOffset": 39772,
+                    "endLine": 396,
                     "endColumn": 12,
-                    "endOffset": 39656
+                    "endOffset": 39971
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -4585,12 +4606,12 @@
             },
             {
                 "to": {
-                    "startLine": 391,
+                    "startLine": 397,
                     "startColumn": 4,
-                    "startOffset": 39661,
-                    "endLine": 393,
+                    "startOffset": 39976,
+                    "endLine": 399,
                     "endColumn": 12,
-                    "endOffset": 39864
+                    "endOffset": 40179
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -4606,12 +4627,12 @@
             },
             {
                 "to": {
-                    "startLine": 394,
+                    "startLine": 400,
                     "startColumn": 4,
-                    "startOffset": 39869,
-                    "endLine": 395,
+                    "startOffset": 40184,
+                    "endLine": 401,
                     "endColumn": 12,
-                    "endOffset": 39988
+                    "endOffset": 40303
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -4627,12 +4648,12 @@
             },
             {
                 "to": {
-                    "startLine": 396,
+                    "startLine": 402,
                     "startColumn": 4,
-                    "startOffset": 39993,
-                    "endLine": 397,
+                    "startOffset": 40308,
+                    "endLine": 403,
                     "endColumn": 12,
-                    "endOffset": 40112
+                    "endOffset": 40427
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -4648,11 +4669,11 @@
             },
             {
                 "to": {
-                    "startLine": 398,
+                    "startLine": 404,
                     "startColumn": 4,
-                    "startOffset": 40117,
+                    "startOffset": 40432,
                     "endColumn": 104,
-                    "endOffset": 40217
+                    "endOffset": 40532
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -4667,11 +4688,11 @@
             },
             {
                 "to": {
-                    "startLine": 399,
+                    "startLine": 405,
                     "startColumn": 4,
-                    "startOffset": 40222,
+                    "startOffset": 40537,
                     "endColumn": 116,
-                    "endOffset": 40334
+                    "endOffset": 40649
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -4686,12 +4707,12 @@
             },
             {
                 "to": {
-                    "startLine": 400,
+                    "startLine": 406,
                     "startColumn": 4,
-                    "startOffset": 40339,
-                    "endLine": 402,
+                    "startOffset": 40654,
+                    "endLine": 408,
                     "endColumn": 12,
-                    "endOffset": 40548
+                    "endOffset": 40863
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -4707,12 +4728,12 @@
             },
             {
                 "to": {
-                    "startLine": 403,
+                    "startLine": 409,
                     "startColumn": 4,
-                    "startOffset": 40553,
-                    "endLine": 404,
+                    "startOffset": 40868,
+                    "endLine": 410,
                     "endColumn": 12,
-                    "endOffset": 40694
+                    "endOffset": 41009
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -4728,12 +4749,12 @@
             },
             {
                 "to": {
-                    "startLine": 405,
+                    "startLine": 411,
                     "startColumn": 4,
-                    "startOffset": 40699,
-                    "endLine": 406,
+                    "startOffset": 41014,
+                    "endLine": 412,
                     "endColumn": 12,
-                    "endOffset": 40834
+                    "endOffset": 41149
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -4749,12 +4770,12 @@
             },
             {
                 "to": {
-                    "startLine": 407,
+                    "startLine": 413,
                     "startColumn": 4,
-                    "startOffset": 40839,
-                    "endLine": 408,
+                    "startOffset": 41154,
+                    "endLine": 414,
                     "endColumn": 12,
-                    "endOffset": 40920
+                    "endOffset": 41235
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -4770,12 +4791,12 @@
             },
             {
                 "to": {
-                    "startLine": 409,
+                    "startLine": 415,
                     "startColumn": 4,
-                    "startOffset": 40925,
-                    "endLine": 413,
+                    "startOffset": 41240,
+                    "endLine": 419,
                     "endColumn": 12,
-                    "endOffset": 41268
+                    "endOffset": 41583
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -4791,11 +4812,11 @@
             },
             {
                 "to": {
-                    "startLine": 414,
+                    "startLine": 420,
                     "startColumn": 4,
-                    "startOffset": 41273,
+                    "startOffset": 41588,
                     "endColumn": 87,
-                    "endOffset": 41356
+                    "endOffset": 41671
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -4810,12 +4831,12 @@
             },
             {
                 "to": {
-                    "startLine": 415,
+                    "startLine": 421,
                     "startColumn": 4,
-                    "startOffset": 41361,
-                    "endLine": 418,
+                    "startOffset": 41676,
+                    "endLine": 424,
                     "endColumn": 12,
-                    "endOffset": 41586
+                    "endOffset": 41901
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -4831,12 +4852,12 @@
             },
             {
                 "to": {
-                    "startLine": 419,
+                    "startLine": 425,
                     "startColumn": 4,
-                    "startOffset": 41591,
-                    "endLine": 424,
+                    "startOffset": 41906,
+                    "endLine": 430,
                     "endColumn": 12,
-                    "endOffset": 42004
+                    "endOffset": 42319
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -4852,12 +4873,12 @@
             },
             {
                 "to": {
-                    "startLine": 425,
+                    "startLine": 431,
                     "startColumn": 4,
-                    "startOffset": 42009,
-                    "endLine": 428,
+                    "startOffset": 42324,
+                    "endLine": 434,
                     "endColumn": 12,
-                    "endOffset": 42237
+                    "endOffset": 42552
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -4873,11 +4894,11 @@
             },
             {
                 "to": {
-                    "startLine": 429,
+                    "startLine": 435,
                     "startColumn": 4,
-                    "startOffset": 42242,
+                    "startOffset": 42557,
                     "endColumn": 81,
-                    "endOffset": 42319
+                    "endOffset": 42634
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -4892,12 +4913,12 @@
             },
             {
                 "to": {
-                    "startLine": 430,
+                    "startLine": 436,
                     "startColumn": 4,
-                    "startOffset": 42324,
-                    "endLine": 431,
+                    "startOffset": 42639,
+                    "endLine": 437,
                     "endColumn": 12,
-                    "endOffset": 42417
+                    "endOffset": 42732
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -4913,12 +4934,12 @@
             },
             {
                 "to": {
-                    "startLine": 432,
+                    "startLine": 438,
                     "startColumn": 4,
-                    "startOffset": 42422,
-                    "endLine": 442,
+                    "startOffset": 42737,
+                    "endLine": 448,
                     "endColumn": 12,
-                    "endOffset": 43034
+                    "endOffset": 43349
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -4934,11 +4955,11 @@
             },
             {
                 "to": {
-                    "startLine": 443,
+                    "startLine": 449,
                     "startColumn": 4,
-                    "startOffset": 43039,
+                    "startOffset": 43354,
                     "endColumn": 99,
-                    "endOffset": 43134
+                    "endOffset": 43449
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -4953,12 +4974,12 @@
             },
             {
                 "to": {
-                    "startLine": 444,
+                    "startLine": 450,
                     "startColumn": 4,
-                    "startOffset": 43139,
-                    "endLine": 447,
+                    "startOffset": 43454,
+                    "endLine": 453,
                     "endColumn": 12,
-                    "endOffset": 43370
+                    "endOffset": 43685
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -4974,12 +4995,12 @@
             },
             {
                 "to": {
-                    "startLine": 448,
+                    "startLine": 454,
                     "startColumn": 4,
-                    "startOffset": 43375,
-                    "endLine": 453,
+                    "startOffset": 43690,
+                    "endLine": 459,
                     "endColumn": 12,
-                    "endOffset": 43794
+                    "endOffset": 44109
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -4995,12 +5016,12 @@
             },
             {
                 "to": {
-                    "startLine": 454,
+                    "startLine": 460,
                     "startColumn": 4,
-                    "startOffset": 43799,
-                    "endLine": 457,
+                    "startOffset": 44114,
+                    "endLine": 463,
                     "endColumn": 12,
-                    "endOffset": 44033
+                    "endOffset": 44348
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -5016,11 +5037,11 @@
             },
             {
                 "to": {
-                    "startLine": 458,
+                    "startLine": 464,
                     "startColumn": 4,
-                    "startOffset": 44038,
+                    "startOffset": 44353,
                     "endColumn": 93,
-                    "endOffset": 44127
+                    "endOffset": 44442
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -5035,11 +5056,11 @@
             },
             {
                 "to": {
-                    "startLine": 459,
+                    "startLine": 465,
                     "startColumn": 4,
-                    "startOffset": 44132,
+                    "startOffset": 44447,
                     "endColumn": 88,
-                    "endOffset": 44216
+                    "endOffset": 44531
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -5054,12 +5075,12 @@
             },
             {
                 "to": {
-                    "startLine": 460,
+                    "startLine": 466,
                     "startColumn": 4,
-                    "startOffset": 44221,
-                    "endLine": 463,
+                    "startOffset": 44536,
+                    "endLine": 469,
                     "endColumn": 12,
-                    "endOffset": 44453
+                    "endOffset": 44768
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -5075,12 +5096,12 @@
             },
             {
                 "to": {
-                    "startLine": 464,
+                    "startLine": 470,
                     "startColumn": 4,
-                    "startOffset": 44458,
-                    "endLine": 489,
+                    "startOffset": 44773,
+                    "endLine": 495,
                     "endColumn": 12,
-                    "endOffset": 46404
+                    "endOffset": 46719
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -5096,12 +5117,12 @@
             },
             {
                 "to": {
-                    "startLine": 490,
+                    "startLine": 496,
                     "startColumn": 4,
-                    "startOffset": 46409,
-                    "endLine": 493,
+                    "startOffset": 46724,
+                    "endLine": 499,
                     "endColumn": 12,
-                    "endOffset": 46646
+                    "endOffset": 46961
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -5117,12 +5138,12 @@
             },
             {
                 "to": {
-                    "startLine": 494,
+                    "startLine": 500,
                     "startColumn": 4,
-                    "startOffset": 46651,
-                    "endLine": 520,
+                    "startOffset": 46966,
+                    "endLine": 526,
                     "endColumn": 12,
-                    "endOffset": 48728
+                    "endOffset": 49043
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -5138,12 +5159,12 @@
             },
             {
                 "to": {
-                    "startLine": 521,
+                    "startLine": 527,
                     "startColumn": 4,
-                    "startOffset": 48733,
-                    "endLine": 673,
+                    "startOffset": 49048,
+                    "endLine": 679,
                     "endColumn": 12,
-                    "endOffset": 58410
+                    "endOffset": 58725
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -5159,12 +5180,12 @@
             },
             {
                 "to": {
-                    "startLine": 674,
+                    "startLine": 680,
                     "startColumn": 4,
-                    "startOffset": 58415,
-                    "endLine": 695,
+                    "startOffset": 58730,
+                    "endLine": 701,
                     "endColumn": 12,
-                    "endOffset": 59677
+                    "endOffset": 59992
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -5180,12 +5201,12 @@
             },
             {
                 "to": {
-                    "startLine": 696,
+                    "startLine": 702,
                     "startColumn": 4,
-                    "startOffset": 59682,
-                    "endLine": 848,
+                    "startOffset": 59997,
+                    "endLine": 854,
                     "endColumn": 12,
-                    "endOffset": 69469
+                    "endOffset": 69784
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -5201,12 +5222,12 @@
             },
             {
                 "to": {
-                    "startLine": 849,
+                    "startLine": 855,
                     "startColumn": 4,
-                    "startOffset": 69474,
-                    "endLine": 870,
+                    "startOffset": 69789,
+                    "endLine": 876,
                     "endColumn": 12,
-                    "endOffset": 70750
+                    "endOffset": 71065
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -5222,12 +5243,12 @@
             },
             {
                 "to": {
-                    "startLine": 871,
+                    "startLine": 877,
                     "startColumn": 4,
-                    "startOffset": 70755,
-                    "endLine": 877,
+                    "startOffset": 71070,
+                    "endLine": 883,
                     "endColumn": 12,
-                    "endOffset": 71286
+                    "endOffset": 71601
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -5243,12 +5264,12 @@
             },
             {
                 "to": {
-                    "startLine": 878,
+                    "startLine": 884,
                     "startColumn": 4,
-                    "startOffset": 71291,
-                    "endLine": 882,
+                    "startOffset": 71606,
+                    "endLine": 888,
                     "endColumn": 12,
-                    "endOffset": 71616
+                    "endOffset": 71931
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -5264,12 +5285,12 @@
             },
             {
                 "to": {
-                    "startLine": 883,
+                    "startLine": 889,
                     "startColumn": 4,
-                    "startOffset": 71621,
-                    "endLine": 903,
+                    "startOffset": 71936,
+                    "endLine": 909,
                     "endColumn": 12,
-                    "endOffset": 72739
+                    "endOffset": 73054
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -5285,12 +5306,12 @@
             },
             {
                 "to": {
-                    "startLine": 904,
+                    "startLine": 910,
                     "startColumn": 4,
-                    "startOffset": 72744,
-                    "endLine": 908,
+                    "startOffset": 73059,
+                    "endLine": 914,
                     "endColumn": 12,
-                    "endOffset": 72995
+                    "endOffset": 73310
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -5306,12 +5327,12 @@
             },
             {
                 "to": {
-                    "startLine": 909,
+                    "startLine": 915,
                     "startColumn": 4,
-                    "startOffset": 73000,
-                    "endLine": 913,
+                    "startOffset": 73315,
+                    "endLine": 919,
                     "endColumn": 12,
-                    "endOffset": 73231
+                    "endOffset": 73546
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -5327,12 +5348,12 @@
             },
             {
                 "to": {
-                    "startLine": 914,
+                    "startLine": 920,
                     "startColumn": 4,
-                    "startOffset": 73236,
-                    "endLine": 923,
+                    "startOffset": 73551,
+                    "endLine": 929,
                     "endColumn": 12,
-                    "endOffset": 73778
+                    "endOffset": 74093
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -5348,12 +5369,12 @@
             },
             {
                 "to": {
-                    "startLine": 924,
+                    "startLine": 930,
                     "startColumn": 4,
-                    "startOffset": 73783,
-                    "endLine": 932,
+                    "startOffset": 74098,
+                    "endLine": 938,
                     "endColumn": 12,
-                    "endOffset": 74272
+                    "endOffset": 74587
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -5369,12 +5390,12 @@
             },
             {
                 "to": {
-                    "startLine": 933,
+                    "startLine": 939,
                     "startColumn": 4,
-                    "startOffset": 74277,
-                    "endLine": 941,
+                    "startOffset": 74592,
+                    "endLine": 947,
                     "endColumn": 12,
-                    "endOffset": 74877
+                    "endOffset": 75192
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -5390,12 +5411,12 @@
             },
             {
                 "to": {
-                    "startLine": 942,
+                    "startLine": 948,
                     "startColumn": 4,
-                    "startOffset": 74882,
-                    "endLine": 944,
+                    "startOffset": 75197,
+                    "endLine": 950,
                     "endColumn": 12,
-                    "endOffset": 75025
+                    "endOffset": 75340
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -5411,12 +5432,12 @@
             },
             {
                 "to": {
-                    "startLine": 945,
+                    "startLine": 951,
                     "startColumn": 4,
-                    "startOffset": 75030,
-                    "endLine": 951,
+                    "startOffset": 75345,
+                    "endLine": 957,
                     "endColumn": 12,
-                    "endOffset": 75613
+                    "endOffset": 75928
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -5432,12 +5453,12 @@
             },
             {
                 "to": {
-                    "startLine": 952,
+                    "startLine": 958,
                     "startColumn": 4,
-                    "startOffset": 75618,
-                    "endLine": 959,
+                    "startOffset": 75933,
+                    "endLine": 965,
                     "endColumn": 12,
-                    "endOffset": 76177
+                    "endOffset": 76492
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -5453,12 +5474,12 @@
             },
             {
                 "to": {
-                    "startLine": 960,
+                    "startLine": 966,
                     "startColumn": 4,
-                    "startOffset": 76182,
-                    "endLine": 966,
+                    "startOffset": 76497,
+                    "endLine": 972,
                     "endColumn": 12,
-                    "endOffset": 76552
+                    "endOffset": 76867
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -5474,11 +5495,11 @@
             },
             {
                 "to": {
-                    "startLine": 967,
+                    "startLine": 973,
                     "startColumn": 4,
-                    "startOffset": 76557,
+                    "startOffset": 76872,
                     "endColumn": 117,
-                    "endOffset": 76670
+                    "endOffset": 76985
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -5493,12 +5514,12 @@
             },
             {
                 "to": {
-                    "startLine": 968,
+                    "startLine": 974,
                     "startColumn": 4,
-                    "startOffset": 76675,
-                    "endLine": 976,
+                    "startOffset": 76990,
+                    "endLine": 982,
                     "endColumn": 12,
-                    "endOffset": 77208
+                    "endOffset": 77523
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -5514,12 +5535,12 @@
             },
             {
                 "to": {
-                    "startLine": 977,
+                    "startLine": 983,
                     "startColumn": 4,
-                    "startOffset": 77213,
-                    "endLine": 979,
+                    "startOffset": 77528,
+                    "endLine": 985,
                     "endColumn": 12,
-                    "endOffset": 77365
+                    "endOffset": 77680
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -5535,12 +5556,12 @@
             },
             {
                 "to": {
-                    "startLine": 980,
+                    "startLine": 986,
                     "startColumn": 4,
-                    "startOffset": 77370,
-                    "endLine": 982,
+                    "startOffset": 77685,
+                    "endLine": 988,
                     "endColumn": 12,
-                    "endOffset": 77509
+                    "endOffset": 77824
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -5556,12 +5577,12 @@
             },
             {
                 "to": {
-                    "startLine": 983,
+                    "startLine": 989,
                     "startColumn": 4,
-                    "startOffset": 77514,
-                    "endLine": 987,
+                    "startOffset": 77829,
+                    "endLine": 993,
                     "endColumn": 12,
-                    "endOffset": 77829
+                    "endOffset": 78144
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -5577,12 +5598,12 @@
             },
             {
                 "to": {
-                    "startLine": 988,
+                    "startLine": 994,
                     "startColumn": 4,
-                    "startOffset": 77834,
-                    "endLine": 991,
+                    "startOffset": 78149,
+                    "endLine": 997,
                     "endColumn": 12,
-                    "endOffset": 78085
+                    "endOffset": 78400
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -5598,12 +5619,12 @@
             },
             {
                 "to": {
-                    "startLine": 992,
+                    "startLine": 998,
                     "startColumn": 4,
-                    "startOffset": 78090,
-                    "endLine": 995,
+                    "startOffset": 78405,
+                    "endLine": 1001,
                     "endColumn": 12,
-                    "endOffset": 78255
+                    "endOffset": 78570
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -5619,12 +5640,12 @@
             },
             {
                 "to": {
-                    "startLine": 996,
+                    "startLine": 1002,
                     "startColumn": 4,
-                    "startOffset": 78260,
-                    "endLine": 998,
+                    "startOffset": 78575,
+                    "endLine": 1004,
                     "endColumn": 12,
-                    "endOffset": 78396
+                    "endOffset": 78711
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -5640,11 +5661,11 @@
             },
             {
                 "to": {
-                    "startLine": 999,
+                    "startLine": 1005,
                     "startColumn": 4,
-                    "startOffset": 78401,
+                    "startOffset": 78716,
                     "endColumn": 63,
-                    "endOffset": 78460
+                    "endOffset": 78775
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -5659,12 +5680,12 @@
             },
             {
                 "to": {
-                    "startLine": 1000,
+                    "startLine": 1006,
                     "startColumn": 4,
-                    "startOffset": 78465,
-                    "endLine": 1003,
+                    "startOffset": 78780,
+                    "endLine": 1009,
                     "endColumn": 12,
-                    "endOffset": 78742
+                    "endOffset": 79057
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -5680,12 +5701,12 @@
             },
             {
                 "to": {
-                    "startLine": 1004,
+                    "startLine": 1010,
                     "startColumn": 4,
-                    "startOffset": 78747,
-                    "endLine": 1007,
+                    "startOffset": 79062,
+                    "endLine": 1013,
                     "endColumn": 12,
-                    "endOffset": 79028
+                    "endOffset": 79343
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -5701,12 +5722,12 @@
             },
             {
                 "to": {
-                    "startLine": 1008,
+                    "startLine": 1014,
                     "startColumn": 4,
-                    "startOffset": 79033,
-                    "endLine": 1017,
+                    "startOffset": 79348,
+                    "endLine": 1023,
                     "endColumn": 12,
-                    "endOffset": 79704
+                    "endOffset": 80019
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -5722,12 +5743,12 @@
             },
             {
                 "to": {
-                    "startLine": 1018,
+                    "startLine": 1024,
                     "startColumn": 4,
-                    "startOffset": 79709,
-                    "endLine": 1022,
+                    "startOffset": 80024,
+                    "endLine": 1028,
                     "endColumn": 12,
-                    "endOffset": 79968
+                    "endOffset": 80283
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -5743,12 +5764,12 @@
             },
             {
                 "to": {
-                    "startLine": 1023,
+                    "startLine": 1029,
                     "startColumn": 4,
-                    "startOffset": 79973,
-                    "endLine": 1029,
+                    "startOffset": 80288,
+                    "endLine": 1035,
                     "endColumn": 12,
-                    "endOffset": 80306
+                    "endOffset": 80621
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -5764,12 +5785,12 @@
             },
             {
                 "to": {
-                    "startLine": 1030,
+                    "startLine": 1036,
                     "startColumn": 4,
-                    "startOffset": 80311,
-                    "endLine": 1035,
+                    "startOffset": 80626,
+                    "endLine": 1041,
                     "endColumn": 12,
-                    "endOffset": 80659
+                    "endOffset": 80974
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -5785,11 +5806,11 @@
             },
             {
                 "to": {
-                    "startLine": 1036,
+                    "startLine": 1042,
                     "startColumn": 4,
-                    "startOffset": 80664,
+                    "startOffset": 80979,
                     "endColumn": 93,
-                    "endOffset": 80753
+                    "endOffset": 81068
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -5804,12 +5825,12 @@
             },
             {
                 "to": {
-                    "startLine": 1037,
+                    "startLine": 1043,
                     "startColumn": 4,
-                    "startOffset": 80758,
-                    "endLine": 1039,
+                    "startOffset": 81073,
+                    "endLine": 1045,
                     "endColumn": 12,
-                    "endOffset": 80939
+                    "endOffset": 81254
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -5825,12 +5846,12 @@
             },
             {
                 "to": {
-                    "startLine": 1040,
+                    "startLine": 1046,
                     "startColumn": 4,
-                    "startOffset": 80944,
-                    "endLine": 1043,
+                    "startOffset": 81259,
+                    "endLine": 1049,
                     "endColumn": 12,
-                    "endOffset": 81245
+                    "endOffset": 81560
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -5846,12 +5867,12 @@
             },
             {
                 "to": {
-                    "startLine": 1044,
+                    "startLine": 1050,
                     "startColumn": 4,
-                    "startOffset": 81250,
-                    "endLine": 1048,
+                    "startOffset": 81565,
+                    "endLine": 1054,
                     "endColumn": 12,
-                    "endOffset": 81507
+                    "endOffset": 81822
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -5867,12 +5888,12 @@
             },
             {
                 "to": {
-                    "startLine": 1049,
+                    "startLine": 1055,
                     "startColumn": 4,
-                    "startOffset": 81512,
-                    "endLine": 1050,
+                    "startOffset": 81827,
+                    "endLine": 1056,
                     "endColumn": 12,
-                    "endOffset": 81632
+                    "endOffset": 81947
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -5888,12 +5909,12 @@
             },
             {
                 "to": {
-                    "startLine": 1051,
+                    "startLine": 1057,
                     "startColumn": 4,
-                    "startOffset": 81637,
-                    "endLine": 1052,
+                    "startOffset": 81952,
+                    "endLine": 1058,
                     "endColumn": 12,
-                    "endOffset": 81759
+                    "endOffset": 82074
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -5909,12 +5930,12 @@
             },
             {
                 "to": {
-                    "startLine": 1053,
+                    "startLine": 1059,
                     "startColumn": 4,
-                    "startOffset": 81764,
-                    "endLine": 1055,
+                    "startOffset": 82079,
+                    "endLine": 1061,
                     "endColumn": 12,
-                    "endOffset": 81998
+                    "endOffset": 82313
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -5930,12 +5951,12 @@
             },
             {
                 "to": {
-                    "startLine": 1056,
+                    "startLine": 1062,
                     "startColumn": 4,
-                    "startOffset": 82003,
-                    "endLine": 1058,
+                    "startOffset": 82318,
+                    "endLine": 1064,
                     "endColumn": 12,
-                    "endOffset": 82209
+                    "endOffset": 82524
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -5951,12 +5972,12 @@
             },
             {
                 "to": {
-                    "startLine": 1059,
+                    "startLine": 1065,
                     "startColumn": 4,
-                    "startOffset": 82214,
-                    "endLine": 1060,
+                    "startOffset": 82529,
+                    "endLine": 1066,
                     "endColumn": 12,
-                    "endOffset": 82328
+                    "endOffset": 82643
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -5972,12 +5993,12 @@
             },
             {
                 "to": {
-                    "startLine": 1061,
+                    "startLine": 1067,
                     "startColumn": 4,
-                    "startOffset": 82333,
-                    "endLine": 1064,
+                    "startOffset": 82648,
+                    "endLine": 1070,
                     "endColumn": 12,
-                    "endOffset": 82521
+                    "endOffset": 82836
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -5993,12 +6014,12 @@
             },
             {
                 "to": {
-                    "startLine": 1065,
+                    "startLine": 1071,
                     "startColumn": 4,
-                    "startOffset": 82526,
-                    "endLine": 1071,
+                    "startOffset": 82841,
+                    "endLine": 1077,
                     "endColumn": 12,
-                    "endOffset": 82976
+                    "endOffset": 83291
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -6014,12 +6035,12 @@
             },
             {
                 "to": {
-                    "startLine": 1072,
+                    "startLine": 1078,
                     "startColumn": 4,
-                    "startOffset": 82981,
-                    "endLine": 1074,
+                    "startOffset": 83296,
+                    "endLine": 1080,
                     "endColumn": 12,
-                    "endOffset": 83157
+                    "endOffset": 83472
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -6035,12 +6056,12 @@
             },
             {
                 "to": {
-                    "startLine": 1075,
+                    "startLine": 1081,
                     "startColumn": 4,
-                    "startOffset": 83162,
-                    "endLine": 1077,
+                    "startOffset": 83477,
+                    "endLine": 1083,
                     "endColumn": 12,
-                    "endOffset": 83279
+                    "endOffset": 83594
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -6056,12 +6077,12 @@
             },
             {
                 "to": {
-                    "startLine": 1078,
+                    "startLine": 1084,
                     "startColumn": 4,
-                    "startOffset": 83284,
-                    "endLine": 1081,
+                    "startOffset": 83599,
+                    "endLine": 1087,
                     "endColumn": 12,
-                    "endOffset": 83538
+                    "endOffset": 83853
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -6077,12 +6098,12 @@
             },
             {
                 "to": {
-                    "startLine": 1082,
+                    "startLine": 1088,
                     "startColumn": 4,
-                    "startOffset": 83543,
-                    "endLine": 1083,
+                    "startOffset": 83858,
+                    "endLine": 1089,
                     "endColumn": 12,
-                    "endOffset": 83651
+                    "endOffset": 83966
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -6098,12 +6119,12 @@
             },
             {
                 "to": {
-                    "startLine": 1084,
+                    "startLine": 1090,
                     "startColumn": 4,
-                    "startOffset": 83656,
-                    "endLine": 1087,
+                    "startOffset": 83971,
+                    "endLine": 1093,
                     "endColumn": 12,
-                    "endOffset": 83838
+                    "endOffset": 84153
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -6119,12 +6140,12 @@
             },
             {
                 "to": {
-                    "startLine": 1088,
+                    "startLine": 1094,
                     "startColumn": 4,
-                    "startOffset": 83843,
-                    "endLine": 1089,
+                    "startOffset": 84158,
+                    "endLine": 1095,
                     "endColumn": 12,
-                    "endOffset": 83940
+                    "endOffset": 84255
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -6140,12 +6161,12 @@
             },
             {
                 "to": {
-                    "startLine": 1090,
+                    "startLine": 1096,
                     "startColumn": 4,
-                    "startOffset": 83945,
-                    "endLine": 1095,
+                    "startOffset": 84260,
+                    "endLine": 1101,
                     "endColumn": 12,
-                    "endOffset": 84384
+                    "endOffset": 84699
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -6161,12 +6182,12 @@
             },
             {
                 "to": {
-                    "startLine": 1096,
+                    "startLine": 1102,
                     "startColumn": 4,
-                    "startOffset": 84389,
-                    "endLine": 1097,
+                    "startOffset": 84704,
+                    "endLine": 1103,
                     "endColumn": 12,
-                    "endOffset": 84508
+                    "endOffset": 84823
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -6182,12 +6203,12 @@
             },
             {
                 "to": {
-                    "startLine": 1098,
+                    "startLine": 1104,
                     "startColumn": 4,
-                    "startOffset": 84513,
-                    "endLine": 1101,
+                    "startOffset": 84828,
+                    "endLine": 1107,
                     "endColumn": 12,
-                    "endOffset": 84793
+                    "endOffset": 85108
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -6203,12 +6224,12 @@
             },
             {
                 "to": {
-                    "startLine": 1102,
+                    "startLine": 1108,
                     "startColumn": 4,
-                    "startOffset": 84798,
-                    "endLine": 1113,
+                    "startOffset": 85113,
+                    "endLine": 1119,
                     "endColumn": 12,
-                    "endOffset": 85680
+                    "endOffset": 85995
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -6224,12 +6245,12 @@
             },
             {
                 "to": {
-                    "startLine": 1114,
+                    "startLine": 1120,
                     "startColumn": 4,
-                    "startOffset": 85685,
-                    "endLine": 1119,
+                    "startOffset": 86000,
+                    "endLine": 1125,
                     "endColumn": 12,
-                    "endOffset": 85974
+                    "endOffset": 86289
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -6245,12 +6266,12 @@
             },
             {
                 "to": {
-                    "startLine": 1120,
+                    "startLine": 1126,
                     "startColumn": 4,
-                    "startOffset": 85979,
-                    "endLine": 1128,
+                    "startOffset": 86294,
+                    "endLine": 1134,
                     "endColumn": 12,
-                    "endOffset": 86544
+                    "endOffset": 86859
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -6266,12 +6287,12 @@
             },
             {
                 "to": {
-                    "startLine": 1129,
+                    "startLine": 1135,
                     "startColumn": 4,
-                    "startOffset": 86549,
-                    "endLine": 1139,
+                    "startOffset": 86864,
+                    "endLine": 1145,
                     "endColumn": 12,
-                    "endOffset": 87276
+                    "endOffset": 87591
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -6287,12 +6308,12 @@
             },
             {
                 "to": {
-                    "startLine": 1140,
+                    "startLine": 1146,
                     "startColumn": 4,
-                    "startOffset": 87281,
-                    "endLine": 1142,
+                    "startOffset": 87596,
+                    "endLine": 1148,
                     "endColumn": 12,
-                    "endOffset": 87448
+                    "endOffset": 87763
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -6308,12 +6329,12 @@
             },
             {
                 "to": {
-                    "startLine": 1143,
+                    "startLine": 1149,
                     "startColumn": 4,
-                    "startOffset": 87453,
-                    "endLine": 1147,
+                    "startOffset": 87768,
+                    "endLine": 1153,
                     "endColumn": 12,
-                    "endOffset": 87784
+                    "endOffset": 88099
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -6329,12 +6350,12 @@
             },
             {
                 "to": {
-                    "startLine": 1148,
+                    "startLine": 1154,
                     "startColumn": 4,
-                    "startOffset": 87789,
-                    "endLine": 1159,
+                    "startOffset": 88104,
+                    "endLine": 1165,
                     "endColumn": 12,
-                    "endOffset": 88651
+                    "endOffset": 88966
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -6350,12 +6371,12 @@
             },
             {
                 "to": {
-                    "startLine": 1160,
+                    "startLine": 1166,
                     "startColumn": 4,
-                    "startOffset": 88656,
-                    "endLine": 1164,
+                    "startOffset": 88971,
+                    "endLine": 1170,
                     "endColumn": 12,
-                    "endOffset": 88929
+                    "endOffset": 89244
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -6371,12 +6392,12 @@
             },
             {
                 "to": {
-                    "startLine": 1165,
+                    "startLine": 1171,
                     "startColumn": 4,
-                    "startOffset": 88934,
-                    "endLine": 1202,
+                    "startOffset": 89249,
+                    "endLine": 1208,
                     "endColumn": 12,
-                    "endOffset": 91791
+                    "endOffset": 92106
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -6392,12 +6413,12 @@
             },
             {
                 "to": {
-                    "startLine": 1203,
+                    "startLine": 1209,
                     "startColumn": 4,
-                    "startOffset": 91796,
-                    "endLine": 1241,
+                    "startOffset": 92111,
+                    "endLine": 1247,
                     "endColumn": 12,
-                    "endOffset": 94793
+                    "endOffset": 95108
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -6413,11 +6434,11 @@
             },
             {
                 "to": {
-                    "startLine": 1242,
+                    "startLine": 1248,
                     "startColumn": 4,
-                    "startOffset": 94798,
+                    "startOffset": 95113,
                     "endColumn": 61,
-                    "endOffset": 94855
+                    "endOffset": 95170
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -6432,12 +6453,12 @@
             },
             {
                 "to": {
-                    "startLine": 1243,
+                    "startLine": 1249,
                     "startColumn": 4,
-                    "startOffset": 94860,
-                    "endLine": 1252,
+                    "startOffset": 95175,
+                    "endLine": 1258,
                     "endColumn": 12,
-                    "endOffset": 95485
+                    "endOffset": 95800
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -6453,12 +6474,12 @@
             },
             {
                 "to": {
-                    "startLine": 1253,
+                    "startLine": 1259,
                     "startColumn": 4,
-                    "startOffset": 95490,
-                    "endLine": 1261,
+                    "startOffset": 95805,
+                    "endLine": 1267,
                     "endColumn": 12,
-                    "endOffset": 96099
+                    "endOffset": 96414
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -6474,11 +6495,11 @@
             },
             {
                 "to": {
-                    "startLine": 1262,
+                    "startLine": 1268,
                     "startColumn": 4,
-                    "startOffset": 96104,
+                    "startOffset": 96419,
                     "endColumn": 85,
-                    "endOffset": 96185
+                    "endOffset": 96500
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -6493,12 +6514,12 @@
             },
             {
                 "to": {
-                    "startLine": 1263,
+                    "startLine": 1269,
                     "startColumn": 4,
-                    "startOffset": 96190,
-                    "endLine": 1264,
+                    "startOffset": 96505,
+                    "endLine": 1270,
                     "endColumn": 12,
-                    "endOffset": 96298
+                    "endOffset": 96613
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -6514,12 +6535,12 @@
             },
             {
                 "to": {
-                    "startLine": 1265,
+                    "startLine": 1271,
                     "startColumn": 4,
-                    "startOffset": 96303,
-                    "endLine": 1268,
+                    "startOffset": 96618,
+                    "endLine": 1274,
                     "endColumn": 12,
-                    "endOffset": 96527
+                    "endOffset": 96842
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -6535,12 +6556,12 @@
             },
             {
                 "to": {
-                    "startLine": 1269,
+                    "startLine": 1275,
                     "startColumn": 4,
-                    "startOffset": 96532,
-                    "endLine": 1271,
+                    "startOffset": 96847,
+                    "endLine": 1277,
                     "endColumn": 12,
-                    "endOffset": 96687
+                    "endOffset": 97002
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -6556,12 +6577,12 @@
             },
             {
                 "to": {
-                    "startLine": 1272,
+                    "startLine": 1278,
                     "startColumn": 4,
-                    "startOffset": 96692,
-                    "endLine": 1274,
+                    "startOffset": 97007,
+                    "endLine": 1280,
                     "endColumn": 12,
-                    "endOffset": 96839
+                    "endOffset": 97154
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -6577,12 +6598,12 @@
             },
             {
                 "to": {
-                    "startLine": 1275,
+                    "startLine": 1281,
                     "startColumn": 4,
-                    "startOffset": 96844,
-                    "endLine": 1277,
+                    "startOffset": 97159,
+                    "endLine": 1283,
                     "endColumn": 12,
-                    "endOffset": 97010
+                    "endOffset": 97325
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -6598,12 +6619,12 @@
             },
             {
                 "to": {
-                    "startLine": 1278,
+                    "startLine": 1284,
                     "startColumn": 4,
-                    "startOffset": 97015,
-                    "endLine": 1280,
+                    "startOffset": 97330,
+                    "endLine": 1286,
                     "endColumn": 12,
-                    "endOffset": 97177
+                    "endOffset": 97492
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -6619,12 +6640,12 @@
             },
             {
                 "to": {
-                    "startLine": 1281,
+                    "startLine": 1287,
                     "startColumn": 4,
-                    "startOffset": 97182,
-                    "endLine": 1284,
+                    "startOffset": 97497,
+                    "endLine": 1290,
                     "endColumn": 12,
-                    "endOffset": 97420
+                    "endOffset": 97735
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -6640,12 +6661,12 @@
             },
             {
                 "to": {
-                    "startLine": 1285,
+                    "startLine": 1291,
                     "startColumn": 4,
-                    "startOffset": 97425,
-                    "endLine": 1287,
+                    "startOffset": 97740,
+                    "endLine": 1293,
                     "endColumn": 12,
-                    "endOffset": 97590
+                    "endOffset": 97905
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -6661,12 +6682,12 @@
             },
             {
                 "to": {
-                    "startLine": 1288,
+                    "startLine": 1294,
                     "startColumn": 4,
-                    "startOffset": 97595,
-                    "endLine": 1290,
+                    "startOffset": 97910,
+                    "endLine": 1296,
                     "endColumn": 12,
-                    "endOffset": 97763
+                    "endOffset": 98078
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -6682,12 +6703,12 @@
             },
             {
                 "to": {
-                    "startLine": 1291,
+                    "startLine": 1297,
                     "startColumn": 4,
-                    "startOffset": 97768,
-                    "endLine": 1293,
+                    "startOffset": 98083,
+                    "endLine": 1299,
                     "endColumn": 12,
-                    "endOffset": 97934
+                    "endOffset": 98249
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -6703,12 +6724,12 @@
             },
             {
                 "to": {
-                    "startLine": 1294,
+                    "startLine": 1300,
                     "startColumn": 4,
-                    "startOffset": 97939,
-                    "endLine": 1297,
+                    "startOffset": 98254,
+                    "endLine": 1303,
                     "endColumn": 12,
-                    "endOffset": 98208
+                    "endOffset": 98523
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -6724,12 +6745,12 @@
             },
             {
                 "to": {
-                    "startLine": 1298,
+                    "startLine": 1304,
                     "startColumn": 4,
-                    "startOffset": 98213,
-                    "endLine": 1300,
+                    "startOffset": 98528,
+                    "endLine": 1306,
                     "endColumn": 12,
-                    "endOffset": 98407
+                    "endOffset": 98722
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -6745,12 +6766,12 @@
             },
             {
                 "to": {
-                    "startLine": 1301,
+                    "startLine": 1307,
                     "startColumn": 4,
-                    "startOffset": 98412,
-                    "endLine": 1304,
+                    "startOffset": 98727,
+                    "endLine": 1310,
                     "endColumn": 12,
-                    "endOffset": 98612
+                    "endOffset": 98927
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -6766,12 +6787,12 @@
             },
             {
                 "to": {
-                    "startLine": 1305,
+                    "startLine": 1311,
                     "startColumn": 4,
-                    "startOffset": 98617,
-                    "endLine": 1308,
+                    "startOffset": 98932,
+                    "endLine": 1314,
                     "endColumn": 12,
-                    "endOffset": 98942
+                    "endOffset": 99257
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -6787,11 +6808,11 @@
             },
             {
                 "to": {
-                    "startLine": 1309,
+                    "startLine": 1315,
                     "startColumn": 4,
-                    "startOffset": 98947,
+                    "startOffset": 99262,
                     "endColumn": 83,
-                    "endOffset": 99026
+                    "endOffset": 99341
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -6806,11 +6827,11 @@
             },
             {
                 "to": {
-                    "startLine": 1310,
+                    "startLine": 1316,
                     "startColumn": 4,
-                    "startOffset": 99031,
+                    "startOffset": 99346,
                     "endColumn": 95,
-                    "endOffset": 99122
+                    "endOffset": 99437
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -6825,11 +6846,11 @@
             },
             {
                 "to": {
-                    "startLine": 1311,
+                    "startLine": 1317,
                     "startColumn": 4,
-                    "startOffset": 99127,
+                    "startOffset": 99442,
                     "endColumn": 95,
-                    "endOffset": 99218
+                    "endOffset": 99533
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -6844,11 +6865,11 @@
             },
             {
                 "to": {
-                    "startLine": 1312,
+                    "startLine": 1318,
                     "startColumn": 4,
-                    "startOffset": 99223,
+                    "startOffset": 99538,
                     "endColumn": 97,
-                    "endOffset": 99316
+                    "endOffset": 99631
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -6863,11 +6884,11 @@
             },
             {
                 "to": {
-                    "startLine": 1313,
+                    "startLine": 1319,
                     "startColumn": 4,
-                    "startOffset": 99321,
+                    "startOffset": 99636,
                     "endColumn": 99,
-                    "endOffset": 99416
+                    "endOffset": 99731
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -6882,11 +6903,11 @@
             },
             {
                 "to": {
-                    "startLine": 1314,
+                    "startLine": 1320,
                     "startColumn": 4,
-                    "startOffset": 99421,
+                    "startOffset": 99736,
                     "endColumn": 101,
-                    "endOffset": 99518
+                    "endOffset": 99833
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -6901,11 +6922,11 @@
             },
             {
                 "to": {
-                    "startLine": 1315,
+                    "startLine": 1321,
                     "startColumn": 4,
-                    "startOffset": 99523,
+                    "startOffset": 99838,
                     "endColumn": 101,
-                    "endOffset": 99620
+                    "endOffset": 99935
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -6920,11 +6941,11 @@
             },
             {
                 "to": {
-                    "startLine": 1316,
+                    "startLine": 1322,
                     "startColumn": 4,
-                    "startOffset": 99625,
+                    "startOffset": 99940,
                     "endColumn": 101,
-                    "endOffset": 99722
+                    "endOffset": 100037
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -6939,11 +6960,11 @@
             },
             {
                 "to": {
-                    "startLine": 1317,
+                    "startLine": 1323,
                     "startColumn": 4,
-                    "startOffset": 99727,
+                    "startOffset": 100042,
                     "endColumn": 101,
-                    "endOffset": 99824
+                    "endOffset": 100139
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -6958,11 +6979,11 @@
             },
             {
                 "to": {
-                    "startLine": 1318,
+                    "startLine": 1324,
                     "startColumn": 4,
-                    "startOffset": 99829,
+                    "startOffset": 100144,
                     "endColumn": 101,
-                    "endOffset": 99926
+                    "endOffset": 100241
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -6977,11 +6998,11 @@
             },
             {
                 "to": {
-                    "startLine": 1319,
+                    "startLine": 1325,
                     "startColumn": 4,
-                    "startOffset": 99931,
+                    "startOffset": 100246,
                     "endColumn": 99,
-                    "endOffset": 100026
+                    "endOffset": 100341
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -6996,11 +7017,11 @@
             },
             {
                 "to": {
-                    "startLine": 1320,
+                    "startLine": 1326,
                     "startColumn": 4,
-                    "startOffset": 100031,
+                    "startOffset": 100346,
                     "endColumn": 95,
-                    "endOffset": 100122
+                    "endOffset": 100437
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -7015,11 +7036,11 @@
             },
             {
                 "to": {
-                    "startLine": 1321,
+                    "startLine": 1327,
                     "startColumn": 4,
-                    "startOffset": 100127,
+                    "startOffset": 100442,
                     "endColumn": 111,
-                    "endOffset": 100234
+                    "endOffset": 100549
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -7034,11 +7055,11 @@
             },
             {
                 "to": {
-                    "startLine": 1322,
+                    "startLine": 1328,
                     "startColumn": 4,
-                    "startOffset": 100239,
+                    "startOffset": 100554,
                     "endColumn": 128,
-                    "endOffset": 100363
+                    "endOffset": 100678
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -7053,11 +7074,11 @@
             },
             {
                 "to": {
-                    "startLine": 1323,
+                    "startLine": 1329,
                     "startColumn": 4,
-                    "startOffset": 100368,
+                    "startOffset": 100683,
                     "endColumn": 122,
-                    "endOffset": 100486
+                    "endOffset": 100801
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -7072,12 +7093,12 @@
             },
             {
                 "to": {
-                    "startLine": 1324,
+                    "startLine": 1330,
                     "startColumn": 4,
-                    "startOffset": 100491,
-                    "endLine": 1325,
+                    "startOffset": 100806,
+                    "endLine": 1331,
                     "endColumn": 12,
-                    "endOffset": 100640
+                    "endOffset": 100955
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -7093,12 +7114,12 @@
             },
             {
                 "to": {
-                    "startLine": 1326,
+                    "startLine": 1332,
                     "startColumn": 4,
-                    "startOffset": 100645,
-                    "endLine": 1327,
+                    "startOffset": 100960,
+                    "endLine": 1333,
                     "endColumn": 12,
-                    "endOffset": 100794
+                    "endOffset": 101109
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -7114,11 +7135,11 @@
             },
             {
                 "to": {
-                    "startLine": 1328,
+                    "startLine": 1334,
                     "startColumn": 4,
-                    "startOffset": 100799,
+                    "startOffset": 101114,
                     "endColumn": 97,
-                    "endOffset": 100892
+                    "endOffset": 101207
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -7133,11 +7154,11 @@
             },
             {
                 "to": {
-                    "startLine": 1329,
+                    "startLine": 1335,
                     "startColumn": 4,
-                    "startOffset": 100897,
+                    "startOffset": 101212,
                     "endColumn": 113,
-                    "endOffset": 101006
+                    "endOffset": 101321
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -7152,11 +7173,11 @@
             },
             {
                 "to": {
-                    "startLine": 1330,
+                    "startLine": 1336,
                     "startColumn": 4,
-                    "startOffset": 101011,
+                    "startOffset": 101326,
                     "endColumn": 93,
-                    "endOffset": 101100
+                    "endOffset": 101415
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -7171,12 +7192,12 @@
             },
             {
                 "to": {
-                    "startLine": 1331,
+                    "startLine": 1337,
                     "startColumn": 4,
-                    "startOffset": 101105,
-                    "endLine": 1332,
+                    "startOffset": 101420,
+                    "endLine": 1338,
                     "endColumn": 12,
-                    "endOffset": 101240
+                    "endOffset": 101555
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -7192,12 +7213,12 @@
             },
             {
                 "to": {
-                    "startLine": 1333,
+                    "startLine": 1339,
                     "startColumn": 4,
-                    "startOffset": 101245,
-                    "endLine": 1334,
+                    "startOffset": 101560,
+                    "endLine": 1340,
                     "endColumn": 12,
-                    "endOffset": 101374
+                    "endOffset": 101689
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -7213,11 +7234,11 @@
             },
             {
                 "to": {
-                    "startLine": 1335,
+                    "startLine": 1341,
                     "startColumn": 4,
-                    "startOffset": 101379,
+                    "startOffset": 101694,
                     "endColumn": 95,
-                    "endOffset": 101470
+                    "endOffset": 101785
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -7232,11 +7253,11 @@
             },
             {
                 "to": {
-                    "startLine": 1336,
+                    "startLine": 1342,
                     "startColumn": 4,
-                    "startOffset": 101475,
+                    "startOffset": 101790,
                     "endColumn": 111,
-                    "endOffset": 101582
+                    "endOffset": 101897
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -7251,11 +7272,11 @@
             },
             {
                 "to": {
-                    "startLine": 1337,
+                    "startLine": 1343,
                     "startColumn": 4,
-                    "startOffset": 101587,
+                    "startOffset": 101902,
                     "endColumn": 99,
-                    "endOffset": 101682
+                    "endOffset": 101997
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -7270,11 +7291,11 @@
             },
             {
                 "to": {
-                    "startLine": 1338,
+                    "startLine": 1344,
                     "startColumn": 4,
-                    "startOffset": 101687,
+                    "startOffset": 102002,
                     "endColumn": 115,
-                    "endOffset": 101798
+                    "endOffset": 102113
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -7289,11 +7310,11 @@
             },
             {
                 "to": {
-                    "startLine": 1339,
+                    "startLine": 1345,
                     "startColumn": 4,
-                    "startOffset": 101803,
+                    "startOffset": 102118,
                     "endColumn": 95,
-                    "endOffset": 101894
+                    "endOffset": 102209
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -7308,11 +7329,11 @@
             },
             {
                 "to": {
-                    "startLine": 1340,
+                    "startLine": 1346,
                     "startColumn": 4,
-                    "startOffset": 101899,
+                    "startOffset": 102214,
                     "endColumn": 111,
-                    "endOffset": 102006
+                    "endOffset": 102321
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -7327,12 +7348,12 @@
             },
             {
                 "to": {
-                    "startLine": 1341,
+                    "startLine": 1347,
                     "startColumn": 4,
-                    "startOffset": 102011,
-                    "endLine": 1342,
+                    "startOffset": 102326,
+                    "endLine": 1348,
                     "endColumn": 12,
-                    "endOffset": 102146
+                    "endOffset": 102461
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -7348,11 +7369,11 @@
             },
             {
                 "to": {
-                    "startLine": 1343,
+                    "startLine": 1349,
                     "startColumn": 4,
-                    "startOffset": 102151,
+                    "startOffset": 102466,
                     "endColumn": 135,
-                    "endOffset": 102282
+                    "endOffset": 102597
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -7367,12 +7388,12 @@
             },
             {
                 "to": {
-                    "startLine": 1344,
+                    "startLine": 1350,
                     "startColumn": 4,
-                    "startOffset": 102287,
-                    "endLine": 1345,
+                    "startOffset": 102602,
+                    "endLine": 1351,
                     "endColumn": 12,
-                    "endOffset": 102446
+                    "endOffset": 102761
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -7388,11 +7409,11 @@
             },
             {
                 "to": {
-                    "startLine": 1346,
+                    "startLine": 1352,
                     "startColumn": 4,
-                    "startOffset": 102451,
+                    "startOffset": 102766,
                     "endColumn": 129,
-                    "endOffset": 102576
+                    "endOffset": 102891
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -7407,12 +7428,12 @@
             },
             {
                 "to": {
-                    "startLine": 1347,
+                    "startLine": 1353,
                     "startColumn": 4,
-                    "startOffset": 102581,
-                    "endLine": 1348,
+                    "startOffset": 102896,
+                    "endLine": 1354,
                     "endColumn": 12,
-                    "endOffset": 102734
+                    "endOffset": 103049
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -7428,12 +7449,12 @@
             },
             {
                 "to": {
-                    "startLine": 1349,
+                    "startLine": 1355,
                     "startColumn": 4,
-                    "startOffset": 102739,
-                    "endLine": 1350,
+                    "startOffset": 103054,
+                    "endLine": 1356,
                     "endColumn": 12,
-                    "endOffset": 102884
+                    "endOffset": 103199
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -7449,11 +7470,11 @@
             },
             {
                 "to": {
-                    "startLine": 1351,
+                    "startLine": 1357,
                     "startColumn": 4,
-                    "startOffset": 102889,
+                    "startOffset": 103204,
                     "endColumn": 140,
-                    "endOffset": 103025
+                    "endOffset": 103340
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -7468,12 +7489,12 @@
             },
             {
                 "to": {
-                    "startLine": 1352,
+                    "startLine": 1358,
                     "startColumn": 4,
-                    "startOffset": 103030,
-                    "endLine": 1353,
+                    "startOffset": 103345,
+                    "endLine": 1359,
                     "endColumn": 12,
-                    "endOffset": 103169
+                    "endOffset": 103484
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -7489,11 +7510,11 @@
             },
             {
                 "to": {
-                    "startLine": 1354,
+                    "startLine": 1360,
                     "startColumn": 4,
-                    "startOffset": 103174,
+                    "startOffset": 103489,
                     "endColumn": 134,
-                    "endOffset": 103304
+                    "endOffset": 103619
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -7508,11 +7529,11 @@
             },
             {
                 "to": {
-                    "startLine": 1355,
+                    "startLine": 1361,
                     "startColumn": 4,
-                    "startOffset": 103309,
+                    "startOffset": 103624,
                     "endColumn": 111,
-                    "endOffset": 103416
+                    "endOffset": 103731
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -7527,11 +7548,11 @@
             },
             {
                 "to": {
-                    "startLine": 1356,
+                    "startLine": 1362,
                     "startColumn": 4,
-                    "startOffset": 103421,
+                    "startOffset": 103736,
                     "endColumn": 127,
-                    "endOffset": 103544
+                    "endOffset": 103859
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -7546,12 +7567,12 @@
             },
             {
                 "to": {
-                    "startLine": 1357,
+                    "startLine": 1363,
                     "startColumn": 4,
-                    "startOffset": 103549,
-                    "endLine": 1358,
+                    "startOffset": 103864,
+                    "endLine": 1364,
                     "endColumn": 12,
-                    "endOffset": 103680
+                    "endOffset": 103995
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -7567,12 +7588,12 @@
             },
             {
                 "to": {
-                    "startLine": 1359,
+                    "startLine": 1365,
                     "startColumn": 4,
-                    "startOffset": 103685,
-                    "endLine": 1360,
+                    "startOffset": 104000,
+                    "endLine": 1366,
                     "endColumn": 12,
-                    "endOffset": 103822
+                    "endOffset": 104137
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -7588,12 +7609,12 @@
             },
             {
                 "to": {
-                    "startLine": 1361,
+                    "startLine": 1367,
                     "startColumn": 4,
-                    "startOffset": 103827,
-                    "endLine": 1362,
+                    "startOffset": 104142,
+                    "endLine": 1368,
                     "endColumn": 12,
-                    "endOffset": 103964
+                    "endOffset": 104279
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -7609,11 +7630,11 @@
             },
             {
                 "to": {
-                    "startLine": 1363,
+                    "startLine": 1369,
                     "startColumn": 4,
-                    "startOffset": 103969,
+                    "startOffset": 104284,
                     "endColumn": 111,
-                    "endOffset": 104076
+                    "endOffset": 104391
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -7628,11 +7649,11 @@
             },
             {
                 "to": {
-                    "startLine": 1364,
+                    "startLine": 1370,
                     "startColumn": 4,
-                    "startOffset": 104081,
+                    "startOffset": 104396,
                     "endColumn": 139,
-                    "endOffset": 104216
+                    "endOffset": 104531
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -7647,11 +7668,11 @@
             },
             {
                 "to": {
-                    "startLine": 1365,
+                    "startLine": 1371,
                     "startColumn": 4,
-                    "startOffset": 104221,
+                    "startOffset": 104536,
                     "endColumn": 67,
-                    "endOffset": 104284
+                    "endOffset": 104599
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -7666,11 +7687,11 @@
             },
             {
                 "to": {
-                    "startLine": 1366,
+                    "startLine": 1372,
                     "startColumn": 4,
-                    "startOffset": 104289,
+                    "startOffset": 104604,
                     "endColumn": 72,
-                    "endOffset": 104357
+                    "endOffset": 104672
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -7685,11 +7706,11 @@
             },
             {
                 "to": {
-                    "startLine": 1367,
+                    "startLine": 1373,
                     "startColumn": 4,
-                    "startOffset": 104362,
+                    "startOffset": 104677,
                     "endColumn": 73,
-                    "endOffset": 104431
+                    "endOffset": 104746
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -7704,11 +7725,11 @@
             },
             {
                 "to": {
-                    "startLine": 1368,
+                    "startLine": 1374,
                     "startColumn": 4,
-                    "startOffset": 104436,
+                    "startOffset": 104751,
                     "endColumn": 72,
-                    "endOffset": 104504
+                    "endOffset": 104819
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -7723,11 +7744,11 @@
             },
             {
                 "to": {
-                    "startLine": 1369,
+                    "startLine": 1375,
                     "startColumn": 4,
-                    "startOffset": 104509,
+                    "startOffset": 104824,
                     "endColumn": 73,
-                    "endOffset": 104578
+                    "endOffset": 104893
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -7742,12 +7763,12 @@
             },
             {
                 "to": {
-                    "startLine": 1370,
+                    "startLine": 1376,
                     "startColumn": 4,
-                    "startOffset": 104583,
-                    "endLine": 1371,
+                    "startOffset": 104898,
+                    "endLine": 1377,
                     "endColumn": 12,
-                    "endOffset": 104724
+                    "endOffset": 105039
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -7763,12 +7784,12 @@
             },
             {
                 "to": {
-                    "startLine": 1372,
+                    "startLine": 1378,
                     "startColumn": 4,
-                    "startOffset": 104729,
-                    "endLine": 1373,
+                    "startOffset": 105044,
+                    "endLine": 1379,
                     "endColumn": 12,
-                    "endOffset": 104868
+                    "endOffset": 105183
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -7784,12 +7805,12 @@
             },
             {
                 "to": {
-                    "startLine": 1374,
+                    "startLine": 1380,
                     "startColumn": 4,
-                    "startOffset": 104873,
-                    "endLine": 1375,
+                    "startOffset": 105188,
+                    "endLine": 1381,
                     "endColumn": 12,
-                    "endOffset": 105006
+                    "endOffset": 105321
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -7805,11 +7826,11 @@
             },
             {
                 "to": {
-                    "startLine": 1376,
+                    "startLine": 1382,
                     "startColumn": 4,
-                    "startOffset": 105011,
+                    "startOffset": 105326,
                     "endColumn": 65,
-                    "endOffset": 105072
+                    "endOffset": 105387
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -7824,11 +7845,11 @@
             },
             {
                 "to": {
-                    "startLine": 1377,
+                    "startLine": 1383,
                     "startColumn": 4,
-                    "startOffset": 105077,
+                    "startOffset": 105392,
                     "endColumn": 89,
-                    "endOffset": 105162
+                    "endOffset": 105477
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -7843,11 +7864,11 @@
             },
             {
                 "to": {
-                    "startLine": 1378,
+                    "startLine": 1384,
                     "startColumn": 4,
-                    "startOffset": 105167,
+                    "startOffset": 105482,
                     "endColumn": 79,
-                    "endOffset": 105242
+                    "endOffset": 105557
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -7862,11 +7883,11 @@
             },
             {
                 "to": {
-                    "startLine": 1379,
+                    "startLine": 1385,
                     "startColumn": 4,
-                    "startOffset": 105247,
+                    "startOffset": 105562,
                     "endColumn": 91,
-                    "endOffset": 105334
+                    "endOffset": 105649
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -7881,11 +7902,11 @@
             },
             {
                 "to": {
-                    "startLine": 1380,
+                    "startLine": 1386,
                     "startColumn": 4,
-                    "startOffset": 105339,
+                    "startOffset": 105654,
                     "endColumn": 97,
-                    "endOffset": 105432
+                    "endOffset": 105747
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -7900,12 +7921,12 @@
             },
             {
                 "to": {
-                    "startLine": 1381,
+                    "startLine": 1387,
                     "startColumn": 4,
-                    "startOffset": 105437,
-                    "endLine": 1382,
+                    "startOffset": 105752,
+                    "endLine": 1388,
                     "endColumn": 12,
-                    "endOffset": 105542
+                    "endOffset": 105857
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -7921,11 +7942,11 @@
             },
             {
                 "to": {
-                    "startLine": 1383,
+                    "startLine": 1389,
                     "startColumn": 4,
-                    "startOffset": 105547,
+                    "startOffset": 105862,
                     "endColumn": 77,
-                    "endOffset": 105620
+                    "endOffset": 105935
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -7940,11 +7961,11 @@
             },
             {
                 "to": {
-                    "startLine": 1384,
+                    "startLine": 1390,
                     "startColumn": 4,
-                    "startOffset": 105625,
+                    "startOffset": 105940,
                     "endColumn": 105,
-                    "endOffset": 105726
+                    "endOffset": 106041
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -7959,11 +7980,11 @@
             },
             {
                 "to": {
-                    "startLine": 1385,
+                    "startLine": 1391,
                     "startColumn": 4,
-                    "startOffset": 105731,
+                    "startOffset": 106046,
                     "endColumn": 91,
-                    "endOffset": 105818
+                    "endOffset": 106133
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -7978,11 +7999,11 @@
             },
             {
                 "to": {
-                    "startLine": 1386,
+                    "startLine": 1392,
                     "startColumn": 4,
-                    "startOffset": 105823,
+                    "startOffset": 106138,
                     "endColumn": 103,
-                    "endOffset": 105922
+                    "endOffset": 106237
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -7997,11 +8018,11 @@
             },
             {
                 "to": {
-                    "startLine": 1387,
+                    "startLine": 1393,
                     "startColumn": 4,
-                    "startOffset": 105927,
+                    "startOffset": 106242,
                     "endColumn": 109,
-                    "endOffset": 106032
+                    "endOffset": 106347
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -8016,12 +8037,12 @@
             },
             {
                 "to": {
-                    "startLine": 1388,
+                    "startLine": 1394,
                     "startColumn": 4,
-                    "startOffset": 106037,
-                    "endLine": 1389,
+                    "startOffset": 106352,
+                    "endLine": 1395,
                     "endColumn": 12,
-                    "endOffset": 106154
+                    "endOffset": 106469
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -8037,12 +8058,12 @@
             },
             {
                 "to": {
-                    "startLine": 1390,
+                    "startLine": 1396,
                     "startColumn": 4,
-                    "startOffset": 106159,
-                    "endLine": 1393,
+                    "startOffset": 106474,
+                    "endLine": 1399,
                     "endColumn": 12,
-                    "endOffset": 106317
+                    "endOffset": 106632
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -8058,12 +8079,12 @@
             },
             {
                 "to": {
-                    "startLine": 1394,
+                    "startLine": 1400,
                     "startColumn": 4,
-                    "startOffset": 106322,
-                    "endLine": 1397,
+                    "startOffset": 106637,
+                    "endLine": 1403,
                     "endColumn": 12,
-                    "endOffset": 106474
+                    "endOffset": 106789
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -8079,11 +8100,11 @@
             },
             {
                 "to": {
-                    "startLine": 1398,
+                    "startLine": 1404,
                     "startColumn": 4,
-                    "startOffset": 106479,
+                    "startOffset": 106794,
                     "endColumn": 79,
-                    "endOffset": 106554
+                    "endOffset": 106869
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -8098,11 +8119,11 @@
             },
             {
                 "to": {
-                    "startLine": 1399,
+                    "startLine": 1405,
                     "startColumn": 4,
-                    "startOffset": 106559,
+                    "startOffset": 106874,
                     "endColumn": 99,
-                    "endOffset": 106654
+                    "endOffset": 106969
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -8117,11 +8138,11 @@
             },
             {
                 "to": {
-                    "startLine": 1400,
+                    "startLine": 1406,
                     "startColumn": 4,
-                    "startOffset": 106659,
+                    "startOffset": 106974,
                     "endColumn": 89,
-                    "endOffset": 106744
+                    "endOffset": 107059
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -8136,11 +8157,11 @@
             },
             {
                 "to": {
-                    "startLine": 1401,
+                    "startLine": 1407,
                     "startColumn": 4,
-                    "startOffset": 106749,
+                    "startOffset": 107064,
                     "endColumn": 109,
-                    "endOffset": 106854
+                    "endOffset": 107169
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -8155,11 +8176,11 @@
             },
             {
                 "to": {
-                    "startLine": 1402,
+                    "startLine": 1408,
                     "startColumn": 4,
-                    "startOffset": 106859,
+                    "startOffset": 107174,
                     "endColumn": 91,
-                    "endOffset": 106946
+                    "endOffset": 107261
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -8174,12 +8195,12 @@
             },
             {
                 "to": {
-                    "startLine": 1403,
+                    "startLine": 1409,
                     "startColumn": 4,
-                    "startOffset": 106951,
-                    "endLine": 1404,
+                    "startOffset": 107266,
+                    "endLine": 1410,
                     "endColumn": 12,
-                    "endOffset": 107046
+                    "endOffset": 107361
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -8195,12 +8216,12 @@
             },
             {
                 "to": {
-                    "startLine": 1405,
+                    "startLine": 1411,
                     "startColumn": 4,
-                    "startOffset": 107051,
-                    "endLine": 1406,
+                    "startOffset": 107366,
+                    "endLine": 1412,
                     "endColumn": 12,
-                    "endOffset": 107158
+                    "endOffset": 107473
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -8216,12 +8237,12 @@
             },
             {
                 "to": {
-                    "startLine": 1407,
+                    "startLine": 1413,
                     "startColumn": 4,
-                    "startOffset": 107163,
-                    "endLine": 1408,
+                    "startOffset": 107478,
+                    "endLine": 1414,
                     "endColumn": 12,
-                    "endOffset": 107272
+                    "endOffset": 107587
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -8237,12 +8258,12 @@
             },
             {
                 "to": {
-                    "startLine": 1409,
+                    "startLine": 1415,
                     "startColumn": 4,
-                    "startOffset": 107277,
-                    "endLine": 1410,
+                    "startOffset": 107592,
+                    "endLine": 1416,
                     "endColumn": 12,
-                    "endOffset": 107388
+                    "endOffset": 107703
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -8258,12 +8279,12 @@
             },
             {
                 "to": {
-                    "startLine": 1411,
+                    "startLine": 1417,
                     "startColumn": 4,
-                    "startOffset": 107393,
-                    "endLine": 1412,
+                    "startOffset": 107708,
+                    "endLine": 1418,
                     "endColumn": 12,
-                    "endOffset": 107504
+                    "endOffset": 107819
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -8279,11 +8300,11 @@
             },
             {
                 "to": {
-                    "startLine": 1413,
+                    "startLine": 1419,
                     "startColumn": 4,
-                    "startOffset": 107509,
+                    "startOffset": 107824,
                     "endColumn": 93,
-                    "endOffset": 107598
+                    "endOffset": 107913
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -8298,11 +8319,11 @@
             },
             {
                 "to": {
-                    "startLine": 1414,
+                    "startLine": 1420,
                     "startColumn": 4,
-                    "startOffset": 107603,
+                    "startOffset": 107918,
                     "endColumn": 113,
-                    "endOffset": 107712
+                    "endOffset": 108027
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -8317,11 +8338,11 @@
             },
             {
                 "to": {
-                    "startLine": 1415,
+                    "startLine": 1421,
                     "startColumn": 4,
-                    "startOffset": 107717,
+                    "startOffset": 108032,
                     "endColumn": 111,
-                    "endOffset": 107824
+                    "endOffset": 108139
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -8336,12 +8357,12 @@
             },
             {
                 "to": {
-                    "startLine": 1416,
+                    "startLine": 1422,
                     "startColumn": 4,
-                    "startOffset": 107829,
-                    "endLine": 1417,
+                    "startOffset": 108144,
+                    "endLine": 1423,
                     "endColumn": 12,
-                    "endOffset": 107926
+                    "endOffset": 108241
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -8357,12 +8378,12 @@
             },
             {
                 "to": {
-                    "startLine": 1418,
+                    "startLine": 1424,
                     "startColumn": 4,
-                    "startOffset": 107931,
-                    "endLine": 1419,
+                    "startOffset": 108246,
+                    "endLine": 1425,
                     "endColumn": 12,
-                    "endOffset": 108046
+                    "endOffset": 108361
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -8378,12 +8399,12 @@
             },
             {
                 "to": {
-                    "startLine": 1420,
+                    "startLine": 1426,
                     "startColumn": 4,
-                    "startOffset": 108051,
-                    "endLine": 1421,
+                    "startOffset": 108366,
+                    "endLine": 1427,
                     "endColumn": 12,
-                    "endOffset": 108168
+                    "endOffset": 108483
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -8399,11 +8420,11 @@
             },
             {
                 "to": {
-                    "startLine": 1422,
+                    "startLine": 1428,
                     "startColumn": 4,
-                    "startOffset": 108173,
+                    "startOffset": 108488,
                     "endColumn": 81,
-                    "endOffset": 108250
+                    "endOffset": 108565
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -8418,11 +8439,11 @@
             },
             {
                 "to": {
-                    "startLine": 1423,
+                    "startLine": 1429,
                     "startColumn": 4,
-                    "startOffset": 108255,
+                    "startOffset": 108570,
                     "endColumn": 103,
-                    "endOffset": 108354
+                    "endOffset": 108669
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -8437,11 +8458,11 @@
             },
             {
                 "to": {
-                    "startLine": 1424,
+                    "startLine": 1430,
                     "startColumn": 4,
-                    "startOffset": 108359,
+                    "startOffset": 108674,
                     "endColumn": 119,
-                    "endOffset": 108474
+                    "endOffset": 108789
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -8456,11 +8477,11 @@
             },
             {
                 "to": {
-                    "startLine": 1425,
+                    "startLine": 1431,
                     "startColumn": 4,
-                    "startOffset": 108479,
+                    "startOffset": 108794,
                     "endColumn": 125,
-                    "endOffset": 108600
+                    "endOffset": 108915
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -8475,11 +8496,11 @@
             },
             {
                 "to": {
-                    "startLine": 1426,
+                    "startLine": 1432,
                     "startColumn": 4,
-                    "startOffset": 108605,
+                    "startOffset": 108920,
                     "endColumn": 97,
-                    "endOffset": 108698
+                    "endOffset": 109013
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -8494,11 +8515,11 @@
             },
             {
                 "to": {
-                    "startLine": 1427,
+                    "startLine": 1433,
                     "startColumn": 4,
-                    "startOffset": 108703,
+                    "startOffset": 109018,
                     "endColumn": 93,
-                    "endOffset": 108792
+                    "endOffset": 109107
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -8513,11 +8534,11 @@
             },
             {
                 "to": {
-                    "startLine": 1428,
+                    "startLine": 1434,
                     "startColumn": 4,
-                    "startOffset": 108797,
+                    "startOffset": 109112,
                     "endColumn": 87,
-                    "endOffset": 108880
+                    "endOffset": 109195
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -8532,11 +8553,11 @@
             },
             {
                 "to": {
-                    "startLine": 1429,
+                    "startLine": 1435,
                     "startColumn": 4,
-                    "startOffset": 108885,
+                    "startOffset": 109200,
                     "endColumn": 111,
-                    "endOffset": 108992
+                    "endOffset": 109307
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -8551,11 +8572,11 @@
             },
             {
                 "to": {
-                    "startLine": 1430,
+                    "startLine": 1436,
                     "startColumn": 4,
-                    "startOffset": 108997,
+                    "startOffset": 109312,
                     "endColumn": 115,
-                    "endOffset": 109108
+                    "endOffset": 109423
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -8570,11 +8591,11 @@
             },
             {
                 "to": {
-                    "startLine": 1431,
+                    "startLine": 1437,
                     "startColumn": 4,
-                    "startOffset": 109113,
+                    "startOffset": 109428,
                     "endColumn": 121,
-                    "endOffset": 109230
+                    "endOffset": 109545
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -8589,11 +8610,11 @@
             },
             {
                 "to": {
-                    "startLine": 1432,
+                    "startLine": 1438,
                     "startColumn": 4,
-                    "startOffset": 109235,
+                    "startOffset": 109550,
                     "endColumn": 111,
-                    "endOffset": 109342
+                    "endOffset": 109657
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -8608,12 +8629,12 @@
             },
             {
                 "to": {
-                    "startLine": 1433,
+                    "startLine": 1439,
                     "startColumn": 4,
-                    "startOffset": 109347,
-                    "endLine": 1435,
+                    "startOffset": 109662,
+                    "endLine": 1441,
                     "endColumn": 12,
-                    "endOffset": 109517
+                    "endOffset": 109832
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -8629,11 +8650,11 @@
             },
             {
                 "to": {
-                    "startLine": 1436,
+                    "startLine": 1442,
                     "startColumn": 4,
-                    "startOffset": 109522,
+                    "startOffset": 109837,
                     "endColumn": 115,
-                    "endOffset": 109633
+                    "endOffset": 109948
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -8648,11 +8669,11 @@
             },
             {
                 "to": {
-                    "startLine": 1437,
+                    "startLine": 1443,
                     "startColumn": 4,
-                    "startOffset": 109638,
+                    "startOffset": 109953,
                     "endColumn": 85,
-                    "endOffset": 109719
+                    "endOffset": 110034
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -8667,11 +8688,11 @@
             },
             {
                 "to": {
-                    "startLine": 1438,
+                    "startLine": 1444,
                     "startColumn": 4,
-                    "startOffset": 109724,
+                    "startOffset": 110039,
                     "endColumn": 91,
-                    "endOffset": 109811
+                    "endOffset": 110126
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -8686,12 +8707,12 @@
             },
             {
                 "to": {
-                    "startLine": 1439,
+                    "startLine": 1445,
                     "startColumn": 4,
-                    "startOffset": 109816,
-                    "endLine": 1440,
+                    "startOffset": 110131,
+                    "endLine": 1446,
                     "endColumn": 12,
-                    "endOffset": 109923
+                    "endOffset": 110238
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -8707,12 +8728,12 @@
             },
             {
                 "to": {
-                    "startLine": 1441,
+                    "startLine": 1447,
                     "startColumn": 4,
-                    "startOffset": 109928,
-                    "endLine": 1442,
+                    "startOffset": 110243,
+                    "endLine": 1448,
                     "endColumn": 12,
-                    "endOffset": 110047
+                    "endOffset": 110362
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -8728,11 +8749,11 @@
             },
             {
                 "to": {
-                    "startLine": 1443,
+                    "startLine": 1449,
                     "startColumn": 4,
-                    "startOffset": 110052,
+                    "startOffset": 110367,
                     "endColumn": 66,
-                    "endOffset": 110114
+                    "endOffset": 110429
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -8747,12 +8768,12 @@
             },
             {
                 "to": {
-                    "startLine": 1444,
+                    "startLine": 1450,
                     "startColumn": 4,
-                    "startOffset": 110119,
-                    "endLine": 1445,
+                    "startOffset": 110434,
+                    "endLine": 1451,
                     "endColumn": 12,
-                    "endOffset": 110240
+                    "endOffset": 110555
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -8768,11 +8789,11 @@
             },
             {
                 "to": {
-                    "startLine": 1446,
+                    "startLine": 1452,
                     "startColumn": 4,
-                    "startOffset": 110245,
+                    "startOffset": 110560,
                     "endColumn": 67,
-                    "endOffset": 110308
+                    "endOffset": 110623
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -8787,12 +8808,12 @@
             },
             {
                 "to": {
-                    "startLine": 1447,
+                    "startLine": 1453,
                     "startColumn": 4,
-                    "startOffset": 110313,
-                    "endLine": 1448,
+                    "startOffset": 110628,
+                    "endLine": 1454,
                     "endColumn": 12,
-                    "endOffset": 110436
+                    "endOffset": 110751
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -8808,12 +8829,12 @@
             },
             {
                 "to": {
-                    "startLine": 1449,
+                    "startLine": 1455,
                     "startColumn": 4,
-                    "startOffset": 110441,
-                    "endLine": 1450,
+                    "startOffset": 110756,
+                    "endLine": 1456,
                     "endColumn": 12,
-                    "endOffset": 110580
+                    "endOffset": 110895
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -8829,12 +8850,12 @@
             },
             {
                 "to": {
-                    "startLine": 1451,
+                    "startLine": 1457,
                     "startColumn": 4,
-                    "startOffset": 110585,
-                    "endLine": 1452,
+                    "startOffset": 110900,
+                    "endLine": 1458,
                     "endColumn": 12,
-                    "endOffset": 110708
+                    "endOffset": 111023
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -8850,11 +8871,11 @@
             },
             {
                 "to": {
-                    "startLine": 1453,
+                    "startLine": 1459,
                     "startColumn": 4,
-                    "startOffset": 110713,
+                    "startOffset": 111028,
                     "endColumn": 68,
-                    "endOffset": 110777
+                    "endOffset": 111092
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -8869,11 +8890,11 @@
             },
             {
                 "to": {
-                    "startLine": 1454,
+                    "startLine": 1460,
                     "startColumn": 4,
-                    "startOffset": 110782,
+                    "startOffset": 111097,
                     "endColumn": 94,
-                    "endOffset": 110872
+                    "endOffset": 111187
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -8888,11 +8909,11 @@
             },
             {
                 "to": {
-                    "startLine": 1455,
+                    "startLine": 1461,
                     "startColumn": 4,
-                    "startOffset": 110877,
+                    "startOffset": 111192,
                     "endColumn": 114,
-                    "endOffset": 110987
+                    "endOffset": 111302
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -8907,11 +8928,11 @@
             },
             {
                 "to": {
-                    "startLine": 1456,
+                    "startLine": 1462,
                     "startColumn": 4,
-                    "startOffset": 110992,
+                    "startOffset": 111307,
                     "endColumn": 112,
-                    "endOffset": 111100
+                    "endOffset": 111415
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -8926,11 +8947,11 @@
             },
             {
                 "to": {
-                    "startLine": 1457,
+                    "startLine": 1463,
                     "startColumn": 4,
-                    "startOffset": 111105,
+                    "startOffset": 111420,
                     "endColumn": 98,
-                    "endOffset": 111199
+                    "endOffset": 111514
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -8945,11 +8966,11 @@
             },
             {
                 "to": {
-                    "startLine": 1458,
+                    "startLine": 1464,
                     "startColumn": 4,
-                    "startOffset": 111204,
+                    "startOffset": 111519,
                     "endColumn": 108,
-                    "endOffset": 111308
+                    "endOffset": 111623
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -8964,11 +8985,11 @@
             },
             {
                 "to": {
-                    "startLine": 1459,
+                    "startLine": 1465,
                     "startColumn": 4,
-                    "startOffset": 111313,
+                    "startOffset": 111628,
                     "endColumn": 110,
-                    "endOffset": 111419
+                    "endOffset": 111734
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -8983,11 +9004,11 @@
             },
             {
                 "to": {
-                    "startLine": 1460,
+                    "startLine": 1466,
                     "startColumn": 4,
-                    "startOffset": 111424,
+                    "startOffset": 111739,
                     "endColumn": 110,
-                    "endOffset": 111530
+                    "endOffset": 111845
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -9002,11 +9023,11 @@
             },
             {
                 "to": {
-                    "startLine": 1461,
+                    "startLine": 1467,
                     "startColumn": 4,
-                    "startOffset": 111535,
+                    "startOffset": 111850,
                     "endColumn": 100,
-                    "endOffset": 111631
+                    "endOffset": 111946
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -9021,11 +9042,11 @@
             },
             {
                 "to": {
-                    "startLine": 1462,
+                    "startLine": 1468,
                     "startColumn": 4,
-                    "startOffset": 111636,
+                    "startOffset": 111951,
                     "endColumn": 104,
-                    "endOffset": 111736
+                    "endOffset": 112051
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -9040,12 +9061,12 @@
             },
             {
                 "to": {
-                    "startLine": 1463,
+                    "startLine": 1469,
                     "startColumn": 4,
-                    "startOffset": 111741,
-                    "endLine": 1464,
+                    "startOffset": 112056,
+                    "endLine": 1470,
                     "endColumn": 12,
-                    "endOffset": 111848
+                    "endOffset": 112163
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -9061,12 +9082,12 @@
             },
             {
                 "to": {
-                    "startLine": 1465,
+                    "startLine": 1471,
                     "startColumn": 4,
-                    "startOffset": 111853,
-                    "endLine": 1466,
+                    "startOffset": 112168,
+                    "endLine": 1472,
                     "endColumn": 12,
-                    "endOffset": 111978
+                    "endOffset": 112293
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -9082,11 +9103,11 @@
             },
             {
                 "to": {
-                    "startLine": 1467,
+                    "startLine": 1473,
                     "startColumn": 4,
-                    "startOffset": 111983,
+                    "startOffset": 112298,
                     "endColumn": 90,
-                    "endOffset": 112069
+                    "endOffset": 112384
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -9101,11 +9122,11 @@
             },
             {
                 "to": {
-                    "startLine": 1468,
+                    "startLine": 1474,
                     "startColumn": 4,
-                    "startOffset": 112074,
+                    "startOffset": 112389,
                     "endColumn": 122,
-                    "endOffset": 112192
+                    "endOffset": 112507
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -9120,12 +9141,12 @@
             },
             {
                 "to": {
-                    "startLine": 1469,
+                    "startLine": 1475,
                     "startColumn": 4,
-                    "startOffset": 112197,
-                    "endLine": 1470,
+                    "startOffset": 112512,
+                    "endLine": 1476,
                     "endColumn": 12,
-                    "endOffset": 112304
+                    "endOffset": 112619
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -9141,11 +9162,11 @@
             },
             {
                 "to": {
-                    "startLine": 1471,
+                    "startLine": 1477,
                     "startColumn": 4,
-                    "startOffset": 112309,
+                    "startOffset": 112624,
                     "endColumn": 85,
-                    "endOffset": 112390
+                    "endOffset": 112705
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -9160,11 +9181,11 @@
             },
             {
                 "to": {
-                    "startLine": 1472,
+                    "startLine": 1478,
                     "startColumn": 4,
-                    "startOffset": 112395,
+                    "startOffset": 112710,
                     "endColumn": 103,
-                    "endOffset": 112494
+                    "endOffset": 112809
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -9179,12 +9200,12 @@
             },
             {
                 "to": {
-                    "startLine": 1473,
+                    "startLine": 1479,
                     "startColumn": 4,
-                    "startOffset": 112499,
-                    "endLine": 1474,
+                    "startOffset": 112814,
+                    "endLine": 1480,
                     "endColumn": 12,
-                    "endOffset": 112602
+                    "endOffset": 112917
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -9200,12 +9221,12 @@
             },
             {
                 "to": {
-                    "startLine": 1475,
+                    "startLine": 1481,
                     "startColumn": 4,
-                    "startOffset": 112607,
-                    "endLine": 1476,
+                    "startOffset": 112922,
+                    "endLine": 1482,
                     "endColumn": 12,
-                    "endOffset": 112702
+                    "endOffset": 113017
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -9221,12 +9242,12 @@
             },
             {
                 "to": {
-                    "startLine": 1477,
+                    "startLine": 1483,
                     "startColumn": 4,
-                    "startOffset": 112707,
-                    "endLine": 1478,
+                    "startOffset": 113022,
+                    "endLine": 1484,
                     "endColumn": 12,
-                    "endOffset": 112820
+                    "endOffset": 113135
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -9242,12 +9263,12 @@
             },
             {
                 "to": {
-                    "startLine": 1479,
+                    "startLine": 1485,
                     "startColumn": 4,
-                    "startOffset": 112825,
-                    "endLine": 1480,
+                    "startOffset": 113140,
+                    "endLine": 1486,
                     "endColumn": 12,
-                    "endOffset": 112924
+                    "endOffset": 113239
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -9263,12 +9284,12 @@
             },
             {
                 "to": {
-                    "startLine": 1481,
+                    "startLine": 1487,
                     "startColumn": 4,
-                    "startOffset": 112929,
-                    "endLine": 1482,
+                    "startOffset": 113244,
+                    "endLine": 1488,
                     "endColumn": 12,
-                    "endOffset": 113028
+                    "endOffset": 113343
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -9284,12 +9305,12 @@
             },
             {
                 "to": {
-                    "startLine": 1483,
+                    "startLine": 1489,
                     "startColumn": 4,
-                    "startOffset": 113033,
-                    "endLine": 1484,
+                    "startOffset": 113348,
+                    "endLine": 1490,
                     "endColumn": 12,
-                    "endOffset": 113154
+                    "endOffset": 113469
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -9305,11 +9326,11 @@
             },
             {
                 "to": {
-                    "startLine": 1485,
+                    "startLine": 1491,
                     "startColumn": 4,
-                    "startOffset": 113159,
+                    "startOffset": 113474,
                     "endColumn": 87,
-                    "endOffset": 113242
+                    "endOffset": 113557
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -9324,11 +9345,11 @@
             },
             {
                 "to": {
-                    "startLine": 1486,
+                    "startLine": 1492,
                     "startColumn": 4,
-                    "startOffset": 113247,
+                    "startOffset": 113562,
                     "endColumn": 89,
-                    "endOffset": 113332
+                    "endOffset": 113647
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -9343,11 +9364,11 @@
             },
             {
                 "to": {
-                    "startLine": 1487,
+                    "startLine": 1493,
                     "startColumn": 4,
-                    "startOffset": 113337,
+                    "startOffset": 113652,
                     "endColumn": 109,
-                    "endOffset": 113442
+                    "endOffset": 113757
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -9362,11 +9383,11 @@
             },
             {
                 "to": {
-                    "startLine": 1488,
+                    "startLine": 1494,
                     "startColumn": 4,
-                    "startOffset": 113447,
+                    "startOffset": 113762,
                     "endColumn": 83,
-                    "endOffset": 113526
+                    "endOffset": 113841
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -9381,11 +9402,11 @@
             },
             {
                 "to": {
-                    "startLine": 1489,
+                    "startLine": 1495,
                     "startColumn": 4,
-                    "startOffset": 113531,
+                    "startOffset": 113846,
                     "endColumn": 83,
-                    "endOffset": 113610
+                    "endOffset": 113925
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -9400,11 +9421,11 @@
             },
             {
                 "to": {
-                    "startLine": 1490,
+                    "startLine": 1496,
                     "startColumn": 4,
-                    "startOffset": 113615,
+                    "startOffset": 113930,
                     "endColumn": 53,
-                    "endOffset": 113664
+                    "endOffset": 113979
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -9419,11 +9440,11 @@
             },
             {
                 "to": {
-                    "startLine": 1491,
+                    "startLine": 1497,
                     "startColumn": 4,
-                    "startOffset": 113669,
+                    "startOffset": 113984,
                     "endColumn": 63,
-                    "endOffset": 113728
+                    "endOffset": 114043
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -9438,11 +9459,11 @@
             },
             {
                 "to": {
-                    "startLine": 1492,
+                    "startLine": 1498,
                     "startColumn": 4,
-                    "startOffset": 113733,
+                    "startOffset": 114048,
                     "endColumn": 105,
-                    "endOffset": 113834
+                    "endOffset": 114149
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -9457,11 +9478,11 @@
             },
             {
                 "to": {
-                    "startLine": 1493,
+                    "startLine": 1499,
                     "startColumn": 4,
-                    "startOffset": 113839,
+                    "startOffset": 114154,
                     "endColumn": 109,
-                    "endOffset": 113944
+                    "endOffset": 114259
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -9476,11 +9497,11 @@
             },
             {
                 "to": {
-                    "startLine": 1494,
+                    "startLine": 1500,
                     "startColumn": 4,
-                    "startOffset": 113949,
+                    "startOffset": 114264,
                     "endColumn": 83,
-                    "endOffset": 114028
+                    "endOffset": 114343
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",
@@ -9495,11 +9516,11 @@
             },
             {
                 "to": {
-                    "startLine": 1495,
+                    "startLine": 1501,
                     "startColumn": 4,
-                    "startOffset": 114033,
+                    "startOffset": 114348,
                     "endColumn": 119,
-                    "endOffset": 114148
+                    "endOffset": 114463
                 },
                 "from": {
                     "file": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values\\values.xml",

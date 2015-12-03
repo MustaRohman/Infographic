@@ -7,6 +7,7 @@
 
 
 
+
     android:background="#ecf0f1"
     android:contextClickable="false"
     >
@@ -15,7 +16,7 @@
         android:id="@+id/content_frame"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-
+        android:background="@drawable/repeatbg"
 
         />
 
@@ -25,77 +26,97 @@
         android:fillViewport="true"
         >
         <LinearLayout
-            android:layout_width="1500dp"
+            android:layout_width="2500dp"
             android:layout_height="fill_parent"
             android:orientation="vertical"
-            android:paddingTop="20dp">
+            >
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/title"
                 android:textSize="50sp"
-                android:textColor="#111111"
-                android:layout_marginLeft="15dp"
+                android:textColor="#ffffff"
                 android:id="@+id/title"
-                android:paddingBottom="25dp"
-                android:foregroundGravity="center"
-                android:layout_gravity="center_horizontal" />
+                android:background="#95a5a6"
+
+                 />
             <LinearLayout
-                android:layout_width="1404dp"
-                android:layout_height="wrap_content">
-                <com.github.mikephil.charting.charts.PieChart
-                    android:id="@+id/pieChart"
-                    android:layout_width="450dp"
-                    android:layout_height="250dp"
-                    android:layout_rowWeight="40" />
+                android:layout_width="2000dp"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp">
+
 
                 <LinearLayout
-                    android:orientation="vertical"
-                    android:layout_width="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_width="450dp"
                     android:layout_height="match_parent"
                     android:layout_gravity="center_vertical"
                     android:gravity="center"
                     android:layout_marginLeft="50dp">
 
                     <Button
-                        android:layout_width="wrap_content"
+                        android:layout_width="150dp"
                         android:layout_height="wrap_content"
                         android:text="   "
-                        android:id="@+id/button"
+                        android:id="@+id/button0"
                         android:background="#f1c40f"
                         android:onClick="checkAnimation"/>
 
                     <Button
-                        android:layout_width="wrap_content"
+                        android:layout_width="150dp"
                         android:layout_height="wrap_content"
                         android:text="  "
-                        android:id="@+id/button2"
+                        android:id="@+id/button1"
                         android:background="#e74c3c" />
 
                     <Button
-                        android:layout_width="wrap_content"
+                        android:layout_width="150dp"
                         android:layout_height="wrap_content"
                         android:text="  "
-                        android:id="@+id/button3"
+                        android:id="@+id/button2"
                         android:background="#3498db" />
 
-                    <Button
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text=" "
-                        android:id="@+id/button4"
-                        android:background="#27ae60" />
+
                 </LinearLayout>
+                <com.github.mikephil.charting.charts.PieChart
+                    android:id="@+id/pieChart"
+                    android:layout_width="450dp"
+                    android:layout_height="300dp"
+                    android:layout_rowWeight="40" />
+                <!--<View-->
+                    <!--android:layout_width="3dp"-->
+                    <!--android:layout_height="fill_parent"-->
+                    <!--android:background="@android:color/holo_red_dark"-->
+                    <!--android:layout_marginLeft="20dp"/>-->
+                <com.github.mikephil.charting.charts.BubbleChart
+                    android:layout_width="450dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="50dp">
+
+                </com.github.mikephil.charting.charts.BubbleChart>
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="450dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center"
+                    android:layout_marginLeft="50dp"
+
+                    >
+
+
+
+                </LinearLayout>
+
             </LinearLayout>
 
             <ImageView
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:src="@drawable/londonskyline"
-
                 android:layout_gravity="bottom"
-                android:layout_marginTop="100dp" />
+                android:layout_marginTop="50dp" />
 
 
         </LinearLayout>

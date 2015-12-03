@@ -1,19 +1,23 @@
 package com.ecru.infographic;
 
+import android.animation.ObjectAnimator;
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.graphics.Color;
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
+import android.view.ContextThemeWrapper;
 import android.view.View;
-import android.view.animation.AnimationSet;
-import android.view.animation.TranslateAnimation;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ListView;
 import android.widget.SeekBar;
 import android.widget.TextView;
 
+import com.bartoszlipinski.viewpropertyobjectanimator.ViewPropertyObjectAnimator;
 import com.ecru.data.GetDataValues;
 import com.github.mikephil.charting.animation.Easing;
 import com.github.mikephil.charting.charts.PieChart;
@@ -21,47 +25,44 @@ import com.github.mikephil.charting.data.Entry;
 import com.github.mikephil.charting.data.PieData;
 import com.github.mikephil.charting.data.PieDataSet;
 import com.github.mikephil.charting.formatter.PercentFormatter;
+import com.github.mikephil.charting.highlight.Highlight;
+import com.github.mikephil.charting.listener.OnChartValueSelectedListener;
 import com.github.mikephil.charting.utils.ColorTemplate;
 
 import org.json.JSONException;
 
 import java.util.ArrayList;
 
-public class MainActivity extends AppCompatActivity  implements SeekBar.OnSeekBarChangeListener{
+public class MainActivity extends AppCompatActivity  implements SeekBar.OnSeekBarChangeListener {
 
-    public PieChart sectors;
-    public SeekBar selectYear;
+    private PieChart sectors;
+    private SeekBar selectYear;
     private TextView title;
     private Typeface bigJoe;
     private ArrayList<String> mPlanetTitles;
     private DrawerLayout mDrawerLayout;
     private ListView mDrawerList;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         bigJoe = Typeface.createFromAsset(getAssets(), "fonts/Slim Joe.otf");
         title = (TextView) findViewById(R.id.title);
         title.setTypeface(bigJoe);
         sectors = (PieChart) findViewById(R.id.pieChart);
+//        alert();
 //        selectYear = (SeekBar) findViewById(R.id.seekBar1);
-//
+
 //        selectYear.setMax(30);
 //        selectYear.setOnSeekBarChangeListener(this);
 
         /**
-         * Drawer content
+         * LEFT SIDE SLIDER PANEL . WE ARE NOT USING FOR NOW
          */
-        mPlanetTitles = new ArrayList<>();
-        for (int i = 0; i < 10; i ++){
-            mPlanetTitles.add("Year 200"+i);
-        }
-        mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
-        mDrawerList = (ListView) findViewById(R.id.left_drawer);
-
-        mDrawerList.setAdapter(new ArrayAdapter<>(this, R.layout.draw_list_item, mPlanetTitles));
-        mDrawerList.setOnItemClickListener(new DrawerItemClickListener());
+        createSidePanel();
 
 
         try {
@@ -74,6 +75,29 @@ public class MainActivity extends AppCompatActivity  implements SeekBar.OnSeekBa
         sectors.setDescription("Sectors % of UK employment");
         sectors.animateY(1500, Easing.EasingOption.EaseInOutQuad);
         sectors.setHoleColorTransparent(true);
+
+        /**
+         * PIE CHART LISTENER
+         */
+        sectors.setOnChartValueSelectedListener(new OnChartValueSelectedListener() {
+            @Override
+            public void onValueSelected(Entry entry, int i, Highlight highlight) {
+                String temp[] = String.valueOf(entry).split(":");
+                int buttonNum = Integer.parseInt(temp[1].replaceAll("[^\\d.]", ""));
+                String buttonId = "button"+buttonNum;
+                int resId = getResources().getIdentifier(buttonId, "id", getPackageName());
+                Button pressBtn = (Button)findViewById(resId);
+//                pressBtn.bringToFront();
+                replace(pressBtn);
+                Log.d("chart value", "");
+
+            }
+
+            @Override
+            public void onNothingSelected() {
+
+            }
+        });
 
 
     }
@@ -158,19 +182,57 @@ public class MainActivity extends AppCompatActivity  implements SeekBar.OnSeekBa
     public void onStopTrackingTouch(SeekBar seekBar) {
 
     }
-    public void checkAnimation(View v){
-        Button clickBtn = (Button)v;
-        replace(100,100, clickBtn);
+
+    public void checkAnimation(View v) {
+        Button clickBtn = (Button) v;
+        replace(clickBtn);
+
+
     }
 
-    public void replace(int xTo, int yTo, Button btn){
-        AnimationSet test = new AnimationSet(false);
-        test.setFillAfter(true);
+    public void replace(Button btn) {
+        ObjectAnimator buttonAni = ViewPropertyObjectAnimator
+                .animate(btn)
+                .height(400)
+                .setDuration(500)
+                .rotationX(360)
+                .get();
+        buttonAni.start();
+    }
 
-        TranslateAnimation trans = new TranslateAnimation(0, xTo, 0, yTo);
-        trans.setDuration(1000);
-        test.addAnimation(trans);
-        btn.startAnimation(test);
+    public void alert() {
+
+        AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(new ContextThemeWrapper(this, R.style.AlertDialogCustom));
+        // set dialog message
+        alertDialogBuilder
+                .setMessage("Swipe left to select a different year.")
+                .setCancelable(false)
+                .setNegativeButton("Close", new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int id) {
+                        // if this button is clicked, just close
+                        // the dialog box and do nothing
+                        dialog.cancel();
+                    }
+                });
+
+        // create alert dialog
+        AlertDialog alertDialog = alertDialogBuilder.create();
+
+        // show it
+        alertDialog.show();
+
+    }
+
+    public void createSidePanel(){
+        mPlanetTitles = new ArrayList<>();
+        for (int i = 0; i < 20; i++) {
+            mPlanetTitles.add("Year 200" + i);
+        }
+        mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
+        mDrawerList = (ListView) findViewById(R.id.left_drawer);
+
+        mDrawerList.setAdapter(new ArrayAdapter<>(this, R.layout.draw_list_item, mPlanetTitles));
+        mDrawerList.setOnItemClickListener(new DrawerItemClickListener());
     }
 
 }

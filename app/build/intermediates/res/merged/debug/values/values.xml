@@ -217,9 +217,15 @@
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <string name="app_name">Infographic</string>
     <string name="status_bar_notification_info_overflow">999+</string>
-    <string name="title">UK</string>
+    <string name="title">UK EMPLOYMENT SECTORS</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
+    <style name="AlertDialogCustom" parent="@android:style/Theme.Dialog">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:background">#111111</item>
+    </style>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>
     <style name="Animation.AppCompat.DropDownUp" parent="Base.Animation.AppCompat.DropDownUp"/>
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
