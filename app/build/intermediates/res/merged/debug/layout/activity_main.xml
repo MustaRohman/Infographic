@@ -109,7 +109,7 @@
                     <!--android:background="@android:color/holo_red_dark"-->
                     <!--android:layout_marginLeft="20dp"/>-->
                 <com.github.mikephil.charting.charts.LineChart
-                    android:layout_width="650dp"
+                    android:layout_width="750dp"
                     android:layout_height="match_parent"
                     android:layout_marginLeft="50dp"
                     android:id="@+id/lineChart">
@@ -117,14 +117,26 @@
                 </com.github.mikephil.charting.charts.LineChart>
                 <LinearLayout
                     android:orientation="vertical"
-                    android:layout_width="650dp"
+                    android:layout_width="450dp"
                     android:layout_height="match_parent"
                     android:layout_gravity="center_vertical"
                     android:gravity="center"
                     android:layout_marginLeft="50dp"
 
                     >
+                    <!-- To add another chart replace the type for the below one-->
+                    <com.github.mikephil.charting.charts.BubbleChart
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
 
+                    </com.github.mikephil.charting.charts.BubbleChart>
+                    <!-- For extra content related to the above chart put it inside below lines layout-->
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+
+                    </LinearLayout>
 
 
                 </LinearLayout>

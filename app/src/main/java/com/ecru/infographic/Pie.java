@@ -27,12 +27,16 @@ import java.util.ArrayList;
  * Created by Rami on 04/12/2015.
  */
 public class Pie implements SeekBar.OnSeekBarChangeListener {
+
     PieChart pieChart;
     Activity activity;
     SeekBar pieSeekBar;
+    GetDataValues dataValues;
+
     public Pie(final Activity activity) {
         this.activity = activity;
         this.pieChart = (PieChart) activity.findViewById(R.id.pieChart);
+        dataValues = new GetDataValues(activity);
         pieSeekBar = (SeekBar) activity.findViewById(R.id.pieSeekBar);
         pieSeekBar.setOnSeekBarChangeListener(this);
         pieSeekBar.setMax(30);
@@ -44,9 +48,6 @@ public class Pie implements SeekBar.OnSeekBarChangeListener {
             e.printStackTrace();
         }
 
-        /**
-         * PieChart Listener
-         */
         pieChart.setOnChartValueSelectedListener(new OnChartValueSelectedListener() {
             @Override
             public void onValueSelected(Entry entry, int i, Highlight highlight) {
@@ -69,7 +70,6 @@ public class Pie implements SeekBar.OnSeekBarChangeListener {
 
 
     public void setData(ArrayList values) {
-
 
         ArrayList<Entry> yVals1 = new ArrayList<>();
 
@@ -119,16 +119,7 @@ public class Pie implements SeekBar.OnSeekBarChangeListener {
 
     @Override
     public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
-        int year = pieSeekBar.getProgress();
 
-
-        try {
-            setData(new GetDataValues(activity).employmentPieData(year));
-            Log.d("hello", year+"");
-        } catch (JSONException e) {
-            e.printStackTrace();
-        }
-        pieChart.animateY(750, Easing.EasingOption.EaseInOutExpo);
     }
 
     @Override
@@ -138,6 +129,13 @@ public class Pie implements SeekBar.OnSeekBarChangeListener {
 
     @Override
     public void onStopTrackingTouch(SeekBar seekBar) {
-
+        int year = pieSeekBar.getProgress();
+        try {
+            setData(dataValues.employmentPieData(year));
+            Log.d("hello", year+"");
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+        pieChart.animateY(750, Easing.EasingOption.EaseInOutExpo);
     }
 }

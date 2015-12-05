@@ -9,11 +9,15 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.ContextThemeWrapper;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.SeekBar;
 import android.widget.TextView;
+
+import com.github.mikephil.charting.charts.PieChart;
+
 import java.util.ArrayList;
 
 
-public class MainActivity extends AppCompatActivity  implements SeekBar.OnSeekBarChangeListener{
+public class MainActivity extends AppCompatActivity{
 
     public PieChart sectors;
     public SeekBar selectYear;
@@ -38,7 +42,7 @@ public class MainActivity extends AppCompatActivity  implements SeekBar.OnSeekBa
          * LEFT SIDE SLIDER PANEL . WE ARE NOT USING FOR NOW
          */
         createSidePanel();
-    
+    }
 
     /**
      * Will use once we finish everything else. An extra feature.

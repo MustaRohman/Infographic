@@ -12,7 +12,6 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
-import java.net.MalformedURLException;
 import java.net.URL;
 
 /**
@@ -84,7 +83,7 @@ public class ApiHandler extends AsyncTask<String, Void, String> {
     @Override
     protected void onPostExecute(String returnString) {
         //store string
-
+    }
 
     /**
      * Method to store the string persistently
