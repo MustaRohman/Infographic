@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\naren\\Downloads\\api-example\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\values-xlarge-land-v4\\values-xlarge-land-v4.xml",
+        "outputFile": "/Users/mustarohman/AndroidStudioProjects/infograpic/D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\naren\\Downloads\\api-example\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\values-xlarge-land-v4\\values-xlarge-land-v4.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 114
                 },
                 "from": {
-                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\naren\\Downloads\\api-example\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-xlarge-land\\values-xlarge-land.xml",
+                    "file": "/Users/mustarohman/AndroidStudioProjects/infograpic/D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\naren\\Downloads\\api-example\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-xlarge-land\\values-xlarge-land.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -24,7 +24,7 @@
         ]
     },
     {
-        "outputFile": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\values-xlarge-land-v4\\values-xlarge-land-v4.xml",
+        "outputFile": "/Users/mustarohman/AndroidStudioProjects/infograpic/D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\values-xlarge-land-v4\\values-xlarge-land-v4.xml",
         "map": [
             {
                 "to": {
@@ -35,7 +35,7 @@
                     "endOffset": 114
                 },
                 "from": {
-                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-xlarge-land\\values-xlarge-land.xml",
+                    "file": "/Users/mustarohman/AndroidStudioProjects/infograpic/D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-xlarge-land\\values-xlarge-land.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -48,7 +48,7 @@
         ]
     },
     {
-        "outputFile": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\values-xlarge-land-v4\\values-xlarge-land-v4.xml",
+        "outputFile": "/Users/mustarohman/AndroidStudioProjects/infograpic/app/build/intermediates/res/merged/debug/values-xlarge-land-v4/values-xlarge-land-v4.xml",
         "map": [
             {
                 "to": {
@@ -59,7 +59,31 @@
                     "endOffset": 114
                 },
                 "from": {
-                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-xlarge-land\\values-xlarge-land.xml",
+                    "file": "/Users/mustarohman/AndroidStudioProjects/infograpic/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-xlarge-land/values-xlarge-land.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 295,
+                        "endColumn": 63,
+                        "endOffset": 354
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/Users/mustarohman/AndroidStudioProjects/infograpic/D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\values-xlarge-land-v4\\values-xlarge-land-v4.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 63,
+                    "endOffset": 114
+                },
+                "from": {
+                    "file": "/Users/mustarohman/AndroidStudioProjects/infograpic/D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-xlarge-land\\values-xlarge-land.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -72,7 +96,7 @@
         ]
     },
     {
-        "outputFile": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\values-xlarge-land-v4\\values-xlarge-land-v4.xml",
+        "outputFile": "/Users/mustarohman/AndroidStudioProjects/infograpic/D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\values-xlarge-land-v4\\values-xlarge-land-v4.xml",
         "map": [
             {
                 "to": {
@@ -83,7 +107,7 @@
                     "endOffset": 114
                 },
                 "from": {
-                    "file": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-xlarge-land\\values-xlarge-land.xml",
+                    "file": "/Users/mustarohman/AndroidStudioProjects/infograpic/D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-xlarge-land\\values-xlarge-land.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -96,7 +120,7 @@
         ]
     },
     {
-        "outputFile": "D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\values-xlarge-land-v4\\values-xlarge-land-v4.xml",
+        "outputFile": "/Users/mustarohman/AndroidStudioProjects/infograpic/D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\values-xlarge-land-v4\\values-xlarge-land-v4.xml",
         "map": [
             {
                 "to": {
@@ -107,7 +131,7 @@
                     "endOffset": 114
                 },
                 "from": {
-                    "file": "D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-xlarge-land\\values-xlarge-land.xml",
+                    "file": "/Users/mustarohman/AndroidStudioProjects/infograpic/D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-xlarge-land\\values-xlarge-land.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,

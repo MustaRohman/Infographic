@@ -4,6 +4,10 @@ import android.app.Activity;
 import android.content.Context;
 import android.os.AsyncTask;
 import android.util.Log;
+import android.view.View;
+import android.widget.ProgressBar;
+
+import com.ecru.infographic.R;
 
 import java.io.BufferedReader;
 import java.io.FileInputStream;
@@ -23,6 +27,7 @@ public class ApiHandler extends AsyncTask<String, Void, String> {
     private String filename;
     private Activity activity;
     private String urlName;
+    private ProgressBar progressBar;
 
 
     /**
@@ -35,6 +40,7 @@ public class ApiHandler extends AsyncTask<String, Void, String> {
         this.urlName = urlName;
         this.activity = activity;
         this.filename = filename;
+        progressBar = (ProgressBar) this.activity.findViewById(R.id.progress_bar);
     }
 
 
@@ -46,33 +52,36 @@ public class ApiHandler extends AsyncTask<String, Void, String> {
     @Override
     protected String doInBackground(String... Params) {
 
-        String returnString = "";
+        Log.d("doInBackground", "Attempting to load stored data...");
+        String returnString = loadCachedData();
+        if (returnString == null) {
+            try {
+                Log.d("doInBackground", "Failed to load offline data. Attempting to retrieve online data...");
+                returnString = "";
+                //gets url
+                URL urlName = new URL(this.urlName);
 
-        try {
-            //gets url
-            URL urlName = new URL(this.urlName);
+                HttpURLConnection connection = (HttpURLConnection) urlName.openConnection();
+                connection.setRequestMethod("GET");
+                connection.setDoInput(true);
+                connection.connect();
 
-            HttpURLConnection connection = (HttpURLConnection) urlName.openConnection();
-            connection.setRequestMethod("GET");
-            connection.setDoInput(true);
-            connection.connect();
+                BufferedReader in = new BufferedReader(new InputStreamReader(
+                        urlName.openStream()));
 
-            BufferedReader in = new BufferedReader(new InputStreamReader(
-                    urlName.openStream()));
+                //appends the response to the request to the return string
+                //N.B. no need for loop here as only one line will be returned
+                returnString += in.readLine();
 
-            //appends the response to the request to the return string
-            //N.B. no need for loop here as only one line will be returned
-            returnString += in.readLine();
-
-            //closes the connection
-            in.close();
-            connection.disconnect();
-            //calls the saveData method to store the string
-            saveData(returnString);
-        } catch (IOException e) {
-            Log.d("doInBackground", "Failed to retrieve online data, retrieving stored data");
-            returnString = loadCachedData();
-            e.printStackTrace();
+                //closes the connection
+                in.close();
+                connection.disconnect();
+                //calls the saveData method to store the string
+                saveData(returnString);
+            } catch (IOException e) {
+                Log.d("doInBackground", "Failed to retrieve online data");
+                e.printStackTrace();
+            }
         }
         //temp, used to see response from server in logCat
         Log.d("returnSting", returnString);
@@ -81,8 +90,13 @@ public class ApiHandler extends AsyncTask<String, Void, String> {
     }
 
     @Override
+    protected void onProgressUpdate(Void... values) {
+        progressBar.setVisibility(View.VISIBLE);
+    }
+
+    @Override
     protected void onPostExecute(String returnString) {
-        //store string
+        progressBar.setVisibility(View.INVISIBLE);
     }
 
     /**
@@ -104,7 +118,6 @@ public class ApiHandler extends AsyncTask<String, Void, String> {
         }
         return false;
     }
-
 
     /**
      * method to load the cached string

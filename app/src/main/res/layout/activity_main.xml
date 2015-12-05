@@ -4,32 +4,30 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:layout_weight="1"
-
-
-
-
     android:background="#ecf0f1"
-    android:contextClickable="false"
-    >
+    android:contextClickable="false">
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"
+        android:visibility="invisible"/>
     <!-- The main content view -->
     <FrameLayout
         android:id="@+id/content_frame"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:background="@drawable/repeatbg"
-
-        />
+        android:background="@drawable/repeatbg" />
 
     <HorizontalScrollView
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:fillViewport="true"
-        >
+        android:fillViewport="true">
         <LinearLayout
             android:layout_width="2500dp"
             android:layout_height="fill_parent"
-            android:orientation="vertical"
-            >
+            android:orientation="vertical">
 
             <TextView
                 android:layout_width="fill_parent"
@@ -39,13 +37,12 @@
                 android:textColor="#ffffff"
                 android:id="@+id/title"
                 android:background="#111111"
-
                 android:paddingLeft="25dp" />
+
             <LinearLayout
                 android:layout_width="2000dp"
                 android:layout_height="wrap_content"
                 android:paddingTop="20dp">
-
 
                 <LinearLayout
                     android:orientation="vertical"
