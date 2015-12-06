@@ -9,19 +9,16 @@ import android.support.v7.app.AppCompatActivity;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.ListView;
-import android.widget.SeekBar;
 import android.widget.TextView;
 
 import com.bartoszlipinski.viewpropertyobjectanimator.ViewPropertyObjectAnimator;
-import com.github.mikephil.charting.charts.PieChart;
 
 import java.util.ArrayList;
 
 
 public class MainActivity extends AppCompatActivity{
 
-    public PieChart sectors;
-    public SeekBar selectYear;
+
     private TextView title;
     private ImageView seekbar_info;
     public static Typeface bigJoe;
@@ -44,6 +41,7 @@ public class MainActivity extends AppCompatActivity{
         seekbar_info = (ImageView) findViewById(R.id.seekbar_info);
         new Graph(this);
         new Pie(this);
+
 
 
         agrCircle();

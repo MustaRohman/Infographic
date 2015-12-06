@@ -44,6 +44,18 @@ public class Pie implements SeekBar.OnSeekBarChangeListener {
         pieSeekBar.setMax(30);
         pieSeekBar.setProgress(0);
         pieChart.animateY(750, Easing.EasingOption.EaseInOutExpo);
+        Button btn0 = (Button)activity.findViewById(R.id.button0);
+        Button btn1 = (Button)activity.findViewById(R.id.button1);
+        Button btn2 = (Button)activity.findViewById(R.id.button2);
+        try {
+            btn0.setText(getButtonString(0));
+            btn1.setText(getButtonString(1));
+            btn2.setText(getButtonString(2));
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+
+
         try {
             setData(new GetDataValues(activity).employmentPieData(0));
         } catch (JSONException e) {
@@ -162,13 +174,14 @@ public class Pie implements SeekBar.OnSeekBarChangeListener {
         buttonA.start();
 
     }
-    public void getAllBtns(){
+    public void getAllBtns() throws  JSONException{
         delayTime = 250;
         counter = 0;
         while (counter < 3) {
             String buttonId = "button" + counter;
             int resId = activity.getResources().getIdentifier(buttonId, "id", activity.getPackageName());
             Button pressBtn = (Button) activity.findViewById(resId);
+            pressBtn.setText(getButtonString(resId));
             resetBtnSize(pressBtn);
             counter++;
             delayTime += 250;
@@ -197,7 +210,59 @@ public class Pie implements SeekBar.OnSeekBarChangeListener {
             e.printStackTrace();
         }
         pieChart.animateY(750, Easing.EasingOption.EaseInOutExpo);
-        getAllBtns();
+        try {
+            getAllBtns();
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
     }
+
+    public String getButtonString(int buttonIndex) throws JSONException {
+        int year = pieSeekBar.getProgress();
+        String returnString;
+
+        if(year < 30) {
+            year +=1;
+
+            if(buttonIndex == 0){
+                //AGRICULTURE
+                float valChange = (float) dataValues.employmentPieData(year).get(0)-
+                        (float) dataValues.employmentPieData(year-1).get(0);
+
+                if(valChange > 0){
+                    returnString = valChange + "% increase from " + (Pie.yr-1);
+                }else{
+                    returnString = valChange + "% decrease from " + (Pie.yr-1);
+                }
+
+            }else if(buttonIndex == 1){
+                //SERVICE
+                float valChange = (float) dataValues.employmentPieData(year).get(1)-
+                        (float) dataValues.employmentPieData(year-1).get(1);
+
+                if(valChange > 0){
+                    returnString = valChange + "% increase from " + (Pie.yr-1);
+                }else{
+                    returnString = valChange + "% decrease from " + (Pie.yr-1);
+                }
+
+            }else {
+                //INDUSTRY
+                float valChange = (float) dataValues.employmentPieData(year).get(2)-
+                        (float) dataValues.employmentPieData(year-1).get(2);
+
+                if(valChange > 0){
+                    returnString = valChange + "% increase from " + (Pie.yr-1);
+                }else{
+                    returnString = valChange + "% decrease from " + (Pie.yr-1);
+                }
+            }
+
+        }else{
+            returnString = "N/A";
+        }
+        return returnString;
+    }
+
 
 }

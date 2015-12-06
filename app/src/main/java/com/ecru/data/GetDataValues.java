@@ -25,6 +25,7 @@ public class GetDataValues {
     String empServJson;
     String empAgrJson;
     String empIndJson;
+    String exportsJson;
     int  selected =0;
     /**
      * Method to get the data for various charts/graphs needed
@@ -159,6 +160,33 @@ public class GetDataValues {
 
 
         //return the arrayList containing the values
+        return data;
+    }
+
+    public LineData exportsChart() throws JSONException {
+
+
+        int[] years = (int[]) parseData(exportsJson)[0];
+        float[] ictExports = (float[]) parseData(exportsJson)[1];
+
+        //Create a new arraylist to contain the dataset
+        ArrayList<Entry> exportsArrList = new ArrayList<Entry>();
+        ArrayList<String> yearNumberLabels = new ArrayList<>();
+        for (int i = 0; i < years.length; ++i) {
+            //add the value to the array list for the year specified
+
+            exportsArrList.add(new Entry(ictExports[i], ((years.length - 1) - i)));
+            yearNumberLabels.add(String.valueOf(years[((years.length - 1) - i)]));
+
+        }
+
+        //Line Data Sets Are Created
+        LineDataSet values = new LineDataSet(exportsArrList, "Communication and computer exports % of service exports");
+
+        ArrayList<LineDataSet> LineDataArray = new ArrayList<>();
+        LineDataArray.add(values);
+        LineData data = new LineData(yearNumberLabels, LineDataArray);
+
         return data;
     }
 
