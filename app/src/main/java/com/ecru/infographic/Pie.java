@@ -28,14 +28,14 @@ import java.util.ArrayList;
  * Created by Rami on 04/12/2015.
  */
 public class Pie implements SeekBar.OnSeekBarChangeListener {
-    public  static int yr = 1980;
+    public static int yr = 1980;
     public PieChart pieChart;
+    public int counter, delayTime;
     private Activity activity;
     private SeekBar pieSeekBar;
     private GetDataValues dataValues;
-    public int counter, delayTime;
 
-    public Pie(final Activity activity) {
+    public Pie(final Activity activity) throws JSONException {
         this.activity = activity;
         this.pieChart = (PieChart) activity.findViewById(R.id.pieChart);
         dataValues = new GetDataValues(activity);
@@ -44,6 +44,12 @@ public class Pie implements SeekBar.OnSeekBarChangeListener {
         pieSeekBar.setMax(30);
         pieSeekBar.setProgress(0);
         pieChart.animateY(750, Easing.EasingOption.EaseInOutExpo);
+        Button btn0 = (Button)activity.findViewById(R.id.button0);
+        btn0.setText(getButtonString(0));
+        Button btn1 = (Button)activity.findViewById(R.id.button1);
+        btn1.setText(getButtonString(1));
+        Button btn2 = (Button)activity.findViewById(R.id.button2);
+        btn2.setText(getButtonString(2));
         try {
             setData(new GetDataValues(activity).employmentPieData(0));
         } catch (JSONException e) {
@@ -55,13 +61,12 @@ public class Pie implements SeekBar.OnSeekBarChangeListener {
 
     }
 
-    public void assignListeners(){
+    public void assignListeners() {
         pieSeekBar.setOnTouchListener(new View.OnTouchListener() {
             @Override
             public boolean onTouch(View v, MotionEvent event) {
                 int action = event.getAction();
-                switch (action)
-                {
+                switch (action) {
                     case MotionEvent.ACTION_DOWN:
                         // Disallow ScrollView to intercept touch events.
                         v.getParent().requestDisallowInterceptTouchEvent(true);
@@ -80,6 +85,9 @@ public class Pie implements SeekBar.OnSeekBarChangeListener {
 
         });
 
+
+
+
         pieChart.setOnChartValueSelectedListener(new OnChartValueSelectedListener() {
             @Override
             public void onValueSelected(Entry entry, int i, Highlight highlight) {
@@ -89,16 +97,64 @@ public class Pie implements SeekBar.OnSeekBarChangeListener {
                 int resId = activity.getResources().getIdentifier(buttonId, "id", activity.getPackageName());
                 Button pressBtn = (Button) activity.findViewById(resId);
                 replace(pressBtn);
-
-
             }
-
             @Override
             public void onNothingSelected() {
-
             }
         });
     }
+
+
+    public String getButtonString(int buttonIndex) throws JSONException {
+        int year = pieSeekBar.getProgress();
+        String returnString;
+
+        if(year < 30) {
+            year +=1;
+
+            if(buttonIndex == 0){
+                //AGRICULTURE
+                float valChange = (float) dataValues.employmentPieData(year).get(0)-
+                        (float) dataValues.employmentPieData(year-1).get(0);
+
+                if(valChange > 0){
+                    returnString = valChange + "% increase from " + (Pie.yr-1);
+                }else{
+                    returnString = valChange + "% decrease from " + (Pie.yr-1);
+                }
+
+            }else if(buttonIndex == 1){
+                //SERVICE
+                float valChange = (float) dataValues.employmentPieData(year).get(1)-
+                        (float) dataValues.employmentPieData(year-1).get(1);
+
+                if(valChange > 0){
+                    returnString = valChange + "% increase from " + (Pie.yr-1);
+                }else{
+                    returnString = valChange + "% decrease from " + (Pie.yr-1);
+                }
+
+            }else {
+                //INDUSTRY
+                float valChange = (float) dataValues.employmentPieData(year).get(2)-
+                        (float) dataValues.employmentPieData(year-1).get(2);
+
+                if(valChange > 0){
+                    returnString = valChange + "% increase from " + (Pie.yr-1);
+                }else{
+                    returnString = valChange + "% decrease from " + (Pie.yr-1);
+                }
+            }
+
+        }else{
+            returnString = "N/A";
+        }
+        return returnString;
+    }
+
+
+
+
     public void setData(ArrayList values) {
 
         ArrayList<Entry> yVals1 = new ArrayList<>();
@@ -140,6 +196,7 @@ public class Pie implements SeekBar.OnSeekBarChangeListener {
 
     /**
      * Animation for Buttons
+     *
      * @param btn
      */
     public void replace(Button btn) {
@@ -152,7 +209,7 @@ public class Pie implements SeekBar.OnSeekBarChangeListener {
         buttonAni.start();
     }
 
-    public void resetBtnSize(Button btn){
+    public void resetBtnSize(Button btn) {
 
         ObjectAnimator buttonAni = ViewPropertyObjectAnimator
                 .animate(btn)
@@ -162,13 +219,15 @@ public class Pie implements SeekBar.OnSeekBarChangeListener {
         buttonAni.start();
 
     }
-    public void getAllBtns(){
+
+    public void getAllBtns() throws JSONException {
         delayTime = 250;
         counter = 0;
         while (counter < 3) {
             String buttonId = "button" + counter;
             int resId = activity.getResources().getIdentifier(buttonId, "id", activity.getPackageName());
             Button pressBtn = (Button) activity.findViewById(resId);
+            pressBtn.setText(getButtonString(resId));
             resetBtnSize(pressBtn);
             counter++;
             delayTime += 250;
@@ -191,13 +250,18 @@ public class Pie implements SeekBar.OnSeekBarChangeListener {
         try {
             setData(dataValues.employmentPieData(year));
             pieChart.setCenterText("" + yr);
-            Log.d("year", ""+year);
+            Log.d("year", "" + year);
             pieChart.invalidate();
         } catch (JSONException e) {
             e.printStackTrace();
         }
         pieChart.animateY(750, Easing.EasingOption.EaseInOutExpo);
-        getAllBtns();
+        try {
+            getAllBtns();
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+
     }
 
 }

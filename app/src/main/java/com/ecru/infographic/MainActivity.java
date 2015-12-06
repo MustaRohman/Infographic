@@ -18,16 +18,18 @@ import android.widget.TextView;
 import com.bartoszlipinski.viewpropertyobjectanimator.ViewPropertyObjectAnimator;
 import com.github.mikephil.charting.charts.PieChart;
 
+import org.json.JSONException;
+
 import java.util.ArrayList;
 
 
-public class MainActivity extends AppCompatActivity{
+public class MainActivity extends AppCompatActivity {
 
+    public static Typeface bigJoe;
     public PieChart sectors;
     public SeekBar selectYear;
     private TextView title;
     private ImageView seekbar_info;
-    public static Typeface bigJoe;
     private ArrayList<String> mPlanetTitles;
     private DrawerLayout mDrawerLayout;
     private ListView mDrawerList;
@@ -45,7 +47,12 @@ public class MainActivity extends AppCompatActivity{
         // IMAGE VIEW
         seekbar_info = (ImageView) findViewById(R.id.seekbar_info);
         new Graph(this);
-        new Pie(this);
+        try {
+            new Pie(this);
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+        new ExportsGraph(this);
         hideInfos();
 
         /**
@@ -80,7 +87,7 @@ public class MainActivity extends AppCompatActivity{
 
     }
 
-    public void createSidePanel(){
+    public void createSidePanel() {
         mPlanetTitles = new ArrayList<>();
         for (int i = 0; i < 20; i++) {
             mPlanetTitles.add("Year 200" + i);
@@ -92,7 +99,7 @@ public class MainActivity extends AppCompatActivity{
         mDrawerList.setOnItemClickListener(new DrawerItemClickListener());
     }
 
-    public void hideInfos(){
+    public void hideInfos() {
         Handler handler = new Handler();
         handler.postDelayed(new Runnable() {
             @Override
@@ -104,7 +111,7 @@ public class MainActivity extends AppCompatActivity{
                         .get();
                 seekbarInfo.start();
             }
-        },10000);
+        }, 10000);
     }
 
 
