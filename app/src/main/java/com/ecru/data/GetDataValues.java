@@ -81,7 +81,8 @@ public class GetDataValues {
         Log.d("VAL_AGRI", agricultureVals[year] + "");
         Log.d("VAL_SERV", serviceVals[year] + "");
         Log.d("VAL_INDS", industryVals[year] + "");
-
+        Log.d("TEST", agricultureVals[10] + "value at 0");                Log.d("TEST",serviceVals[10]+"value at 1");
+        Log.d("TEST",industryVals[10]+"value at 0");
         //return the arrayList containing the values
         return values;
     }

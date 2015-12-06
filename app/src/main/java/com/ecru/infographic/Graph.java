@@ -14,7 +14,7 @@ public class Graph {
     Activity activity;
     LineChart lineChart;
 
-    public Graph(Activity activity) {
+    public Graph(Activity activity,GetDataValues dataValues) {
         this.activity = activity;
         this.lineChart = (LineChart)activity.findViewById(R.id.lineChart);
 
@@ -24,7 +24,7 @@ public class Graph {
         xAxis.setEnabled(true);
 
         try {
-            lineChart.setData(new GetDataValues(activity).LineGraphSectorData());
+            lineChart.setData(dataValues.LineGraphSectorData());
             xAxis.setDrawAxisLine(true);
             xAxis.setLabelsToSkip(0);
         } catch (Exception e) {

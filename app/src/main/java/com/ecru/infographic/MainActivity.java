@@ -12,6 +12,7 @@ import android.widget.ListView;
 import android.widget.SeekBar;
 import android.widget.TextView;
 
+import com.ecru.data.GetDataValues;
 import com.github.mikephil.charting.charts.PieChart;
 
 import java.util.ArrayList;
@@ -26,22 +27,33 @@ public class MainActivity extends AppCompatActivity{
     private ArrayList<String> mPlanetTitles;
     private DrawerLayout mDrawerLayout;
     private ListView mDrawerList;
+    private GetDataValues dataValues;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        dataValues = new GetDataValues(this);
         bigJoe = Typeface.createFromAsset(getAssets(), "fonts/BIG.otf");
         title = (TextView) findViewById(R.id.title);
         title.setTypeface(bigJoe);
-        new Graph(this);
-        new Pie(this);
+        new Graph(this,dataValues);
+        new Pie(this,dataValues);
 
         /**
          * LEFT SIDE SLIDER PANEL . WE ARE NOT USING FOR NOW
          */
         createSidePanel();
+    }
+
+    public GetDataValues getDataValues() {
+        return dataValues;
+    }
+
+    public void setDataValues(GetDataValues dataValues) {
+        this.dataValues = dataValues;
     }
 
     /**

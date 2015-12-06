@@ -26,24 +26,24 @@ import java.util.ArrayList;
 /**
  * Created by Rami on 04/12/2015.
  */
-public class Pie implements SeekBar.OnSeekBarChangeListener {
+public class Pie {
 
     PieChart pieChart;
     Activity activity;
     SeekBar pieSeekBar;
     GetDataValues dataValues;
 
-    public Pie(final Activity activity) {
+    public Pie(final Activity activity,GetDataValues dataValues) {
         this.activity = activity;
         this.pieChart = (PieChart) activity.findViewById(R.id.pieChart);
-        dataValues = new GetDataValues(activity);
+        this.dataValues = dataValues;
         pieSeekBar = (SeekBar) activity.findViewById(R.id.pieSeekBar);
-        pieSeekBar.setOnSeekBarChangeListener(this);
+        pieSeekBar.setOnSeekBarChangeListener(change);
         pieSeekBar.setMax(30);
         pieSeekBar.setProgress(0);
         pieChart.animateY(750, Easing.EasingOption.EaseInOutExpo);
         try {
-            setData(new GetDataValues(activity).employmentPieData(0));
+            setData(dataValues.employmentPieData(0));
         } catch (JSONException e) {
             e.printStackTrace();
         }
@@ -68,6 +68,36 @@ public class Pie implements SeekBar.OnSeekBarChangeListener {
         });
     }
 
+    SeekBar.OnSeekBarChangeListener change = new SeekBar.OnSeekBarChangeListener() {
+        @Override
+        public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
+            int year = pieSeekBar.getProgress();
+            try {
+                setData(dataValues.employmentPieData(year));
+                Log.d("hello", year+"");
+            } catch (JSONException e) {
+                e.printStackTrace();
+            }
+            pieChart.animateY(750, Easing.EasingOption.EaseInOutExpo);
+        }
+
+        @Override
+        public void onStartTrackingTouch(SeekBar seekBar) {
+
+        }
+
+        @Override
+        public void onStopTrackingTouch(SeekBar seekBar) {
+            int year = pieSeekBar.getProgress();
+            try {
+                setData(dataValues.employmentPieData(year));
+                Log.d("hello", year+"");
+            } catch (JSONException e) {
+                e.printStackTrace();
+            }
+            pieChart.animateY(750, Easing.EasingOption.EaseInOutExpo);
+        }
+    };
 
     public void setData(ArrayList values) {
 
@@ -117,25 +147,5 @@ public class Pie implements SeekBar.OnSeekBarChangeListener {
         buttonAni.start();
     }
 
-    @Override
-    public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
 
-    }
-
-    @Override
-    public void onStartTrackingTouch(SeekBar seekBar) {
-
-    }
-
-    @Override
-    public void onStopTrackingTouch(SeekBar seekBar) {
-        int year = pieSeekBar.getProgress();
-        try {
-            setData(dataValues.employmentPieData(year));
-            Log.d("hello", year+"");
-        } catch (JSONException e) {
-            e.printStackTrace();
-        }
-        pieChart.animateY(750, Easing.EasingOption.EaseInOutExpo);
-    }
 }
