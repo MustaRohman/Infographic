@@ -1,11 +1,13 @@
 package com.ecru.infographic;
 
 import android.app.Activity;
+import android.graphics.Color;
 
 import com.ecru.data.GetDataValues;
 import com.github.mikephil.charting.charts.LineChart;
 import com.github.mikephil.charting.components.Legend;
 import com.github.mikephil.charting.components.XAxis;
+import com.github.mikephil.charting.components.YAxis;
 
 /**
  * Created by Rami on 04/12/2015.
@@ -20,19 +22,45 @@ public class Graph {
 
         lineChart.setDrawGridBackground(false);
         lineChart.setDescription("");
-        XAxis xAxis = lineChart.getXAxis();
-        xAxis.setEnabled(true);
+
+
 
         try {
             lineChart.setData(new GetDataValues(activity).LineGraphSectorData());
-            xAxis.setDrawAxisLine(true);
-            xAxis.setLabelsToSkip(0);
+
         } catch (Exception e) {
 
         }
 
+
+        // xAxis
+        XAxis xAxis = lineChart.getXAxis();
+        xAxis.setEnabled(true);
+        xAxis.setDrawAxisLine(true);
+        xAxis.setLabelsToSkip(0);
+        xAxis.setTextSize(10.f);
+        xAxis.setGridColor(Color.parseColor("#95a5a6"));
+
+
+        // yAxis
+        YAxis leftAxis = lineChart.getAxisLeft();
+        leftAxis.removeAllLimitLines(); // reset all limit lines to avoid overlapping lines
+        leftAxis.setEnabled(false);
+        leftAxis.setAxisMaxValue(120f);
+        leftAxis.setAxisMinValue(-20f);
+        leftAxis.setStartAtZero(false);
+        // limit lines are drawn behind data (and not on top)
+        leftAxis.setDrawLimitLinesBehindData(true);
+
+        // Legend
         Legend l = lineChart.getLegend();
         l.setPosition(Legend.LegendPosition.ABOVE_CHART_CENTER);
+        lineChart.getAxisRight().setEnabled(false);
+
+
+
+
+
         lineChart.getAxisRight().setEnabled(false);
         lineChart.setClickable(false);
         lineChart.invalidate();

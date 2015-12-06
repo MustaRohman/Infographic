@@ -1,14 +1,11 @@
 package com.ecru.infographic;
 
 import android.animation.ObjectAnimator;
-import android.app.AlertDialog;
-import android.content.DialogInterface;
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.AppCompatActivity;
-import android.view.ContextThemeWrapper;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.ListView;
@@ -31,6 +28,7 @@ public class MainActivity extends AppCompatActivity{
     private ArrayList<String> mPlanetTitles;
     private DrawerLayout mDrawerLayout;
     private ListView mDrawerList;
+    private CircleDisplay agriCir, indusCir, servCir;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,38 +44,17 @@ public class MainActivity extends AppCompatActivity{
         seekbar_info = (ImageView) findViewById(R.id.seekbar_info);
         new Graph(this);
         new Pie(this);
+
+
+        agrCircle();
+        serviceCircle();
+        industryCircle();
         hideInfos();
 
         /**
          * LEFT SIDE SLIDER PANEL . WE ARE NOT USING FOR NOW
          */
         createSidePanel();
-    }
-
-    /**
-     * Will use once we finish everything else. An extra feature.
-     */
-    public void alert() {
-
-        AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(new ContextThemeWrapper(this, R.style.AlertDialogCustom));
-        // set dialog message
-        alertDialogBuilder
-                .setMessage("Swipe left to select a different year.")
-                .setCancelable(false)
-                .setNegativeButton("Close", new DialogInterface.OnClickListener() {
-                    public void onClick(DialogInterface dialog, int id) {
-                        // if this button is clicked, just close
-                        // the dialog box and do nothing
-                        dialog.cancel();
-                    }
-                });
-
-        // create alert dialog
-        AlertDialog alertDialog = alertDialogBuilder.create();
-
-        // show it
-        alertDialog.show();
-
     }
 
     public void createSidePanel(){
@@ -104,8 +81,55 @@ public class MainActivity extends AppCompatActivity{
                         .get();
                 seekbarInfo.start();
             }
-        },10000);
+        }, 10000);
     }
 
+    public void agrCircle(){
+        int yellow = getResources().getColor(R.color.yellow);
+        agriCir = (CircleDisplay) findViewById(R.id.overallAgri);
+        agriCir.setColor(yellow);
+        agriCir.setValueWidthPercent(10f);
+        agriCir.setTextSize(25f);
+        agriCir.setDrawText(true);
+        agriCir.setDrawInnerCircle(true);
+        agriCir.setFormatDigits(1);
+        agriCir.setUnit("%");
+        agriCir.setStepSize(2f);
+        agriCir.setTouchEnabled(false);
+        // cd.setCustomText(...); // sets a custom array of text
+        agriCir.showValue(75f, 100f, true);
+
+    }
+
+    public void serviceCircle(){
+        int red = getResources().getColor(R.color.red);
+        servCir = (CircleDisplay) findViewById(R.id.overallServ);
+        servCir.setColor(red);
+        servCir.setValueWidthPercent(10f);
+        servCir.setTextSize(25f);
+        servCir.setDrawText(true);
+        servCir.setDrawInnerCircle(true);
+        servCir.setFormatDigits(1);
+        servCir.setUnit("%");
+        servCir.setStepSize(2f);
+        servCir.setTouchEnabled(false);
+        // cd.setCustomText(...); // sets a custom array of text
+        servCir.showValue(55f, 100f, true);
+    }
+    public void industryCircle(){
+        int blue = getResources().getColor(R.color.blue);
+        indusCir = (CircleDisplay) findViewById(R.id.overallInd);
+        indusCir.setColor(blue);
+        indusCir.setValueWidthPercent(10f);
+        indusCir.setTextSize(25f);
+        indusCir.setDrawText(true);
+        indusCir.setDrawInnerCircle(true);
+        indusCir.setFormatDigits(1);
+        indusCir.setUnit("%");
+        indusCir.setStepSize(2f);
+        indusCir.setTouchEnabled(false);
+        // cd.setCustomText(...); // sets a custom array of text
+        indusCir.showValue(55f, 100f, true);
+    }
 
 }

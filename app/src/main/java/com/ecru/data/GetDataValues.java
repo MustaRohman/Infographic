@@ -102,18 +102,12 @@ public class GetDataValues {
         ArrayList<Entry> servComp = new ArrayList<Entry>();
         ArrayList<Entry> indComp = new ArrayList<Entry>();
         ArrayList<String> yearNumberLabels = new ArrayList<>();
-        for(int i=0; i<years.length;++i) {
+        for(int i=0; i< 21;++i) {
             //add the value to the array list for the year specified
             agriComp.add(new Entry(agricultureVals[i], i));
             servComp.add(new Entry(serviceVals[i], i));
             indComp.add(new Entry(industryVals[i], i));
-            yearNumberLabels.add(i+ 1982 + "");
-
-            //Temp, show values in log, used for debugging purposes
-            Log.d("YEAR", yearNumberLabels.get(i)+"");
-            // Log.d("VAL_AGRI", agricultureVals[i] + "");
-            // Log.d("VAL_SERV", serviceVals[i] + "");
-            //Log.d("VAL_INDS", industryVals[i] + "");
+            yearNumberLabels.add(i+ 1992 + "");
         }
 
         //Line Data Sets Are Created
@@ -121,12 +115,41 @@ public class GetDataValues {
         LineDataSet servicesValues = new LineDataSet(servComp,"Services");
         LineDataSet indValues = new LineDataSet(indComp,"Industry");
 
+        /////////// Agriculture Styling
+        int yellow = Color.parseColor("#f1c40f");
         agriValues.setAxisDependency(YAxis.AxisDependency.LEFT);
+        agriValues.setColor(yellow);
+        agriValues.setCircleColor(yellow);
+        agriValues.setLineWidth(5f);
+        agriValues.setCircleSize(10f);
+        agriValues.setFillAlpha(65);
+        agriValues.setFillColor(yellow);
+        agriValues.setDrawCircleHole(false);
+        agriValues.setHighLightColor(yellow);
+
+        /////////// Services Styling
+        int red = Color.parseColor("#e74c3c");
         servicesValues.setAxisDependency(YAxis.AxisDependency.LEFT);
+        servicesValues.setColor(red);
+        servicesValues.setCircleColor(red);
+        servicesValues.setLineWidth(5f);
+        servicesValues.setCircleSize(10f);
+        servicesValues.setFillAlpha(65);
+        servicesValues.setFillColor(red);
+        servicesValues.setDrawCircleHole(false);
+        servicesValues.setHighLightColor(red);
+
+        /////////// Industry Styling
+        int blue = Color.parseColor("#3498db");
         indValues.setAxisDependency(YAxis.AxisDependency.LEFT);
-        agriValues.setColor(Color.argb(255, 120, 30, 30));
-        servicesValues.setColor(Color.argb(255,30,120,20));
-        indValues.setColor(Color.argb(255,30,240,130));
+        indValues.setColor(blue);
+        indValues.setCircleColor(blue);
+        indValues.setLineWidth(5f);
+        indValues.setCircleSize(10f);
+        indValues.setFillAlpha(65);
+        indValues.setFillColor(blue);
+        indValues.setDrawCircleHole(false);
+        indValues.setHighLightColor(blue);
 
         ArrayList<LineDataSet> LineDataArray = new ArrayList<>();
         LineDataArray.add(agriValues);
@@ -138,6 +161,7 @@ public class GetDataValues {
         //return the arrayList containing the values
         return data;
     }
+
 
     /**
      * Method to parse the data

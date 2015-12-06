@@ -154,12 +154,12 @@ public class Pie implements SeekBar.OnSeekBarChangeListener {
 
     public void resetBtnSize(Button btn){
 
-        ObjectAnimator buttonAni = ViewPropertyObjectAnimator
+        ObjectAnimator buttonA = ViewPropertyObjectAnimator
                 .animate(btn)
                 .height(150)
                 .setDuration(delayTime)
                 .get();
-        buttonAni.start();
+        buttonA.start();
 
     }
     public void getAllBtns(){
