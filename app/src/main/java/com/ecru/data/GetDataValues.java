@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.graphics.Color;
 import android.util.Log;
 
+import com.ecru.infographic.Pie;
 import com.github.mikephil.charting.components.YAxis;
 import com.github.mikephil.charting.data.Entry;
 import com.github.mikephil.charting.data.LineData;
@@ -81,7 +82,7 @@ public class GetDataValues {
         Log.d("VAL_AGRI", agricultureVals[year] + "");
         Log.d("VAL_SERV", serviceVals[year] + "");
         Log.d("VAL_INDS", industryVals[year] + "");
-
+        Pie.yr = years[year];
         //return the arrayList containing the values
         return values;
     }

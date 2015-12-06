@@ -4,6 +4,8 @@ import android.animation.ObjectAnimator;
 import android.app.Activity;
 import android.graphics.Color;
 import android.util.Log;
+import android.view.MotionEvent;
+import android.view.View;
 import android.widget.Button;
 import android.widget.SeekBar;
 
@@ -17,7 +19,6 @@ import com.github.mikephil.charting.data.PieDataSet;
 import com.github.mikephil.charting.formatter.PercentFormatter;
 import com.github.mikephil.charting.highlight.Highlight;
 import com.github.mikephil.charting.listener.OnChartValueSelectedListener;
-import com.github.mikephil.charting.utils.ColorTemplate;
 
 import org.json.JSONException;
 
@@ -27,11 +28,12 @@ import java.util.ArrayList;
  * Created by Rami on 04/12/2015.
  */
 public class Pie implements SeekBar.OnSeekBarChangeListener {
-
-    PieChart pieChart;
-    Activity activity;
-    SeekBar pieSeekBar;
-    GetDataValues dataValues;
+    public  static int yr = 1980;
+    public PieChart pieChart;
+    private Activity activity;
+    private SeekBar pieSeekBar;
+    private GetDataValues dataValues;
+    public int counter, delayTime;
 
     public Pie(final Activity activity) {
         this.activity = activity;
@@ -48,6 +50,36 @@ public class Pie implements SeekBar.OnSeekBarChangeListener {
             e.printStackTrace();
         }
 
+        // SEEKBAR LISTENERS
+        assignListeners();
+
+    }
+
+    public void assignListeners(){
+        pieSeekBar.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View v, MotionEvent event) {
+                int action = event.getAction();
+                switch (action)
+                {
+                    case MotionEvent.ACTION_DOWN:
+                        // Disallow ScrollView to intercept touch events.
+                        v.getParent().requestDisallowInterceptTouchEvent(true);
+                        break;
+
+                    case MotionEvent.ACTION_UP:
+                        // Allow ScrollView to intercept touch events.
+                        v.getParent().requestDisallowInterceptTouchEvent(false);
+                        break;
+                }
+
+                // Handle Seekbar touch events.
+                v.onTouchEvent(event);
+                return true;
+            }
+
+        });
+
         pieChart.setOnChartValueSelectedListener(new OnChartValueSelectedListener() {
             @Override
             public void onValueSelected(Entry entry, int i, Highlight highlight) {
@@ -57,7 +89,7 @@ public class Pie implements SeekBar.OnSeekBarChangeListener {
                 int resId = activity.getResources().getIdentifier(buttonId, "id", activity.getPackageName());
                 Button pressBtn = (Button) activity.findViewById(resId);
                 replace(pressBtn);
-                Log.d("chart value", "");
+
 
             }
 
@@ -67,8 +99,6 @@ public class Pie implements SeekBar.OnSeekBarChangeListener {
             }
         });
     }
-
-
     public void setData(ArrayList values) {
 
         ArrayList<Entry> yVals1 = new ArrayList<>();
@@ -85,16 +115,20 @@ public class Pie implements SeekBar.OnSeekBarChangeListener {
 
         PieDataSet dataSet = new PieDataSet(yVals1, "Employment sectors");
         dataSet.setSliceSpace(2f);
-        dataSet.setSelectionShift(5f);
-
-
-
-        dataSet.setColors(ColorTemplate.COLORFUL_COLORS);
+        dataSet.setSelectionShift(8f);
+        dataSet.setColors(new int[]{Color.parseColor("#f1c40f"), Color.parseColor("#e74c3c"), Color.parseColor("#3498db")});
 
         PieData data = new PieData(titles, dataSet);
         data.setValueFormatter(new PercentFormatter());
         data.setValueTextSize(11f);
         data.setValueTextColor(Color.BLACK);
+        pieChart.setHoleColorTransparent(true);
+        pieChart.setDescription("");
+        pieChart.setCenterText("2012");
+        pieChart.setCenterTextSize(30.f);
+        pieChart.setCenterTextTypeface(MainActivity.bigJoe);
+
+        pieChart.setCenterTextColor(Color.BLACK);
         pieChart.setData(data);
 
         // undo all highlights
@@ -102,6 +136,7 @@ public class Pie implements SeekBar.OnSeekBarChangeListener {
 
         pieChart.invalidate();
     }
+
 
     /**
      * Animation for Buttons
@@ -115,6 +150,29 @@ public class Pie implements SeekBar.OnSeekBarChangeListener {
                 .rotationX(360)
                 .get();
         buttonAni.start();
+    }
+
+    public void resetBtnSize(Button btn){
+
+        ObjectAnimator buttonAni = ViewPropertyObjectAnimator
+                .animate(btn)
+                .height(150)
+                .setDuration(delayTime)
+                .get();
+        buttonAni.start();
+
+    }
+    public void getAllBtns(){
+        delayTime = 250;
+        counter = 0;
+        while (counter < 3) {
+            String buttonId = "button" + counter;
+            int resId = activity.getResources().getIdentifier(buttonId, "id", activity.getPackageName());
+            Button pressBtn = (Button) activity.findViewById(resId);
+            resetBtnSize(pressBtn);
+            counter++;
+            delayTime += 250;
+        }
     }
 
     @Override
@@ -132,10 +190,14 @@ public class Pie implements SeekBar.OnSeekBarChangeListener {
         int year = pieSeekBar.getProgress();
         try {
             setData(dataValues.employmentPieData(year));
-            Log.d("hello", year+"");
+            pieChart.setCenterText("" + yr);
+            Log.d("year", ""+year);
+            pieChart.invalidate();
         } catch (JSONException e) {
             e.printStackTrace();
         }
         pieChart.animateY(750, Easing.EasingOption.EaseInOutExpo);
+        getAllBtns();
     }
+
 }

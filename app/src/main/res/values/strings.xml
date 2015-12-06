@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Infographic</string>
     <string name="title"> UK EMPLOYMENT SECTORS</string>
+    <string name="seekbar_info">You can change year by dragging the bar! </string>
 </resources>

@@ -1,17 +1,21 @@
 package com.ecru.infographic;
 
+import android.animation.ObjectAnimator;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.graphics.Typeface;
 import android.os.Bundle;
+import android.os.Handler;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.view.ContextThemeWrapper;
 import android.widget.ArrayAdapter;
+import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.SeekBar;
 import android.widget.TextView;
 
+import com.bartoszlipinski.viewpropertyobjectanimator.ViewPropertyObjectAnimator;
 import com.github.mikephil.charting.charts.PieChart;
 
 import java.util.ArrayList;
@@ -22,7 +26,8 @@ public class MainActivity extends AppCompatActivity{
     public PieChart sectors;
     public SeekBar selectYear;
     private TextView title;
-    private Typeface bigJoe;
+    private ImageView seekbar_info;
+    public static Typeface bigJoe;
     private ArrayList<String> mPlanetTitles;
     private DrawerLayout mDrawerLayout;
     private ListView mDrawerList;
@@ -32,11 +37,16 @@ public class MainActivity extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        bigJoe = Typeface.createFromAsset(getAssets(), "fonts/BIG.otf");
+        bigJoe = Typeface.createFromAsset(getAssets(), "fonts/Track.otf");
+        // TEXTVIEWS
         title = (TextView) findViewById(R.id.title);
         title.setTypeface(bigJoe);
+
+        // IMAGE VIEW
+        seekbar_info = (ImageView) findViewById(R.id.seekbar_info);
         new Graph(this);
         new Pie(this);
+        hideInfos();
 
         /**
          * LEFT SIDE SLIDER PANEL . WE ARE NOT USING FOR NOW
@@ -81,5 +91,21 @@ public class MainActivity extends AppCompatActivity{
         mDrawerList.setAdapter(new ArrayAdapter<>(this, R.layout.draw_list_item, mPlanetTitles));
         mDrawerList.setOnItemClickListener(new DrawerItemClickListener());
     }
+
+    public void hideInfos(){
+        Handler handler = new Handler();
+        handler.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                ObjectAnimator seekbarInfo = ViewPropertyObjectAnimator
+                        .animate(seekbar_info)
+                        .setDuration(500)
+                        .alpha(0)
+                        .get();
+                seekbarInfo.start();
+            }
+        },10000);
+    }
+
 
 }
