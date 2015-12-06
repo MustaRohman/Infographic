@@ -22,6 +22,7 @@ import com.github.mikephil.charting.listener.OnChartValueSelectedListener;
 
 import org.json.JSONException;
 
+import java.text.DecimalFormat;
 import java.util.ArrayList;
 
 /**
@@ -218,6 +219,7 @@ public class Pie implements SeekBar.OnSeekBarChangeListener {
     }
 
     public String getButtonString(int buttonIndex) throws JSONException {
+        DecimalFormat decimalPoints = new DecimalFormat("0.###");
         int year = pieSeekBar.getProgress();
         String returnString;
 
@@ -226,35 +228,35 @@ public class Pie implements SeekBar.OnSeekBarChangeListener {
 
             if(buttonIndex == 0){
                 //AGRICULTURE
-                float valChange = (float) dataValues.employmentPieData(year).get(0)-
-                        (float) dataValues.employmentPieData(year-1).get(0);
+                float valChange = (float) dataValues.employmentPieData(year-1).get(0)-
+                        (float) dataValues.employmentPieData(year).get(0);
 
                 if(valChange > 0){
-                    returnString = valChange + "% increase from " + (Pie.yr-1);
+                    returnString = decimalPoints.format(valChange) + "% increase from " + (Pie.yr);
                 }else{
-                    returnString = valChange + "% decrease from " + (Pie.yr-1);
+                    returnString = decimalPoints.format(valChange) + "% decrease from " + (Pie.yr);
                 }
 
             }else if(buttonIndex == 1){
                 //SERVICE
-                float valChange = (float) dataValues.employmentPieData(year).get(1)-
-                        (float) dataValues.employmentPieData(year-1).get(1);
+                float valChange = (float) dataValues.employmentPieData(year-1).get(1)-
+                        (float) dataValues.employmentPieData(year).get(1);
 
                 if(valChange > 0){
-                    returnString = valChange + "% increase from " + (Pie.yr-1);
+                    returnString = decimalPoints.format(valChange) + "% increase from " + (Pie.yr);
                 }else{
-                    returnString = valChange + "% decrease from " + (Pie.yr-1);
+                    returnString = decimalPoints.format(valChange) + "% decrease from " + (Pie.yr);
                 }
 
             }else {
                 //INDUSTRY
-                float valChange = (float) dataValues.employmentPieData(year).get(2)-
-                        (float) dataValues.employmentPieData(year-1).get(2);
+                float valChange = (float) dataValues.employmentPieData(year-1).get(2)-
+                        (float) dataValues.employmentPieData(year).get(2);
 
                 if(valChange > 0){
-                    returnString = valChange + "% increase from " + (Pie.yr-1);
+                    returnString = decimalPoints.format(valChange) + "% increase from " + (Pie.yr);
                 }else{
-                    returnString = valChange + "% decrease from " + (Pie.yr-1);
+                    returnString = decimalPoints.format(valChange) + "% decrease from " + (Pie.yr);
                 }
             }
 
