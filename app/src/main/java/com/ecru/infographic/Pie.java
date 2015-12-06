@@ -181,7 +181,7 @@ public class Pie implements SeekBar.OnSeekBarChangeListener {
             String buttonId = "button" + counter;
             int resId = activity.getResources().getIdentifier(buttonId, "id", activity.getPackageName());
             Button pressBtn = (Button) activity.findViewById(resId);
-            pressBtn.setText(getButtonString(resId));
+            pressBtn.setText(getButtonString(counter));
             resetBtnSize(pressBtn);
             counter++;
             delayTime += 250;
