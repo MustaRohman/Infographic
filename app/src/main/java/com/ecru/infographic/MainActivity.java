@@ -41,9 +41,10 @@ public class MainActivity extends AppCompatActivity{
         seekbar_info = (ImageView) findViewById(R.id.seekbar_info);
         new Graph(this);
         new Pie(this);
+        new ExportsGraph(this);
 
 
-
+        // THREE CIRCLES
         agrCircle();
         serviceCircle();
         industryCircle();

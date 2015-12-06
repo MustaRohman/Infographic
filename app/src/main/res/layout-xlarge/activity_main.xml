@@ -41,7 +41,7 @@
 
             <LinearLayout
                 android:layout_width="3000dp"
-                android:layout_height="wrap_content"
+                android:layout_height="534dp"
                 android:paddingTop="20dp">
 
                 <LinearLayout
@@ -50,7 +50,8 @@
                     android:layout_height="match_parent"
                     android:layout_gravity="center_vertical"
                     android:gravity="top"
-                    android:layout_marginLeft="50dp">
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="40dp">
 
                     <LinearLayout
                         android:layout_width="wrap_content"
@@ -129,10 +130,10 @@
                 </LinearLayout>
                 <com.github.mikephil.charting.charts.PieChart
                     android:id="@+id/pieChart"
-                    android:layout_width="450dp"
-                    android:layout_height="300dp"
+                    android:layout_width="650dp"
+                    android:layout_height="450dp"
                     android:layout_rowWeight="40"
-                    android:layout_marginTop="15dp" />
+                    android:layout_marginTop="40dp" />
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
@@ -152,7 +153,7 @@
                 </com.github.mikephil.charting.charts.LineChart>
                 <LinearLayout
                     android:orientation="vertical"
-                    android:layout_width="450dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_gravity="center_vertical"
                     android:layout_marginLeft="20dp"
@@ -160,27 +161,39 @@
                     >
                     <!-- To add another chart replace the type for the below one-->
                     <com.ecru.infographic.CircleDisplay
-                        android:layout_width="100dp"
-                        android:layout_height="100dp"
-                        android:id="@+id/overallServ"/>
+                        android:layout_width="160dp"
+                        android:layout_height="160dp"
+                        android:id="@+id/overallServ"
+                        android:layout_marginTop="5dp"/>
                     <com.ecru.infographic.CircleDisplay
-                        android:layout_width="100dp"
-                        android:layout_height="100dp"
-                        android:id="@+id/overallInd"/>
+                        android:layout_width="160dp"
+                        android:layout_height="160dp"
+                        android:id="@+id/overallInd"
+                        android:layout_marginTop="5dp"/>
                     <com.ecru.infographic.CircleDisplay
-                        android:layout_width="100dp"
-                        android:layout_height="100dp"
-                        android:id="@+id/overallAgri"/>
+                        android:layout_width="160dp"
+                        android:layout_height="160dp"
+                        android:id="@+id/overallAgri"
+                        android:layout_marginTop="5dp"/>
                     <!-- For extra content related to the above chart put it inside below lines layout-->
                     <LinearLayout
-                        android:layout_width="wrap_content"
+                        android:layout_width="200dp"
                         android:layout_height="wrap_content">
-
+                        
 
                     </LinearLayout>
+                    <com.github.mikephil.charting.charts.LineChart
+                        android:layout_width="650dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/exportLineChart"
+                        android:layout_marginLeft="200dp"
+                        >
+
+                    </com.github.mikephil.charting.charts.LineChart>
 
 
                 </LinearLayout>
+
 
             </LinearLayout>
 
