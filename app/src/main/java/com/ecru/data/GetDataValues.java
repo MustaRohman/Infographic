@@ -30,12 +30,17 @@ public class GetDataValues {
     String empServJson;
     String empAgrJson;
     String empIndJson;
+    float[] agricultureVals ;
+    float[] serviceVals ;
+    float[] industryVals ;
+    boolean thing;
     int  selected =0;
     /**
      * Method to get the data for various charts/graphs needed
      * @param activity
      */
     public GetDataValues(Activity activity){
+        thing=true;
         try {
             //to get data from url, append statement within try
             empServJson = new ApiHandler("empServJson", "http://api.worldbank.org/countries/GBR/indicators/SL.SRV.EMPL.ZS?per_page=100&date=1982:2012&format=json", activity).execute().get();
@@ -44,9 +49,13 @@ public class GetDataValues {
         } catch (InterruptedException | ExecutionException e) {
             Log.d("GetDataValues", "Data loading interrupted");
             e.printStackTrace();
+            thing = false;
         }
     }
 
+    public boolean getThing() {
+        return thing;
+    }
 
     public int getSelected() {
         return selected;
@@ -68,9 +77,9 @@ public class GetDataValues {
         int[] years = (int[]) parseData(empAgrJson)[0];
 
         //arrays containing the actual values
-        float[] agricultureVals = (float[]) parseData(empAgrJson)[1];
-        float[] serviceVals = (float[]) parseData(empServJson)[1];
-        float[] industryVals = (float[]) parseData(empIndJson)[1];
+         agricultureVals = (float[]) parseData(empAgrJson)[1];
+        serviceVals = (float[]) parseData(empServJson)[1];
+         industryVals = (float[]) parseData(empIndJson)[1];
 
 
         //Create a new arraylist to contain the dataset
@@ -90,6 +99,31 @@ public class GetDataValues {
 
         //return the arrayList containing the values
         return values;
+    }
+
+    public ArrayList<Float> servi(){
+        ArrayList<Float> servi= new ArrayList<Float>();
+        int i = serviceVals.length;
+        for(int a=0;a<i;++a){
+            servi.add(serviceVals[a]);
+        }
+        return servi;
+    }
+    public ArrayList<Float> agri(){
+        ArrayList<Float> agri= new ArrayList<Float>();
+        int i = agricultureVals.length;
+        for(int a=0;a<i;++a){
+            agri.add(agricultureVals[a]);
+        }
+        return agri;
+    }
+    public ArrayList<Float> indu(){
+        ArrayList<Float> indu= new ArrayList<Float>();
+        int i = industryVals.length;
+        for(int a=0;a<i;++a){
+            indu.add(industryVals[a]);
+        }
+        return indu;
     }
 
     public LineData LineGraphSectorData() throws JSONException{
