@@ -1,14 +1,18 @@
 [
     {
-        "merged": "/Users/mustarohman/AndroidStudioProjects/infograpic/C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\ic_launcher.png",
-        "source": "/Users/mustarohman/AndroidStudioProjects/infograpic/C:\\Users\\Rami\\Documents\\infograpic\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+        "merged": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\ic_launcher.png",
+        "source": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\D:\\Uni\\ECRU\\infograpic\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
-        "merged": "/Users/mustarohman/AndroidStudioProjects/infograpic/app/build/intermediates/res/merged/debug/mipmap-xhdpi-v4/ic_launcher.png",
-        "source": "/Users/mustarohman/AndroidStudioProjects/infograpic/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+        "merged": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\ic_launcher.png",
+        "source": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
-        "merged": "/Users/mustarohman/AndroidStudioProjects/infograpic/D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\ic_launcher.png",
-        "source": "/Users/mustarohman/AndroidStudioProjects/infograpic/D:\\Uni\\ECRU\\infograpic\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+        "merged": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\ic_launcher.png",
+        "source": "D:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Uni\\ECRU\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\ic_launcher.png",
+        "source": "D:\\Uni\\ECRU\\infograpic\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     }
 ]

@@ -29,12 +29,12 @@ import java.util.ArrayList;
  * Created by Rami on 04/12/2015.
  */
 public class Pie implements SeekBar.OnSeekBarChangeListener {
-    public  static int yr = 1980;
+    public static int yr = 1980;
     public PieChart pieChart;
+    public int counter, delayTime;
     private Activity activity;
     private SeekBar pieSeekBar;
     private GetDataValues dataValues;
-    public int counter, delayTime;
 
     public Pie(final Activity activity) {
         this.activity = activity;
@@ -43,18 +43,15 @@ public class Pie implements SeekBar.OnSeekBarChangeListener {
         pieSeekBar = (SeekBar) activity.findViewById(R.id.pieSeekBar);
         pieSeekBar.setOnSeekBarChangeListener(this);
         pieSeekBar.setMax(30);
-        pieSeekBar.setProgress(0);
+        pieSeekBar.setProgress(30);
         pieChart.animateY(750, Easing.EasingOption.EaseInOutExpo);
-        Button btn0 = (Button)activity.findViewById(R.id.button0);
-        Button btn1 = (Button)activity.findViewById(R.id.button1);
-        Button btn2 = (Button)activity.findViewById(R.id.button2);
-        try {
-            btn0.setText(getButtonString(0));
-            btn1.setText(getButtonString(1));
-            btn2.setText(getButtonString(2));
-        } catch (JSONException e) {
-            e.printStackTrace();
-        }
+        Button btn0 = (Button) activity.findViewById(R.id.button0);
+        Button btn1 = (Button) activity.findViewById(R.id.button1);
+        Button btn2 = (Button) activity.findViewById(R.id.button2);
+
+        btn0.setText("");
+        btn1.setText("Tap the chart to view percentage change");
+        btn2.setText("");
 
 
         try {
@@ -68,13 +65,12 @@ public class Pie implements SeekBar.OnSeekBarChangeListener {
 
     }
 
-    public void assignListeners(){
+    public void assignListeners() {
         pieSeekBar.setOnTouchListener(new View.OnTouchListener() {
             @Override
             public boolean onTouch(View v, MotionEvent event) {
                 int action = event.getAction();
-                switch (action)
-                {
+                switch (action) {
                     case MotionEvent.ACTION_DOWN:
                         // Disallow ScrollView to intercept touch events.
                         v.getParent().requestDisallowInterceptTouchEvent(true);
@@ -102,6 +98,11 @@ public class Pie implements SeekBar.OnSeekBarChangeListener {
                 int resId = activity.getResources().getIdentifier(buttonId, "id", activity.getPackageName());
                 Button pressBtn = (Button) activity.findViewById(resId);
                 replace(pressBtn);
+                try {
+                    pressBtn.setText(getButtonString(buttonNum));
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                }
 
 
             }
@@ -112,6 +113,7 @@ public class Pie implements SeekBar.OnSeekBarChangeListener {
             }
         });
     }
+
     public void setData(ArrayList values) {
 
         ArrayList<Entry> yVals1 = new ArrayList<>();
@@ -153,6 +155,7 @@ public class Pie implements SeekBar.OnSeekBarChangeListener {
 
     /**
      * Animation for Buttons
+     *
      * @param btn
      */
     public void replace(Button btn) {
@@ -165,7 +168,7 @@ public class Pie implements SeekBar.OnSeekBarChangeListener {
         buttonAni.start();
     }
 
-    public void resetBtnSize(Button btn){
+    public void resetBtnSize(Button btn) {
 
         ObjectAnimator buttonA = ViewPropertyObjectAnimator
                 .animate(btn)
@@ -177,15 +180,16 @@ public class Pie implements SeekBar.OnSeekBarChangeListener {
 
 
     }
-    public void getAllBtns() throws  JSONException{
+
+    public void getAllBtns() throws JSONException {
         delayTime = 250;
         counter = 0;
         while (counter < 3) {
             String buttonId = "button" + counter;
             int resId = activity.getResources().getIdentifier(buttonId, "id", activity.getPackageName());
             Button pressBtn = (Button) activity.findViewById(resId);
-            pressBtn.setText(getButtonString(counter));
             resetBtnSize(pressBtn);
+            pressBtn.setText("");
             counter++;
             delayTime += 250;
         }
@@ -203,11 +207,11 @@ public class Pie implements SeekBar.OnSeekBarChangeListener {
 
     @Override
     public void onStopTrackingTouch(SeekBar seekBar) {
-        int year = pieSeekBar.getProgress();
+        int year = 30 - pieSeekBar.getProgress();
         try {
             setData(dataValues.employmentPieData(year));
             pieChart.setCenterText("" + yr);
-            Log.d("year", ""+year);
+            Log.d("year", "" + year);
             pieChart.invalidate();
         } catch (JSONException e) {
             e.printStackTrace();
@@ -222,47 +226,47 @@ public class Pie implements SeekBar.OnSeekBarChangeListener {
 
     public String getButtonString(int buttonIndex) throws JSONException {
         DecimalFormat decimalPoints = new DecimalFormat("0.###");
-        int year = pieSeekBar.getProgress();
+        int year = 30 - pieSeekBar.getProgress();
         String returnString;
 
-        if(year < 30) {
-            year +=1;
+        if (year < 30) {
+            year += 1;
 
-            if(buttonIndex == 0){
+            if (buttonIndex == 0) {
                 //AGRICULTURE
-                float valChange = (float) dataValues.employmentPieData(year-1).get(0)-
+                float valChange = (float) dataValues.employmentPieData(year - 1).get(0) -
                         (float) dataValues.employmentPieData(year).get(0);
 
-                if(valChange > 0){
+                if (valChange > 0) {
                     returnString = decimalPoints.format(valChange) + "% increase from " + (Pie.yr);
-                }else{
+                } else {
                     returnString = decimalPoints.format(valChange) + "% decrease from " + (Pie.yr);
                 }
 
-            }else if(buttonIndex == 1){
+            } else if (buttonIndex == 1) {
                 //SERVICE
-                float valChange = (float) dataValues.employmentPieData(year-1).get(1)-
+                float valChange = (float) dataValues.employmentPieData(year - 1).get(1) -
                         (float) dataValues.employmentPieData(year).get(1);
 
-                if(valChange > 0){
+                if (valChange > 0) {
                     returnString = decimalPoints.format(valChange) + "% increase from " + (Pie.yr);
-                }else{
+                } else {
                     returnString = decimalPoints.format(valChange) + "% decrease from " + (Pie.yr);
                 }
 
-            }else {
+            } else {
                 //INDUSTRY
-                float valChange = (float) dataValues.employmentPieData(year-1).get(2)-
+                float valChange = (float) dataValues.employmentPieData(year - 1).get(2) -
                         (float) dataValues.employmentPieData(year).get(2);
 
-                if(valChange > 0){
+                if (valChange > 0) {
                     returnString = decimalPoints.format(valChange) + "% increase from " + (Pie.yr);
-                }else{
+                } else {
                     returnString = decimalPoints.format(valChange) + "% decrease from " + (Pie.yr);
                 }
             }
 
-        }else{
+        } else {
             returnString = "N/A";
         }
         return returnString;

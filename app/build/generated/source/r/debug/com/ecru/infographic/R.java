@@ -1657,7 +1657,8 @@ containing a value of this type.
         public static final int expand_activities_button=0x7f0c0025;
         public static final int expanded_menu=0x7f0c0038;
         public static final int exportLineChart=0x7f0c0060;
-        public static final int fall=0x7f0c005d;
+        public static final int fall0=0x7f0c005e;
+        public static final int fall1=0x7f0c005f;
         public static final int futureLineChart=0x7f0c0062;
         public static final int home=0x7f0c0004;
         public static final int homeAsUp=0x7f0c000d;
@@ -1687,8 +1688,7 @@ containing a value of this type.
         public static final int progress_circular=0x7f0c0005;
         public static final int progress_horizontal=0x7f0c0006;
         public static final int radio=0x7f0c003b;
-        public static final int rise0=0x7f0c005e;
-        public static final int rise1=0x7f0c005f;
+        public static final int rise=0x7f0c005d;
         public static final int screen=0x7f0c0014;
         public static final int scrollIndicatorDown=0x7f0c0035;
         public static final int scrollIndicatorUp=0x7f0c0032;

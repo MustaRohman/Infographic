@@ -503,7 +503,8 @@ int id end_padder 0x7f0c006f
 int id expand_activities_button 0x7f0c0025
 int id expanded_menu 0x7f0c0038
 int id exportLineChart 0x7f0c0060
-int id fall 0x7f0c005d
+int id fall0 0x7f0c005e
+int id fall1 0x7f0c005f
 int id futureLineChart 0x7f0c0062
 int id home 0x7f0c0004
 int id homeAsUp 0x7f0c000d
@@ -533,8 +534,7 @@ int id progress_bar 0x7f0c0051
 int id progress_circular 0x7f0c0005
 int id progress_horizontal 0x7f0c0006
 int id radio 0x7f0c003b
-int id rise0 0x7f0c005e
-int id rise1 0x7f0c005f
+int id rise 0x7f0c005d
 int id screen 0x7f0c0014
 int id scrollIndicatorDown 0x7f0c0035
 int id scrollIndicatorUp 0x7f0c0032

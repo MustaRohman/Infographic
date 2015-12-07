@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity{
     private DrawerLayout mDrawerLayout;
     private ListView mDrawerList;
     private CircleDisplay agriCir, indusCir, servCir;
-    private ImageView fall, rise0, rise1;
+    private ImageView rise, fall0, fall1;
     private GetDataValues dataValues;
 
 
@@ -110,7 +110,7 @@ public class MainActivity extends AppCompatActivity{
         agriCir.setStepSize(2f);
         agriCir.setTouchEnabled(false);
         // cd.setCustomText(...); // sets a custom array of text
-        agriCir.showValue(0.006f, 1f, true);
+        agriCir.showValue(-0.006f, 1f, true);
 
     }
 
@@ -127,7 +127,7 @@ public class MainActivity extends AppCompatActivity{
         servCir.setStepSize(2f);
         servCir.setTouchEnabled(false);
         // cd.setCustomText(...); // sets a custom array of text
-        servCir.showValue(-0.054f, 1f, true);
+        servCir.showValue(0.054f, 1f, true);
     }
     public void industryCircle(){
         int blue = getResources().getColor(R.color.blue);
@@ -142,22 +142,22 @@ public class MainActivity extends AppCompatActivity{
         indusCir.setStepSize(2f);
         indusCir.setTouchEnabled(false);
         // cd.setCustomText(...); // sets a custom array of text
-        indusCir.showValue(0.055f, 1f, true);
+        indusCir.showValue(-0.055f, 1f, true);
     }
     public void animateArrows(){
-        fall = (ImageView) findViewById(R.id.fall);
-        rise0 = (ImageView) findViewById(R.id.rise0);
-        rise1 = (ImageView) findViewById(R.id.rise1);
+        rise = (ImageView) findViewById(R.id.rise);
+        fall0 = (ImageView) findViewById(R.id.fall0);
+        fall1 = (ImageView) findViewById(R.id.fall1);
         ObjectAnimator arrow = ViewPropertyObjectAnimator
-                .animate(fall)
+                .animate(rise)
                 .setDuration(1200)
                 .alpha(0)
-                .translationY(9f)
+                .translationY(-9f)
                 .get();
         arrow.start();
         arrow.setRepeatCount(ValueAnimator.INFINITE);
         ObjectAnimator arrow1 = ViewPropertyObjectAnimator
-                .animate(rise0)
+                .animate(fall0)
                 .setDuration(1200)
                 .alpha(0)
                 .translationY(-8f)
@@ -165,7 +165,7 @@ public class MainActivity extends AppCompatActivity{
         arrow1.start();
         arrow1.setRepeatCount(ValueAnimator.INFINITE);
         ObjectAnimator arrow2 = ViewPropertyObjectAnimator
-                .animate(rise1)
+                .animate(fall1)
                 .setDuration(1200)
                 .alpha(0)
                 .translationY(-8f)
@@ -193,24 +193,21 @@ public class MainActivity extends AppCompatActivity{
         //arrays containing the actual values
         float[] serviceVals = new float[10];
         for (int i = 0; i < 10; i++){
-            float temp = (float) (67.1 * (1 + -0.054));
-            float predValue = (float) Math.pow(temp, i);
+            float predValue = (float) (78.9 * (Math.pow((1 + 0.054), i)));
             serviceVals[i] = predValue;
             Log.d("generateData", "Service Value: " + predValue);
         }
 
         float[] industryVals = new float[10];
         for (int i = 0; i < 10; i++){
-            float temp = (float) (30.0 * (1 + 0.055));
-            float predValue = (float) Math.pow(temp, i);
+            float predValue = (float) (18.9 * Math.pow((1 + -0.055), i));
             industryVals[i] = predValue;
             Log.d("generateData","Industry Value: " + predValue);
         }
 
         float[] agricultureVals = new float[10];
         for (int i = 0; i < 10; i++){
-            float temp = (float) (30.0 * (1 + 0.055));
-            float predValue = (float) Math.pow(temp, i);
+            float predValue = (float) (1.2* Math.pow((1 + -0.006), i));
             agricultureVals[i] = predValue;
             Log.d("generateData","Agriculture Value: " + predValue);
         }

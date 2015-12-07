@@ -104,13 +104,13 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="2012"
+                                android:text="1982"
                                 android:layout_gravity="start"
                                 android:textColor="@color/black"/>
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="1982"
+                                android:text="2012"
                                 android:layout_gravity="right"
                                 android:textColor="@color/black"
                                 android:gravity="right"
@@ -188,24 +188,24 @@
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:src="@drawable/fall"
+                        android:src="@drawable/rise"
                         android:layout_marginTop="30dp"
                         android:layout_marginLeft="20dp"
-                        android:id="@+id/fall"/>
+                        android:id="@+id/rise"/>
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:src="@drawable/rise"
+                        android:src="@drawable/fall"
                         android:layout_marginTop="50dp"
                         android:layout_marginLeft="20dp"
-                        android:id="@+id/rise0"/>
+                        android:id="@+id/fall0"/>
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:src="@drawable/rise"
+                        android:src="@drawable/fall"
                         android:layout_marginTop="70dp"
                         android:layout_marginLeft="20dp"
-                        android:id="@+id/rise1"/>
+                        android:id="@+id/fall1"/>
 
 
                 </LinearLayout>
