@@ -170,8 +170,10 @@ public class Pie implements SeekBar.OnSeekBarChangeListener {
                 .animate(btn)
                 .height(150)
                 .setDuration(delayTime)
+                .rotationX(360)
                 .get();
         buttonA.start();
+
 
     }
     public void getAllBtns() throws  JSONException{

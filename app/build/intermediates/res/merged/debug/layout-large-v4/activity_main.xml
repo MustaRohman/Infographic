@@ -25,7 +25,7 @@
         android:layout_height="fill_parent"
         android:fillViewport="true">
         <LinearLayout
-            android:layout_width="2100dp"
+            android:layout_width="2500dp"
             android:layout_height="fill_parent"
             android:orientation="vertical">
 
@@ -40,7 +40,7 @@
                 android:paddingLeft="25dp" />
 
             <LinearLayout
-                android:layout_width="2100dp"
+                android:layout_width="2500dp"
                 android:layout_height="wrap_content"
                 android:paddingTop="20dp">
 
@@ -152,7 +152,7 @@
                 </com.github.mikephil.charting.charts.LineChart>
                 <LinearLayout
                     android:orientation="vertical"
-                    android:layout_width="450dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_gravity="center_vertical"
                     android:layout_marginLeft="20dp"
@@ -162,25 +162,68 @@
                     <com.ecru.infographic.CircleDisplay
                         android:layout_width="100dp"
                         android:layout_height="100dp"
+                        android:layout_marginTop="5dp"
                         android:id="@+id/overallServ"/>
                     <com.ecru.infographic.CircleDisplay
                         android:layout_width="100dp"
                         android:layout_height="100dp"
+                        android:layout_marginTop="5dp"
                         android:id="@+id/overallInd"/>
                     <com.ecru.infographic.CircleDisplay
                         android:layout_width="100dp"
                         android:layout_height="100dp"
+                        android:layout_marginTop="5dp"
                         android:id="@+id/overallAgri"/>
                     <!-- For extra content related to the above chart put it inside below lines layout-->
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content">
 
 
-                    </LinearLayout>
 
 
                 </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    >
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/fall"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginLeft="20dp"
+                        android:id="@+id/fall"/>
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/rise"
+                        android:layout_marginTop="50dp"
+                        android:layout_marginLeft="20dp"
+                        android:id="@+id/rise0"/>
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/rise"
+                        android:layout_marginTop="70dp"
+                        android:layout_marginLeft="20dp"
+                        android:id="@+id/rise1"/>
+
+
+                </LinearLayout>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="300dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/risefall"/>
+                <com.github.mikephil.charting.charts.LineChart
+                android:layout_width="650dp"
+                android:layout_height="match_parent"
+                android:id="@+id/exportLineChart"
+                android:layout_marginLeft="200dp"
+                >
+
+                </com.github.mikephil.charting.charts.LineChart>
+
 
             </LinearLayout>
 
