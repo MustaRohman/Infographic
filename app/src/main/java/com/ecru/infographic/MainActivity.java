@@ -2,16 +2,20 @@ package com.ecru.infographic;
 
 import android.animation.ObjectAnimator;
 import android.animation.ValueAnimator;
+import android.graphics.Color;
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 
 import com.bartoszlipinski.viewpropertyobjectanimator.ViewPropertyObjectAnimator;
+import com.ecru.data.GetDataValues;
+import com.github.mikephil.charting.components.YAxis;
 import com.github.mikephil.charting.data.Entry;
 import com.github.mikephil.charting.data.LineData;
 import com.github.mikephil.charting.data.LineDataSet;
@@ -31,6 +35,7 @@ public class MainActivity extends AppCompatActivity{
     private ListView mDrawerList;
     private CircleDisplay agriCir, indusCir, servCir;
     private ImageView fall, rise0, rise1;
+    private GetDataValues dataValues;
 
 
     @Override
@@ -56,12 +61,15 @@ public class MainActivity extends AppCompatActivity{
         industryCircle();
         hideInfos();
 
+        dataValues = new GetDataValues(this);
+
         animateArrows();
 
         /**
          * LEFT SIDE SLIDER PANEL . WE ARE NOT USING FOR NOW
          */
         createSidePanel();
+
     }
 
     public void createSidePanel(){
@@ -167,21 +175,112 @@ public class MainActivity extends AppCompatActivity{
     }
 
     private LineData generateData(){
-        ArrayList<Entry> entries = new ArrayList<>();
+//        ArrayList<Entry> entries = new ArrayList<>();
+//
+//        for (int i = 0; i < 10; i++){
+//            entries.add(new Entry((int) (Math.random() * 70) + 30, i));
+//        }
+//
+//        LineDataSet dataSet = new LineDataSet(entries, "Test");
+//        dataSet.setColors(ColorTemplate.VORDIPLOM_COLORS);
+//
+//        ArrayList<LineDataSet> sets = new ArrayList<>();
+//        sets.add(dataSet);
+//
+//        LineData data = new LineData(getYears(), sets);
+//        return data;
 
+        //arrays containing the actual values
+        float[] serviceVals = new float[10];
         for (int i = 0; i < 10; i++){
-            entries.add(new Entry((int) (Math.random() * 70) + 30, i));
+            float temp = (float) (67.1 * (1 + -0.054));
+            float predValue = (float) Math.pow(temp, i);
+            serviceVals[i] = predValue;
+            Log.d("generateData", "Service Value: " + predValue);
         }
 
-        LineDataSet dataSet = new LineDataSet(entries, "Test");
-        dataSet.setColors(ColorTemplate.VORDIPLOM_COLORS);
+        float[] industryVals = new float[10];
+        for (int i = 0; i < 10; i++){
+            float temp = (float) (30.0 * (1 + 0.055));
+            float predValue = (float) Math.pow(temp, i);
+            industryVals[i] = predValue;
+            Log.d("generateData","Industry Value: " + predValue);
+        }
 
-        ArrayList<LineDataSet> sets = new ArrayList<>();
-        sets.add(dataSet);
+        float[] agricultureVals = new float[10];
+        for (int i = 0; i < 10; i++){
+            float temp = (float) (30.0 * (1 + 0.055));
+            float predValue = (float) Math.pow(temp, i);
+            agricultureVals[i] = predValue;
+            Log.d("generateData","Agriculture Value: " + predValue);
+        }
 
-        LineData data = new LineData(getYears(), sets);
+        //Create a new arraylist to contain the dataset
+        ArrayList<Entry> agriComp = new ArrayList<Entry>();
+        ArrayList<Entry> servComp = new ArrayList<Entry>();
+        ArrayList<Entry> indComp = new ArrayList<Entry>();
+        ArrayList<String> yearNumberLabels = new ArrayList<>();
+        for(int i=0; i< 10;++i) {
+            //add the value to the array list for the year specified
+            agriComp.add(new Entry(agricultureVals[i], i));
+            servComp.add(new Entry(serviceVals[i], i));
+            indComp.add(new Entry(industryVals[i], i));
+            yearNumberLabels.add(i+ 2015 + "");
+        }
+
+        //Line Data Sets Are Created
+        LineDataSet agriValues= new LineDataSet(agriComp,"AgriCulture");
+        LineDataSet servicesValues = new LineDataSet(servComp,"Services");
+        LineDataSet indValues = new LineDataSet(indComp,"Industry");
+
+        /////////// Agriculture Styling
+        int yellow = Color.parseColor("#f1c40f");
+        agriValues.setAxisDependency(YAxis.AxisDependency.LEFT);
+        agriValues.setColor(yellow);
+        agriValues.setCircleColor(yellow);
+        agriValues.setLineWidth(5f);
+        agriValues.setCircleSize(10f);
+        agriValues.setFillAlpha(65);
+        agriValues.setFillColor(yellow);
+        agriValues.setDrawCircleHole(false);
+        agriValues.setHighLightColor(yellow);
+
+        /////////// Services Styling
+        int red = Color.parseColor("#e74c3c");
+        servicesValues.setAxisDependency(YAxis.AxisDependency.LEFT);
+        servicesValues.setColor(red);
+        servicesValues.setCircleColor(red);
+        servicesValues.setLineWidth(5f);
+        servicesValues.setCircleSize(10f);
+        servicesValues.setFillAlpha(65);
+        servicesValues.setFillColor(red);
+        servicesValues.setDrawCircleHole(false);
+        servicesValues.setHighLightColor(red);
+
+        /////////// Industry Styling
+        int blue = Color.parseColor("#3498db");
+        indValues.setAxisDependency(YAxis.AxisDependency.LEFT);
+        indValues.setColor(blue);
+        indValues.setCircleColor(blue);
+        indValues.setLineWidth(5f);
+        indValues.setCircleSize(10f);
+        indValues.setFillAlpha(65);
+        indValues.setFillColor(blue);
+        indValues.setDrawCircleHole(false);
+        indValues.setHighLightColor(blue);
+
+        ArrayList<LineDataSet> LineDataArray = new ArrayList<>();
+        LineDataArray.add(agriValues);
+        LineDataArray.add(servicesValues);
+        LineDataArray.add(indValues);
+        LineData data = new LineData(yearNumberLabels, LineDataArray);
+
+
+        //return the arrayList containing the values
         return data;
+
     }
+
 
     private ArrayList<String> getYears() {
 
