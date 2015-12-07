@@ -25,7 +25,7 @@
         android:layout_height="fill_parent"
         android:fillViewport="true">
         <LinearLayout
-            android:layout_width="3000dp"
+            android:layout_width="3200dp"
             android:layout_height="fill_parent"
             android:orientation="vertical">
 
@@ -40,7 +40,7 @@
                 android:paddingLeft="25dp" />
 
             <LinearLayout
-                android:layout_width="3000dp"
+                android:layout_width="3200dp"
                 android:layout_height="534dp"
                 android:paddingTop="20dp">
 
@@ -118,7 +118,7 @@
                                 />
                         </LinearLayout>
                         <ImageView
-                            android:layout_width="match_parent"
+                            android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:src="@drawable/seekbar_info"
                             android:id="@+id/seekbar_info"/>
@@ -176,33 +176,60 @@
                         android:id="@+id/overallAgri"
                         android:layout_marginTop="5dp"/>
                     <!-- For extra content related to the above chart put it inside below lines layout-->
-                    <LinearLayout
-                        android:layout_width="200dp"
-                        android:layout_height="wrap_content">
-                        
-
-                    </LinearLayout>
-                    <com.github.mikephil.charting.charts.LineChart
-                        android:layout_width="650dp"
-                        android:layout_height="match_parent"
-                        android:id="@+id/exportLineChart"
-                        android:layout_marginLeft="200dp"
-                        >
-
-                    </com.github.mikephil.charting.charts.LineChart>
 
 
                 </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    >
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/fall"
+                        android:layout_marginTop="50dp"
+                        android:layout_marginLeft="20dp"
+                        android:id="@+id/fall"/>
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/rise"
+                        android:layout_marginTop="115dp"
+                        android:layout_marginLeft="20dp"
+                        android:id="@+id/rise0"/>
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/rise"
+                        android:layout_marginTop="130dp"
+                        android:layout_marginLeft="20dp"
+                        android:id="@+id/rise1"/>
+
+
+                </LinearLayout>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/risefall"/>
+                <com.github.mikephil.charting.charts.LineChart
+                    android:layout_width="450dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/exportLineChart"
+                    android:layout_marginLeft="50dp"
+                    >
+
+                </com.github.mikephil.charting.charts.LineChart>
 
 
             </LinearLayout>
 
             <ImageView
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:src="@drawable/londonskyline"
-                android:layout_gravity="bottom"
-                android:layout_marginTop="50dp" />
+                android:layout_marginTop="35dp" />
 
 
         </LinearLayout>

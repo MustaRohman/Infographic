@@ -183,6 +183,17 @@ public class GetDataValues {
 
         //Line Data Sets Are Created
         LineDataSet values = new LineDataSet(exportsArrList, "Communication and computer exports % of service exports");
+        values.setDrawCubic(true);
+        values.setCubicIntensity(0.3f);
+        values.setDrawFilled(true);
+        values.setDrawCircles(false);
+        values.setLineWidth(1.8f);
+
+        values.setHighLightColor(Color.YELLOW);
+        values.setColor(Color.YELLOW);
+        values.setFillColor(Color.YELLOW);
+
+        values.setDrawHorizontalHighlightIndicator(false);
 
         ArrayList<LineDataSet> LineDataArray = new ArrayList<>();
         LineDataArray.add(values);
