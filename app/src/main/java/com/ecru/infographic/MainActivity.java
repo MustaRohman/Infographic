@@ -7,12 +7,15 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.AppCompatActivity;
-import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 
 import com.bartoszlipinski.viewpropertyobjectanimator.ViewPropertyObjectAnimator;
+import com.github.mikephil.charting.data.Entry;
+import com.github.mikephil.charting.data.LineData;
+import com.github.mikephil.charting.data.LineDataSet;
+import com.github.mikephil.charting.utils.ColorTemplate;
 
 import java.util.ArrayList;
 
@@ -23,11 +26,12 @@ public class MainActivity extends AppCompatActivity{
     private TextView title;
     private ImageView seekbar_info;
     public static Typeface bigJoe;
-    private ArrayList<String> mPlanetTitles;
+    private ArrayList<LineData> lineDatas;
     private DrawerLayout mDrawerLayout;
     private ListView mDrawerList;
     private CircleDisplay agriCir, indusCir, servCir;
     private ImageView fall, rise0, rise1;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -61,15 +65,13 @@ public class MainActivity extends AppCompatActivity{
     }
 
     public void createSidePanel(){
-        mPlanetTitles = new ArrayList<>();
-        for (int i = 0; i < 20; i++) {
-            mPlanetTitles.add("Year 200" + i);
-        }
-        mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
-        mDrawerList = (ListView) findViewById(R.id.left_drawer);
 
-        mDrawerList.setAdapter(new ArrayAdapter<>(this, R.layout.draw_list_item, mPlanetTitles));
-        mDrawerList.setOnItemClickListener(new DrawerItemClickListener());
+        lineDatas = new ArrayList<>();
+        lineDatas.add(generateData());
+        mDrawerList = (ListView) findViewById(R.id.left_drawer);
+        LineChartAdapter lineChartAdapter = new LineChartAdapter(getApplicationContext(), lineDatas);
+        mDrawerList.setAdapter(lineChartAdapter);
+
     }
 
     public void hideInfos(){
@@ -162,6 +164,33 @@ public class MainActivity extends AppCompatActivity{
                 .get();
         arrow2.start();
         arrow2.setRepeatCount(ValueAnimator.INFINITE);
+    }
+
+    private LineData generateData(){
+        ArrayList<Entry> entries = new ArrayList<>();
+
+        for (int i = 0; i < 10; i++){
+            entries.add(new Entry((int) (Math.random() * 70) + 30, i));
+        }
+
+        LineDataSet dataSet = new LineDataSet(entries, "Test");
+        dataSet.setColors(ColorTemplate.VORDIPLOM_COLORS);
+
+        ArrayList<LineDataSet> sets = new ArrayList<>();
+        sets.add(dataSet);
+
+        LineData data = new LineData(getYears(), sets);
+        return data;
+    }
+
+    private ArrayList<String> getYears() {
+
+        ArrayList<String> year = new ArrayList<String>();
+        for (int i = 0;i < 11; i++){
+            year.add(i + 2015 + "");
+        }
+
+        return year;
     }
 
 }
