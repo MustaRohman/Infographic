@@ -7,6 +7,9 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
+import android.view.Gravity;
+import android.widget.HorizontalScrollView;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
@@ -27,10 +30,11 @@ public class MainActivity extends AppCompatActivity{
     private ImageView seekbar_info;
     public static Typeface bigJoe;
     private ArrayList<LineData> lineDatas;
-    private DrawerLayout mDrawerLayout;
     private ListView mDrawerList;
     private CircleDisplay agriCir, indusCir, servCir;
     private ImageView fall, rise0, rise1;
+    private HorizontalScrollView horizontalScrollView;
+    private DrawerLayout drawerLayout;
 
 
     @Override
@@ -48,6 +52,14 @@ public class MainActivity extends AppCompatActivity{
         new Graph(this);
         new Pie(this);
         new ExportsGraph(this);
+
+        drawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
+        drawerLayout.openDrawer(Gravity.LEFT);
+
+        horizontalScrollView = (HorizontalScrollView) findViewById(R.id.horizontalScroll);
+        int scrollposition = horizontalScrollView.getScrollX();
+        Log.d("scroll View", "" + scrollposition);
+
 
 
         // THREE CIRCLES
@@ -192,5 +204,6 @@ public class MainActivity extends AppCompatActivity{
 
         return year;
     }
+
 
 }
