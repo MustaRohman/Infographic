@@ -19,17 +19,16 @@ import com.github.mikephil.charting.components.YAxis;
 import com.github.mikephil.charting.data.Entry;
 import com.github.mikephil.charting.data.LineData;
 import com.github.mikephil.charting.data.LineDataSet;
-import com.github.mikephil.charting.utils.ColorTemplate;
 
 import java.util.ArrayList;
 
 
-public class MainActivity extends AppCompatActivity{
+public class MainActivity extends AppCompatActivity {
 
 
+    public static Typeface bigJoe;
     private TextView title;
     private ImageView seekbar_info;
-    public static Typeface bigJoe;
     private ArrayList<LineData> lineDatas;
     private DrawerLayout mDrawerLayout;
     private ListView mDrawerList;
@@ -43,36 +42,39 @@ public class MainActivity extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        bigJoe = Typeface.createFromAsset(getAssets(), "fonts/Track.otf");
-        // TEXTVIEWS
-        title = (TextView) findViewById(R.id.title);
-        title.setTypeface(bigJoe);
 
-        // IMAGE VIEW
-        seekbar_info = (ImageView) findViewById(R.id.seekbar_info);
-        new Graph(this);
-        new Pie(this);
-        new ExportsGraph(this);
+        if ((findViewById(R.id.small_ScreenTXT) == null)) {
+
+            bigJoe = Typeface.createFromAsset(getAssets(), "fonts/Track.otf");
+            // TEXTVIEWS
+            title = (TextView) findViewById(R.id.title);
+            title.setTypeface(bigJoe);
+
+            // IMAGE VIEW
+            seekbar_info = (ImageView) findViewById(R.id.seekbar_info);
+            new Graph(this);
+            new Pie(this);
+            new ExportsGraph(this);
 
 
-        // THREE CIRCLES
-        agrCircle();
-        serviceCircle();
-        industryCircle();
-        hideInfos();
+            // THREE CIRCLES
+            agrCircle();
+            serviceCircle();
+            industryCircle();
+            hideInfos();
 
-        dataValues = new GetDataValues(this);
+            dataValues = new GetDataValues(this);
 
-        animateArrows();
+            animateArrows();
 
-        /**
-         * LEFT SIDE SLIDER PANEL . WE ARE NOT USING FOR NOW
-         */
-        createSidePanel();
-
+            /**
+             * LEFT SIDE SLIDER PANEL . WE ARE NOT USING FOR NOW
+             */
+            createSidePanel();
+        }
     }
 
-    public void createSidePanel(){
+    public void createSidePanel() {
 
         lineDatas = new ArrayList<>();
         lineDatas.add(generateData());
@@ -82,7 +84,7 @@ public class MainActivity extends AppCompatActivity{
 
     }
 
-    public void hideInfos(){
+    public void hideInfos() {
         Handler handler = new Handler();
         handler.postDelayed(new Runnable() {
             @Override
@@ -97,7 +99,7 @@ public class MainActivity extends AppCompatActivity{
         }, 10000);
     }
 
-    public void agrCircle(){
+    public void agrCircle() {
         int yellow = getResources().getColor(R.color.yellow);
         agriCir = (CircleDisplay) findViewById(R.id.overallAgri);
         agriCir.setColor(yellow);
@@ -114,7 +116,7 @@ public class MainActivity extends AppCompatActivity{
 
     }
 
-    public void serviceCircle(){
+    public void serviceCircle() {
         int red = getResources().getColor(R.color.red);
         servCir = (CircleDisplay) findViewById(R.id.overallServ);
         servCir.setColor(red);
@@ -129,7 +131,8 @@ public class MainActivity extends AppCompatActivity{
         // cd.setCustomText(...); // sets a custom array of text
         servCir.showValue(0.054f, 1f, true);
     }
-    public void industryCircle(){
+
+    public void industryCircle() {
         int blue = getResources().getColor(R.color.blue);
         indusCir = (CircleDisplay) findViewById(R.id.overallInd);
         indusCir.setColor(blue);
@@ -144,7 +147,8 @@ public class MainActivity extends AppCompatActivity{
         // cd.setCustomText(...); // sets a custom array of text
         indusCir.showValue(-0.055f, 1f, true);
     }
-    public void animateArrows(){
+
+    public void animateArrows() {
         rise = (ImageView) findViewById(R.id.rise);
         fall0 = (ImageView) findViewById(R.id.fall0);
         fall1 = (ImageView) findViewById(R.id.fall1);
@@ -174,7 +178,7 @@ public class MainActivity extends AppCompatActivity{
         arrow2.setRepeatCount(ValueAnimator.INFINITE);
     }
 
-    private LineData generateData(){
+    private LineData generateData() {
 //        ArrayList<Entry> entries = new ArrayList<>();
 //
 //        for (int i = 0; i < 10; i++){
@@ -192,24 +196,24 @@ public class MainActivity extends AppCompatActivity{
 
         //arrays containing the actual values
         float[] serviceVals = new float[10];
-        for (int i = 0; i < 10; i++){
+        for (int i = 0; i < 10; i++) {
             float predValue = (float) (78.9 * (Math.pow((1 + 0.054), i)));
             serviceVals[i] = predValue;
             Log.d("generateData", "Service Value: " + predValue);
         }
 
         float[] industryVals = new float[10];
-        for (int i = 0; i < 10; i++){
+        for (int i = 0; i < 10; i++) {
             float predValue = (float) (18.9 * Math.pow((1 + -0.055), i));
             industryVals[i] = predValue;
-            Log.d("generateData","Industry Value: " + predValue);
+            Log.d("generateData", "Industry Value: " + predValue);
         }
 
         float[] agricultureVals = new float[10];
-        for (int i = 0; i < 10; i++){
-            float predValue = (float) (1.2* Math.pow((1 + -0.006), i));
+        for (int i = 0; i < 10; i++) {
+            float predValue = (float) (1.2 * Math.pow((1 + -0.006), i));
             agricultureVals[i] = predValue;
-            Log.d("generateData","Agriculture Value: " + predValue);
+            Log.d("generateData", "Agriculture Value: " + predValue);
         }
 
         //Create a new arraylist to contain the dataset
@@ -217,18 +221,18 @@ public class MainActivity extends AppCompatActivity{
         ArrayList<Entry> servComp = new ArrayList<Entry>();
         ArrayList<Entry> indComp = new ArrayList<Entry>();
         ArrayList<String> yearNumberLabels = new ArrayList<>();
-        for(int i=0; i< 10;++i) {
+        for (int i = 0; i < 10; ++i) {
             //add the value to the array list for the year specified
             agriComp.add(new Entry(agricultureVals[i], i));
             servComp.add(new Entry(serviceVals[i], i));
             indComp.add(new Entry(industryVals[i], i));
-            yearNumberLabels.add(i+ 2015 + "");
+            yearNumberLabels.add(i + 2015 + "");
         }
 
         //Line Data Sets Are Created
-        LineDataSet agriValues= new LineDataSet(agriComp,"AgriCulture");
-        LineDataSet servicesValues = new LineDataSet(servComp,"Services");
-        LineDataSet indValues = new LineDataSet(indComp,"Industry");
+        LineDataSet agriValues = new LineDataSet(agriComp, "AgriCulture");
+        LineDataSet servicesValues = new LineDataSet(servComp, "Services");
+        LineDataSet indValues = new LineDataSet(indComp, "Industry");
 
         /////////// Agriculture Styling
         int yellow = Color.parseColor("#f1c40f");
@@ -282,7 +286,7 @@ public class MainActivity extends AppCompatActivity{
     private ArrayList<String> getYears() {
 
         ArrayList<String> year = new ArrayList<String>();
-        for (int i = 0;i < 11; i++){
+        for (int i = 0; i < 11; i++) {
             year.add(i + 2015 + "");
         }
 
