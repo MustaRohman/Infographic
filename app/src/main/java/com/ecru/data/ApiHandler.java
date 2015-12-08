@@ -23,12 +23,10 @@ import java.net.URL;
  */
 public class ApiHandler extends AsyncTask<String, Void, String> {
 
-    private String response;
     private String filename;
     private Activity activity;
     private String urlName;
     private ProgressBar progressBar;
-
 
     /**
      * Constuctor for ApiHandler class
@@ -42,7 +40,6 @@ public class ApiHandler extends AsyncTask<String, Void, String> {
         this.filename = filename;
         progressBar = (ProgressBar) this.activity.findViewById(R.id.progress_bar);
     }
-
 
     /**
      * Called by .execute, in this method fetch json string

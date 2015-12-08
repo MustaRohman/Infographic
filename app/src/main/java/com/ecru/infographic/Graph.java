@@ -28,15 +28,9 @@ public class Graph {
         lineChart.setDrawGridBackground(false);
         lineChart.setDescription("");
 
-
-
         try {
             lineChart.setData(dataValues.LineGraphSectorData());
-
-        } catch (Exception e) {
-
-        }
-
+        } catch (Exception e) {}
 
         // xAxis
         XAxis xAxis = lineChart.getXAxis();
@@ -46,7 +40,6 @@ public class Graph {
         xAxis.setTextSize(10.f);
         xAxis.setGridColor(Color.parseColor("#95a5a6"));
 
-
         // yAxis
         YAxis leftAxis = lineChart.getAxisLeft();
         leftAxis.removeAllLimitLines(); // reset all limit lines to avoid overlapping lines
@@ -54,18 +47,15 @@ public class Graph {
         leftAxis.setAxisMaxValue(120f);
         leftAxis.setAxisMinValue(-20f);
         leftAxis.setStartAtZero(false);
+
         // limit lines are drawn behind data (and not on top)
         leftAxis.setDrawLimitLinesBehindData(true);
 
         // Legend
         Legend l = lineChart.getLegend();
         l.setPosition(Legend.LegendPosition.ABOVE_CHART_CENTER);
+
         lineChart.getAxisRight().setEnabled(false);
-
-
-
-
-
         lineChart.getAxisRight().setEnabled(false);
         lineChart.setClickable(false);
         lineChart.invalidate();

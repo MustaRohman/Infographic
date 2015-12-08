@@ -27,7 +27,6 @@ public class GetDataValues {
     String empIndJson;
     String exportsJson;
 
-    int  selected =0;
     /**
      * Method to get the data for various charts/graphs needed
      * @param activity
@@ -43,15 +42,6 @@ public class GetDataValues {
             Log.d("GetDataValues", "Data loading interrupted");
             e.printStackTrace();
         }
-    }
-
-
-    public int getSelected() {
-        return selected;
-    }
-
-    public void setSelected(int selected) {
-        this.selected = selected;
     }
 
     /**
@@ -70,7 +60,6 @@ public class GetDataValues {
         float[] serviceVals = (float[]) parseData(empServJson)[1];
         float[] industryVals = (float[]) parseData(empIndJson)[1];
 
-
         //Create a new arraylist to contain the dataset
         ArrayList<Float> values = new ArrayList<>();
 
@@ -78,7 +67,6 @@ public class GetDataValues {
         values.add(agricultureVals[year]);
         values.add(serviceVals[year]);
         values.add(industryVals[year]);
-
 
         //Temp, show values in log, used for debugging purposes
         Log.d("YEAR", years[year] + "");
@@ -107,9 +95,9 @@ public class GetDataValues {
         ArrayList<String> yearNumberLabels = new ArrayList<>();
         for(int i=0; i< 21;++i) {
             //add the value to the array list for the year specified
-            agriComp.add(new Entry(agricultureVals[21-i], i));
-            servComp.add(new Entry(serviceVals[21-i], i));
-            indComp.add(new Entry(industryVals[21-i], i));
+            agriComp.add(new Entry(agricultureVals[20-i], i));
+            servComp.add(new Entry(serviceVals[20-i], i));
+            indComp.add(new Entry(industryVals[20-i], i));
             yearNumberLabels.add(i+ 1992 + "");
         }
 
@@ -160,13 +148,11 @@ public class GetDataValues {
         LineDataArray.add(indValues);
         LineData data = new LineData(yearNumberLabels, LineDataArray);
 
-
         //return the arrayList containing the values
         return data;
     }
 
     public LineData exportsChart() throws JSONException {
-
 
         int[] years = (int[]) parseData(exportsJson)[0];
         float[] ictExports = (float[]) parseData(exportsJson)[1];
@@ -175,11 +161,10 @@ public class GetDataValues {
         ArrayList<Entry> exportsArrList = new ArrayList<Entry>();
         ArrayList<String> yearNumberLabels = new ArrayList<>();
         for (int i = 0; i < years.length; ++i) {
-            //add the value to the array list for the year specified
 
+            //add the value to the array list for the year specified
             exportsArrList.add(new Entry(ictExports[i], ((years.length - 1) - i)));
             yearNumberLabels.add(String.valueOf(years[((years.length - 1) - i)]));
-
         }
 
         //Line Data Sets Are Created
@@ -202,7 +187,6 @@ public class GetDataValues {
 
         return data;
     }
-
 
     /**
      * Method to parse the data

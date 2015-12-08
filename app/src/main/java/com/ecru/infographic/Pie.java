@@ -147,12 +147,12 @@ public class Pie implements SeekBar.OnSeekBarChangeListener {
         data.setValueFormatter(new PercentFormatter());
         data.setValueTextSize(11f);
         data.setValueTextColor(Color.BLACK);
+
         pieChart.setHoleColorTransparent(true);
         pieChart.setDescription("");
         pieChart.setCenterText("2012");
         pieChart.setCenterTextSize(30.f);
         pieChart.setCenterTextTypeface(MainActivity.bigJoe);
-
         pieChart.setCenterTextColor(Color.BLACK);
         pieChart.setData(data);
 
@@ -161,7 +161,6 @@ public class Pie implements SeekBar.OnSeekBarChangeListener {
 
         pieChart.invalidate();
     }
-
 
     /**
      * Animation for Buttons
@@ -207,12 +206,10 @@ public class Pie implements SeekBar.OnSeekBarChangeListener {
 
     @Override
     public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
-
     }
 
     @Override
     public void onStartTrackingTouch(SeekBar seekBar) {
-
     }
 
     @Override
@@ -281,6 +278,4 @@ public class Pie implements SeekBar.OnSeekBarChangeListener {
         }
         return returnString;
     }
-
-
 }

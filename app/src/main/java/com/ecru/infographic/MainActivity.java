@@ -82,11 +82,6 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    /**
-     * FOR TESTING
-     * @return
-     */
-
     public PieChart getPie() {
         return pieChart.getPieChart();
     }
@@ -290,7 +285,6 @@ public class MainActivity extends AppCompatActivity {
         LineDataArray.add(servicesValues);
         LineDataArray.add(indValues);
         LineData data = new LineData(yearNumberLabels, LineDataArray);
-
 
         //return the arrayList containing the values
         return data;

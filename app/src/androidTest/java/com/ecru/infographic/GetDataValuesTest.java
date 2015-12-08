@@ -1,12 +1,8 @@
 package com.ecru.infographic;
 
 import android.test.ActivityInstrumentationTestCase2;
-
-import com.ecru.data.ApiHandler;
 import com.ecru.data.GetDataValues;
-
 import org.json.JSONException;
-
 import java.util.ArrayList;
 import java.util.concurrent.ExecutionException;
 
@@ -17,7 +13,6 @@ public class GetDataValuesTest extends ActivityInstrumentationTestCase2<MainActi
     public GetDataValuesTest() {
         super(MainActivity.class);
     }
-
 
     public void testActivityExists() {
         MainActivity mainActivity = getActivity();
@@ -31,7 +26,6 @@ public class GetDataValuesTest extends ActivityInstrumentationTestCase2<MainActi
         MainActivity mainActivity = getActivity();
         assertNotNull(mainActivity.getDataValues());
     }
-
 
     /**
      * Tests if pie chart is given correct data

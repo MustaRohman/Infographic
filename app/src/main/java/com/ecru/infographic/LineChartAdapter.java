@@ -53,9 +53,9 @@ public class LineChartAdapter extends ArrayAdapter<LineData> {
         // yAxis
         YAxis leftAxis = holder.lineChart.getAxisLeft();
         leftAxis.removeAllLimitLines(); // reset all limit lines to avoid overlapping lines
-        leftAxis.setEnabled(false);
-        leftAxis.setAxisMaxValue(220f);
-        leftAxis.setAxisMinValue(-20f);
+        leftAxis.setEnabled(true);
+        leftAxis.setAxisMaxValue(100f);
+        leftAxis.setAxisMinValue(0f);
         leftAxis.setStartAtZero(false);
         // limit lines are drawn behind data (and not on top)
         leftAxis.setDrawLimitLinesBehindData(true);

@@ -19,7 +19,4 @@ public class LineGraphTests  extends ActivityInstrumentationTestCase2<MainActivi
         assertNotNull(mainActivity.getGraph());
     }
 
-
-
-
 }

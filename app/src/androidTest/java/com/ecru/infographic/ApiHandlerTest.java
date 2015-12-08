@@ -1,13 +1,7 @@
 package com.ecru.infographic;
 
 import android.test.ActivityInstrumentationTestCase2;
-
 import com.ecru.data.ApiHandler;
-import com.ecru.data.GetDataValues;
-
-import org.json.JSONException;
-
-import java.util.ArrayList;
 import java.util.concurrent.ExecutionException;
 
 /**
