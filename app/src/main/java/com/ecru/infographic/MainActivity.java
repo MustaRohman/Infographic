@@ -74,6 +74,10 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    public GetDataValues getDataValues() {
+        return dataValues;
+    }
+
     public void createSidePanel() {
 
         lineDatas = new ArrayList<>();
