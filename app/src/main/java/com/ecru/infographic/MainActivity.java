@@ -11,10 +11,13 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.widget.ImageView;
 import android.widget.ListView;
+import android.widget.SeekBar;
 import android.widget.TextView;
 
 import com.bartoszlipinski.viewpropertyobjectanimator.ViewPropertyObjectAnimator;
 import com.ecru.data.GetDataValues;
+import com.github.mikephil.charting.charts.LineChart;
+import com.github.mikephil.charting.charts.PieChart;
 import com.github.mikephil.charting.components.YAxis;
 import com.github.mikephil.charting.data.Entry;
 import com.github.mikephil.charting.data.LineData;
@@ -35,6 +38,9 @@ public class MainActivity extends AppCompatActivity {
     private CircleDisplay agriCir, indusCir, servCir;
     private ImageView rise, fall0, fall1;
     private GetDataValues dataValues;
+    private Pie pieChart;
+    private Graph graph;
+
 
 
     @Override
@@ -49,12 +55,14 @@ public class MainActivity extends AppCompatActivity {
             // TEXTVIEWS
             title = (TextView) findViewById(R.id.title);
             title.setTypeface(bigJoe);
+            dataValues = new GetDataValues(this);
+
 
             // IMAGE VIEW
             seekbar_info = (ImageView) findViewById(R.id.seekbar_info);
-            new Graph(this);
-            new Pie(this);
-            new ExportsGraph(this);
+            graph = new Graph(this, dataValues);
+            pieChart =new Pie(this, dataValues);
+            new ExportsGraph(this, dataValues);
 
 
             // THREE CIRCLES
@@ -63,7 +71,6 @@ public class MainActivity extends AppCompatActivity {
             industryCircle();
             hideInfos();
 
-            dataValues = new GetDataValues(this);
 
             animateArrows();
 
@@ -73,6 +80,20 @@ public class MainActivity extends AppCompatActivity {
             createSidePanel();
         }
     }
+
+    public PieChart getPie() {
+        return pieChart.getPieChart();
+    }
+
+    public LineChart getGraph() {
+        return graph.getGraph();
+    }
+
+    public SeekBar getPieSeekBar() {
+        return pieChart.getPieSeekBar();
+    }
+
+
 
     public GetDataValues getDataValues() {
         return dataValues;

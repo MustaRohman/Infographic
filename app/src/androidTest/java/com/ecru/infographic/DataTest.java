@@ -1,10 +1,6 @@
 package com.ecru.infographic;
 
-import android.app.Application;
-import android.app.Instrumentation;
 import android.test.ActivityInstrumentationTestCase2;
-import android.test.ApplicationTestCase;
-import android.util.Log;
 
 import com.ecru.data.ApiHandler;
 import com.ecru.data.GetDataValues;
@@ -29,6 +25,48 @@ public class DataTest extends ActivityInstrumentationTestCase2<MainActivity> {
         MainActivity mainActivity = getActivity();
         assertNotNull(mainActivity.getDataValues());
     }
+
+    public void testGraphExists(){
+        MainActivity mainActivity = getActivity();
+        assertNotNull(mainActivity.getGraph());
+    }
+
+    public void testPieSeekBarExists() {
+        MainActivity mainactivity = getActivity();
+        assertNotNull(mainactivity.getPieSeekBar());
+    }
+
+    public void testPieChartExists() {
+        MainActivity mainactivity = getActivity();
+        assertNotNull(mainactivity.getPie());
+    }
+
+    //Testing SeekBar
+    public void testMax() {
+        MainActivity mainactivity = getActivity();
+        int n = 30;
+        assertEquals(n, mainactivity.getPieSeekBar().getMax());
+    }
+
+    public void testSetProgress() {
+        MainActivity mainactivity = getActivity();
+        int m = 30;
+        assertSame(m, mainactivity.getPieSeekBar().getProgress());
+    }
+
+
+    public void testPieDataSetLabelisCorrect() {
+        MainActivity mainactivity = getActivity();
+        assertEquals("Employment sectors", mainactivity.getPie().getData().getDataSet().getLabel());
+
+    }
+
+//    public void testColours() {
+//         MainActivity mainactivity = getActivity();
+//        assertSame;
+//    }
+
+
     public void testCorrectDataSavedPieChart1982(){
         MainActivity mainActivity =getActivity();
         GetDataValues  dd = mainActivity.getDataValues();

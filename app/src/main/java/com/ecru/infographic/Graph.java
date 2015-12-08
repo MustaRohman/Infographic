@@ -15,18 +15,23 @@ import com.github.mikephil.charting.components.YAxis;
 public class Graph {
     Activity activity;
     LineChart lineChart;
+    GetDataValues dataValues;
+    public LineChart getGraph() {
+        return lineChart;
+    }
 
-    public Graph(Activity activity) {
+
+    public Graph(Activity activity, GetDataValues dataValues) {
         this.activity = activity;
         this.lineChart = (LineChart)activity.findViewById(R.id.lineChart);
-
+        this.dataValues = dataValues;
         lineChart.setDrawGridBackground(false);
         lineChart.setDescription("");
 
 
 
         try {
-            lineChart.setData(new GetDataValues(activity).LineGraphSectorData());
+            lineChart.setData(dataValues.LineGraphSectorData());
 
         } catch (Exception e) {
 

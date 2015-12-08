@@ -36,10 +36,20 @@ public class Pie implements SeekBar.OnSeekBarChangeListener {
     private SeekBar pieSeekBar;
     private GetDataValues dataValues;
 
-    public Pie(final Activity activity) {
+    public PieChart getPieChart() {
+        return pieChart;
+    }
+
+    public SeekBar getPieSeekBar(){
+        return pieSeekBar;
+    }
+
+
+    public Pie(final Activity activity, GetDataValues dataValues) {
         this.activity = activity;
         this.pieChart = (PieChart) activity.findViewById(R.id.pieChart);
-        dataValues = new GetDataValues(activity);
+
+        this.dataValues = dataValues;
         pieSeekBar = (SeekBar) activity.findViewById(R.id.pieSeekBar);
         pieSeekBar.setOnSeekBarChangeListener(this);
         pieSeekBar.setMax(30);
@@ -55,7 +65,7 @@ public class Pie implements SeekBar.OnSeekBarChangeListener {
 
 
         try {
-            setData(new GetDataValues(activity).employmentPieData(0));
+            setData(dataValues.employmentPieData(0));
         } catch (JSONException e) {
             e.printStackTrace();
         }
