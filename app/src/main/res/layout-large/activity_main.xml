@@ -130,7 +130,7 @@
                 </LinearLayout>
                 <com.github.mikephil.charting.charts.PieChart
                     android:id="@+id/pieChart"
-                    android:layout_width="450dp"
+                    android:layout_width="400dp"
                     android:layout_height="300dp"
                     android:layout_rowWeight="40"
                     android:layout_marginTop="15dp" />
@@ -246,5 +246,5 @@
         android:choiceMode="singleChoice"
         android:divider="@android:color/transparent"
         android:dividerHeight="0dp"
-        android:background="#fff"/>
+        android:background="@drawable/repeatbg"/>
 </android.support.v4.widget.DrawerLayout>

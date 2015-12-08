@@ -1806,6 +1806,7 @@ containing a value of this type.
         public static final int seekbar_info=0x7f060015;
         public static final int status_bar_notification_info_overflow=0x7f060013;
         public static final int title=0x7f060016;
+        public static final int ukfuture=0x7f060017;
     }
     public static final class style {
         public static final int AlertDialog_AppCompat=0x7f09007d;

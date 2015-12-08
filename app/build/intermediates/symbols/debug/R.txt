@@ -644,6 +644,7 @@ int string app_name 0x7f060014
 int string seekbar_info 0x7f060015
 int string status_bar_notification_info_overflow 0x7f060013
 int string title 0x7f060016
+int string ukfuture 0x7f060017
 int style AlertDialog_AppCompat 0x7f09007d
 int style AlertDialog_AppCompat_Light 0x7f09007e
 int style AlertDialogCustom 0x7f09007f

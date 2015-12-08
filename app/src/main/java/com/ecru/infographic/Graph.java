@@ -20,18 +20,12 @@ public class Graph {
         this.activity = activity;
         this.lineChart = (LineChart)activity.findViewById(R.id.lineChart);
 
-        lineChart.setDrawGridBackground(false);
-        lineChart.setDescription("");
-
-
-
         try {
             lineChart.setData(new GetDataValues(activity).LineGraphSectorData());
 
         } catch (Exception e) {
 
         }
-
 
         // xAxis
         XAxis xAxis = lineChart.getXAxis();
@@ -40,7 +34,6 @@ public class Graph {
         xAxis.setLabelsToSkip(0);
         xAxis.setTextSize(10.f);
         xAxis.setGridColor(Color.parseColor("#95a5a6"));
-
 
         // yAxis
         YAxis leftAxis = lineChart.getAxisLeft();
@@ -55,16 +48,11 @@ public class Graph {
         // Legend
         Legend l = lineChart.getLegend();
         l.setPosition(Legend.LegendPosition.ABOVE_CHART_CENTER);
+        lineChart.setDrawGridBackground(false);
+        lineChart.setDescription("");
         lineChart.getAxisRight().setEnabled(false);
-
-
-
-
-
         lineChart.getAxisRight().setEnabled(false);
         lineChart.setClickable(false);
-        lineChart.invalidate();
-
-
+        lineChart.setFocusable(true);
     }
 }

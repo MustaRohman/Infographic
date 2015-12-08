@@ -1,12 +1,14 @@
 package com.ecru.infographic;
 
 import android.content.Context;
+import android.graphics.Color;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 
 import com.github.mikephil.charting.charts.LineChart;
+import com.github.mikephil.charting.components.Legend;
 import com.github.mikephil.charting.components.XAxis;
 import com.github.mikephil.charting.components.YAxis;
 import com.github.mikephil.charting.data.LineData;
@@ -39,24 +41,33 @@ public class LineChartAdapter extends ArrayAdapter<LineData> {
             holder = (ViewHolder) convertView.getTag();
         }
 
-        // Chart Style
-
-        holder.lineChart.setDescription("");
-        holder.lineChart.setDrawGridBackground(false);
-
+        // xAxis
         XAxis xAxis = holder.lineChart.getXAxis();
-        xAxis.setPosition(XAxis.XAxisPosition.BOTTOM);
-        xAxis.setDrawGridLines(false);
+        xAxis.setEnabled(true);
+        xAxis.setDrawAxisLine(true);
+        xAxis.setLabelsToSkip(0);
+        xAxis.setTextSize(10.f);
+        xAxis.setGridColor(Color.parseColor("#95a5a6"));
 
+
+        // yAxis
         YAxis leftAxis = holder.lineChart.getAxisLeft();
+        leftAxis.removeAllLimitLines(); // reset all limit lines to avoid overlapping lines
+        leftAxis.setEnabled(false);
+        leftAxis.setAxisMaxValue(220f);
+        leftAxis.setAxisMinValue(-20f);
+        leftAxis.setStartAtZero(false);
+        // limit lines are drawn behind data (and not on top)
+        leftAxis.setDrawLimitLinesBehindData(true);
 
-        leftAxis.setLabelCount(5, false);
-        leftAxis.setSpaceTop(15f);
-
-        YAxis rightAxis = holder.lineChart.getAxisRight();
-        rightAxis.setLabelCount(5, false);
-        rightAxis.setSpaceTop(15f);
-
+        // Legend
+        Legend l = holder.lineChart.getLegend();
+        l.setPosition(Legend.LegendPosition.ABOVE_CHART_CENTER);
+        holder.lineChart.getAxisRight().setEnabled(false);
+        holder.lineChart.setDescription("");
+        holder.lineChart.getAxisRight().setEnabled(false);
+        holder.lineChart.setClickable(false);
+        holder.lineChart.setDrawGridBackground(false);
         holder.lineChart.setData(data);
         holder.lineChart.invalidate();
         return convertView;

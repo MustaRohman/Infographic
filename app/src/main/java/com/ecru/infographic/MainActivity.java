@@ -19,12 +19,11 @@ import com.github.mikephil.charting.components.YAxis;
 import com.github.mikephil.charting.data.Entry;
 import com.github.mikephil.charting.data.LineData;
 import com.github.mikephil.charting.data.LineDataSet;
-import com.github.mikephil.charting.utils.ColorTemplate;
 
 import java.util.ArrayList;
 
 
-public class MainActivity extends AppCompatActivity{
+public class MainActivity extends AppCompatActivity {
 
 
     private TextView title;
@@ -160,7 +159,7 @@ public class MainActivity extends AppCompatActivity{
                 .animate(fall0)
                 .setDuration(1200)
                 .alpha(0)
-                .translationY(-8f)
+                .translationY(8f)
                 .get();
         arrow1.start();
         arrow1.setRepeatCount(ValueAnimator.INFINITE);
@@ -168,29 +167,14 @@ public class MainActivity extends AppCompatActivity{
                 .animate(fall1)
                 .setDuration(1200)
                 .alpha(0)
-                .translationY(-8f)
+                .translationY(8f)
                 .get();
         arrow2.start();
         arrow2.setRepeatCount(ValueAnimator.INFINITE);
     }
 
     private LineData generateData(){
-//        ArrayList<Entry> entries = new ArrayList<>();
-//
-//        for (int i = 0; i < 10; i++){
-//            entries.add(new Entry((int) (Math.random() * 70) + 30, i));
-//        }
-//
-//        LineDataSet dataSet = new LineDataSet(entries, "Test");
-//        dataSet.setColors(ColorTemplate.VORDIPLOM_COLORS);
-//
-//        ArrayList<LineDataSet> sets = new ArrayList<>();
-//        sets.add(dataSet);
-//
-//        LineData data = new LineData(getYears(), sets);
-//        return data;
 
-        //arrays containing the actual values
         float[] serviceVals = new float[10];
         for (int i = 0; i < 10; i++){
             float predValue = (float) (78.9 * (Math.pow((1 + 0.054), i)));
@@ -278,15 +262,5 @@ public class MainActivity extends AppCompatActivity{
 
     }
 
-
-    private ArrayList<String> getYears() {
-
-        ArrayList<String> year = new ArrayList<String>();
-        for (int i = 0;i < 11; i++){
-            year.add(i + 2015 + "");
-        }
-
-        return year;
-    }
 
 }
