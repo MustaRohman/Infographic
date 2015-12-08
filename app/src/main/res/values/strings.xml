@@ -3,4 +3,7 @@
     <string name="title"> UK EMPLOYMENT SECTORS</string>
     <string name="seekbar_info">You can change year by dragging the bar! </string>
     <string name= "ukfuture">How UK employment sector will be in the next 10 years?</string>
+    <string name="pieDesc"></string>
+    <string name="lineDescrip"></string>
+    <string name="futureBtn">Check UK FUTURE!</string>
 </resources>

@@ -148,9 +148,7 @@ public class Pie implements SeekBar.OnSeekBarChangeListener {
         data.setValueTextSize(11f);
         data.setValueTextColor(Color.BLACK);
         pieChart.setHoleColorTransparent(true);
-        pieChart.setDescription("Comparison of three different employment sectors for each year in UK");
-        pieChart.setDescriptionPosition(500.f,366.f);
-        pieChart.setDescriptionTextSize(12f);
+        pieChart.setDescription("");
         pieChart.setCenterText("2012");
         pieChart.setCenterTextSize(30.f);
         pieChart.setCenterTextTypeface(MainActivity.bigJoe);
