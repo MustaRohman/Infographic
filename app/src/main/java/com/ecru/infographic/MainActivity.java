@@ -220,13 +220,6 @@ public class MainActivity extends AppCompatActivity {
 //        return data;
 
         //arrays containing the actual values
-        float[] serviceVals = new float[10];
-        for (int i = 0; i < 10; i++) {
-            float predValue = (float) (78.9 * (Math.pow((1 + 0.054), i)));
-            serviceVals[i] = predValue;
-            Log.d("generateData", "Service Value: " + predValue);
-        }
-
         float[] industryVals = new float[10];
         for (int i = 0; i < 10; i++) {
             float predValue = (float) (18.9 * Math.pow((1 + -0.055), i));
@@ -241,6 +234,13 @@ public class MainActivity extends AppCompatActivity {
             Log.d("generateData", "Agriculture Value: " + predValue);
         }
 
+        float[] serviceVals = new float[10];
+        for (int i = 0; i < 10; i++) {
+            float predValue = 100-(agricultureVals[i]+ industryVals[i]);
+            serviceVals[i] = predValue;
+            Log.d("generateData", "Service Value: " + predValue);
+        }
+
         //Create a new arraylist to contain the dataset
         ArrayList<Entry> agriComp = new ArrayList<Entry>();
         ArrayList<Entry> servComp = new ArrayList<Entry>();
@@ -251,7 +251,7 @@ public class MainActivity extends AppCompatActivity {
             agriComp.add(new Entry(agricultureVals[i], i));
             servComp.add(new Entry(serviceVals[i], i));
             indComp.add(new Entry(industryVals[i], i));
-            yearNumberLabels.add(i + 2015 + "");
+            yearNumberLabels.add(i + 2013 + "");
         }
 
         //Line Data Sets Are Created
