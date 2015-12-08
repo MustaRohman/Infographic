@@ -53,6 +53,14 @@
                     android:gravity="top"
                     android:layout_marginLeft="50dp">
 
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/black"
+                        android:textColor="@android:color/white"
+                        android:text="About"
+                        android:onClick="onClickAboutBtn"/>
+
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="220dp"

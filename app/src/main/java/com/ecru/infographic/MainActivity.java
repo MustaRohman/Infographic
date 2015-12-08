@@ -6,9 +6,11 @@ import android.graphics.Color;
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.os.Handler;
+import android.support.v4.app.DialogFragment;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
+import android.view.View;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.SeekBar;
@@ -40,8 +42,6 @@ public class MainActivity extends AppCompatActivity {
     private GetDataValues dataValues;
     private Pie pieChart;
     private Graph graph;
-
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -316,6 +316,11 @@ public class MainActivity extends AppCompatActivity {
         }
 
         return year;
+    }
+
+    public void onClickAboutBtn(View view) {
+        DialogFragment aboutDialog = new AboutDialog();
+        aboutDialog.show(getSupportFragmentManager(), "about");
     }
 
 }
