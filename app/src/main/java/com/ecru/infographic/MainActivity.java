@@ -189,7 +189,7 @@ public class MainActivity extends AppCompatActivity {
                 .animate(fall0)
                 .setDuration(1200)
                 .alpha(0)
-                .translationY(-8f)
+                .translationY(8f)
                 .get();
         arrow1.start();
         arrow1.setRepeatCount(ValueAnimator.INFINITE);
@@ -197,7 +197,7 @@ public class MainActivity extends AppCompatActivity {
                 .animate(fall1)
                 .setDuration(1200)
                 .alpha(0)
-                .translationY(-8f)
+                .translationY(8f)
                 .get();
         arrow2.start();
         arrow2.setRepeatCount(ValueAnimator.INFINITE);

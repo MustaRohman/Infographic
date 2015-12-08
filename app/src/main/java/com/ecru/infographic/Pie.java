@@ -148,7 +148,9 @@ public class Pie implements SeekBar.OnSeekBarChangeListener {
         data.setValueTextSize(11f);
         data.setValueTextColor(Color.BLACK);
         pieChart.setHoleColorTransparent(true);
-        pieChart.setDescription("");
+        pieChart.setDescription("Comparison of three different employment sectors for each year in UK");
+        pieChart.setDescriptionPosition(500.f,366.f);
+        pieChart.setDescriptionTextSize(12f);
         pieChart.setCenterText("2012");
         pieChart.setCenterTextSize(30.f);
         pieChart.setCenterTextTypeface(MainActivity.bigJoe);
@@ -171,7 +173,7 @@ public class Pie implements SeekBar.OnSeekBarChangeListener {
     public void replace(Button btn) {
         ObjectAnimator buttonAni = ViewPropertyObjectAnimator
                 .animate(btn)
-                .height(400)
+                .height(150)
                 .setDuration(500)
                 .rotationX(360)
                 .get();
@@ -182,7 +184,7 @@ public class Pie implements SeekBar.OnSeekBarChangeListener {
 
         ObjectAnimator buttonA = ViewPropertyObjectAnimator
                 .animate(btn)
-                .height(150)
+                .height(50)
                 .setDuration(delayTime)
                 .rotationX(360)
                 .get();
