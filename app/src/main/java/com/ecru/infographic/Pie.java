@@ -36,11 +36,20 @@ public class Pie implements SeekBar.OnSeekBarChangeListener {
     private SeekBar pieSeekBar;
     private GetDataValues dataValues;
 
-    public Pie(final Activity activity) {
+    public PieChart getPieChart() {
+        return pieChart;
+    }
+
+    public SeekBar getPieSeekBar(){
+        return pieSeekBar;
+    }
+
+
+    public Pie(final Activity activity, GetDataValues dataValues) {
         this.activity = activity;
         this.pieChart = (PieChart) activity.findViewById(R.id.pieChart);
 
-        dataValues = new GetDataValues(activity);
+        this.dataValues = dataValues;
         pieSeekBar = (SeekBar) activity.findViewById(R.id.pieSeekBar);
         pieSeekBar.setOnSeekBarChangeListener(this);
         pieSeekBar.setMax(30);
@@ -56,7 +65,7 @@ public class Pie implements SeekBar.OnSeekBarChangeListener {
 
 
         try {
-            setData(new GetDataValues(activity).employmentPieData(0));
+            setData(dataValues.employmentPieData(0));
         } catch (JSONException e) {
             e.printStackTrace();
         }
@@ -139,9 +148,7 @@ public class Pie implements SeekBar.OnSeekBarChangeListener {
         data.setValueTextSize(11f);
         data.setValueTextColor(Color.BLACK);
         pieChart.setHoleColorTransparent(true);
-        pieChart.setDescription("Comparison of three different employment sectors for each year in UK");
-        pieChart.setDescriptionPosition(500.f,366.f);
-        pieChart.setDescriptionTextSize(12f);
+        pieChart.setDescription("");
         pieChart.setCenterText("2012");
         pieChart.setCenterTextSize(30.f);
         pieChart.setCenterTextTypeface(MainActivity.bigJoe);
@@ -164,7 +171,7 @@ public class Pie implements SeekBar.OnSeekBarChangeListener {
     public void replace(Button btn) {
         ObjectAnimator buttonAni = ViewPropertyObjectAnimator
                 .animate(btn)
-                .height(150)
+                .height(400)
                 .setDuration(500)
                 .rotationX(360)
                 .get();
@@ -175,7 +182,7 @@ public class Pie implements SeekBar.OnSeekBarChangeListener {
 
         ObjectAnimator buttonA = ViewPropertyObjectAnimator
                 .animate(btn)
-                .height(50)
+                .height(150)
                 .setDuration(delayTime)
                 .rotationX(360)
                 .get();

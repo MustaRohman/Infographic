@@ -16,13 +16,14 @@ public class ExportsGraph {
 
     Activity activity;
     LineChart lineChart;
-
-    public ExportsGraph(Activity activity) {
+    GetDataValues dataValues;
+    public ExportsGraph(Activity activity, GetDataValues dataValues) {
         this.activity = activity;
+        this.dataValues = dataValues;
         this.lineChart = (LineChart) activity.findViewById(R.id.exportLineChart);
 
         try {
-            lineChart.setData(new GetDataValues(activity).exportsChart());
+            lineChart.setData(dataValues.exportsChart());
         } catch (JSONException e) {
             e.printStackTrace();
         }
