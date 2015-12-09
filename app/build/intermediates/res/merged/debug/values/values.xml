@@ -224,7 +224,7 @@
     <string name="seekbar_info">You can change year by dragging the bar! </string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="title"> Why you should work in the IT service sector</string>
-    <string name="ukfuture">Forecasted values for employment in each sector up to 2022</string>
+    <string name="ukfuture">How UK employment sector will be in the next 10 years?</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="AlertDialogCustom" parent="@android:style/Theme.Dialog">
