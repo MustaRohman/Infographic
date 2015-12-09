@@ -67,7 +67,9 @@ public class MainActivity extends AppCompatActivity {
             seekbar_info = (ImageView) findViewById(R.id.seekbar_info);
             graph = new Graph(this, dataValues);
             pieChart =new Pie(this, dataValues);
-            new ExportsGraph(this, dataValues);
+            //TODO layout that has both
+            //new ExportsGraph(this, dataValues);
+            new ExportsValueGraph(this, dataValues);
 
 
             // THREE CIRCLES
