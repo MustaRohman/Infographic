@@ -6,4 +6,5 @@
     <string name="pieDesc"></string>
     <string name="lineDescrip"></string>
     <string name="futureBtn">Check UK FUTURE!</string>
+    <string name="fa_icon_areachart">&#xf0ad;</string>
 </resources>

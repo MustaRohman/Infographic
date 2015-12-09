@@ -181,7 +181,7 @@ public class GetDataValues {
             yearNumberLabels.add(String.valueOf(years[((years.length - 1) - i)]));
 
         }
-
+        int red = Color.parseColor("#e74c3c");
         //Line Data Sets Are Created
         LineDataSet values = new LineDataSet(exportsArrList, "Communication and computer exports % of service exports");
         values.setDrawCubic(true);
@@ -190,10 +190,10 @@ public class GetDataValues {
         values.setDrawCircles(false);
         values.setLineWidth(1.8f);
 
-        values.setHighLightColor(Color.YELLOW);
-        values.setColor(Color.YELLOW);
-        values.setFillColor(Color.YELLOW);
-
+        values.setHighLightColor(red);
+        values.setColor(red);
+        values.setFillColor(red);
+        values.setFillAlpha(100);
         values.setDrawHorizontalHighlightIndicator(false);
 
         ArrayList<LineDataSet> LineDataArray = new ArrayList<>();

@@ -39,6 +39,9 @@ public class ExportsGraph {
         x.setPosition(XAxis.XAxisPosition.BOTTOM);
         YAxis y = lineChart.getAxisLeft();
         y.setDrawAxisLine(true);
+        y.setAxisMaxValue(80);
+        y.setAxisMinValue(33.4f);
+
         y.setDrawLabels(true);
         y.setEnabled(true);
         y.setDrawGridLines(true);

@@ -31,8 +31,8 @@ import java.util.ArrayList;
 public class MainActivity extends AppCompatActivity {
 
 
-    public static Typeface bigJoe;
-    private TextView title;
+    public static Typeface bigJoe, fontAws;
+    private TextView title, about;
     private ImageView seekbar_info;
     private ArrayList<LineData> lineDatas;
     private DrawerLayout drawerLayout;
@@ -52,9 +52,13 @@ public class MainActivity extends AppCompatActivity {
         if ((findViewById(R.id.small_ScreenTXT) == null)) {
 
             bigJoe = Typeface.createFromAsset(getAssets(), "fonts/Track.otf");
+            fontAws = Typeface.createFromAsset(getAssets(), "fonts/FontAwesome.otf");
             // TEXTVIEWS
             title = (TextView) findViewById(R.id.title);
             title.setTypeface(bigJoe);
+            about = (TextView) findViewById(R.id.about);
+            about.setTypeface(fontAws);
+
             dataValues = new GetDataValues(this);
             // DRAWER LAYOUT
             drawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
