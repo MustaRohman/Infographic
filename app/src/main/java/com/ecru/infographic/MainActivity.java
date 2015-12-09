@@ -9,6 +9,8 @@ import android.os.Handler;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
+import android.view.Gravity;
+import android.view.View;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.SeekBar;
@@ -30,19 +32,17 @@ import java.util.ArrayList;
 public class MainActivity extends AppCompatActivity {
 
 
-    public static Typeface bigJoe;
-    private TextView title;
+    public static Typeface bigJoe, fontAws;
+    private TextView title, about;
     private ImageView seekbar_info;
     private ArrayList<LineData> lineDatas;
-    private DrawerLayout mDrawerLayout;
+    private DrawerLayout drawerLayout;
     private ListView mDrawerList;
     private CircleDisplay agriCir, indusCir, servCir;
     private ImageView rise, fall0, fall1;
     private GetDataValues dataValues;
     private Pie pieChart;
     private Graph graph;
-
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,11 +53,16 @@ public class MainActivity extends AppCompatActivity {
         if ((findViewById(R.id.small_ScreenTXT) == null)) {
 
             bigJoe = Typeface.createFromAsset(getAssets(), "fonts/Track.otf");
+            fontAws = Typeface.createFromAsset(getAssets(), "fonts/FontAwesome.otf");
             // TEXTVIEWS
             title = (TextView) findViewById(R.id.title);
             title.setTypeface(bigJoe);
-            dataValues = new GetDataValues(this);
+            about = (TextView) findViewById(R.id.about);
+            about.setTypeface(fontAws);
 
+            dataValues = new GetDataValues(this);
+            // DRAWER LAYOUT
+            drawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
 
             // IMAGE VIEW
             seekbar_info = (ImageView) findViewById(R.id.seekbar_info);
@@ -86,6 +91,11 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    /**
+     * FOR TESTING
+     * @return
+     */
+
     public PieChart getPie() {
         return pieChart.getPieChart();
     }
@@ -97,7 +107,6 @@ public class MainActivity extends AppCompatActivity {
     public SeekBar getPieSeekBar() {
         return pieChart.getPieSeekBar();
     }
-
 
 
     public GetDataValues getDataValues() {
@@ -209,21 +218,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private LineData generateData() {
-//        ArrayList<Entry> entries = new ArrayList<>();
-//
-//        for (int i = 0; i < 10; i++){
-//            entries.add(new Entry((int) (Math.random() * 70) + 30, i));
-//        }
-//
-//        LineDataSet dataSet = new LineDataSet(entries, "Test");
-//        dataSet.setColors(ColorTemplate.VORDIPLOM_COLORS);
-//
-//        ArrayList<LineDataSet> sets = new ArrayList<>();
-//        sets.add(dataSet);
-//
-//        LineData data = new LineData(getYears(), sets);
-//        return data;
-
         //arrays containing the actual values
         float[] industryVals = new float[10];
         for (int i = 0; i < 10; i++) {
@@ -311,16 +305,10 @@ public class MainActivity extends AppCompatActivity {
         return data;
 
     }
-
-
-    private ArrayList<String> getYears() {
-
-        ArrayList<String> year = new ArrayList<String>();
-        for (int i = 0; i < 11; i++) {
-            year.add(i + 2015 + "");
-        }
-
-        return year;
+    public void displaySidePanel(View v){
+        drawerLayout.openDrawer(Gravity.LEFT);
     }
+
+
 
 }

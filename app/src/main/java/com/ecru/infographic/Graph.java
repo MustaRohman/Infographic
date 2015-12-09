@@ -51,8 +51,8 @@ public class Graph {
         YAxis leftAxis = lineChart.getAxisLeft();
         leftAxis.removeAllLimitLines(); // reset all limit lines to avoid overlapping lines
         leftAxis.setEnabled(false);
-        leftAxis.setAxisMaxValue(120f);
-        leftAxis.setAxisMinValue(-20f);
+        leftAxis.setAxisMaxValue(100f);
+        leftAxis.setAxisMinValue(-10f);
         leftAxis.setStartAtZero(false);
         // limit lines are drawn behind data (and not on top)
         leftAxis.setDrawLimitLinesBehindData(true);

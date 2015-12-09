@@ -54,7 +54,7 @@ public class LineChartAdapter extends ArrayAdapter<LineData> {
         YAxis leftAxis = holder.lineChart.getAxisLeft();
         leftAxis.removeAllLimitLines(); // reset all limit lines to avoid overlapping lines
         leftAxis.setEnabled(false);
-        leftAxis.setAxisMaxValue(220f);
+        leftAxis.setAxisMaxValue(100f);
         leftAxis.setAxisMinValue(-20f);
         leftAxis.setStartAtZero(false);
         // limit lines are drawn behind data (and not on top)
@@ -63,9 +63,12 @@ public class LineChartAdapter extends ArrayAdapter<LineData> {
         // Legend
         Legend l = holder.lineChart.getLegend();
         l.setPosition(Legend.LegendPosition.ABOVE_CHART_CENTER);
-        holder.lineChart.getAxisRight().setEnabled(false);
+        l.setTextSize(15f);
+        l.setDirection(Legend.LegendDirection.RIGHT_TO_LEFT);
+
+
         holder.lineChart.setDescription("");
-        holder.lineChart.getAxisRight().setEnabled(false);
+        holder.lineChart.getAxisRight().setEnabled(true);
         holder.lineChart.setClickable(false);
         holder.lineChart.setDrawGridBackground(false);
         holder.lineChart.setData(data);

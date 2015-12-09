@@ -107,9 +107,9 @@ public class GetDataValues {
         ArrayList<String> yearNumberLabels = new ArrayList<>();
         for(int i=0; i< 21;++i) {
             //add the value to the array list for the year specified
-            agriComp.add(new Entry(agricultureVals[21-i], i));
-            servComp.add(new Entry(serviceVals[21-i], i));
-            indComp.add(new Entry(industryVals[21-i], i));
+            agriComp.add(new Entry(agricultureVals[20-i], i));
+            servComp.add(new Entry(serviceVals[20-i], i));
+            indComp.add(new Entry(industryVals[20-i], i));
             yearNumberLabels.add(i+ 1992 + "");
         }
 
@@ -181,7 +181,7 @@ public class GetDataValues {
             yearNumberLabels.add(String.valueOf(years[((years.length - 1) - i)]));
 
         }
-
+        int red = Color.parseColor("#e74c3c");
         //Line Data Sets Are Created
         LineDataSet values = new LineDataSet(exportsArrList, "Communication and computer exports % of service exports");
         values.setDrawCubic(true);
@@ -190,10 +190,10 @@ public class GetDataValues {
         values.setDrawCircles(false);
         values.setLineWidth(1.8f);
 
-        values.setHighLightColor(Color.YELLOW);
-        values.setColor(Color.YELLOW);
-        values.setFillColor(Color.YELLOW);
-
+        values.setHighLightColor(red);
+        values.setColor(red);
+        values.setFillColor(red);
+        values.setFillAlpha(100);
         values.setDrawHorizontalHighlightIndicator(false);
 
         ArrayList<LineDataSet> LineDataArray = new ArrayList<>();

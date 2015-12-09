@@ -60,9 +60,9 @@ public class Pie implements SeekBar.OnSeekBarChangeListener {
         Button btn1 = (Button) activity.findViewById(R.id.button1);
         Button btn2 = (Button) activity.findViewById(R.id.button2);
 
-        btn0.setText("");
-        btn1.setText("Tap the chart to view percentage change");
-        btn2.setText("");
+        btn0.setText("Use the slider below to select the years you want to see data for\n");
+        btn1.setText("To view the percentage change from the previous year, tap on the chart segments");
+        btn2.setText("This pie chart shows the percentage of uk employment in each sector");
 
 
         try {
@@ -151,9 +151,7 @@ public class Pie implements SeekBar.OnSeekBarChangeListener {
         data.setValueTextSize(11f);
         data.setValueTextColor(Color.BLACK);
         pieChart.setHoleColorTransparent(true);
-        pieChart.setDescription("Comparison of three different employment sectors for each year in UK");
-        pieChart.setDescriptionPosition(500.f,366.f);
-        pieChart.setDescriptionTextSize(12f);
+        pieChart.setDescription("");
         pieChart.setCenterText("2012");
         pieChart.setCenterTextSize(30.f);
         pieChart.setCenterTextTypeface(MainActivity.bigJoe);

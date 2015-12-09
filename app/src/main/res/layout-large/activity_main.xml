@@ -19,6 +19,34 @@
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:background="@drawable/repeatbg" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:textAllCaps="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title"
+            android:textSize="30sp"
+            android:textColor="#ffffff"
+            android:id="@+id/title"
+            android:background="#111111"
+            android:paddingLeft="25dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/about"
+            android:textSize="30sp"
+            android:text="@string/fa_icon_areachart"
+            android:background="@color/black"
+            android:textColor="@color/colorAccent"
+            android:gravity="right"
+            android:padding="4.4dp"
+            />
+
+
+    </LinearLayout>
 
     <HorizontalScrollView
         android:layout_width="fill_parent"
@@ -28,20 +56,11 @@
         <LinearLayout
             android:layout_width="2500dp"
             android:layout_height="fill_parent"
-            android:orientation="vertical">
-
-            <TextView
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/title"
-                android:textSize="50sp"
-                android:textColor="#ffffff"
-                android:id="@+id/title"
-                android:background="#111111"
-                android:paddingLeft="25dp" />
+            android:orientation="vertical"
+            android:layout_marginTop="40dp">
 
             <LinearLayout
-                android:layout_width="2500dp"
+                android:layout_width="3000dp"
                 android:layout_height="wrap_content"
                 android:paddingTop="20dp">
 
@@ -61,6 +80,7 @@
 
                         >
                         <Button
+                            android:textAllCaps="false"
                             android:layout_width="150dp"
                             android:layout_height="wrap_content"
                             android:text="2% more than last year."
@@ -70,6 +90,7 @@
                             android:nestedScrollingEnabled="true" />
 
                         <Button
+                            android:textAllCaps="false"
                             android:layout_width="150dp"
                             android:layout_height="wrap_content"
                             android:text="  -5% less than previous year."
@@ -77,6 +98,7 @@
                             android:background="@color/red" />
 
                         <Button
+                            android:textAllCaps="false"
                             android:layout_width="150dp"
                             android:layout_height="wrap_content"
                             android:text="1% higher than previous year."
@@ -143,15 +165,36 @@
                         android:layout_height="wrap_content"
                         android:src="@drawable/uk_last"/>
 
-                </LinearLayout>
-                <com.github.mikephil.charting.charts.LineChart
-                    android:layout_width="750dp"
-                    android:layout_height="match_parent"
-                    android:layout_marginLeft="5dp"
-                    android:id="@+id/lineChart">
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent">
 
-                </com.github.mikephil.charting.charts.LineChart>
-                <LinearLayout
+
+
+                        <com.github.mikephil.charting.charts.LineChart
+                            android:layout_width="750dp"
+                            android:layout_height="280dp"
+                            android:layout_marginLeft="5dp"
+                            android:id="@+id/lineChart">
+
+
+                        </com.github.mikephil.charting.charts.LineChart>
+                        <TextView
+                            android:textAllCaps="false"
+                            android:text="@string/lineDescrip"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="#000000"
+                            android:textSize="15sp" />
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Show"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+                    <LinearLayout
                     android:orientation="vertical"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
@@ -224,13 +267,24 @@
 
                 </com.github.mikephil.charting.charts.LineChart>
 
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:textAllCaps="false"
+                    android:textSize="30sp"
+                    android:text="The graph to the left shows what percentage ICT has contributed towards the UK\'s service exports. Rising over 15% in less than 10 years. In 2014, UK ICT service exports alone were worth over $120 BILLION.
+                    \nLesson is go into IT, there will always be a job for you."
+                    android:id="@+id/textView" />
+
 
             </LinearLayout>
 
             <ImageView
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:src="@drawable/londonskyline"
+                android:scaleType="fitXY"
+                android:src="@drawable/londonskylinetiled"
                 android:layout_gravity="bottom"
                 android:layout_marginTop="20dp" />
 

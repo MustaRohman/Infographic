@@ -13,35 +13,58 @@
         android:layout_height="wrap_content"
         android:indeterminate="true"
         android:visibility="invisible"/>
+
     <!-- The main content view -->
     <FrameLayout
         android:id="@+id/content_frame"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:background="@drawable/repeatbg" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+           >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/title"
+                android:textSize="40sp"
+                android:textColor="#ffffff"
+                android:id="@+id/title"
+                android:background="#111111"
+            />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/about"
+                android:textSize="40.5sp"
+                android:text="@string/fa_icon_areachart"
+                android:background="@color/black"
+                android:textColor="@color/colorAccent"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:padding="6.2dp" />
+
+        </LinearLayout>
 
     <HorizontalScrollView
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:fillViewport="true">
-        <LinearLayout
-            android:layout_width="3200dp"
-            android:layout_height="fill_parent"
-            android:orientation="vertical">
 
-            <TextView
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/title"
-                android:textSize="50sp"
-                android:textColor="#ffffff"
-                android:id="@+id/title"
-                android:background="#111111"
-                android:paddingLeft="25dp" />
+        <LinearLayout
+            android:layout_width="3000dp"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="67dp">
+
+
 
             <LinearLayout
-                android:layout_width="3200dp"
-                android:layout_height="534dp"
+                android:layout_width="3000dp"
+                android:layout_height="515dp"
                 android:paddingTop="20dp">
 
                 <LinearLayout
@@ -52,10 +75,29 @@
                     android:gravity="top"
                     android:layout_marginLeft="50dp"
                     android:layout_marginTop="40dp">
-
                     <LinearLayout
                         android:layout_width="wrap_content"
-                        android:layout_height="220dp"
+                        android:layout_height="140dp"
+                        android:orientation="horizontal"
+                        android:layout_marginLeft="5dp">
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/tractor"
+                            android:layout_marginLeft="25dp"/>
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/transport"
+                            android:layout_marginLeft="25dp"/>
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/industry"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="120dp"
                         android:orientation="horizontal"
                         android:gravity="center"
 
@@ -224,12 +266,48 @@
 
 
             </LinearLayout>
-
-            <ImageView
+            <!-- Bottom section content-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_width="1200dp"
+                    android:layout_height="match_parent"
+                    android:text="Pie Chart description"
+                    android:textColor="@color/black"
+                    android:gravity="center"
+                    />
+                <TextView
+                    android:layout_width="750dp"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/black"
+                    android:gravity="center"
+                    android:text="Line description"/>
+                <Button
+                    android:layout_width="250dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/futureuk"
+                    android:text="@string/futureBtn"
+                    android:onClick="displaySidePanel"
+                    android:textColor="@color/black"
+                    android:background="@color/colorAccent"/>
+            </LinearLayout>
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:src="@drawable/londonskyline"
-                android:layout_marginTop="35dp" />
+                android:gravity="left">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/londonskyline"
+
+
+                    />
+
+            </LinearLayout>
+
 
 
         </LinearLayout>

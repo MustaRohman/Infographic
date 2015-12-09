@@ -20,10 +20,18 @@
             />
         <com.github.mikephil.charting.charts.LineChart
             android:layout_width="600dp"
-            android:layout_height="400dp"
+            android:layout_height="500dp"
             android:layout_marginTop="20dp"
             android:id="@+id/futureLineChart"></com.github.mikephil.charting.charts.LineChart>
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Data has been extrapolated using the average percentage change values for the years 1992-2012"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:textSize="15sp"
+            />
 
     </LinearLayout>
 
