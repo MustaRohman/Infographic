@@ -239,6 +239,20 @@ public class GetDataValues {
     }
 
 
+    public float[] circleData(){
+        float[] solution= new float[3];
+        float servicedif=(serviceVals[0]-serviceVals[20])/20;
+        float agridif=(agricultureVals[0]-agricultureVals[20])/20;
+        float indsdif=(industryVals[0]-industryVals[20])/20;
+        Log.d("CircleData","Service Value at 2012" +serviceVals[0]+" Service Value at 1992"+serviceVals[20]);
+        Log.d("CircleData","agricultureVals Value at 2012" +agricultureVals[0]+" Service Value at 1992"+agricultureVals[20]);
+        Log.d("CircleData","industryVals Value at 2012" +industryVals[0]+" industryVals Value at 1992"+industryVals[20]);
+
+        solution[0] = servicedif;
+        solution[1] = agridif;
+        solution[2] =indsdif;
+        return solution;
+    }
 
     /**
      * Method to parse the data
