@@ -107,9 +107,9 @@ public class GetDataValues {
         ArrayList<String> yearNumberLabels = new ArrayList<>();
         for(int i=0; i< 21;++i) {
             //add the value to the array list for the year specified
-            agriComp.add(new Entry(agricultureVals[21-i], i));
-            servComp.add(new Entry(serviceVals[21-i], i));
-            indComp.add(new Entry(industryVals[21-i], i));
+            agriComp.add(new Entry(agricultureVals[20-i], i));
+            servComp.add(new Entry(serviceVals[20-i], i));
+            indComp.add(new Entry(industryVals[20-i], i));
             yearNumberLabels.add(i+ 1992 + "");
         }
 

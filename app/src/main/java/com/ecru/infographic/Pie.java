@@ -59,9 +59,9 @@ public class Pie implements SeekBar.OnSeekBarChangeListener {
         Button btn1 = (Button) activity.findViewById(R.id.button1);
         Button btn2 = (Button) activity.findViewById(R.id.button2);
 
-        btn0.setText("");
-        btn1.setText("Tap the chart to view percentage change");
-        btn2.setText("");
+        btn0.setText("Use the slider below to select the years you want to see data for\n");
+        btn1.setText("To view the percentage change from the previous year, tap on the chart segments");
+        btn2.setText("This pie chart shows the percentage of uk employment in each sector");
 
 
         try {
