@@ -13,6 +13,7 @@ import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.SeekBar;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.bartoszlipinski.viewpropertyobjectanimator.ViewPropertyObjectAnimator;
 import com.ecru.data.GetDataValues;
@@ -64,6 +65,10 @@ public class MainActivity extends AppCompatActivity {
             pieChart =new Pie(this, dataValues);
             new ExportsGraph(this, dataValues);
 
+            if (pieChart.getPieChart().isClickable()){
+
+                Log.d("MainActivity", "DIsplaying toast");
+            }
 
             // THREE CIRCLES
             agrCircle();

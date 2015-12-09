@@ -6,6 +6,7 @@ import android.os.AsyncTask;
 import android.util.Log;
 import android.view.View;
 import android.widget.ProgressBar;
+import android.widget.Toast;
 
 import com.ecru.infographic.R;
 
@@ -131,9 +132,13 @@ public class ApiHandler extends AsyncTask<String, Void, String> {
             returnString = reader.readLine();
             Log.d("loadCachedData", "Data has been read");
         } catch (FileNotFoundException e) {
-            e.printStackTrace();
+            String message = "Unable to load offline data";
+//            Toast toast = Toast.makeText(activity, message, Toast.LENGTH_SHORT);
+   //         toast.show();
         } catch (IOException e) {
-            e.printStackTrace();
+            String message = "Unable to load offline data";
+            Toast toast = Toast.makeText(activity, message, Toast.LENGTH_SHORT);
+            toast.show();
         }
 
         return returnString;

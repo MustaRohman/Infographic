@@ -8,6 +8,7 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
 import android.widget.SeekBar;
+import android.widget.Toast;
 
 import com.bartoszlipinski.viewpropertyobjectanimator.ViewPropertyObjectAnimator;
 import com.ecru.data.GetDataValues;
@@ -67,7 +68,9 @@ public class Pie implements SeekBar.OnSeekBarChangeListener {
         try {
             setData(dataValues.employmentPieData(0));
         } catch (JSONException e) {
-            e.printStackTrace();
+            String message = "No connection available, please connect to the Internet and restart the app";
+            Toast toast = Toast.makeText(activity, message, Toast.LENGTH_LONG);
+            toast.show();
         }
 
         // SEEKBAR LISTENERS
