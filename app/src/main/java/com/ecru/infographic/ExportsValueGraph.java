@@ -11,7 +11,9 @@ import com.github.mikephil.charting.components.Legend;
 import com.github.mikephil.charting.components.XAxis;
 import com.github.mikephil.charting.components.YAxis;
 import com.github.mikephil.charting.data.LineData;
+import com.github.mikephil.charting.formatter.YAxisValueFormatter;
 
+import java.text.DecimalFormat;
 import java.util.List;
 
 /**
@@ -38,19 +40,23 @@ public class ExportsValueGraph extends ArrayAdapter<LineData> {
         }
 
         XAxis x = holder.lineChart.getXAxis();
+
         x.setDrawAxisLine(true);
         x.setDrawLabels(true);
         x.setEnabled(true);
         x.setPosition(XAxis.XAxisPosition.BOTTOM);
         YAxis y = holder.lineChart.getAxisLeft();
+        holder.lineChart.getAxisRight().setEnabled(false);
+        holder.lineChart.getAxisRight().setDrawLabels(false);
         y.setDrawAxisLine(true);
         y.setDrawLabels(true);
         y.setEnabled(true);
         y.setDrawGridLines(true);
         y.setStartAtZero(false);
-
+        holder.lineChart.setDescription("ICT export service (Years v GDP($BIL)");
+        y.setValueFormatter(yValueChanger);
         Legend l = holder.lineChart.getLegend();
-        l.setPosition(Legend.LegendPosition.ABOVE_CHART_CENTER);
+        l.setPosition(Legend.LegendPosition.ABOVE_CHART_RIGHT);
         l.setTextSize(15f);
         l.setDirection(Legend.LegendDirection.LEFT_TO_RIGHT);
         holder.lineChart.setDescription("");
@@ -62,4 +68,14 @@ public class ExportsValueGraph extends ArrayAdapter<LineData> {
         return convertView;
 
     }
+    public YAxisValueFormatter  yValueChanger = new  YAxisValueFormatter() {
+
+        @Override
+        public String getFormattedValue(float value, YAxis yAxis) {
+
+            // write your logic here
+            // access the YAxis object to get more information
+            return "$"+ value + "BIL"; // e.g. append a dollar-sign
+        }
+    };
 }

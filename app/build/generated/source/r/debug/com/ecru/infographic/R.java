@@ -1822,17 +1822,18 @@ containing a value of this type.
         public static final int abc_shareactionprovider_share_with_application=0x7f060011;
         public static final int abc_toolbar_collapse_description=0x7f060012;
         public static final int app_name=0x7f060014;
-        public static final int fa_about=0x7f060015;
-        public static final int fa_play=0x7f060016;
-        public static final int futureBtn=0x7f060017;
-        public static final int gdp=0x7f060018;
-        public static final int leftPanelDescr=0x7f060019;
-        public static final int lineDescrip=0x7f06001a;
-        public static final int pieDesc=0x7f06001b;
-        public static final int seekbar_info=0x7f06001c;
+        public static final int emplymentLineGraphDescription=0x7f060015;
+        public static final int fa_about=0x7f060016;
+        public static final int fa_play=0x7f060017;
+        public static final int futureBtn=0x7f060018;
+        public static final int gdp=0x7f060019;
+        public static final int leftPanelDescr=0x7f06001a;
+        public static final int lineDescrip=0x7f06001b;
+        public static final int pieDesc=0x7f06001c;
+        public static final int seekbar_info=0x7f06001d;
         public static final int status_bar_notification_info_overflow=0x7f060013;
-        public static final int title=0x7f06001d;
-        public static final int ukfuture=0x7f06001e;
+        public static final int title=0x7f06001e;
+        public static final int ukfuture=0x7f06001f;
     }
     public static final class style {
         public static final int AlertDialog_AppCompat=0x7f09007d;

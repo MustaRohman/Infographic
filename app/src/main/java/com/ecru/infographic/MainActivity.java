@@ -84,10 +84,11 @@ public class MainActivity extends AppCompatActivity {
                 Log.d("MainActivity", "DIsplaying toast");
             }
 
+            float[] circleValues =dataValues.getCircleValues();
             // THREE CIRCLES
-            agrCircle();
-            serviceCircle();
-            industryCircle();
+            agrCircle(circleValues[1]);
+            serviceCircle(circleValues[0]);
+            industryCircle(circleValues[2]);
             hideInfos();
 
 
@@ -162,7 +163,7 @@ public class MainActivity extends AppCompatActivity {
         }, 10000);
     }
 
-    public void agrCircle() {
+    public void agrCircle(float value) {
         int yellow = getResources().getColor(R.color.yellow);
         agriCir = (CircleDisplay) findViewById(R.id.overallAgri);
         agriCir.setColor(yellow);
@@ -175,11 +176,11 @@ public class MainActivity extends AppCompatActivity {
         agriCir.setStepSize(2f);
         agriCir.setTouchEnabled(false);
         // cd.setCustomText(...); // sets a custom array of text
-        agriCir.showValue(-0.006f, 1f, true);
+        agriCir.showValue(value, 1f, true);
 
     }
 
-    public void serviceCircle() {
+    public void serviceCircle(float value) {
         int red = getResources().getColor(R.color.red);
         servCir = (CircleDisplay) findViewById(R.id.overallServ);
         servCir.setColor(red);
@@ -192,10 +193,10 @@ public class MainActivity extends AppCompatActivity {
         servCir.setStepSize(2f);
         servCir.setTouchEnabled(false);
         // cd.setCustomText(...); // sets a custom array of text
-        servCir.showValue(0.054f, 1f, true);
+        servCir.showValue(value, 1f, true);
     }
 
-    public void industryCircle() {
+    public void industryCircle(float value) {
         int blue = getResources().getColor(R.color.blue);
         indusCir = (CircleDisplay) findViewById(R.id.overallInd);
         indusCir.setColor(blue);
@@ -208,7 +209,7 @@ public class MainActivity extends AppCompatActivity {
         indusCir.setStepSize(2f);
         indusCir.setTouchEnabled(false);
         // cd.setCustomText(...); // sets a custom array of text
-        indusCir.showValue(-0.055f, 1f, true);
+        indusCir.showValue(value, 1f, true);
     }
 
     public void animateArrows() {
@@ -341,7 +342,7 @@ public class MainActivity extends AppCompatActivity {
     }
     public void autoScroll(View v){
         ObjectAnimator ys = ViewPropertyObjectAnimator.animate(yscroll)
-                .scrollX(2700)
+                .scrollX(3000)
                 .setDuration(15000)
                 .get();
         ys.start();

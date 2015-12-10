@@ -221,6 +221,7 @@
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <string name="app_name">Infographic</string>
+    <string name="emplymentLineGraphDescription"> Employment In Different Sectors (% of total employment)</string>
     <string name="fa_about"></string>
     <string name="fa_play"></string>
     <string name="futureBtn">Future Predication</string>

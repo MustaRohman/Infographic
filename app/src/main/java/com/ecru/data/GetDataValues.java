@@ -209,10 +209,10 @@ public class GetDataValues {
         //Create a new arraylist to contain the dataset
         ArrayList<Entry> exportsArrList = new ArrayList<Entry>();
         ArrayList<String> yearNumberLabels = new ArrayList<>();
+
         for (int i = 0; i < years.length; ++i) {
             //add the value to the array list for the year specified
-
-            exportsArrList.add(new Entry(exportGdpVals[i], ((years.length - 1) - i)));
+            exportsArrList.add(new Entry((Float.parseFloat(String.format("%.2f",exportGdpVals[i]/1000000000 ))), (years.length - 1 - i)));
             yearNumberLabels.add(String.valueOf(years[((years.length - 1) - i)]));
 
         }
@@ -238,6 +238,13 @@ public class GetDataValues {
         return data;
     }
 
+    public float[] getCircleValues(){
+        float[] temp = new float[3];
+        temp[0] = (serviceVals[0]-serviceVals[20])/20;
+        temp[1] = (agricultureVals[0]-agricultureVals[20])/20;
+        temp[2] = (industryVals[0]-industryVals[20])/20;
+        return temp;
+    }
 
 
     /**

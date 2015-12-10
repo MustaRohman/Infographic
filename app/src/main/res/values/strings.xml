@@ -6,6 +6,7 @@
     <string name="pieDesc"></string>
     <string name="lineDescrip">An overview of employment in each sector from 1992 to 2012.</string>
     <string name="futureBtn">Future Predication</string>
+    <string name="emplymentLineGraphDescription"> Employment In Different Sectors (% of total employment)</string>
     <string name="gdp">GDP</string>
     <string name="fa_about">&#xf06a;</string>
     <string name="fa_play">&#xf144;</string>

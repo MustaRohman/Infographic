@@ -4,6 +4,7 @@ import android.app.Activity;
 
 import com.ecru.data.GetDataValues;
 import com.github.mikephil.charting.charts.LineChart;
+import com.github.mikephil.charting.components.Legend;
 import com.github.mikephil.charting.components.XAxis;
 import com.github.mikephil.charting.components.YAxis;
 
@@ -29,8 +30,8 @@ public class ExportsGraph {
         }
 
         lineChart.getAxisRight().setEnabled(false);
-        lineChart.setDescription("");
         lineChart.setDrawGridBackground(false);
+        lineChart.setDescription("Employment In Different Sectors (% of total employment)");
 
         XAxis x = lineChart.getXAxis();
         x.setDrawAxisLine(true);
@@ -41,7 +42,6 @@ public class ExportsGraph {
         y.setDrawAxisLine(true);
         y.setAxisMaxValue(80);
         y.setAxisMinValue(33.4f);
-
         y.setDrawLabels(true);
         y.setEnabled(true);
         y.setDrawGridLines(true);
