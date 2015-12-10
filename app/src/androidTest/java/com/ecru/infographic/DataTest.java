@@ -21,6 +21,7 @@ public class DataTest extends ActivityInstrumentationTestCase2<MainActivity> {
         MainActivity mainActivity = getActivity();
         assertNotNull(mainActivity);
     }
+
     public void testGetDataValuesExists() {
         MainActivity mainActivity = getActivity();
         assertNotNull(mainActivity.getDataValues());
@@ -41,6 +42,33 @@ public class DataTest extends ActivityInstrumentationTestCase2<MainActivity> {
         assertNotNull(mainactivity.getPie());
     }
 
+    public void testGraphAxisMaxValue() {
+        MainActivity mainActivity = getActivity();
+        float n = (120.f);
+        assertSame(n, mainActivity.getGraph().getAxisLeft().getAxisMaxValue());
+    }
+
+    public void testGraphAxisMinMaxValuesAreSet() {
+        MainActivity mainActivity = getActivity();
+        assertNotNull(mainActivity.getGraph().getAxisLeft().getAxisMinValue());
+        assertNotNull(mainActivity.getGraph().getAxisLeft().getAxisMaxValue());
+        assertNotNull(mainActivity.getGraph().getAxisRight().getAxisMinValue());
+        assertNotNull(mainActivity.getGraph().getAxisRight().getAxisMaxValue());
+    }
+
+    public void testExportsGraphExists(){
+        MainActivity mainActivity = getActivity();
+        assertNotNull(mainActivity.getExportsGraph());
+    }
+
+    public void testExportsGraphLineDataExists() {
+        MainActivity mainActivity = getActivity();
+        //assertNotNull(mainActivity.getExportsGraph().getLineData());
+        assertEquals(mainActivity.getExportsGraph().getXAxis().isDrawAxisLineEnabled(), true);
+    }
+
+    //public void testGraph
+
     //Testing SeekBar
     public void testMax() {
         MainActivity mainactivity = getActivity();
@@ -55,7 +83,7 @@ public class DataTest extends ActivityInstrumentationTestCase2<MainActivity> {
     }
 
 
-    public void testPieDataSetLabelisCorrect() {
+    public void testPieDataSetLabelIsCorrect() {
         MainActivity mainactivity = getActivity();
         assertEquals("Employment sectors", mainactivity.getPie().getData().getDataSet().getLabel());
 

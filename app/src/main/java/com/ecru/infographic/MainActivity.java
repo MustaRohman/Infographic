@@ -40,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
     private GetDataValues dataValues;
     private Pie pieChart;
     private Graph graph;
+    private ExportsGraph exports;
 
 
 
@@ -62,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
             seekbar_info = (ImageView) findViewById(R.id.seekbar_info);
             graph = new Graph(this, dataValues);
             pieChart =new Pie(this, dataValues);
-            new ExportsGraph(this, dataValues);
+            exports =new ExportsGraph(this, dataValues);
 
 
             // THREE CIRCLES
@@ -88,6 +89,11 @@ public class MainActivity extends AppCompatActivity {
     public LineChart getGraph() {
         return graph.getGraph();
     }
+
+    public LineChart getExportsGraph(){
+        return exports.getExportsGraph();
+    }
+
 
     public SeekBar getPieSeekBar() {
         return pieChart.getPieSeekBar();
