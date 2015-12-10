@@ -11,11 +11,11 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.Gravity;
 import android.view.View;
+import android.widget.HorizontalScrollView;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.SeekBar;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.bartoszlipinski.viewpropertyobjectanimator.ViewPropertyObjectAnimator;
 import com.ecru.data.GetDataValues;
@@ -26,6 +26,8 @@ import com.github.mikephil.charting.data.Entry;
 import com.github.mikephil.charting.data.LineData;
 import com.github.mikephil.charting.data.LineDataSet;
 
+import org.json.JSONException;
+
 import java.util.ArrayList;
 
 
@@ -33,16 +35,17 @@ public class MainActivity extends AppCompatActivity {
 
 
     public static Typeface bigJoe, fontAws;
-    private TextView title, about;
+    private TextView title, about, play;
     private ImageView seekbar_info;
-    private ArrayList<LineData> lineDatas;
+    private ArrayList<LineData> lineDatas, lineDatasRight;
     private DrawerLayout drawerLayout;
-    private ListView mDrawerList;
+    private ListView leftListView, rightListView;
     private CircleDisplay agriCir, indusCir, servCir;
     private ImageView rise, fall0, fall1;
     private GetDataValues dataValues;
     private Pie pieChart;
     private Graph graph;
+    private HorizontalScrollView yscroll;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -54,18 +57,24 @@ public class MainActivity extends AppCompatActivity {
 
             bigJoe = Typeface.createFromAsset(getAssets(), "fonts/Track.otf");
             fontAws = Typeface.createFromAsset(getAssets(), "fonts/FontAwesome.otf");
-            // TEXTVIEWS
+            // TEXT VIEWS
             title = (TextView) findViewById(R.id.title);
             title.setTypeface(bigJoe);
             about = (TextView) findViewById(R.id.about);
             about.setTypeface(fontAws);
+            play = (TextView) findViewById(R.id.play);
+            play.setTypeface(fontAws);
 
+            // YSCROLL
+            yscroll = (HorizontalScrollView) findViewById(R.id.horizontalScroll);
             dataValues = new GetDataValues(this);
             // DRAWER LAYOUT
             drawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
 
             // IMAGE VIEW
             seekbar_info = (ImageView) findViewById(R.id.seekbar_info);
+
+            // CHARTS
             graph = new Graph(this, dataValues);
             pieChart =new Pie(this, dataValues);
             new ExportsGraph(this, dataValues);
@@ -85,9 +94,10 @@ public class MainActivity extends AppCompatActivity {
             animateArrows();
 
             /**
-             * LEFT SIDE SLIDER PANEL . WE ARE NOT USING FOR NOW
+             * SLIDER PANEL
              */
-            createSidePanel();
+            createLeftSidePanel();
+            createRightSidePanel();
         }
     }
 
@@ -113,13 +123,27 @@ public class MainActivity extends AppCompatActivity {
         return dataValues;
     }
 
-    public void createSidePanel() {
+    public void createRightSidePanel(){
+        lineDatasRight = new ArrayList<>();
+
+        try {
+            lineDatasRight.add(dataValues.exportsGdpChart());
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+        rightListView = (ListView) findViewById(R.id.right_drawer);
+        ExportsValueGraph exportsValueGraph = new ExportsValueGraph(getApplicationContext(), lineDatasRight);
+        rightListView.setAdapter(exportsValueGraph);
+
+    }
+
+    public void createLeftSidePanel() {
 
         lineDatas = new ArrayList<>();
         lineDatas.add(generateData());
-        mDrawerList = (ListView) findViewById(R.id.left_drawer);
+        leftListView = (ListView) findViewById(R.id.left_drawer);
         LineChartAdapter lineChartAdapter = new LineChartAdapter(getApplicationContext(), lineDatas);
-        mDrawerList.setAdapter(lineChartAdapter);
+        leftListView.setAdapter(lineChartAdapter);
 
     }
 
@@ -305,8 +329,23 @@ public class MainActivity extends AppCompatActivity {
         return data;
 
     }
+    public void displayRightSidePanel(View v){
+        drawerLayout.openDrawer(Gravity.RIGHT);
+    }
     public void displaySidePanel(View v){
         drawerLayout.openDrawer(Gravity.LEFT);
+    }
+    public void displayAboutDiag(View v){
+        AboutDialog dialogFragment = new AboutDialog();
+        dialogFragment.show(getSupportFragmentManager(), "About");
+    }
+    public void autoScroll(View v){
+        ObjectAnimator ys = ViewPropertyObjectAnimator.animate(yscroll)
+                .scrollX(2700)
+                .setDuration(15000)
+                .get();
+        ys.start();
+
     }
 
 

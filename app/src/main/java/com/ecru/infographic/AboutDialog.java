@@ -12,6 +12,9 @@ import android.view.LayoutInflater;
  * Created by mustarohman on 08/12/2015.
  */
 public class AboutDialog extends DialogFragment {
+    public AboutDialog() {
+
+    }
 
     @NonNull
     @Override

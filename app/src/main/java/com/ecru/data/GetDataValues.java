@@ -26,7 +26,15 @@ public class GetDataValues {
     String empAgrJson;
     String empIndJson;
     String exportsJson;
+    String exportsGdpValueJson;
+    int[] years;
 
+    //arrays containing the actual values
+    float[] agricultureVals;
+    float[] serviceVals;
+    float[] industryVals;
+    float[] ictExports;
+    float[] exportGdpVals;
     int  selected =0;
     /**
      * Method to get the data for various charts/graphs needed
@@ -39,9 +47,22 @@ public class GetDataValues {
             empAgrJson = new ApiHandler("empAgrJson", "http://api.worldbank.org/countries/GBR/indicators/SL.AGR.EMPL.ZS?per_page=100&date=1982:2012&format=json", activity).execute().get();
             empIndJson = new ApiHandler("empIndJson", "http://api.worldbank.org/countries/GBR/indicators/SL.IND.EMPL.ZS?per_page=100&date=1982:2012&format=json", activity).execute().get();
             exportsJson = new ApiHandler("exportsJson", "http://api.worldbank.org/countries/GBR/indicators/BM.GSR.CMCP.ZS?per_page=50&date=2005:2014&format=json", activity).execute().get();
+            exportsGdpValueJson= new ApiHandler("exportsGdpValueJson","http://api.worldbank.org/countries/GBR/indicators/BX.GSR.CCIS.CD?per_page=100&date=2005%3A2014&format=json\n",activity).execute().get();
         } catch (InterruptedException | ExecutionException e) {
             Log.d("GetDataValues", "Data loading interrupted");
             e.printStackTrace();
+        }
+        try {
+            years = (int[]) parseData(empAgrJson)[0];
+            //arrays containing the actual values
+            agricultureVals = (float[]) parseData(empAgrJson)[1];
+            serviceVals = (float[]) parseData(empServJson)[1];
+            industryVals = (float[]) parseData(empIndJson)[1];
+            ictExports = (float[]) parseData(exportsJson)[1];
+            exportGdpVals =(float[]) parseData(exportsGdpValueJson)[1];
+        }
+        catch (JSONException e){
+            Log.d("GetDataValues", "Data was not parsed");
         }
     }
 
@@ -61,15 +82,6 @@ public class GetDataValues {
      * @throws JSONException
      */
     public ArrayList employmentPieData(int year) throws JSONException {
-
-        //an array containing all the years in the dataset for this chart (1982-2012)
-        int[] years = (int[]) parseData(empAgrJson)[0];
-
-        //arrays containing the actual values
-        float[] agricultureVals = (float[]) parseData(empAgrJson)[1];
-        float[] serviceVals = (float[]) parseData(empServJson)[1];
-        float[] industryVals = (float[]) parseData(empIndJson)[1];
-
 
         //Create a new arraylist to contain the dataset
         ArrayList<Float> values = new ArrayList<>();
@@ -91,14 +103,6 @@ public class GetDataValues {
     }
 
     public LineData LineGraphSectorData() throws JSONException{
-        //an array containing all the years in the dataset for this chart (1982-2012)
-        int[] years = (int[]) parseData(empAgrJson)[0];
-
-        //arrays containing the actual values
-        float[] agricultureVals = (float[]) parseData(empAgrJson)[1];
-        float[] serviceVals = (float[]) parseData(empServJson)[1];
-        float[] industryVals = (float[]) parseData(empIndJson)[1];
-
 
         //Create a new arraylist to contain the dataset
         ArrayList<Entry> agriComp = new ArrayList<Entry>();
@@ -167,10 +171,7 @@ public class GetDataValues {
 
     public LineData exportsChart() throws JSONException {
 
-
         int[] years = (int[]) parseData(exportsJson)[0];
-        float[] ictExports = (float[]) parseData(exportsJson)[1];
-
         //Create a new arraylist to contain the dataset
         ArrayList<Entry> exportsArrList = new ArrayList<Entry>();
         ArrayList<String> yearNumberLabels = new ArrayList<>();
@@ -202,6 +203,41 @@ public class GetDataValues {
 
         return data;
     }
+    public LineData exportsGdpChart() throws JSONException {
+
+        int[] years = (int[]) parseData(exportsGdpValueJson)[0];
+        //Create a new arraylist to contain the dataset
+        ArrayList<Entry> exportsArrList = new ArrayList<Entry>();
+        ArrayList<String> yearNumberLabels = new ArrayList<>();
+        for (int i = 0; i < years.length; ++i) {
+            //add the value to the array list for the year specified
+
+            exportsArrList.add(new Entry(exportGdpVals[i], ((years.length - 1) - i)));
+            yearNumberLabels.add(String.valueOf(years[((years.length - 1) - i)]));
+
+        }
+        int red = Color.parseColor("#e74c3c");
+        //Line Data Sets Are Created
+        LineDataSet values = new LineDataSet(exportsArrList, "Communication and computer exports % of service exports");
+        values.setDrawCubic(true);
+        values.setCubicIntensity(0.3f);
+        values.setDrawFilled(true);
+        values.setDrawCircles(false);
+        values.setLineWidth(1.8f);
+
+        values.setHighLightColor(red);
+        values.setColor(red);
+        values.setFillColor(red);
+        values.setFillAlpha(100);
+        values.setDrawHorizontalHighlightIndicator(false);
+
+        ArrayList<LineDataSet> LineDataArray = new ArrayList<>();
+        LineDataArray.add(values);
+        LineData data = new LineData(yearNumberLabels, LineDataArray);
+
+        return data;
+    }
+
 
 
     /**

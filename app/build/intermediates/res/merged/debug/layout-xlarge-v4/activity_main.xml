@@ -33,38 +33,65 @@
                 android:textSize="40sp"
                 android:textColor="#ffffff"
                 android:id="@+id/title"
+                android:paddingLeft="15dp"
                 android:background="#111111"
             />
-            <TextView
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/about"
-                android:textSize="40.5sp"
-                android:text="@string/fa_icon_areachart"
+                android:layout_height="53dp"
+                android:orientation="horizontal"
                 android:background="@color/black"
-                android:textColor="@color/colorAccent"
-                android:layout_weight="1"
-                android:gravity="right"
-                android:padding="6.2dp" />
+                android:gravity="center"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/play"
+                    android:textSize="34sp"
+                    android:text="@string/fa_play"
+                    android:background="@color/black"
+                    android:textColor="@color/yellow"
+                    android:onClick="autoScroll"
+                    android:gravity="center"
+                    android:layout_marginRight="20dp"
+
+
+
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/about"
+                    android:textSize="34sp"
+                    android:text="@string/fa_about"
+                    android:background="@color/black"
+                    android:textColor="@color/yellow"
+                    android:onClick="displayAboutDiag"
+                    android:gravity="center"
+
+
+
+                    />
+            </LinearLayout>
+
 
         </LinearLayout>
 
     <HorizontalScrollView
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:fillViewport="true">
+        android:fillViewport="true"
+        android:layout_marginTop="50dp">
 
         <LinearLayout
             android:layout_width="3000dp"
             android:layout_height="fill_parent"
             android:orientation="vertical"
-            android:layout_marginTop="67dp">
-
-
+            >
 
             <LinearLayout
                 android:layout_width="3000dp"
-                android:layout_height="515dp"
+                android:layout_height="512dp"
                 android:paddingTop="20dp">
 
                 <LinearLayout
@@ -97,7 +124,7 @@
                     </LinearLayout>
                     <LinearLayout
                         android:layout_width="wrap_content"
-                        android:layout_height="120dp"
+                        android:layout_height="110dp"
                         android:orientation="horizontal"
                         android:gravity="center"
 
@@ -269,7 +296,7 @@
             <!-- Bottom section content-->
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="45dp"
+                android:layout_height="60dp"
                 android:orientation="horizontal"
                 >
                 <TextView
@@ -279,34 +306,43 @@
                     android:textColor="@color/black"
                     android:gravity="center"
                     />
-                <TextView
-                    android:layout_width="750dp"
-                    android:layout_height="match_parent"
-                    android:textColor="@color/black"
-                    android:gravity="center"
-                    android:text="Line description"/>
+
                 <Button
-                    android:layout_width="250dp"
-                    android:layout_height="match_parent"
+                    android:layout_width="200dp"
+                    android:layout_height="40dp"
                     android:id="@+id/futureuk"
                     android:text="@string/futureBtn"
                     android:onClick="displaySidePanel"
                     android:textColor="@color/black"
-                    android:background="@color/colorAccent"/>
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="left">
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/londonskyline"
-
-
+                    android:background="@drawable/roundborders"
+                   />
+                <Button
+                    android:layout_width="200dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/gdpuk"
+                    android:text="@string/gdp"
+                    android:onClick="displayRightSidePanel"
+                    android:textColor="@color/black"
+                    android:background="@drawable/roundborders"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     />
-
+                <TextView
+                    android:layout_width="750dp"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/black"
+                    android:gravity="left"
+                    android:text="Line description"/>
             </LinearLayout>
+
+            <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/londonskylinetiled"
+                    android:scaleType="fitXY"
+                />
+
+
 
 
 
@@ -318,6 +354,14 @@
         android:layout_width="700dp"
         android:layout_height="match_parent"
         android:layout_gravity="start"
+        android:choiceMode="singleChoice"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0dp"
+        android:background="@drawable/repeatbg"/>
+    <ListView android:id="@+id/right_drawer"
+        android:layout_width="700dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="end"
         android:choiceMode="singleChoice"
         android:divider="@android:color/transparent"
         android:dividerHeight="0dp"

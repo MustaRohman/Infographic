@@ -61,11 +61,6 @@ public class Graph {
         Legend l = lineChart.getLegend();
         l.setPosition(Legend.LegendPosition.ABOVE_CHART_CENTER);
         lineChart.getAxisRight().setEnabled(false);
-
-
-
-
-
         lineChart.getAxisRight().setEnabled(false);
         lineChart.setClickable(false);
         lineChart.invalidate();
