@@ -11,6 +11,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.Gravity;
 import android.view.View;
+import android.view.ViewTreeObserver;
 import android.widget.HorizontalScrollView;
 import android.widget.ImageView;
 import android.widget.ListView;
@@ -45,6 +46,7 @@ public class MainActivity extends AppCompatActivity {
     private GetDataValues dataValues;
     private Pie pieChart;
     private Graph graph;
+    private ExportsGraph exportsGraph;
     private HorizontalScrollView yscroll;
 
     @Override
@@ -65,8 +67,10 @@ public class MainActivity extends AppCompatActivity {
             play = (TextView) findViewById(R.id.play);
             play.setTypeface(fontAws);
 
+
             // YSCROLL
             yscroll = (HorizontalScrollView) findViewById(R.id.horizontalScroll);
+            scrollEvent();
             dataValues = new GetDataValues(this);
             // DRAWER LAYOUT
             drawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -75,10 +79,9 @@ public class MainActivity extends AppCompatActivity {
             seekbar_info = (ImageView) findViewById(R.id.seekbar_info);
 
             // CHARTS
-            graph = new Graph(this, dataValues);
             pieChart =new Pie(this, dataValues);
-            new ExportsGraph(this, dataValues);
-
+            graph = new Graph(this, dataValues);
+            exportsGraph = new ExportsGraph(this, dataValues);
             if (pieChart.getPieChart().isClickable()){
 
                 Log.d("MainActivity", "DIsplaying toast");
@@ -93,6 +96,7 @@ public class MainActivity extends AppCompatActivity {
 
 
             animateArrows();
+
 
             /**
              * SLIDER PANEL
@@ -341,12 +345,42 @@ public class MainActivity extends AppCompatActivity {
         dialogFragment.show(getSupportFragmentManager(), "About");
     }
     public void autoScroll(View v){
-        ObjectAnimator ys = ViewPropertyObjectAnimator.animate(yscroll)
-                .scrollX(3000)
-                .setDuration(15000)
-                .get();
-        ys.start();
+        if (yscroll.getScrollX() < 100) {
+            ObjectAnimator ys = ViewPropertyObjectAnimator.animate(yscroll)
+                    .scrollX(3000)
+                    .setDuration(15000)
+                    .get();
+            ys.start();
+        }
 
+    }
+
+    public void scrollEvent() {
+        yscroll.getViewTreeObserver().addOnScrollChangedListener(new ViewTreeObserver.OnScrollChangedListener() {
+            @Override
+            public void onScrollChanged() {
+                int scrollX = yscroll.getScrollX(); //for horizontalScrollView
+                Log.d("Scroll Pos", "" + scrollX);
+                if (scrollX > 400 && scrollX < 720){
+
+
+                    graph.getLineChart().animateX(2000);
+//
+                }
+                if (scrollX >1600 && scrollX < 1720){
+                    indusCir.setAnimDuration(2000);
+                    indusCir.startAnim();
+                    agriCir.setAnimDuration(2000);
+                    agriCir.startAnim();
+                    servCir.setAnimDuration(2000);
+                    servCir.startAnim();
+                }
+                if (scrollX > 1810 && scrollX < 2700){
+
+                    exportsGraph.getLineChart().animateX(2000);
+                }
+            }
+        });
     }
 
 

@@ -13,7 +13,6 @@ import com.github.mikephil.charting.components.YAxis;
 import com.github.mikephil.charting.data.LineData;
 import com.github.mikephil.charting.formatter.YAxisValueFormatter;
 
-import java.text.DecimalFormat;
 import java.util.List;
 
 /**

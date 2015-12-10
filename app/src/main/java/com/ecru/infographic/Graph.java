@@ -21,6 +21,9 @@ public class Graph {
     }
 
 
+
+
+
     public Graph(Activity activity, GetDataValues dataValues) {
         this.activity = activity;
         this.lineChart = (LineChart)activity.findViewById(R.id.lineChart);
@@ -66,5 +69,8 @@ public class Graph {
         lineChart.invalidate();
 
 
+    }
+    public LineChart getLineChart() {
+        return lineChart;
     }
 }

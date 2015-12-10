@@ -1,586 +1,586 @@
 [
     {
-        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
-        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_list_selector_holo_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
-        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
-    },
-    {
-        "merged": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_light.xml",
-        "source": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_dialog_material_background_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
-        "source": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_textfield_search_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\progress.xml",
-        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\src\\main\\res\\drawable\\progress.xml"
-    },
-    {
-        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\transport.png",
-        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\src\\main\\res\\drawable\\transport.png"
-    },
-    {
-        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
-        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
-        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_btn_colored_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
-        "source": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_textfield_search_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
-        "source": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_tab_indicator_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\seekbar_info.png",
-        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\src\\main\\res\\drawable\\seekbar_info.png"
-    },
-    {
-        "merged": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
-        "source": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tractor.png",
-        "source": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\src\\main\\res\\drawable\\tractor.png"
-    },
-    {
-        "merged": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
-        "source": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_spinner_textfield_background_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
-        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_seekbar_thumb_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
-        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_btn_radio_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
-        "source": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_seekbar_thumb_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
-        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_seekbar_track_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background_seek.png",
-        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\src\\main\\res\\drawable\\background_seek.png"
-    },
-    {
-        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_light.xml",
-        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_dialog_material_background_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
-        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_tab_indicator_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
-        "source": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_list_selector_holo_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
-        "source": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_edit_text_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
-        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_btn_colored_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_full_material.xml",
-        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_ratingbar_full_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\roundborders.xml",
-        "source": "C:\\Users\\Rami\\Documents\\infograpic\\app\\src\\main\\res\\drawable\\roundborders.xml"
-    },
-    {
-        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
-        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_seekbar_track_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\patterngrid.png",
-        "source": "C:\\Users\\Rami\\Documents\\infograpic\\app\\src\\main\\res\\drawable\\patterngrid.png"
-    },
-    {
-        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\repeatbg.xml",
-        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\src\\main\\res\\drawable\\repeatbg.xml"
-    },
-    {
-        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
-        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_item_background_holo_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_light.xml",
-        "source": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_dialog_material_background_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\industry.png",
-        "source": "C:\\Users\\Rami\\Documents\\infograpic\\app\\src\\main\\res\\drawable\\industry.png"
-    },
-    {
-        "merged": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
-        "source": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_switch_thumb_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\uk_last.png",
-        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\src\\main\\res\\drawable\\uk_last.png"
-    },
-    {
-        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
-        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_item_background_holo_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
-        "source": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_text_cursor_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background_seek.png",
-        "source": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\src\\main\\res\\drawable\\background_seek.png"
-    },
-    {
-        "merged": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
-        "source": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_btn_colored_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\repeatbg.xml",
-        "source": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\src\\main\\res\\drawable\\repeatbg.xml"
-    },
-    {
-        "merged": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
-        "source": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_item_background_holo_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\progress_seek.png",
-        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\src\\main\\res\\drawable\\progress_seek.png"
-    },
-    {
-        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\thumb_seek.png",
-        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\src\\main\\res\\drawable\\thumb_seek.png"
-    },
-    {
-        "merged": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\progress.xml",
-        "source": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\src\\main\\res\\drawable\\progress.xml"
-    },
-    {
-        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
-        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_switch_thumb_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\thumb_seek.png",
-        "source": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\src\\main\\res\\drawable\\thumb_seek.png"
-    },
-    {
-        "merged": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
-        "source": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_list_selector_holo_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\progress_seek.png",
-        "source": "C:\\Users\\Rami\\Documents\\infograpic\\app\\src\\main\\res\\drawable\\progress_seek.png"
-    },
-    {
-        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
-        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_spinner_textfield_background_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
-        "source": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_btn_radio_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
-        "source": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_cab_background_internal_bg.xml"
-    },
-    {
-        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
-        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_cab_background_internal_bg.xml"
-    },
-    {
-        "merged": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\seekbar_info.png",
-        "source": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\src\\main\\res\\drawable\\seekbar_info.png"
-    },
-    {
-        "merged": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
-        "source": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_edit_text_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\industry.png",
-        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\src\\main\\res\\drawable\\industry.png"
-    },
-    {
-        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
-        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_spinner_textfield_background_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\seekbar_info.png",
-        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\src\\main\\res\\drawable\\seekbar_info.png"
-    },
-    {
-        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_light.xml",
-        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_dialog_material_background_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
-        "source": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_btn_check_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_full_material.xml",
-        "source": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_ratingbar_full_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\progress.xml",
-        "source": "C:\\Users\\Rami\\Documents\\infograpic\\app\\src\\main\\res\\drawable\\progress.xml"
-    },
-    {
-        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_dark.xml",
-        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_dialog_material_background_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
-        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_btn_check_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
-        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_edit_text_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
-        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_list_selector_holo_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_full_material.xml",
-        "source": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_ratingbar_full_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\transport.png",
-        "source": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\src\\main\\res\\drawable\\transport.png"
-    },
-    {
         "merged": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
         "source": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_btn_borderless_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
-        "source": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_seekbar_track_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\seekbar_info.png",
-        "source": "C:\\Users\\Rami\\Documents\\infograpic\\app\\src\\main\\res\\drawable\\seekbar_info.png"
-    },
-    {
-        "merged": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
-        "source": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_text_cursor_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
-        "source": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_item_background_holo_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tractor.png",
-        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\src\\main\\res\\drawable\\tractor.png"
-    },
-    {
-        "merged": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
-        "source": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
-        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_edit_text_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\risefall.png",
-        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\src\\main\\res\\drawable\\risefall.png"
-    },
-    {
-        "merged": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\thumb_seek.png",
-        "source": "C:\\Users\\Rami\\Documents\\infograpic\\app\\src\\main\\res\\drawable\\thumb_seek.png"
-    },
-    {
-        "merged": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\industry.png",
-        "source": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\src\\main\\res\\drawable\\industry.png"
-    },
-    {
-        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_dark.xml",
-        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_dialog_material_background_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\transport.png",
-        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\src\\main\\res\\drawable\\transport.png"
-    },
-    {
-        "merged": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_dark.xml",
-        "source": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_dialog_material_background_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
-        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_textfield_search_material.xml"
     },
     {
         "merged": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
         "source": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_seekbar_track_material.xml"
     },
     {
-        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\risefall.png",
-        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\src\\main\\res\\drawable\\risefall.png"
-    },
-    {
-        "merged": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
-        "source": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
-        "source": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_cab_background_internal_bg.xml"
-    },
-    {
-        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
-        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_btn_borderless_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
-        "source": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_list_selector_holo_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
-        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_textfield_search_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
-        "source": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_spinner_textfield_background_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\progress_seek.png",
-        "source": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\src\\main\\res\\drawable\\progress_seek.png"
-    },
-    {
-        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
-        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_btn_check_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
-        "source": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_item_background_holo_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
-        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_tab_indicator_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
-        "source": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_btn_colored_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
-        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_seekbar_thumb_material.xml"
+        "merged": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_item_background_holo_light.xml"
     },
     {
         "merged": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\uk_last.png",
         "source": "C:\\Users\\Rami\\Documents\\infograpic\\app\\src\\main\\res\\drawable\\uk_last.png"
     },
     {
-        "merged": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
-        "source": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_btn_check_material.xml"
+        "merged": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
     },
     {
-        "merged": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
-        "source": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_btn_radio_material.xml"
+        "merged": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_seekbar_thumb_material.xml"
     },
     {
-        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
-        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_cab_background_internal_bg.xml"
+        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\transport.png",
+        "source": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\src\\main\\res\\drawable\\transport.png"
     },
     {
         "merged": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\patterngrid.png",
         "source": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\src\\main\\res\\drawable\\patterngrid.png"
     },
     {
-        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tractor.png",
-        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\src\\main\\res\\drawable\\tractor.png"
-    },
-    {
-        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
-        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_list_selector_holo_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\patterngrid.png",
-        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\src\\main\\res\\drawable\\patterngrid.png"
-    },
-    {
-        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
-        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_btn_borderless_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
-        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_list_selector_holo_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
-        "source": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_tab_indicator_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
-        "source": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_btn_borderless_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
-        "source": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_seekbar_thumb_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\thumb_seek.png",
-        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\src\\main\\res\\drawable\\thumb_seek.png"
-    },
-    {
-        "merged": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
-        "source": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_item_background_holo_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\repeatbg.xml",
-        "source": "C:\\Users\\Rami\\Documents\\infograpic\\app\\src\\main\\res\\drawable\\repeatbg.xml"
-    },
-    {
-        "merged": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tractor.png",
-        "source": "C:\\Users\\Rami\\Documents\\infograpic\\app\\src\\main\\res\\drawable\\tractor.png"
-    },
-    {
-        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\progress.xml",
-        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\src\\main\\res\\drawable\\progress.xml"
-    },
-    {
-        "merged": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
-        "source": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
-    },
-    {
-        "merged": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\risefall.png",
-        "source": "C:\\Users\\Rami\\Documents\\infograpic\\app\\src\\main\\res\\drawable\\risefall.png"
-    },
-    {
-        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\uk_last.png",
-        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\src\\main\\res\\drawable\\uk_last.png"
-    },
-    {
-        "merged": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
-        "source": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_dark.xml",
-        "source": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_dialog_material_background_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
-        "source": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
-    },
-    {
-        "merged": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\transport.png",
-        "source": "C:\\Users\\Rami\\Documents\\infograpic\\app\\src\\main\\res\\drawable\\transport.png"
-    },
-    {
-        "merged": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
-        "source": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_switch_thumb_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
-        "source": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_cab_background_top_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
-        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_btn_radio_material.xml"
-    },
-    {
         "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
         "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_item_background_holo_light.xml"
     },
     {
-        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
-        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_text_cursor_material.xml"
+        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\transport.png",
+        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\src\\main\\res\\drawable\\transport.png"
     },
     {
-        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
-        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
-    },
-    {
-        "merged": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\uk_last.png",
-        "source": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\src\\main\\res\\drawable\\uk_last.png"
-    },
-    {
-        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background_seek.png",
-        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\src\\main\\res\\drawable\\background_seek.png"
-    },
-    {
-        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
-        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_item_background_holo_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\repeatbg.xml",
-        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\src\\main\\res\\drawable\\repeatbg.xml"
+        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\thumb_seek.png",
+        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\src\\main\\res\\drawable\\thumb_seek.png"
     },
     {
         "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
         "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
     },
     {
-        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
-        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_textfield_search_material.xml"
     },
     {
-        "merged": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
-        "source": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_cab_background_top_material.xml"
+        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_seekbar_thumb_material.xml"
     },
     {
-        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\patterngrid.png",
-        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\src\\main\\res\\drawable\\patterngrid.png"
+        "merged": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\progress_seek.png",
+        "source": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\src\\main\\res\\drawable\\progress_seek.png"
     },
     {
-        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\progress_seek.png",
-        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\src\\main\\res\\drawable\\progress_seek.png"
+        "merged": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_btn_radio_material.xml"
     },
     {
-        "merged": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\roundborders.xml",
-        "source": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\src\\main\\res\\drawable\\roundborders.xml"
+        "merged": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
     },
     {
-        "merged": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
-        "source": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_list_selector_holo_dark.xml"
+        "merged": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_full_material.xml",
+        "source": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_ratingbar_full_material.xml"
     },
     {
-        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
-        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\progress.xml",
+        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\src\\main\\res\\drawable\\progress.xml"
     },
     {
-        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\industry.png",
-        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\src\\main\\res\\drawable\\industry.png"
+        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\uk_last.png",
+        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\src\\main\\res\\drawable\\uk_last.png"
     },
     {
-        "merged": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background_seek.png",
-        "source": "C:\\Users\\Rami\\Documents\\infograpic\\app\\src\\main\\res\\drawable\\background_seek.png"
-    },
-    {
-        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
-        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_switch_thumb_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
-        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_cab_background_top_material.xml"
+        "merged": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\thumb_seek.png",
+        "source": "C:\\Users\\Rami\\Documents\\infograpic\\app\\src\\main\\res\\drawable\\thumb_seek.png"
     },
     {
         "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_full_material.xml",
         "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_ratingbar_full_material.xml"
     },
     {
-        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
-        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_cab_background_top_material.xml"
+        "merged": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_full_material.xml",
+        "source": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_ratingbar_full_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_textfield_search_material.xml"
     },
     {
         "merged": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\risefall.png",
         "source": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\src\\main\\res\\drawable\\risefall.png"
     },
     {
+        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\risefall.png",
+        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\src\\main\\res\\drawable\\risefall.png"
+    },
+    {
+        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\uk_last.png",
+        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\src\\main\\res\\drawable\\uk_last.png"
+    },
+    {
+        "merged": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\repeatbg.xml",
+        "source": "C:\\Users\\Rami\\Documents\\infograpic\\app\\src\\main\\res\\drawable\\repeatbg.xml"
+    },
+    {
+        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background_seek.png",
+        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\src\\main\\res\\drawable\\background_seek.png"
+    },
+    {
+        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\patterngrid.png",
+        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\src\\main\\res\\drawable\\patterngrid.png"
+    },
+    {
+        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_light.xml",
+        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_dialog_material_background_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\repeatbg.xml",
+        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\src\\main\\res\\drawable\\repeatbg.xml"
+    },
+    {
+        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\progress.xml",
+        "source": "C:\\Users\\Rami\\Documents\\infograpic\\app\\src\\main\\res\\drawable\\progress.xml"
+    },
+    {
+        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\seekbar_info.png",
+        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\src\\main\\res\\drawable\\seekbar_info.png"
+    },
+    {
+        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\progress.xml",
+        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\src\\main\\res\\drawable\\progress.xml"
+    },
+    {
+        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\industry.png",
+        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\src\\main\\res\\drawable\\industry.png"
+    },
+    {
+        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tractor.png",
+        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\src\\main\\res\\drawable\\tractor.png"
+    },
+    {
+        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tractor.png",
+        "source": "C:\\Users\\Rami\\Documents\\infograpic\\app\\src\\main\\res\\drawable\\tractor.png"
+    },
+    {
+        "merged": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
         "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
         "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_light.xml",
+        "source": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_dialog_material_background_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\seekbar_info.png",
+        "source": "C:\\Users\\Rami\\Documents\\infograpic\\app\\src\\main\\res\\drawable\\seekbar_info.png"
+    },
+    {
+        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_dark.xml",
+        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_dialog_material_background_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\transport.png",
+        "source": "C:\\Users\\Rami\\Documents\\infograpic\\app\\src\\main\\res\\drawable\\transport.png"
+    },
+    {
+        "merged": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\industry.png",
+        "source": "C:\\Users\\Rami\\Documents\\infograpic\\app\\src\\main\\res\\drawable\\industry.png"
+    },
+    {
+        "merged": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\industry.png",
+        "source": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\src\\main\\res\\drawable\\industry.png"
+    },
+    {
+        "merged": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\roundborders.xml",
+        "source": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\src\\main\\res\\drawable\\roundborders.xml"
+    },
+    {
+        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_dark.xml",
+        "source": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_dialog_material_background_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\progress_seek.png",
+        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\src\\main\\res\\drawable\\progress_seek.png"
+    },
+    {
+        "merged": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\industry.png",
+        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\src\\main\\res\\drawable\\industry.png"
+    },
+    {
+        "merged": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\patterngrid.png",
+        "source": "C:\\Users\\Rami\\Documents\\infograpic\\app\\src\\main\\res\\drawable\\patterngrid.png"
+    },
+    {
+        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\risefall.png",
+        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\src\\main\\res\\drawable\\risefall.png"
+    },
+    {
+        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background_seek.png",
+        "source": "C:\\Users\\Rami\\Documents\\infograpic\\app\\src\\main\\res\\drawable\\background_seek.png"
+    },
+    {
+        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\seekbar_info.png",
+        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\src\\main\\res\\drawable\\seekbar_info.png"
+    },
+    {
+        "merged": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\risefall.png",
+        "source": "C:\\Users\\Rami\\Documents\\infograpic\\app\\src\\main\\res\\drawable\\risefall.png"
+    },
+    {
+        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_dark.xml",
+        "source": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_dialog_material_background_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\repeatbg.xml",
+        "source": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\src\\main\\res\\drawable\\repeatbg.xml"
+    },
+    {
+        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\roundborders.xml",
+        "source": "C:\\Users\\Rami\\Documents\\infograpic\\app\\src\\main\\res\\drawable\\roundborders.xml"
+    },
+    {
+        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\repeatbg.xml",
+        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\src\\main\\res\\drawable\\repeatbg.xml"
+    },
+    {
+        "merged": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\seekbar_info.png",
+        "source": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\src\\main\\res\\drawable\\seekbar_info.png"
+    },
+    {
+        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tractor.png",
+        "source": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\src\\main\\res\\drawable\\tractor.png"
+    },
+    {
+        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_full_material.xml",
+        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_ratingbar_full_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\progress_seek.png",
+        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\src\\main\\res\\drawable\\progress_seek.png"
+    },
+    {
+        "merged": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_light.xml",
+        "source": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_dialog_material_background_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tractor.png",
+        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\src\\main\\res\\drawable\\tractor.png"
+    },
+    {
+        "merged": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background_seek.png",
+        "source": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\src\\main\\res\\drawable\\background_seek.png"
+    },
+    {
+        "merged": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\transport.png",
+        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\src\\main\\res\\drawable\\transport.png"
+    },
+    {
+        "merged": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\progress.xml",
+        "source": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\src\\main\\res\\drawable\\progress.xml"
+    },
+    {
+        "merged": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\uk_last.png",
+        "source": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\src\\main\\res\\drawable\\uk_last.png"
+    },
+    {
+        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\patterngrid.png",
+        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\src\\main\\res\\drawable\\patterngrid.png"
+    },
+    {
+        "merged": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\progress_seek.png",
+        "source": "C:\\Users\\Rami\\Documents\\infograpic\\app\\src\\main\\res\\drawable\\progress_seek.png"
+    },
+    {
+        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\thumb_seek.png",
+        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\src\\main\\res\\drawable\\thumb_seek.png"
+    },
+    {
+        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_dark.xml",
+        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_dialog_material_background_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background_seek.png",
+        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\src\\main\\res\\drawable\\background_seek.png"
+    },
+    {
+        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\thumb_seek.png",
+        "source": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\src\\main\\res\\drawable\\thumb_seek.png"
+    },
+    {
+        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_light.xml",
+        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_dialog_material_background_light.xml"
     }
 ]
