@@ -51,4 +51,5 @@ repositories {
 
 dependencies {
     compile 'com.bartoszlipinski:viewpropertyobjectanimator:1.2.0'
+
 }
