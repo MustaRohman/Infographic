@@ -12,6 +12,7 @@ import com.github.mikephil.charting.components.Legend;
 import com.github.mikephil.charting.components.XAxis;
 import com.github.mikephil.charting.components.YAxis;
 import com.github.mikephil.charting.data.LineData;
+import com.github.mikephil.charting.formatter.YAxisValueFormatter;
 
 import java.util.List;
 
@@ -48,12 +49,21 @@ public class LineChartAdapter extends ArrayAdapter<LineData> {
         xAxis.setLabelsToSkip(0);
         xAxis.setTextSize(10.f);
         xAxis.setGridColor(Color.parseColor("#95a5a6"));
+        xAxis.setPosition(XAxis.XAxisPosition.BOTTOM);
 
 
         // yAxis
         YAxis leftAxis = holder.lineChart.getAxisLeft();
         leftAxis.removeAllLimitLines(); // reset all limit lines to avoid overlapping lines
-        leftAxis.setEnabled(false);
+        leftAxis.setEnabled(true);
+        leftAxis.setValueFormatter(new YAxisValueFormatter() {
+            @Override
+            public String getFormattedValue(float v, YAxis yAxis) {
+                return v+"%";
+            }
+        });
+
+
         leftAxis.setAxisMaxValue(100f);
         leftAxis.setAxisMinValue(-20f);
         leftAxis.setStartAtZero(false);
@@ -68,7 +78,7 @@ public class LineChartAdapter extends ArrayAdapter<LineData> {
 
 
         holder.lineChart.setDescription("");
-        holder.lineChart.getAxisRight().setEnabled(true);
+        holder.lineChart.getAxisRight().setEnabled(false);
         holder.lineChart.setClickable(false);
         holder.lineChart.setDrawGridBackground(false);
         holder.lineChart.setData(data);

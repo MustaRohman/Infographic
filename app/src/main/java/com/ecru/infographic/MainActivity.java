@@ -295,7 +295,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
         //Line Data Sets Are Created
-        LineDataSet agriValues = new LineDataSet(agriComp, "AgriCulture");
+        LineDataSet agriValues = new LineDataSet(agriComp, "Agriculture");
         LineDataSet servicesValues = new LineDataSet(servComp, "Services");
         LineDataSet indValues = new LineDataSet(indComp, "Industry");
 
@@ -401,13 +401,17 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void expandCubicBtn(View v){
+        int red = Color.parseColor("#e74c3c");
         Button temp = (Button)v;
+        temp.setAllCaps(false);
         ObjectAnimator expand = ViewPropertyObjectAnimator.animate(temp)
-                .bottomPadding(400)
+                .bottomPadding(120)
                 .setDuration(1000)
                 .get();
         expand.start();
-        temp.setText("Cubic Chart");
+        temp.setBackgroundColor(red);
+        temp.setText(GetDataValues.conclusion);
+
     }
 
 

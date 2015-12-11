@@ -21,7 +21,7 @@ import java.util.concurrent.ExecutionException;
  * Created by Ayman on 29/11/2015.
  */
 public class GetDataValues {
-
+    public static String conclusion = "";
     String empServJson;
     String empAgrJson;
     String empIndJson;
@@ -60,6 +60,7 @@ public class GetDataValues {
             industryVals = (float[]) parseData(empIndJson)[1];
             ictExports = (float[]) parseData(exportsJson)[1];
             exportGdpVals =(float[]) parseData(exportsGdpValueJson)[1];
+            setConclusion();
         }
         catch (JSONException e){
             Log.d("GetDataValues", "Data was not parsed");
@@ -217,7 +218,7 @@ public class GetDataValues {
         }
         int red = Color.parseColor("#e74c3c");
         //Line Data Sets Are Created
-        LineDataSet values = new LineDataSet(exportsArrList, "Communication and computer exports % of service exports");
+        LineDataSet values = new LineDataSet(exportsArrList, "ICT service exports (BoP, current US$)");
         values.setDrawCubic(true);
         values.setCubicIntensity(0.3f);
         values.setDrawFilled(true);
@@ -278,6 +279,9 @@ public class GetDataValues {
             }
         }
         return new Object[]{year, value};
+    }
+    public void setConclusion(){
+        conclusion = "ICT sector in 2012 is worth $"+String.format("%.2f",exportGdpVals[2]/1000000000 )+"BIL. The ICT sector contributed "+String.format("%.2f",ictExports[2] )+"% of the total employment in the service sector.";
     }
 
 }

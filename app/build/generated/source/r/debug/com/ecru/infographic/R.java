@@ -1830,13 +1830,14 @@ containing a value of this type.
         public static final int fa_play=0x7f060019;
         public static final int futureBtn=0x7f06001a;
         public static final int gdp=0x7f06001b;
-        public static final int leftPanelDescr=0x7f06001c;
-        public static final int lineDescrip=0x7f06001d;
-        public static final int pieDesc=0x7f06001e;
-        public static final int seekbar_info=0x7f06001f;
+        public static final int ictExportRightCh=0x7f06001c;
+        public static final int leftPanelDescr=0x7f06001d;
+        public static final int lineDescrip=0x7f06001e;
+        public static final int pieDesc=0x7f06001f;
+        public static final int seekbar_info=0x7f060020;
         public static final int status_bar_notification_info_overflow=0x7f060013;
-        public static final int title=0x7f060020;
-        public static final int ukfuture=0x7f060021;
+        public static final int title=0x7f060021;
+        public static final int ukfuture=0x7f060022;
     }
     public static final class style {
         public static final int AlertDialog_AppCompat=0x7f09007d;
