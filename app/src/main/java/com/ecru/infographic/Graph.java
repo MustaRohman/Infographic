@@ -46,7 +46,7 @@ public class Graph {
         xAxis.setEnabled(true);
         xAxis.setDrawAxisLine(true);
         xAxis.setLabelsToSkip(0);
-        xAxis.setTextSize(10.f);
+        xAxis.setTextSize(8.f);
         xAxis.setGridColor(Color.parseColor("#95a5a6"));
 
 

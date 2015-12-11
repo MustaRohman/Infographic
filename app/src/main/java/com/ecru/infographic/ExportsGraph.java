@@ -36,7 +36,7 @@ public class ExportsGraph {
         lineChart.getAxisRight().setEnabled(false);
         lineChart.setDrawGridBackground(true);
         Log.d("Chart focus", ""+lineChart.hasFocus());
-        lineChart.setDescription("Employment In Different Sectors (% of total employment)");
+        lineChart.setDescription("");
 
 
         XAxis x = lineChart.getXAxis();

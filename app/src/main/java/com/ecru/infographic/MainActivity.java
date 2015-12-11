@@ -103,14 +103,18 @@ public class MainActivity extends AppCompatActivity {
             // For Scroll Animation
             animateOnce = true;
             animateCount = 0;
-            animateArrows();
+
+
+            animateArrows(circleValues);
 
 
             /**
              * SLIDER PANEL
              */
+        try{
             createLeftSidePanel();
             createRightSidePanel();
+        }catch (Exception e){}
         }
     }
 
@@ -192,7 +196,8 @@ public class MainActivity extends AppCompatActivity {
         agriCir.setStepSize(2f);
         agriCir.setTouchEnabled(false);
         // cd.setCustomText(...); // sets a custom array of text
-        agriCir.showValue(value, 1f, true);
+        float x = Math.abs(value);
+        agriCir.showValue(x, 1f, true);
 
     }
 
@@ -209,7 +214,8 @@ public class MainActivity extends AppCompatActivity {
         servCir.setStepSize(2f);
         servCir.setTouchEnabled(false);
         // cd.setCustomText(...); // sets a custom array of text
-        servCir.showValue(value, 1f, true);
+        float x = Math.abs(value);
+        servCir.showValue(x, 1f, true);
     }
 
     public void industryCircle(float value) {
@@ -225,37 +231,37 @@ public class MainActivity extends AppCompatActivity {
         indusCir.setStepSize(2f);
         indusCir.setTouchEnabled(false);
         // cd.setCustomText(...); // sets a custom array of text
-        indusCir.showValue(value, 1f, true);
+        float x = Math.abs(value);
+        indusCir.showValue(x, 1f, true);
     }
 
-    public void animateArrows() {
-        rise = (ImageView) findViewById(R.id.rise);
-        fall0 = (ImageView) findViewById(R.id.fall0);
-        fall1 = (ImageView) findViewById(R.id.fall1);
-        ObjectAnimator arrow = ViewPropertyObjectAnimator
-                .animate(rise)
-                .setDuration(1200)
-                .alpha(0)
-                .translationY(-9f)
-                .get();
-        arrow.start();
-        arrow.setRepeatCount(ValueAnimator.INFINITE);
-        ObjectAnimator arrow1 = ViewPropertyObjectAnimator
-                .animate(fall0)
-                .setDuration(1200)
-                .alpha(0)
-                .translationY(8f)
-                .get();
-        arrow1.start();
-        arrow1.setRepeatCount(ValueAnimator.INFINITE);
-        ObjectAnimator arrow2 = ViewPropertyObjectAnimator
-                .animate(fall1)
-                .setDuration(1200)
-                .alpha(0)
-                .translationY(8f)
-                .get();
-        arrow2.start();
-        arrow2.setRepeatCount(ValueAnimator.INFINITE);
+    public void animateArrows(float[] mm) {
+
+        ImageView[] imageViews = {
+                (ImageView) findViewById(R.id.rise),
+                (ImageView) findViewById(R.id.fall0),
+                (ImageView) findViewById(R.id.fall1)};
+        for(int i =0;i < mm.length; i++){
+            if (mm[i] > 0){
+                ObjectAnimator arrow = ViewPropertyObjectAnimator
+                        .animate(imageViews[i])
+                        .setDuration(1200)
+                        .alpha(0)
+                        .translationY(-9f)
+                        .get();
+                arrow.start();
+                arrow.setRepeatCount(ValueAnimator.INFINITE);
+            } else {
+                ObjectAnimator arrow1 = ViewPropertyObjectAnimator
+                        .animate(imageViews[i])
+                        .setDuration(1200)
+                        .alpha(0)
+                        .translationY(8f)
+                        .get();
+                arrow1.start();
+                arrow1.setRepeatCount(ValueAnimator.INFINITE);
+            }
+        }
     }
 
     private LineData generateData() {
@@ -401,7 +407,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void expandCubicBtn(View v){
-        int red = Color.parseColor("#e74c3c");
+        int red = Color.parseColor("#ecf0f1");
         Button temp = (Button)v;
         temp.setAllCaps(false);
         ObjectAnimator expand = ViewPropertyObjectAnimator.animate(temp)

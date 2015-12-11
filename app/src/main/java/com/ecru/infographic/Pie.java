@@ -252,8 +252,11 @@ public class Pie implements SeekBar.OnSeekBarChangeListener {
 
                 if (valChange > 0) {
                     returnString = decimalPoints.format(valChange) + "% increase from " + (Pie.yr);
-                } else {
-                    returnString = decimalPoints.format(valChange) + "% decrease from " + (Pie.yr);
+                } else if (valChange == 0){
+                    returnString = "No change "+(Pie.yr);
+                }
+                else {
+                    returnString = decimalPoints.format(-valChange) + "% decrease from " + (Pie.yr);
                 }
 
             } else if (buttonIndex == 1) {
@@ -263,8 +266,11 @@ public class Pie implements SeekBar.OnSeekBarChangeListener {
 
                 if (valChange > 0) {
                     returnString = decimalPoints.format(valChange) + "% increase from " + (Pie.yr);
-                } else {
-                    returnString = decimalPoints.format(valChange) + "% decrease from " + (Pie.yr);
+                }else if (valChange == 0){
+                    returnString = "No change "+(Pie.yr);
+                }
+                else {
+                    returnString = decimalPoints.format(-valChange) + "% decrease from " + (Pie.yr);
                 }
 
             } else {
@@ -274,8 +280,11 @@ public class Pie implements SeekBar.OnSeekBarChangeListener {
 
                 if (valChange > 0) {
                     returnString = decimalPoints.format(valChange) + "% increase from " + (Pie.yr);
-                } else {
-                    returnString = decimalPoints.format(valChange) + "% decrease from " + (Pie.yr);
+                }else if (valChange == 0){
+                    returnString = "No change "+(Pie.yr);
+                }
+                else {
+                    returnString = decimalPoints.format(-valChange) + "% decrease from " + (Pie.yr);
                 }
             }
 
