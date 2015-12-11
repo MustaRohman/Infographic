@@ -37,21 +37,34 @@ public class Pie implements SeekBar.OnSeekBarChangeListener {
     private SeekBar pieSeekBar;
     private GetDataValues dataValues;
 
+    /**
+     *
+     * @return pieChart
+     */
     public PieChart getPieChart() {
         return pieChart;
     }
 
+    /**
+     *
+     * @return pieSeekBar
+     */
     public SeekBar getPieSeekBar(){
         return pieSeekBar;
     }
 
-
+    /**
+     *
+     * @param activity get MainActivity context
+     * @param dataValues get GetDataValues for PieChart
+     */
     public Pie(final Activity activity, GetDataValues dataValues) {
         this.activity = activity;
         this.pieChart = (PieChart) activity.findViewById(R.id.pieChart);
 
         this.dataValues = dataValues;
         pieSeekBar = (SeekBar) activity.findViewById(R.id.pieSeekBar);
+        // Sets listener on Seekbar
         pieSeekBar.setOnSeekBarChangeListener(this);
         pieSeekBar.setMax(30);
         pieSeekBar.setProgress(30);
@@ -64,7 +77,7 @@ public class Pie implements SeekBar.OnSeekBarChangeListener {
         btn1.setText("To view the percentage change from the previous year, tap on the chart segments");
         btn2.setText("This pie chart shows the percentage of uk employment in each sector");
 
-
+        // Assign values to the pie chart
         try {
             setData(dataValues.employmentPieData(0));
         } catch (JSONException e) {
@@ -78,6 +91,9 @@ public class Pie implements SeekBar.OnSeekBarChangeListener {
 
     }
 
+    /**
+     * Assigns OnTouchListener on Seekbar as ScrollView was causing issues so had to override
+     */
     public void assignListeners() {
         pieSeekBar.setOnTouchListener(new View.OnTouchListener() {
             @Override
@@ -101,7 +117,7 @@ public class Pie implements SeekBar.OnSeekBarChangeListener {
             }
 
         });
-
+        // Click events for PieChart to change boxes value
         pieChart.setOnChartValueSelectedListener(new OnChartValueSelectedListener() {
             @Override
             public void onValueSelected(Entry entry, int i, Highlight highlight) {
@@ -127,6 +143,11 @@ public class Pie implements SeekBar.OnSeekBarChangeListener {
         });
     }
 
+    /**
+     *
+     * @param values takes values from GetDataValue class for PieChart
+     *
+     */
     public void setData(ArrayList values) {
 
         ArrayList<Entry> yVals1 = new ArrayList<>();
@@ -169,7 +190,7 @@ public class Pie implements SeekBar.OnSeekBarChangeListener {
     /**
      * Animation for Buttons
      *
-     * @param btn
+     * @param btn Animates boxes
      */
     public void replace(Button btn) {
         ObjectAnimator buttonAni = ViewPropertyObjectAnimator
@@ -181,6 +202,10 @@ public class Pie implements SeekBar.OnSeekBarChangeListener {
         buttonAni.start();
     }
 
+    /**
+     *
+     * @param btn resets buttons when seek bar value changes
+     */
     public void resetBtnSize(Button btn) {
 
         ObjectAnimator buttonA = ViewPropertyObjectAnimator
@@ -194,6 +219,11 @@ public class Pie implements SeekBar.OnSeekBarChangeListener {
 
     }
 
+    /**
+     *
+     * This method is used to reset boxes to default position,
+     * @throws JSONException to Assign Values when click event takes place
+     */
     public void getAllBtns() throws JSONException {
         delayTime = 250;
         counter = 0;
@@ -218,8 +248,12 @@ public class Pie implements SeekBar.OnSeekBarChangeListener {
 
     }
 
-    @Override
+    /**
+     *
+     * @param seekBar assign min/max values
+     */
     public void onStopTrackingTouch(SeekBar seekBar) {
+
         int year = 30 - pieSeekBar.getProgress();
         try {
             setData(dataValues.employmentPieData(year));
@@ -237,6 +271,12 @@ public class Pie implements SeekBar.OnSeekBarChangeListener {
         }
     }
 
+    /**
+     *
+     * @param buttonIndex get ButtonIndex from the View
+     * @return data from GetDataValue class for each sector
+     * @throws JSONException
+     */
     public String getButtonString(int buttonIndex) throws JSONException {
         DecimalFormat decimalPoints = new DecimalFormat("0.###");
         int year = 30 - pieSeekBar.getProgress();

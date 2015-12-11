@@ -27,10 +27,11 @@ public class ExportsValueGraph extends ArrayAdapter<LineData> {
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
        LineData data = getItem(position);
-        ViewHolder holder = null;
+
+        //Holds chart for ListView
+        ViewHolder holder;
         if (convertView == null) {
             holder = new ViewHolder();
-
             convertView = LayoutInflater.from(getContext()).inflate(R.layout.list_item_rightchart, null);
             holder.lineChart = (LineChart) convertView.findViewById(R.id.rightSideLineChart);
             convertView.setTag(holder);
@@ -38,14 +39,15 @@ public class ExportsValueGraph extends ArrayAdapter<LineData> {
             holder = (ViewHolder) convertView.getTag();
         }
 
+        //Alter Xaxis
         XAxis x = holder.lineChart.getXAxis();
-
         x.setDrawAxisLine(true);
         x.setDrawLabels(true);
         x.setEnabled(true);
         x.setPosition(XAxis.XAxisPosition.BOTTOM);
+
+        //Alter Yaxis
         YAxis y = holder.lineChart.getAxisLeft();
-        holder.lineChart.getAxisRight().setEnabled(false);
         holder.lineChart.getAxisRight().setDrawLabels(false);
         y.setDrawAxisLine(true);
         y.setDrawLabels(true);
@@ -54,6 +56,8 @@ public class ExportsValueGraph extends ArrayAdapter<LineData> {
         y.setStartAtZero(false);
         holder.lineChart.setDescription("ICT export service (Years v GDP($BIL)");
         y.setValueFormatter(yValueChanger);
+
+        //Alter Legend
         Legend l = holder.lineChart.getLegend();
         l.setPosition(Legend.LegendPosition.ABOVE_CHART_RIGHT);
         l.setTextSize(15f);
@@ -67,6 +71,10 @@ public class ExportsValueGraph extends ArrayAdapter<LineData> {
         return convertView;
 
     }
+
+    /**
+     * formats Yaxis Labels
+     */
     public YAxisValueFormatter  yValueChanger = new  YAxisValueFormatter() {
 
         @Override

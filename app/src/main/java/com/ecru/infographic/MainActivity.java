@@ -35,7 +35,6 @@ import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
 
-
     public static Typeface bigJoe, fontAws;
     private TextView title, about, play, backBtn;
     private ImageView seekbar_info;
@@ -58,7 +57,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
         if ((findViewById(R.id.small_ScreenTXT) == null)) {
 
             bigJoe = Typeface.createFromAsset(getAssets(), "fonts/Track.otf");
@@ -73,12 +71,12 @@ public class MainActivity extends AppCompatActivity {
             backBtn = (TextView) findViewById(R.id.backBtn);
             backBtn.setTypeface(fontAws);
 
-
-
             // YSCROLL
             yscroll = (HorizontalScrollView) findViewById(R.id.horizontalScroll);
             scrollEvent();
+
             dataValues = new GetDataValues(this);
+
             // DRAWER LAYOUT
             drawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
 
@@ -86,64 +84,73 @@ public class MainActivity extends AppCompatActivity {
             seekbar_info = (ImageView) findViewById(R.id.seekbar_info);
 
             // CHARTS
-            pieChart =new Pie(this, dataValues);
+            pieChart = new Pie(this, dataValues);
             graph = new Graph(this, dataValues);
             exports = new ExportsGraph(this, dataValues);
-            if (pieChart.getPieChart().isClickable()){
 
-                Log.d("MainActivity", "DIsplaying toast");
-            }
+            float[] circleValues = dataValues.getCircleValues();
 
-            float[] circleValues =dataValues.getCircleValues();
             // THREE CIRCLES
             agrCircle(circleValues[1]);
             serviceCircle(circleValues[0]);
             industryCircle(circleValues[2]);
             hideInfos();
+
             // For Scroll Animation
             animateOnce = true;
             animateCount = 0;
 
-
             animateArrows(circleValues);
 
-
-            /**
-             * SLIDER PANEL
-             */
-        try{
+            //sidePanels
             createLeftSidePanel();
             createRightSidePanel();
-        }catch (Exception e){}
         }
     }
 
     /**
-     * FOR TESTING
-     * @return
+     * return Piechart
+     * @return PieChart
      */
-
     public PieChart getPie() {
         return pieChart.getPieChart();
     }
 
+    /**
+     * Return Employment lineChart
+     * @return
+     */
     public LineChart getGraph() {
-        return graph.getGraph();
+        return graph.getLineChart();
     }
 
+    /**
+     * Return seekbar for pieChart
+     * @return
+     */
     public SeekBar getPieSeekBar() {
         return pieChart.getPieSeekBar();
     }
 
-
+    /**
+     * Return dataValues
+     * @return
+     */
     public GetDataValues getDataValues() {
         return dataValues;
     }
 
+    /**
+     * Return Exports lineChart
+     * @return
+     */
     public LineChart getExportsGraph(){
-        return exports.getExportsGraph();
+        return exports.getLineChart();
     }
 
+    /**
+     * Creates right side panel
+     */
     public void createRightSidePanel(){
         lineDatasRight = new ArrayList<>();
 
@@ -158,6 +165,9 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    /**
+     * Creates left side panel
+     */
     public void createLeftSidePanel() {
 
         lineDatas = new ArrayList<>();
@@ -168,6 +178,9 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    /**
+     * Resets button to original state
+     */
     public void hideInfos() {
         Handler handler = new Handler();
         handler.postDelayed(new Runnable() {
@@ -183,6 +196,10 @@ public class MainActivity extends AppCompatActivity {
         }, 10000);
     }
 
+    /**
+     * Sets average value of agriculture employment circle
+     * @param value
+     */
     public void agrCircle(float value) {
         int yellow = getResources().getColor(R.color.yellow);
         agriCir = (CircleDisplay) findViewById(R.id.overallAgri);
@@ -201,6 +218,10 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    /**
+     * Sets average value of service employment circle
+     * @param value
+     */
     public void serviceCircle(float value) {
         int red = getResources().getColor(R.color.red);
         servCir = (CircleDisplay) findViewById(R.id.overallServ);
@@ -218,6 +239,10 @@ public class MainActivity extends AppCompatActivity {
         servCir.showValue(x, 1f, true);
     }
 
+    /**
+     * Sets average value of industry employment circle
+     * @param value
+     */
     public void industryCircle(float value) {
         int blue = getResources().getColor(R.color.blue);
         indusCir = (CircleDisplay) findViewById(R.id.overallInd);
@@ -235,6 +260,10 @@ public class MainActivity extends AppCompatActivity {
         indusCir.showValue(x, 1f, true);
     }
 
+    /**
+     * Animates arrows to indicate increase/descrease
+     * @param mm
+     */
     public void animateArrows(float[] mm) {
 
         ImageView[] imageViews = {
@@ -264,6 +293,10 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    /**
+     * Generates the predicted data for use in the predicted employment line graph
+     * @return LineData for graph
+     */
     private LineData generateData() {
         //arrays containing the actual values
         float[] industryVals = new float[10];
@@ -347,21 +380,40 @@ public class MainActivity extends AppCompatActivity {
         LineDataArray.add(indValues);
         LineData data = new LineData(yearNumberLabels, LineDataArray);
 
-
         //return the arrayList containing the values
         return data;
 
     }
+
+    /**
+     * Displays the right side panel
+     * @param v
+     */
     public void displayRightSidePanel(View v){
         drawerLayout.openDrawer(Gravity.RIGHT);
     }
-    public void displaySidePanel(View v){
+
+    /**
+     * Displays the left side panel
+     * @param v
+     */
+    public void displayLeftSidePanel(View v){
         drawerLayout.openDrawer(Gravity.LEFT);
     }
+
+    /**
+     * Displays About dialog box
+     * @param v
+     */
     public void displayAboutDiag(View v){
         AboutDialog dialogFragment = new AboutDialog();
         dialogFragment.show(getSupportFragmentManager(), "About");
     }
+
+    /**
+     * Starts autoScroll animation
+     * @param v
+     */
     public void autoScroll(View v){
         if (yscroll.getScrollX() < 100) {
             ObjectAnimator ys = ViewPropertyObjectAnimator.animate(yscroll)
@@ -373,6 +425,9 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    /**
+     * Animates the objects when the user scrolls to a certain point
+     */
     public void scrollEvent() {
         yscroll.getViewTreeObserver().addOnScrollChangedListener(new ViewTreeObserver.OnScrollChangedListener() {
             @Override
@@ -402,11 +457,19 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+    /**
+     * Return to start of the application
+     * @param v
+     */
     public void resetScroll(View v){
         yscroll.setScrollX(0);
     }
 
-    public void expandCubicBtn(View v){
+    /**
+     * Expands the conclusion button
+     * @param v
+     */
+    public void expandConclusionBtn(View v){
         int red = Color.parseColor("#ecf0f1");
         Button temp = (Button)v;
         temp.setAllCaps(false);
@@ -417,8 +480,6 @@ public class MainActivity extends AppCompatActivity {
         expand.start();
         temp.setBackgroundColor(red);
         temp.setText(GetDataValues.conclusion);
-
     }
-
 
 }

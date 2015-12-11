@@ -13,7 +13,9 @@ import com.github.mikephil.charting.components.YAxis;
  * Created by Rami on 04/12/2015.
  */
 public class Graph {
+
     Activity activity;
+
     LineChart lineChart;
     GetDataValues dataValues;
     public LineChart getGraph() {

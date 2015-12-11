@@ -16,6 +16,11 @@ public class AboutDialog extends DialogFragment {
 
     }
 
+    /**
+     * Displays about message
+     * @param savedInstanceState
+     * @return dialog stating source used.
+     */
     @NonNull
     @Override
     public Dialog onCreateDialog(Bundle savedInstanceState) {

@@ -21,12 +21,22 @@ import java.util.List;
  */
 public class LineChartAdapter extends ArrayAdapter<LineData> {
 
-
+    /**
+     *
+     * @param context takes MainActivity context
+     * @param objects Takes Objects data for LineChart which is stored in a List
+     */
     public LineChartAdapter(Context context, List<LineData> objects) {
         super(context,0, objects);
     }
 
-    @Override
+    /**
+     *
+     * @param position indicates index position in a List
+     * @param convertView converts xml Layout for the list view
+     * @param parent Makes main activity as Parent but not used here
+     * @return ViewHolder LineChart which is used on the left side slide panel
+     */
     public View getView(int position, View convertView, ViewGroup parent) {
 
         LineData data = getItem(position);

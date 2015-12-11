@@ -67,15 +67,6 @@ public class GetDataValues {
         }
     }
 
-
-    public int getSelected() {
-        return selected;
-    }
-
-    public void setSelected(int selected) {
-        this.selected = selected;
-    }
-
     /**
      * Method to extract data for the employment pie chart
      * @param year the year to return data for
@@ -102,7 +93,11 @@ public class GetDataValues {
         //return the arrayList containing the values
         return values;
     }
-
+    /**
+     * Method to extract data for sector LineChart
+     * @return  LineData containing all sectors for allyears
+     * @throws JSONException
+     */
     public LineData LineGraphSectorData() throws JSONException{
 
         //Create a new arraylist to contain the dataset
@@ -170,12 +165,21 @@ public class GetDataValues {
         return data;
     }
 
+    /**
+     * Creates Data for Communications LineChart
+     * @return LineData for Communications LineChart
+     * @throws JSONException
+     */
     public LineData exportsChart() throws JSONException {
 
+        //years the data exists for
         int[] years = (int[]) parseData(exportsJson)[0];
+
         //Create a new arraylist to contain the dataset
         ArrayList<Entry> exportsArrList = new ArrayList<Entry>();
         ArrayList<String> yearNumberLabels = new ArrayList<>();
+
+        //data is extracted
         for (int i = 0; i < years.length; ++i) {
             //add the value to the array list for the year specified
 
@@ -183,6 +187,8 @@ public class GetDataValues {
             yearNumberLabels.add(String.valueOf(years[((years.length - 1) - i)]));
 
         }
+
+        //graph setting are selected
         int red = Color.parseColor("#e74c3c");
         //Line Data Sets Are Created
         LineDataSet values = new LineDataSet(exportsArrList, "Communication and computer exports % of service exports");
@@ -203,6 +209,12 @@ public class GetDataValues {
 
         return data;
     }
+
+    /**
+     * Creates Data for ICT service LineChart
+     * @return LineData for Communications LineChart
+     * @throws JSONException
+     */
     public LineData exportsGdpChart() throws JSONException {
 
         int[] years = (int[]) parseData(exportsGdpValueJson)[0];
@@ -238,6 +250,10 @@ public class GetDataValues {
         return data;
     }
 
+    /**
+     * Creates data for overall average change for sectors
+     * @return float index 0=service index 1 =agriculture index 2 = industry
+     */
     public float[] getCircleValues(){
         float[] temp = new float[3];
         temp[0] = (serviceVals[0]-serviceVals[20])/20;

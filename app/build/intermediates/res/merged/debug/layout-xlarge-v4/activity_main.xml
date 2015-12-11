@@ -297,7 +297,7 @@
                     android:background="@drawable/roundborders"
                     android:text="Click for conclusion"
                     android:layout_marginRight="20dp"
-                    android:onClick="expandCubicBtn"
+                    android:onClick="expandConclusionBtn"
                     android:textAlignment="textStart"
                     android:padding="10dp"
                     />
@@ -339,7 +339,7 @@
                     android:layout_height="40dp"
                     android:id="@+id/futureuk"
                     android:text="@string/futureBtn"
-                    android:onClick="displaySidePanel"
+                    android:onClick="displayLeftSidePanel"
                     android:textColor="@color/black"
                     android:background="@drawable/roundborders"
                    />

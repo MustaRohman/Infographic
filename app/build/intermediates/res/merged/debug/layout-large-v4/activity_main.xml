@@ -245,7 +245,7 @@
                                 android:layout_height="wrap_content"
                                 android:id="@+id/futureuk"
                                 android:text="@string/futureBtn"
-                                android:onClick="displaySidePanel"
+                                android:onClick="displayLeftSidePanel"
                                 android:textColor="@color/black"
                                 android:background="@drawable/roundborders"
                                 android:layout_marginLeft="10dp"
@@ -334,7 +334,7 @@
                         android:textSize="25sp"
                         android:text="INFO"
                         android:background="@drawable/roundborders"
-                        android:onClick="expandCubicBtn"
+                        android:onClick="expandConclusionBtn"
                         android:layout_marginRight="10dp"
 
                          />
