@@ -85,13 +85,13 @@
         android:id="@+id/horizontalScroll">
 
         <LinearLayout
-            android:layout_width="3210dp"
+            android:layout_width="3110dp"
             android:layout_height="fill_parent"
             android:orientation="vertical"
             >
 
             <LinearLayout
-                android:layout_width="3210dp"
+                android:layout_width="3110dp"
                 android:layout_height="512dp"
                 android:paddingTop="20dp">
 
