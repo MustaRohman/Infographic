@@ -253,17 +253,7 @@
                                 android:background="@drawable/roundborders"
                                 android:layout_marginLeft="10dp"
                                 />
-                            <Button
-                                android:layout_width="200dp"
-                                android:layout_height="wrap_content"
-                                android:id="@+id/gdpuk"
-                                android:text="@string/gdp"
-                                android:onClick="displayRightSidePanel"
-                                android:textColor="@color/black"
-                                android:background="@drawable/roundborders"
-                                android:layout_marginLeft="10dp"
 
-                                />
                         </LinearLayout>
 
                     </LinearLayout>
@@ -336,10 +326,10 @@
                 >
 
                 </com.github.mikephil.charting.charts.LineChart>
-                <LinearLayout
+                <RelativeLayout
                     android:layout_width="300dp"
-                    android:layout_height="300dp"
-                    android:orientation="vertical">
+                    android:layout_height="340dp"
+                    >
                     <Button
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -351,7 +341,18 @@
                         android:layout_marginRight="10dp"
 
                          />
-                </LinearLayout>
+                    <Button
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/gdpuk"
+                        android:text="@string/gdp"
+                        android:onClick="displayRightSidePanel"
+                        android:textColor="@color/black"
+                        android:background="@drawable/roundborders"
+
+
+                        android:layout_alignParentBottom="true" />
+                </RelativeLayout>
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
