@@ -3,7 +3,7 @@ package com.ecru.infographic;
 import android.test.ActivityInstrumentationTestCase2;
 
 /**
- * Created by nashwan on 12/8/2015.
+ * Created by Harkamal on 12/11/2015.
  */
 public class GUIPieChartTest extends ActivityInstrumentationTestCase2<MainActivity> {
     public GUIPieChartTest() {
@@ -25,6 +25,12 @@ public class GUIPieChartTest extends ActivityInstrumentationTestCase2<MainActivi
     }
 
     //Testing SeekBar
+    public void testPieDataSetLabelIsCorrect() {
+        MainActivity mainactivity = getActivity();
+        assertEquals("Employment sectors", mainactivity.getPie().getData().getDataSet().getLabel());
+
+    }
+
     public void testSeekBarLimits() {
         MainActivity mainactivity = getActivity();
         int n = 30;
@@ -34,7 +40,7 @@ public class GUIPieChartTest extends ActivityInstrumentationTestCase2<MainActivi
     public void testSetProgress() {
         MainActivity mainactivity = getActivity();
         int m = 30;
-        assertSame(m, mainactivity.getPieSeekBar().getProgress());
+        assertEquals(m, mainactivity.getPieSeekBar().getProgress());
     }
 
 }
