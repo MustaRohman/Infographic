@@ -221,6 +221,9 @@
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <string name="app_name">Infographic</string>
+    <string name="backBtn"></string>
+    <string name="cubicinfo">ICT has contributed towards the UK\'s service exports. Rising over 15% in less than 10 years. In 2014, UK ICT service exports alone were worth over $120 BILLION.
+                    </string>
     <string name="emplymentLineGraphDescription"> Employment In Different Sectors (% of total employment)</string>
     <string name="fa_about"></string>
     <string name="fa_play"></string>

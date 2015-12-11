@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     public static Typeface bigJoe, fontAws;
-    private TextView title, about, play;
+    private TextView title, about, play, backBtn;
     private ImageView seekbar_info;
     private ArrayList<LineData> lineDatas, lineDatasRight;
     private DrawerLayout drawerLayout;
@@ -48,6 +48,8 @@ public class MainActivity extends AppCompatActivity {
     private Graph graph;
     private ExportsGraph exportsGraph;
     private HorizontalScrollView yscroll;
+    private boolean animateOnce;
+    private int animateCount;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -66,6 +68,9 @@ public class MainActivity extends AppCompatActivity {
             about.setTypeface(fontAws);
             play = (TextView) findViewById(R.id.play);
             play.setTypeface(fontAws);
+            backBtn = (TextView) findViewById(R.id.backBtn);
+            backBtn.setTypeface(fontAws);
+
 
 
             // YSCROLL
@@ -93,8 +98,9 @@ public class MainActivity extends AppCompatActivity {
             serviceCircle(circleValues[0]);
             industryCircle(circleValues[2]);
             hideInfos();
-
-
+            // For Scroll Animation
+            animateOnce = true;
+            animateCount = 0;
             animateArrows();
 
 
@@ -361,28 +367,32 @@ public class MainActivity extends AppCompatActivity {
             public void onScrollChanged() {
                 int scrollX = yscroll.getScrollX(); //for horizontalScrollView
                 Log.d("Scroll Pos", "" + scrollX);
-                if (scrollX > 400 && scrollX < 720){
-
-
-                    graph.getLineChart().animateX(2000);
-//
-                }
-                if (scrollX >1600 && scrollX < 1720){
-                    indusCir.setAnimDuration(2000);
-                    indusCir.startAnim();
-                    agriCir.setAnimDuration(2000);
-                    agriCir.startAnim();
-                    servCir.setAnimDuration(2000);
-                    servCir.startAnim();
-                }
-                if (scrollX > 1810 && scrollX < 2700){
-
-                    exportsGraph.getLineChart().animateX(2000);
+                if (animateOnce) {
+                    if (scrollX > 400 && scrollX < 720 && animateCount == 0) {
+                        graph.getLineChart().animateX(2000); animateCount++;
+                    }
+                    if (scrollX > 1600 && scrollX < 1720 && animateCount == 1) {
+                        indusCir.setAnimDuration(2000);
+                        indusCir.startAnim();
+                        agriCir.setAnimDuration(2000);
+                        agriCir.startAnim();
+                        servCir.setAnimDuration(2000);
+                        servCir.startAnim();
+                        animateCount++;
+                    }
+                    if (scrollX > 1810 && scrollX < 2700 && animateCount == 2) {
+                        exportsGraph.getLineChart().animateX(2000);
+                        animateCount++;
+                        animateOnce = false;
+                    }
                 }
             }
         });
     }
 
+    public void resetScroll(View v){
+        yscroll.setScrollX(0);
+    }
 
 
 }

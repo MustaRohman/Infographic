@@ -29,7 +29,7 @@
             android:layout_height="wrap_content"
             android:text="@string/title"
             android:textSize="30sp"
-            android:textColor="#ffffff"
+            android:textColor="@color/white"
             android:id="@+id/title"
             android:background="#111111"
             android:paddingLeft="25dp" />
@@ -79,14 +79,14 @@
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:fillViewport="true"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="55dp"
         android:id="@+id/horizontalScroll"
         >
         <LinearLayout
-            android:layout_width="2500dp"
+            android:layout_width="3000dp"
             android:layout_height="fill_parent"
             android:orientation="vertical"
-            android:layout_marginTop="15dp"
+            android:layout_marginTop="20dp"
            >
 
             <LinearLayout
@@ -277,7 +277,7 @@
                     android:layout_marginLeft="20dp"
 
                     >
-                    <!-- To add another chart replace the type for the below one-->
+
                     <com.ecru.infographic.CircleDisplay
                         android:layout_width="100dp"
                         android:layout_height="100dp"
@@ -293,12 +293,7 @@
                         android:layout_height="100dp"
                         android:layout_marginTop="5dp"
                         android:id="@+id/overallAgri"/>
-                    <!-- For extra content related to the above chart put it inside below lines layout-->
-
-
-
-
-                </LinearLayout>
+                    </LinearLayout>
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
@@ -343,14 +338,29 @@
                 </com.github.mikephil.charting.charts.LineChart>
 
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:layout_width="400dp"
                     android:layout_height="wrap_content"
-                    android:textColor="#000000"
-                    android:textAllCaps="false"
-                    android:textSize="30sp"
-                    android:text="The graph to the left shows what percentage ICT has contributed towards the UK\'s service exports. Rising over 15% in less than 10 years. In 2014, UK ICT service exports alone were worth over $120 BILLION.
-                    \nLesson is go into IT, there will always be a job for you."
+                    android:textColor="@color/black"
+                    android:textSize="25sp"
+                    android:text="@string/cubicinfo"
                     android:id="@+id/textView" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center_vertical">
+                    <TextView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:text="@string/backBtn"
+                        android:background="@color/yellow"
+                        android:textColor="@color/black"
+                        android:id="@+id/backBtn"
+                        android:textSize="40sp"
+                        android:gravity="center"
+                        android:onClick="resetScroll"
+                     />
+                </LinearLayout>
 
 
             </LinearLayout>
