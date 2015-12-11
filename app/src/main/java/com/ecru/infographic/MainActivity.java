@@ -478,6 +478,7 @@ public class MainActivity extends AppCompatActivity {
                 .get();
         expand.start();
         temp.setBackgroundColor(red);
+        temp.setTextSize(20f);
         temp.setText(GetDataValues.conclusion);
     }
 

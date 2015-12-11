@@ -300,7 +300,7 @@ public class GetDataValues {
         return new Object[]{year, value};
     }
     public void setConclusion(){
-        conclusion = "ICT sector in 2012 is worth $"+String.format("%.2f",exportGdpVals[2]/1000000000 )+"BIL. The ICT sector contributed "+String.format("%.2f",ictExports[2] )+"% of the total employment in the service sector.";
+        conclusion = "ICT sector in 2012 is worth $"+String.format("%.2f",exportGdpVals[2]/1000000000 )+"BIL. In the Uk " +serviceVals[0]+"% of the total employment is in the service sector. This sector is growing at a rate of "+getCircleValues()[0]+"% every year(average growth from 1992-2012)";
     }
 
 }
