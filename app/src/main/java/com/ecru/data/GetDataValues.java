@@ -189,12 +189,11 @@ public class GetDataValues {
         values.setCubicIntensity(0.3f);
         values.setDrawFilled(true);
         values.setDrawCircles(false);
-        values.setLineWidth(1.8f);
-
+        values.setLineWidth(3f);
+        values.setValueTextSize(15f);
         values.setHighLightColor(red);
         values.setColor(red);
-        values.setFillColor(red);
-        values.setFillAlpha(100);
+        values.setFillAlpha(0);
         values.setDrawHorizontalHighlightIndicator(false);
 
         ArrayList<LineDataSet> LineDataArray = new ArrayList<>();

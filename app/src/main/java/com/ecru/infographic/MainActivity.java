@@ -12,6 +12,7 @@ import android.util.Log;
 import android.view.Gravity;
 import android.view.View;
 import android.view.ViewTreeObserver;
+import android.widget.Button;
 import android.widget.HorizontalScrollView;
 import android.widget.ImageView;
 import android.widget.ListView;
@@ -392,6 +393,16 @@ public class MainActivity extends AppCompatActivity {
 
     public void resetScroll(View v){
         yscroll.setScrollX(0);
+    }
+
+    public void expandCubicBtn(View v){
+        Button temp = (Button)v;
+        ObjectAnimator expand = ViewPropertyObjectAnimator.animate(temp)
+                .bottomPadding(500)
+                .setDuration(1000)
+                .get();
+        expand.start();
+        temp.setText("Cubic Chart");
     }
 
 

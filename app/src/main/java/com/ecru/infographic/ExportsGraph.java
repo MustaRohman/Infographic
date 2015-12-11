@@ -2,7 +2,6 @@ package com.ecru.infographic;
 
 import android.app.Activity;
 import android.util.Log;
-import android.view.View;
 
 import com.ecru.data.GetDataValues;
 import com.github.mikephil.charting.charts.LineChart;
@@ -31,15 +30,10 @@ public class ExportsGraph {
         }
 
         lineChart.getAxisRight().setEnabled(false);
-        lineChart.setDrawGridBackground(false);
+        lineChart.setDrawGridBackground(true);
         Log.d("Chart focus", ""+lineChart.hasFocus());
         lineChart.setDescription("Employment In Different Sectors (% of total employment)");
-        lineChart.setOnFocusChangeListener(new View.OnFocusChangeListener() {
-            @Override
-            public void onFocusChange(View v, boolean hasFocus) {
-                Log.d("Bar Focused", ""+ "This bar is in focus now" + hasFocus);
-            }
-        });
+
 
         XAxis x = lineChart.getXAxis();
         x.setDrawAxisLine(true);
@@ -48,7 +42,7 @@ public class ExportsGraph {
         x.setPosition(XAxis.XAxisPosition.BOTTOM);
         YAxis y = lineChart.getAxisLeft();
         y.setDrawAxisLine(true);
-        y.setAxisMaxValue(80);
+        y.setAxisMaxValue(50);
         y.setAxisMinValue(33.4f);
         y.setDrawLabels(true);
         y.setEnabled(true);
