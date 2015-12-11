@@ -70,8 +70,8 @@ public class MainActivity extends AppCompatActivity {
             about.setTypeface(fontAws);
             play = (TextView) findViewById(R.id.play);
             play.setTypeface(fontAws);
-            //backBtn = (TextView) findViewById(R.id.backBtn);
-            //backBtn.setTypeface(fontAws);
+            backBtn = (TextView) findViewById(R.id.backBtn);
+            backBtn.setTypeface(fontAws);
 
 
 
@@ -403,7 +403,7 @@ public class MainActivity extends AppCompatActivity {
     public void expandCubicBtn(View v){
         Button temp = (Button)v;
         ObjectAnimator expand = ViewPropertyObjectAnimator.animate(temp)
-                .bottomPadding(500)
+                .bottomPadding(400)
                 .setDuration(1000)
                 .get();
         expand.start();

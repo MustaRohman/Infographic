@@ -1,22 +1,26 @@
 [
     {
-        "merged": "C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\layout-large-v4\\activity_main.xml",
-        "source": "C:\\Users\\Rami\\Documents\\infograpic\\app\\src\\main\\res\\layout-large\\activity_main.xml"
+        "merged": "/Users/mustarohman/AndroidStudioProjects/infograpic/C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\layout-large-v4\\activity_main.xml",
+        "source": "/Users/mustarohman/AndroidStudioProjects/infograpic/C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\src\\main\\res\\layout-large\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\layout-large-v4\\activity_main.xml",
-        "source": "C:\\Users\\nashwan\\Documents\\infograpic\\app\\src\\main\\res\\layout-large\\activity_main.xml"
+        "merged": "/Users/mustarohman/AndroidStudioProjects/infograpic/C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\layout-large-v4\\activity_main.xml",
+        "source": "/Users/mustarohman/AndroidStudioProjects/infograpic/C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\src\\main\\res\\layout-large\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\HARKAMAL\\Desktop\\Walk\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\layout-large-v4\\activity_main.xml",
-        "source": "C:\\Users\\HARKAMAL\\Desktop\\Walk\\infograpic\\app\\src\\main\\res\\layout-large\\activity_main.xml"
+        "merged": "/Users/mustarohman/AndroidStudioProjects/infograpic/C:\\Users\\nashwan\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\layout-large-v4\\activity_main.xml",
+        "source": "/Users/mustarohman/AndroidStudioProjects/infograpic/C:\\Users\\nashwan\\Documents\\infograpic\\app\\src\\main\\res\\layout-large\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\layout-large-v4\\activity_main.xml",
-        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\C:\\Users\\Rami\\Documents\\infograpic\\app\\src\\main\\res\\layout-large\\activity_main.xml"
+        "merged": "/Users/mustarohman/AndroidStudioProjects/infograpic/app/build/intermediates/res/merged/debug/layout-large-v4/activity_main.xml",
+        "source": "/Users/mustarohman/AndroidStudioProjects/infograpic/app/src/main/res/layout-large/activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\layout-large-v4\\activity_main.xml",
-        "source": "C:\\Users\\mustarohman\\AndroidStudioProjects\\infograpic\\app\\src\\main\\res\\layout-large\\activity_main.xml"
+        "merged": "/Users/mustarohman/AndroidStudioProjects/infograpic/C:\\Users\\Rami\\Documents\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\layout-large-v4\\activity_main.xml",
+        "source": "/Users/mustarohman/AndroidStudioProjects/infograpic/C:\\Users\\Rami\\Documents\\infograpic\\app\\src\\main\\res\\layout-large\\activity_main.xml"
+    },
+    {
+        "merged": "/Users/mustarohman/AndroidStudioProjects/infograpic/C:\\Users\\HARKAMAL\\Desktop\\Walk\\infograpic\\app\\build\\intermediates\\res\\merged\\debug\\layout-large-v4\\activity_main.xml",
+        "source": "/Users/mustarohman/AndroidStudioProjects/infograpic/C:\\Users\\HARKAMAL\\Desktop\\Walk\\infograpic\\app\\src\\main\\res\\layout-large\\activity_main.xml"
     }
 ]
