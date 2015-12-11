@@ -18,6 +18,10 @@ public class ExportsGraph {
     Activity activity;
     LineChart lineChart;
     GetDataValues dataValues;
+
+    public LineChart getExportsGraph() {
+        return lineChart;
+    }
     public ExportsGraph(Activity activity, GetDataValues dataValues) {
         this.activity = activity;
         this.dataValues = dataValues;

@@ -47,10 +47,11 @@ public class MainActivity extends AppCompatActivity {
     private GetDataValues dataValues;
     private Pie pieChart;
     private Graph graph;
-    private ExportsGraph exportsGraph;
+    private ExportsGraph exports;
     private HorizontalScrollView yscroll;
     private boolean animateOnce;
     private int animateCount;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -69,8 +70,8 @@ public class MainActivity extends AppCompatActivity {
             about.setTypeface(fontAws);
             play = (TextView) findViewById(R.id.play);
             play.setTypeface(fontAws);
-            backBtn = (TextView) findViewById(R.id.backBtn);
-            backBtn.setTypeface(fontAws);
+            //backBtn = (TextView) findViewById(R.id.backBtn);
+            //backBtn.setTypeface(fontAws);
 
 
 
@@ -87,7 +88,7 @@ public class MainActivity extends AppCompatActivity {
             // CHARTS
             pieChart =new Pie(this, dataValues);
             graph = new Graph(this, dataValues);
-            exportsGraph = new ExportsGraph(this, dataValues);
+            exports = new ExportsGraph(this, dataValues);
             if (pieChart.getPieChart().isClickable()){
 
                 Log.d("MainActivity", "DIsplaying toast");
@@ -133,6 +134,10 @@ public class MainActivity extends AppCompatActivity {
 
     public GetDataValues getDataValues() {
         return dataValues;
+    }
+
+    public LineChart getExportsGraph(){
+        return exports.getExportsGraph();
     }
 
     public void createRightSidePanel(){
@@ -382,7 +387,7 @@ public class MainActivity extends AppCompatActivity {
                         animateCount++;
                     }
                     if (scrollX > 1810 && scrollX < 2700 && animateCount == 2) {
-                        exportsGraph.getLineChart().animateX(2000);
+                        exports.getLineChart().animateX(2000);
                         animateCount++;
                         animateOnce = false;
                     }
