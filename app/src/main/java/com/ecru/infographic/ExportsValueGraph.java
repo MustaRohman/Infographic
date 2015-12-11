@@ -19,7 +19,11 @@ import java.util.List;
  * Created by Rami on 12/9/2015.
  */
 public class ExportsValueGraph extends ArrayAdapter<LineData> {
-
+    /**
+     *
+     * @param context gets MainActivity context
+     * @param objects Stores data in a list for the Chart object
+     */
     public ExportsValueGraph(Context context, List<LineData> objects) {
         super(context, 0, objects);
     }

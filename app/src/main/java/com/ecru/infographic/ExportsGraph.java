@@ -50,12 +50,12 @@ public class ExportsGraph {
         x.setDrawLabels(true);
         x.setEnabled(true);
         x.setPosition(XAxis.XAxisPosition.BOTTOM);
-
+        x.setLabelsToSkip(0);
         //alter Yaxis
         YAxis y = lineChart.getAxisLeft();
         y.setDrawAxisLine(true);
         y.setAxisMaxValue(50);
-        y.setAxisMinValue(33.4f);
+        y.setAxisMinValue(30f);
         y.setDrawLabels(true);
         y.setEnabled(true);
         y.setDrawGridLines(true);

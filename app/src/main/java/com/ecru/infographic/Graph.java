@@ -18,14 +18,12 @@ public class Graph {
 
     LineChart lineChart;
     GetDataValues dataValues;
-    public LineChart getGraph() {
-        return lineChart;
-    }
 
-
-
-
-
+    /**
+     *
+     * @param activity gets MainActivity context
+     * @param dataValues GetDataValue class data for the LineChart
+     */
     public Graph(Activity activity, GetDataValues dataValues) {
         this.activity = activity;
         this.lineChart = (LineChart)activity.findViewById(R.id.lineChart);
@@ -34,7 +32,7 @@ public class Graph {
         lineChart.setDescription("");
 
 
-
+        // Assigns data to the chart
         try {
             lineChart.setData(dataValues.LineGraphSectorData());
 
@@ -55,7 +53,7 @@ public class Graph {
         // yAxis
         YAxis leftAxis = lineChart.getAxisLeft();
         leftAxis.removeAllLimitLines(); // reset all limit lines to avoid overlapping lines
-        leftAxis.setEnabled(false);
+        leftAxis.setEnabled(true);
         leftAxis.setAxisMaxValue(100f);
         leftAxis.setAxisMinValue(-10f);
         leftAxis.setStartAtZero(false);
@@ -66,12 +64,17 @@ public class Graph {
         Legend l = lineChart.getLegend();
         l.setPosition(Legend.LegendPosition.ABOVE_CHART_CENTER);
         lineChart.getAxisRight().setEnabled(false);
-        lineChart.getAxisRight().setEnabled(false);
+
         lineChart.setClickable(false);
         lineChart.invalidate();
 
 
     }
+
+    /**
+     *
+     * @return LineChart
+     */
     public LineChart getLineChart() {
         return lineChart;
     }

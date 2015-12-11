@@ -129,6 +129,7 @@ public class GetDataValues {
         agriValues.setFillColor(yellow);
         agriValues.setDrawCircleHole(false);
         agriValues.setHighLightColor(yellow);
+        agriValues.setValueTextSize(10f);
 
         /////////// Services Styling
         int red = Color.parseColor("#e74c3c");
@@ -141,6 +142,7 @@ public class GetDataValues {
         servicesValues.setFillColor(red);
         servicesValues.setDrawCircleHole(false);
         servicesValues.setHighLightColor(red);
+        servicesValues.setValueTextSize(10f);
 
         /////////// Industry Styling
         int blue = Color.parseColor("#3498db");
@@ -153,6 +155,7 @@ public class GetDataValues {
         indValues.setFillColor(blue);
         indValues.setDrawCircleHole(false);
         indValues.setHighLightColor(blue);
+        indValues.setValueTextSize(10f);
 
         ArrayList<LineDataSet> LineDataArray = new ArrayList<>();
         LineDataArray.add(agriValues);
@@ -197,7 +200,7 @@ public class GetDataValues {
         values.setDrawFilled(true);
         values.setDrawCircles(false);
         values.setLineWidth(3f);
-        values.setValueTextSize(15f);
+        values.setValueTextSize(10f);
         values.setHighLightColor(red);
         values.setColor(red);
         values.setFillAlpha(0);
@@ -236,7 +239,7 @@ public class GetDataValues {
         values.setDrawFilled(true);
         values.setDrawCircles(false);
         values.setLineWidth(1.8f);
-
+        values.setValueTextSize(10f);
         values.setHighLightColor(red);
         values.setColor(red);
         values.setFillColor(red);

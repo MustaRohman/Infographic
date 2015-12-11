@@ -417,7 +417,7 @@ public class MainActivity extends AppCompatActivity {
     public void autoScroll(View v){
         if (yscroll.getScrollX() < 100) {
             ObjectAnimator ys = ViewPropertyObjectAnimator.animate(yscroll)
-                    .scrollX(3000)
+                    .scrollX(4000)
                     .setDuration(15000)
                     .get();
             ys.start();
@@ -433,7 +433,6 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onScrollChanged() {
                 int scrollX = yscroll.getScrollX(); //for horizontalScrollView
-                Log.d("Scroll Pos", "" + scrollX);
                 if (animateOnce) {
                     if (scrollX > 400 && scrollX < 720 && animateCount == 0) {
                         graph.getLineChart().animateX(2000); animateCount++;
