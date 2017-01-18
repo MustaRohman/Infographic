@@ -1,4 +1,7 @@
-Team Ecru Infographic App
+Single-screen Android app infographic: "Why go into the IT field?"
+
+Created by Team Ecru as part of Software Engineering Group Project (SEG) Module in Computer Science at KCL
+
 
 - This application is compatible for tablets only.
 - We have used the following libraries
